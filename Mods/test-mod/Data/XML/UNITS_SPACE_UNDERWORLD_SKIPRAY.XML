@@ -39,7 +39,7 @@
 		<Affiliation>Underworld</Affiliation>
 
 		<Shield_Points>55</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
+		<Tactical_Health>50</Tactical_Health>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
