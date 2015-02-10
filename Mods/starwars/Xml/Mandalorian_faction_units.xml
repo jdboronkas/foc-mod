@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<Mandalorian_Faction_Units>
+
+
+
+	<!-- MANDALORIAN FACTION SPACE UNITS -->
+
+
+	<SpaceUnit Name="Mandalorian_Starviper_Fighter">
+		<Variant_Of_Existing_Type> Starviper_Fighter </Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STARVIPER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron X-wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		
+		<Affiliation>Mandalorians</Affiliation>
+		
+
+	</SpaceUnit>
+
+
+	<Squadron Name="Mandalorian_StarViper_Squadron">
+		<Variant_Of_Existing_Type> StarViper_Squadron </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TIE_STARVIPER_SQUADRON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STARVIPER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron X-wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		
+		<Affiliation>Mandalorians</Affiliation>
+    <Create_Team_Type> Mandalorian_StarViper_Team </Create_Team_Type>
+
+</Squadron>
+
+	<Container Name="Mandalorian_StarViper_Team">
+		<Variant_Of_Existing_Type> StarViper_Team </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TIE_STARVIPER_SQUADRON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STARVIPER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron X-wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		
+		<Affiliation>Mandalorians</Affiliation>
+	</Container>
+	
+<SpaceUnit Name="Mandalorian_Krayt_Class_Destroyer">
+		<Variant_Of_Existing_Type> Krayt_Class_Destroyer </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_KRAYT_DESTROYER</Text_ID>
+		<Encyclopedia_Good_Against> Calamari_Cruiser Star_Destroyer </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Bomber Y-Wing </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KRAYT_DESTROYER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		
+
+		<Affiliation>Mandalorians</Affiliation>	
+	</SpaceUnit>
+
+
+	
+	
+	
+	<SpaceUnit Name="Mandalorian_Crusader_Gunship">
+		<Variant_Of_Existing_Type> Crusader_Gunship </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CRUSADER_GUNSHIP</Text_ID>
+		<Encyclopedia_Good_Against> X-wing TIE_Fighter </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Alliance_Assault_Frigate Victory_Destroyer </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CRUSADER_GUNSHIP</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
+		
+		<Affiliation>Mandalorians</Affiliation>
+
+	</SpaceUnit>
+
+<SpaceUnit Name="Mandalorian_Kedalbe_Battleship">
+		<Variant_Of_Existing_Type> Kedalbe_Battleship </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_KEDALBE_BATTLESHIP</Text_ID>
+		<Encyclopedia_Good_Against> Victory_Destroyer Alliance_Assault_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Defender B-Wing </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KEDALBE_BATTLESHIP</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		
+
+		<Affiliation>Mandalorians</Affiliation>
+  </SpaceUnit>
+
+	
+
+
+
+	<StarBase Name="Mandalorian_Star_Base">
+		<Variant_Of_Existing_Type> Underworld_Star_Base_5 </Variant_Of_Existing_Type>
+		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+		<Text_ID>TEXT_MANDALORIAN_STAR_BASE_5</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_US_05</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		
+		<Affiliation>Mandalorians</Affiliation>
+
+<Starting_Spawned_Units_Tech_0>Mandalorian_StarViper_Squadron, 15</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Mandalorian_StarViper_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+				
+		<Starting_Spawned_Units_Tech_0>Mandalorian_Crusader_Gunship, 6</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>Mandalorian_Crusader_Gunship, -1</Reserve_Spawned_Units_Tech_0>
+	
+		
+		<Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
+	
+	</StarBase>
+
+
+
+
+
+	<!-- CORELLIAN FACTION LAND UNITS -->
+
+
+
+	<GroundInfantry Name="Mandalorian_Commando_Mandalore">
+		<Variant_Of_Existing_Type> Mandalorian_Commando </Variant_Of_Existing_Type>
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_MANDALORIAN_COMMANDO</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Stormtrooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler Dark_Trooper_PhaseII UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MANDA_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+		<Affiliation>Mandalorians</Affiliation>
+	  <Death_Clone>Damage_Force_Whirlwind, Mandalorian_Indigenous_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Mandalorian_Indigenous_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Mandalorian_Indigenous_Crush_Death_Clone</Death_Clone>
+	 <Conversion_Ability_Changes_To_Enemy> Mando_Mandalorian_Commando_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Mando_Mandalorian_Commando_Converted_To_Enemy">
+		<Variant_Of_Existing_Type> Mandalorian_Commando_Mandalore </Variant_Of_Existing_Type>
+		<SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>         		
+		<SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>               		
+		<SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>         		 
+		<SFXEvent_Guard> Unit_Guard_Mercenary </SFXEvent_Guard>            		 
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Mercenary </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Mercenary </SFXEvent_Assist_Attack> 
+		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Mandalorian_Indigenous_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+
+	<GroundInfantry Name="Mandalorian_Indigenous_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+
+	<GroundInfantry Name="Mandalorian_Indigenous_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+
+	
+	
+	<GroundCompany Name="Mandalorian_Assault_Squad_Mandalore">
+		<Variant_Of_Existing_Type>Underworld_Mandalorian_Assault_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_UNDERWORLD_MANDA_SQUAD</Text_ID>
+		<Encyclopedia_Good_Against> Rebel_Trooper Stormtrooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler Dark_Trooper_PhaseII UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MANDA_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+		<Affiliation>Mandalorian</Affiliation>
+		
+		<Create_Team_Type> Mandalorian_Team </Create_Team_Type>
+		<Company_Units>Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore, Mandalorian_Commando_Mandalore</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+
+		
+	</GroundCompany>
+
+	<Container Name="Mandalorian_Team">
+		<Variant_Of_Existing_Type>Underworld_Manda_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_UNDERWORLD_MANDA_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MANDA_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Stormtrooper Rebel_Trooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+	
+	</Container>
+
+
+
+
+	<GroundVehicle Name="Mandalorian_Canderous_Assault_Tank">
+		<Variant_Of_Existing_Type>Canderous_Assault_Tank</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CANDEROUS_TANK</Text_ID>
+		<Encyclopedia_Good_Against> Snowspeeder AT_AT_Walker M1_Repulsor_Tank  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL SPMAT_Walker </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TEXT_UNIT_CANDEROUS_TANK</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		
+
+		<Affiliation>Mandalorians</Affiliation>
+  <Vehicle_Thief_Inside_Clone>Mandalorian_Canderous_Assault_Tank_Captured</Vehicle_Thief_Inside_Clone>
+	</GroundVehicle>
+	
+	<GroundVehicle Name="Mandalorian_Canderous_Assault_Tank_Captured">
+		<Variant_Of_Existing_Type>Mandalorian_Canderous_Assault_Tank</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_chewbacca_uv_cander_tank.tga</Icon_Name>
+
+		<!-- MUST have same abilities PLUS EJECT_THIEF -->
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>LURE</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_SYSTEM_CONTROL</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SYSTEM_CONTROL_DESCRIPTION</Alternate_Description_Text>
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+				     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>350</Effective_Radius>
+
+				<Target_Types>
+						AT_AT_Walker,
+						AT_ST_Walker,
+						AT_AA_Walker,
+						SPMAT_Walker,
+						Snowspeeder,
+						MPTL,
+						T2B_Tank,
+						T4B_Tank,
+						TIE_Crawler,
+						M1_Repulsor_Tank,
+						Pirate_Skiff,
+						Pirate_Skiff_E,
+						Pirate_Skiff_R,
+						Pirate_Skiff_U,
+						Empire_Anti_Infantry_Turret,
+						Rebel_Anti_Infantry_Turret,
+						Pirate_Anti_Infantry_Turret,
+						Empire_Anti_Vehicle_Turret,
+						Rebel_Anti_Vehicle_Turret,
+						Pirate_Anti_Vehicle_Turret,
+						Underworld_Mass_Driver_Turret,
+						Underworld_Torpedo_Turret,
+						Underworld_Rocket_Pod,
+						Empire_Grenade_Mortar,
+						Hutt_Grenade_Mortar,
+						Rebel_Rapid_Fire_Laser_Turret,
+						Hutt_Rapid_Fire_Laser_Turret,
+						Dark_Trooper_PhaseI,
+						Dark_Trooper_PhaseII,
+						Dark_Trooper_PhaseIII,
+						HAV_Juggernaut,
+						Lancet_Air_Artillery,
+						Gallofree_HTT_Transport,
+						Canderous_Assault_Tank,
+						Destroyer_Droid,
+						MAL_Rocket_Vehicle,
+						MZ8_Pulse_Cannon_Tank,
+						Swamp_Speeder_E,
+						Swamp_Speeder_R,
+						Swamp_Speeder_U,
+						Swamp_Speeder_P,
+						Pod_Walker_Rebel,
+						Pod_Walker_Empire,
+						Pod_Walker_Underworld,
+						Pod_Walker_Pirate,
+						Hutt_Pod_Walker,
+						Hutt_Skiff,
+						Hutt_Swamp_Speeder,
+						Mandalorian_Canderous_Assault_Tank
+				</Target_Types>
+
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>6</Expiration_Seconds>
+				
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
+	
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.25f</Mod_Multiplier><!-- Invulnerable -->
+			</Unit_Ability>
+			
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+
+
+	<GroundCompany Name="Mandalorian_Canderous_Assault_Tank_Company">
+		<Variant_Of_Existing_Type>Canderous_Assault_Tank_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CANDEROUS_TANK_COMPANY</Text_ID>
+		<Encyclopedia_Good_Against> Snowspeeder AT_AT_Walker M1_Repulsor_Tank  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> T4B_Tank MPTL SPMAT_Walker </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TEXT_UNIT_CANDEROUS_TANK</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		
+		
+		<Affiliation>Mandalorians</Affiliation>
+    <Company_Units>Mandalorian_Canderous_Assault_Tank, Mandalorian_Canderous_Assault_Tank, Mandalorian_Canderous_Assault_Tank</Company_Units>
+        
+	</GroundCompany>
+
+
+<!-- MANDALORIAN STRUCTURES -->
+
+
+
+	<SpecialStructure Name="Mandalorian_Ground_Barracks">
+		<Variant_Of_Existing_Type>U_Ground_Barracks</Variant_Of_Existing_Type>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_GROUND_BARRACKS_UNDERWORLD</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01 </MP_Encyclopedia_Text>
+		
+
+		<Destruction_Survivors> 
+			Mandalorian_Assault_Squad_Mandalore, 1.0
+		</Destruction_Survivors>
+
+		<Affiliation>Mandalorians</Affiliation>
+		
+		
+		<Starting_Spawned_Units_Tech_0>Mandalorian_Assault_Squad_Mandalore, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Mandalorian_Assault_Squad_Mandalore, -1</Reserve_Spawned_Units_Tech_0>
+
+				
+		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
+			
+
+	</SpecialStructure>
+
+
+
+
+	<SpecialStructure Name="Mandalorian_Ground_Base_Shield">
+		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BASE_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Behavior>DUMMY_GROUND_STRUCTURE, SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,BASE_SHIELD,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>	
+		<Radar_Range_Icon_Name>i_radar_shield.tga</Radar_Range_Icon_Name>
+
+		<Obstacle_Proxy_Type> E_Ground_Base_Shield_Build_Pad </Obstacle_Proxy_Type>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+
+		<Shield_On_Anim>SHIELD_ON</Shield_On_Anim>
+		<Shield_Off_Anim>SHIELD_OFF</Shield_Off_Anim>
+		<Base_Shield_Radius>740</Base_Shield_Radius>
+		<Base_Shield_Always_Off> False </Base_Shield_Always_Off>
+
+		<SecondaryOccupationPassability> Shield </SecondaryOccupationPassability>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bounds_Scale>0.05</GUI_Bounds_Scale>
+		<Is_Dummy>No</Is_Dummy>
+
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Obstacle_Width>40.0</Obstacle_Width>
+		<Obstacle_Height>40.0</Obstacle_Height>
+		<Obstacle_X_Offset>-20.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-20.0</Obstacle_Y_Offset>
+		<Fine_Tune_Occupied_Passability> false </Fine_Tune_Occupied_Passability>
+		
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
+  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+ 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius>775</Reinforcement_Prevention_Radius>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<Shield_Normal_Color>0.2, 0.2, 0.8, 1.0</Shield_Normal_Color>
+		<Shield_Upgraded_Color>0.2, 0.7, 0.8, 1.0</Shield_Upgraded_Color>
+		
+		<Affiliation>Mandalorians</Affiliation>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Tech_Level>9</Tech_Level>
+
+		<Tactical_Additional_Structure_Type>Hutt_Power_Generator</Tactical_Additional_Structure_Type>
+		<Tactical_Health>650</Tactical_Health>
+		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Sabotage_Cost_Credits>4000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Shield_Generator_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Shield_Generator_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Shield_Generator_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Shield_Gen_Select_SFX </SFXEvent_Select>
+		<SFXEvent_Powered_Active_Loop> Structure_Shutter_Shield_Generator_Loop </SFXEvent_Powered_Active_Loop>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+		<Movie_Object>false</Movie_Object>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="E_Base_Shield_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+
+	</SpecialStructure>
+
+
+	<SpecialStructure Name="Mandalorians_Power_Generator">
+		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00 </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>Out_Base</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Icon_Name>i_button_power_generator.tga</Icon_Name>
+	
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Obstacle_Proxy_Type> Power_Generator_E_Build_Pad </Obstacle_Proxy_Type>		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+	
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.2  0.1</Radar_Icon_Size>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>800</Tactical_Health>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
+		<Affiliation>Mandalorians</Affiliation>
+		<Base_Level_Available>1</Base_Level_Available>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		
+		<Abilities SubObjectList="Yes">
+		
+			<Base_Power_Ability Name="H_Power_Plant_Base_Power">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+			</Base_Power_Ability>
+
+			<Force_Healing_Ability Name="H_Power_Plant_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			
+		</Abilities>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Power_Generator_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Power_Generator_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Structure_Power_Generator_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
+	</SpecialStructure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Mandalorian_Faction_Units>
+
+
+

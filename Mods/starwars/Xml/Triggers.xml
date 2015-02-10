@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Triggers>
+
+<StoryTriggers Name="Tasked1_Waypoint1">
+<Text_ID> TEXT_LAND_TEST_TRIGGER_MARKER </Text_ID>
+<Available_In_Skirmish>yes</Available_In_Skirmish>
+<Is_Marker> Yes </Is_Marker>
+<Land_Model_Name> W_FLAG_MARKER_YELLOW.ALO </Land_Model_Name>
+<Behavior> MARKER, HINT </Behavior>
+<Lua_Script>Tasked_1</Lua_Script>
+</StoryTriggers>
+
+<StoryTriggers Name="Tasked1_Waypoint2">
+<Text_ID> TEXT_LAND_TEST_TRIGGER_MARKER </Text_ID>
+<Available_In_Skirmish>yes</Available_In_Skirmish>
+<Is_Marker> Yes </Is_Marker>
+<Land_Model_Name> W_FLAG_MARKER_YELLOW.ALO </Land_Model_Name>
+<Behavior> MARKER, HINT </Behavior>
+<Lua_Script>Tasked_1</Lua_Script>
+</StoryTriggers>
+
+<StoryTriggers Name="Tasked1_Waypoint3">
+<Text_ID> TEXT_LAND_TEST_TRIGGER_MARKER </Text_ID>
+<Available_In_Skirmish>yes</Available_In_Skirmish>
+<Is_Marker> Yes </Is_Marker>
+<Land_Model_Name> W_FLAG_MARKER_YELLOW.ALO </Land_Model_Name>
+<Behavior> MARKER, HINT </Behavior>
+<Lua_Script>Tasked_1</Lua_Script>
+</StoryTriggers>
+	
+<StoryTriggers Name="Tasked1_Waypoint4">
+<Text_ID> TEXT_LAND_TEST_TRIGGER_MARKER </Text_ID>
+<Available_In_Skirmish>yes</Available_In_Skirmish>
+<Is_Marker> Yes </Is_Marker>
+<Land_Model_Name> W_FLAG_MARKER_YELLOW.ALO </Land_Model_Name>
+<Behavior> MARKER, HINT </Behavior>
+<Lua_Script>Tasked_1</Lua_Script>
+</StoryTriggers>
+
+<StoryTriggers Name="Tasked1_Waypoint5">
+<Text_ID> TEXT_LAND_TEST_TRIGGER_MARKER </Text_ID>
+<Available_In_Skirmish>yes</Available_In_Skirmish>
+<Is_Marker> Yes </Is_Marker>
+<Land_Model_Name> W_FLAG_MARKER_YELLOW.ALO </Land_Model_Name>
+<Behavior> MARKER, HINT </Behavior>
+<Lua_Script>Tasked_1</Lua_Script>
+</StoryTriggers>
+
+</Triggers>

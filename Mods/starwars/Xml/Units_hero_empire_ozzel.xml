@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<Admiral_Ozzel_Data>
+
+
+	
+
+	<!--ADMIRAL OZZEL-->
+<HeroUnit Name="Admiral_Ozzel">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_ADMIRAL_OZZEL</Text_ID>
+		<Icon_Name>i_button_admiral_ozzel.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Empire</Affiliation>
+		<Required_Timeline>4</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Anaxes</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>80</Damage>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Unique_Space_Unit>Nemesis_Star_Destroyer</Unique_Space_Unit>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
+
+		<CategoryMask> SpaceHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_OZZEL </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_Star_Destroyer">
+				<Unit_Strength_Category />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Star_Destroyer</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<!-- note stacking category, this stacks with other hero combat bonuses -->
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
+
+	<HeroCompany Name="Admiral_Ozzel_Team">
+		<Text_ID>TEXT_HERO_ADMIRAL_OZZEL</Text_ID>
+		<Icon_Name>i_button_admiral_ozzel.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
+		<Damage>100</Damage>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>4</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Admiral_Ozzel</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>	
+		<Encyclopedia_Text>TEXT_TOOLTIP_OZZEL</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete>Unit_Respawn_Piett</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Piett</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+	   
+	    <Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+					<Type>TRACTOR_BEAM</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+					<GUI_Activated_Ability_Name> Piet_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+					<Recharge_Seconds>20</Recharge_Seconds>
+			</Unit_Ability>
+
+	      <Unit_Ability>
+	         <Type>ENERGY_WEAPON</Type>
+	         <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+	         <GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	         <Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+	      </Unit_Ability>
+	   </Unit_Abilities_Data>
+		<CategoryMask>SpaceHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>  
+	   
+	</HeroCompany>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Use this version if you want to have Ozzel in tactical space combat -->
+
+
+	<UniqueUnit Name="Nemesis_Star_Destroyer">
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_admiral_ozzel.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+
+		<Text_ID>TEXT_UNIT_SD_NEMESIS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_OZZEL </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+
+        <Ranking_In_Category>3</Ranking_In_Category>
+	<HardPoints> 
+			HP_ISD_Shield,
+			HP_ISD_Engines,
+			HP_ISD_Hangars,
+			HP_ISD_TractorBeam,
+			HP_ISD_Weapon1C,
+			HP_ISD_Weapon1L,
+			HP_ISD_Weapon1R,
+			HP_ISD_Weapon2L,
+			HP_ISD_Weapon2R,
+			HP_ISD_Weapon3L,
+			HP_ISD_Weapon3R,
+			HP_ISD_Turret01,
+			HP_ISD_Turret02,
+			HP_ISD_Turret03,
+			HP_ISD_Turret04,
+			HP_ISD_Turret05,
+			HP_ISD_Turret06,
+			HP_ISD_Turret07,
+			HP_ISD_Turret08
+		</HardPoints>
+
+		<Tech_Level>99</Tech_Level>
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	  
+		<AI_Combat_Power>6500</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        <Build_Cost_Credits>0</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>4</Population_Value>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<Unit_Ability>
+				<Type>ENERGY_WEAPON</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop> 
+			</Unit_Ability>
+			
+      <Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				   <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+	      </Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_Star_Destroyer">
+				<Unit_Strength_Category />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Star_Destroyer</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<!-- note stacking category, this stacks with other hero combat bonuses -->
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Energy_Weapon_Attack_Ability Name="Piet_Energy_Weapon_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber | Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+                <Owner_Particle_Bone_Name>HP_trac_bone</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>800</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Damage_Per_Frame>50</Damage_Per_Frame>			
+			</Energy_Weapon_Attack_Ability>
+
+			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>800</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>0.45</Target_Speed_Decrease_Percent>
+				<Stacking_Category>2</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+
+		</Abilities>
+		
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Nemesis_Star_Destroyer_Death_Clone">
+		<Text_ID>TEXT_UNIT_SD_NEMESIS</Text_ID>
+		<Space_Model_Name>EV_StarDestroyer_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Scale_Factor>1</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Empire</Affiliation>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</UniqueUnit>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Admiral_Ozzel_Data>
