@@ -162,7 +162,7 @@
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_tie_droid.tga</Icon_Name>
 		
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
@@ -177,8 +177,6 @@
 		<Tech_Level>5</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>Empire_Sienar_Systems</Required_Special_Structures>
-		<Required_Planets>Corulag</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
 		<Squadron_Units>TIE_Droid, TIE_Droid, TIE_Droid, TIE_Droid</Squadron_Units>

@@ -130,7 +130,6 @@
 		<Starting_Spawned_Units_Tech_5>TIE_Droid_Squadron, 4</Starting_Spawned_Units_Tech_5>
                 <Starting_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 4</Starting_Spawned_Units_Tech_5>
 		<Starting_Spawned_Units_Tech_5>TIE_Phantom_Squadron, 4</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>Assault_Gunboat_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_4>		
@@ -147,7 +146,7 @@
 		<Reserve_Spawned_Units_Tech_5>TIE_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
 		<Reserve_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
 		<Reserve_Spawned_Units_Tech_5>TIE_Phantom_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
-		<Reserve_Spawned_Units_Tech_5>Assault_Gunboat_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
+		
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP, TRANSPORT </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>

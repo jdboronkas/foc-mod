@@ -101,8 +101,8 @@
 	<File>Units_Space_Empire_TIE_Avenger.xml</File>
 	<File>Units_Space_Empire_TIE_Droid.xml</File>
 	<File>Units_Space_Empire_TIE_Advanced.xml</File>
-	<File>Units_Space_Empire_TIE_Raptor.xml</File>
-	<File>Units_Space_Empire_TIE_Scimitar.xml</File>
+	<File>Units_space_republic_v19_torrent_fighter.xml</File>
+	<File>Units_space_republic_vwing_fighter.xml</File>
 	<File>Units_Space_Empire_Executor.xml</File>
 	<File>Units_Space_Empire_Lancer_Frigate.xml</File>
 	<File>Units_Space_Empire_Assault_Gunboat.xml</File>
@@ -117,9 +117,9 @@
 	<File>Units_Space_Empire_Mandator.xml</File>
 	<File>Units_Space_Empire_Procurator.xml</File>
 	<File>Units_Space_Empire_Sovereign.xml</File>
-	<File>Units_Space_Empire_Legacy.xml</File>
+	<File>Units_space_emprie_skipray.xml</File>
 	<File>Units_Space_Empire_Tyrant.xml</File>
-	<File>Units_Space_Empire_Star_Galleon.xml</File>
+	<File>Units_space_tie_fighter.xml</File>
 	
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
@@ -169,8 +169,8 @@
 	<File>Units_Space_Rebel_Corona_Frigate.xml</File>
 	<File>Units_Space_Rebel_Sacheen.xml</File>
 	<File>Units_Space_Rebel_Thranta.xml</File>
-	<File>Units_space_Rebel_Eta_2_Fighter.xml</File>	
-	<File>Units_space_Rebel_Delta_7_Fighter.xml</File>	
+	<File>Units_space_rebel_z95.xml</File>	
+	<File>Units_space_rebel_x-wing.xml</File>	
 	<File>Units_space_Rebel_Arc_170_Fighter.xml</File>
 	<File>Units_space_Rebel_E_Wing_Fighter.xml</File>
 	<File>Units_space_Rebel_Preybird_Fighter.xml</File>
@@ -229,16 +229,16 @@
   <File>Units_Space_Underworld_Cloakshape.xml</File>
   <File>Units_Space_Underworld_Munificent_Frigate.xml</File>
   <File>Units_Space_Underworld_Recusant_Frigate.xml</File>
-  <File>Units_Space_Underworld_Howlrunner.xml</File>
+  <File>Units_Space_Sabaoth_Fighter.xml</File>
   <File>Units_Space_Underworld_corellian_frigate.xml</File>
   <File>Units_Space_Underworld_Lucrehulk.xml</File>
   <File>Units_Space_Underworld_Tri_Droid.xml</File>
   <File>Units_Space_Underworld_Ginivex.xml</File>
   <File>Units_Space_Underworld_Pinnace.xml</File>
-  <File>Units_Space_Underworld_Nantex.xml</File>
+  <File>Units_Space_Sabaoth_Bomber.xml</File>
   <File>Units_Space_Underworld_Technounion_Frigate.xml</File>
-  <File>Units_Space_Underworld_Technounion_Fighter.xml</File>
- 
+  <File>Units_Space_cis_bomber.xml</File>
+  <File>Units_space_underworld_z95.xml</File>
   <File>SpecialStructures_Underworld.xml</File>
 	<File>StarBases_Underworld.xml</File>
 
