@@ -15,7 +15,7 @@
 	<!-- 181st SQUADRON SPACE - INDIVIDUAL UNIT -->
 
 	<UniqueUnit Name="Soontir_TIE">
-		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>TIE_Droid</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SOONTIR_TIE</Text_ID>
 		<Encyclopedia_Good_Against> Starviper_Fighter X-wing A-Wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
@@ -23,7 +23,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_SOONTIR </Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_SOONTIR_FEL.TGA</Icon_Name>
 
-		<Space_Model_Name>EV_TIE_DEFENDER.ALO</Space_Model_Name>
+		<Space_Model_Name>Imp_TIE_Droid.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>

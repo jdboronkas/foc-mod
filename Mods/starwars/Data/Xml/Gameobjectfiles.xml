@@ -92,7 +92,8 @@
 	<!-- Expansion Units: Empire -->
 
 	<File>Units_Hero_Empire_Thrawn.xml</File>
-  <File>Units_Hero_Empire_Ozzel.xml</File>
+	<File>Units_Hero_Empire_Ozzel.xml</File>
+	<File>UNITS_HERO_EMPIRE_DAALAS_FLEET.XML</File>
 	<File>Units_Hero_Empire_181st_Squadron.xml</File>
 	<File>Units_Space_Empire_TIE_Defender.xml</File>
 	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
