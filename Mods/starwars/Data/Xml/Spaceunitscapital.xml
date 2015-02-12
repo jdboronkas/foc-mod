@@ -39,12 +39,11 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>Moncal_Shipyards</Required_Special_Structures>
-		<Required_Planets>MonCalimari</Required_Planets>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+	
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>8500</Tactical_Health>
 		<Shield_Points>2000</Shield_Points>
@@ -436,7 +435,7 @@
 
 	<SpaceUnit Name="Star_Destroyer">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 
 		<HardPoints> 
 			HP_ISD_Shield,

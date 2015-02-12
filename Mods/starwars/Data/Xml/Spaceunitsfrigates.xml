@@ -46,7 +46,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<!--<Required_Special_Structures>Rebel_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<!--<Required_Planets>Kuat</Required_Planets>-->
 		<Ship_Class>frigate</Ship_Class>
@@ -250,12 +250,10 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>Rendili_Stardrive</Required_Special_Structures>
-		<Required_Planets>Rendili</Required_Planets>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -634,12 +632,25 @@
 	<SpaceUnit Name="Victory_Destroyer">
 		<Variant_Of_Existing_Type>Victory_Destroyer_No_Fighters</Variant_Of_Existing_Type>
 		<Tech_Level>2</Tech_Level>
-		<!-- Fighter complement -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_2>Republic_VWing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>V19_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>TIE_Defender_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+		<Reserved_Spawned_Units_Tech_2>Republic_VWing_Squadron, 3</Reserved_Spawned_Units_Tech_2>
+		<Reserved_Spawned_Units_Tech_2>V19_Squadron, 3</Reserved_Spawned_Units_Tech_2>
+		<Reserved_Spawned_Units_Tech_2>Arc_170_Squadron, 3</Reserved_Spawned_Units_Tech_2>
+		<Reserved_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Reserved_Spawned_Units_Tech_3>
+		<Reserved_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_3>
+		<Reserved_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 4</Reserved_Spawned_Units_Tech_4>
+		<Reserved_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_4>
+		<Reserved_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 4</Reserved_Spawned_Units_Tech_5>
+		<Reserved_Spawned_Units_Tech_5>TIE_Defender_Squadron, 4</Reserved_Spawned_Units_Tech_5>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		<Population_Value>3</Population_Value>
 		
@@ -718,12 +729,27 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<!--Currently no reserves -->
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_1>V19_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_2>V19_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+		<Reserved_Spawned_Units_Tech_1>V19_Squadron, 3</Reserved_Spawned_Units_Tech_1>
+		<Reserved_Spawned_Units_Tech_1>Arc_170_Squadron, 3</Reserved_Spawned_Units_Tech_1>
+		<Reserved_Spawned_Units_Tech_2>V19_Squadron, 3</Reserved_Spawned_Units_Tech_2>
+		<Reserved_Spawned_Units_Tech_2>Arc_170_Squadron, 3</Reserved_Spawned_Units_Tech_2>
+		<Reserved_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Reserved_Spawned_Units_Tech_3>
+		<Reserved_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_3>
+		<Reserved_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 4</Reserved_Spawned_Units_Tech_4>
+		<Reserved_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_4>
+		<Reserved_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 4</Reserved_Spawned_Units_Tech_5>
+		<Reserved_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_5> 
 		
 		
 		<HardPoints>
@@ -888,12 +914,10 @@
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>Empire_Sienar_Systems</Required_Special_Structures>
-		<Required_Planets>Corulag</Required_Planets>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>800</Shield_Points>
