@@ -90,7 +90,7 @@
 
 
 	<!-- Expansion Units: Empire -->
-	<File>Units_hero_republic_deltasquad.xml</File>
+	<File>Units_space_empire_eclipse.xml</File>
 	<File>Units_Hero_Empire_Thrawn.xml</File>
 	<File>Units_Hero_Empire_Ozzel.xml</File>
 	<File>UNITS_HERO_EMPIRE_DAALAS_FLEET.XML</File>
@@ -149,7 +149,7 @@
   <File>Units_Land_Rebel_aac_hovertank.xml</File>
   <File>Units_Land_Rebel_tauntaun_trooper.xml</File>
   <File>Units_Land_Rebel_T3b_Tank.xml</File>
-  <File>Units_land_rebel_r3_slicer_droid.xml</File>
+  <File>Units_land_republic_clone_troopers_p1.xml</File>
   <File>Units_Land_Rebel_T1b_Tank.xml</File>
 
 	<File>Units_Space_Rebel_BWing.xml</File>	
@@ -179,7 +179,7 @@
 	<File>Units_space_rebel_Corellian_Destroyer.xml</File>
 	<File>Units_space_Rebel_K_Wing.xml</File>
 	<File>Units_space_rebel_corellian_battlecruiser (12).xml</File>
-	<File>Units_space_rebel_mediator.xm</File>
+	<File>Units_space_rebel_mediator.xml</File>
 	
 	<!-- Expansion Units: Underworld -->
 
@@ -281,7 +281,7 @@
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>UpgradeObjects_Underworld.XML</File>
 	<File>Corruption_Special_Units.XML</File>
-
+        <File>Hardpoints_Executor_Imperial.xml</File>
 
 
 </Game_Object_Files>

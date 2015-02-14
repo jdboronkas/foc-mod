@@ -20,7 +20,7 @@
     <Scale_Factor>0.45</Scale_Factor>
     <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-    <Tech_Level>4</Tech_Level>
+    <Tech_Level>3</Tech_Level>
     <Required_Timeline>0</Required_Timeline>
     <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
     <Required_Star_Base_Level>5</Required_Star_Base_Level>
@@ -74,19 +74,7 @@
     <Size_Value>360</Size_Value>
     <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
     <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-
-		<Starting_Spawned_Units_Tech_4>A_Wing_Squadron, 4</Starting_Spawned_Units_Tech_4>	
-		<Reserve_Spawned_Units_Tech_4>A-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
-
-	  <Starting_Spawned_Units_Tech_4>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>	
-		<Reserve_Spawned_Units_Tech_4>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4> <!-- -1 == no limit -->
-
     <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
     <Space_FOW_Reveal_Range>1600.0</Space_FOW_Reveal_Range>
     <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>

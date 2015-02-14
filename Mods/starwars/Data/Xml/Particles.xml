@@ -116,6 +116,16 @@
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
+	<Particle Name="Small_Explosion_Space_Green">
+		<Land_Model_Name>p_explosion_green_small00.alo</Land_Model_Name>
+		<Space_Model_Name>p_explosion_green_small00.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
 
 	<Particle Name="Medium_Explosion_Space">
 		<Land_Model_Name>p_explosion_med00.alo</Land_Model_Name>
@@ -139,6 +149,17 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
 	</Particle>
 
+	<Particle Name="Medium_Explosion_Space_Green">
+		<Land_Model_Name>p_explosion_green_med00.alo</Land_Model_Name>
+		<Space_Model_Name>p_explosion_green_med00.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+
 	<Particle Name="Large_Explosion_Space">
 		<Land_Model_Name>p_explosion_big00.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_big00.alo</Space_Model_Name>
@@ -153,6 +174,16 @@
 	<Particle Name="Large_Explosion_Space_Empire">
 		<Land_Model_Name>p_explosion_empire_big00.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_empire_big00.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
+	</Particle>
+	<Particle Name="Large_Explosion_Space_Green">
+		<Land_Model_Name>p_explosion_green_big00.alo</Land_Model_Name>
+		<Space_Model_Name>p_explosion_green_big00.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -249,6 +280,17 @@
 	<Particle Name="Underworld_Bombing_Run_Explosion_Land">
 		<Land_Model_Name>p_explosion_thermal_underworld.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_thermal_underworld.alo</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+
+	<Particle Name="Vong_Bombing_Run_Explosion_Land">
+		<Land_Model_Name>p_explosion_thermal_vong.alo</Land_Model_Name>
+		<Space_Model_Name>p_explosion_thermal_vong.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -920,7 +962,7 @@
 
 	<Particle Name="Smoke_Small_Thick_Land">
 		<Land_Model_Name>p_smoke_small02.alo</Land_Model_Name>
-		<Scale_Factor>10.0</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
@@ -1055,7 +1097,7 @@
 	 <!-- Particle effects to attach to hard point debris objects -->
 
     <Particle Name="Space_Debris_Fire_Small">
-        <Space_Model_Name> p_fire_small00.alo </Space_Model_Name>
+        <Space_Model_Name> p_fire_empire_small00.alo </Space_Model_Name>
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> No </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
@@ -1065,7 +1107,7 @@
     </Particle>
 
     <Particle Name="Space_Debris_Fire_Medium">
-        <Space_Model_Name> p_fire_med00.alo </Space_Model_Name>
+        <Space_Model_Name> p_fire_empire_med00.alo </Space_Model_Name>
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> No </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
@@ -1075,7 +1117,7 @@
     </Particle>
 
     <Particle Name="Space_Debris_Fire_Large">
-        <Space_Model_Name> p_fire_big00.alo </Space_Model_Name>
+        <Space_Model_Name> p_fire_empire_med00.alo </Space_Model_Name>
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> No </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
@@ -1085,7 +1127,7 @@
     </Particle>
 
     <Particle Name="Space_Debris_Fire_Huge">
-        <Space_Model_Name> p_fire_huge00.alo </Space_Model_Name>
+        <Space_Model_Name> p_fire_empire_huge00.alo </Space_Model_Name>
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> No </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
@@ -1117,7 +1159,7 @@
     </Particle>
 
     <Particle Name="Space_Debris_Fire_Large_Empire">
-        <Space_Model_Name> p_fire_empire_big00.alo </Space_Model_Name>
+        <Space_Model_Name> p_fire_empire_med00.alo </Space_Model_Name>
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> No </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
@@ -1230,6 +1272,14 @@
 
 	<Particle Name="empire_bombard_explosion">
 		<Land_Model_Name>p_e_orbital_blast.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>270</Particle_Lifetime_Frames>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
+	</Particle>
+	<Particle Name="Vong_bombard_explosion">
+		<Land_Model_Name>p_V_orbital_blast.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -1441,6 +1491,20 @@
         <Behavior> PARTICLE </Behavior>
         <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>	
     </Particle>
+
+
+
+    <Particle Name="Black_Hole_Effect">
+        <Space_Model_Name>w_black_hole.alo</Space_Model_Name>
+        <Land_Model_Name>w_black_hole.alo</Land_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+	<Layer_Z_Adjust>-500</Layer_Z_Adjust>
+        <Is_Decoration> Yes </Is_Decoration>
+        <Behavior> PARTICLE </Behavior>
+        <Particle_Lifetime_Frames> 2000 </Particle_Lifetime_Frames>
+    </Particle>
+	
     
     <Particle Name="Jedi_Mind_Trick_Effect">
         <Space_Model_Name>p_mind_trick.alo</Space_Model_Name>

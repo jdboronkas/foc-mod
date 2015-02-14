@@ -89,9 +89,6 @@
 			LeftGunPod10_00,
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
-		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 
 		<Icon_Name>I_BUTTON_DREADNAUGHT.TGA</Icon_Name>
 		<GUI_Model_Name>ReV_Dread.ALO</GUI_Model_Name>

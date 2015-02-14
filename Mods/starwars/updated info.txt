@@ -1,32 +1,29 @@
-All units with text are in just need tweeking, and set up for skirmish, never done that before
+edit eclipse size, fire distance, fighters. death clone
+edit vader tech level 3
+peit ozzel ssd tech 4
 
-need to find more rebel land units have some just need to transefer code
-may just go with clone troopers since they rebelled after the rise of the empire
-no room for them under empire build tab
+readd shipyards
 
-adjust fighter spawns on vsd alc and vent
-change text and icon for zahn supership mavolance
+do zc first
+possible change hard point lasers rebel ships
 
-change tech level of all buildings
+x-wing a-wing from adtions mod
 
-make ion and hyper only on key planets
+obiwan yoda mon mothma c3p0 jandordana tech 1
+antilies tech 2
+han solo tech 3
+ackbar tech 3
+luke tech 4
+rough squad tech 5
 
-give zc the cis flank gun
+palp tarkin tech 1
+vader, thrawn 3
+rom, peit, orzell tech 4
 
-work on gc map
+boba fett zc
+durge
+grivours
+aurau sing
 
-add delta squad to emp
-
-add grivous durge aurasing and change boba hero
-
-add eclipse still no model in game yet
-
-may add jedi for tech 5 reb new republic era
-
-change hero spawn tech
-
-update rouge squad
-
-find out hero replacement
 
 

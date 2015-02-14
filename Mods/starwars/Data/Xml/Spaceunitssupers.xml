@@ -141,7 +141,7 @@
 		
 		<Tech_Level>5</Tech_Level>
 		<Space_Model_Name>w_planet_deathstar02.alo</Space_Model_Name>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>5.0</Scale_Factor>
 
 		<Space_Escort_Unit_Types>
 				TIE_Interceptor_Squadron,
