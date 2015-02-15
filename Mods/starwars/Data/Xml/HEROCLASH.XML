@@ -14,13 +14,13 @@
 		<!-- Damage Inflicted Per Exchange = LoserMaxHealth * DamagePercentage + DamageAmount -->
 		<Damage_Amount>0.0</Damage_Amount>
 		<Damage_Percentage>0.15</Damage_Percentage>
-		<First_Hero_Damage_Multiplier>2.5</First_Hero_Damage_Multiplier>
+		<First_Hero_Damage_Multiplier>1.0</First_Hero_Damage_Multiplier>
 		<Second_Hero_Damage_Multiplier>1.0</Second_Hero_Damage_Multiplier>
 		
 		<!-- NOTE: These "Win" chances refer to the chance to win an EXCHANGE, not the whole hero clash! -->
 		<!-- Any leftover amount (1.0 - First_Hero_Win_Chance - Second_Hero_Win_Chance) will be the DRAW case. -->
-		<First_Hero_Win_Exchange_Chance>0.40</First_Hero_Win_Exchange_Chance>
-		<Second_Hero_Win_Exchange_Chance>0.30</Second_Hero_Win_Exchange_Chance>
+		<First_Hero_Win_Exchange_Chance>0.50</First_Hero_Win_Exchange_Chance>
+		<Second_Hero_Win_Exchange_Chance>0.50</Second_Hero_Win_Exchange_Chance>
 		
 		<First_Hero_Win_Anim_Type>HC_WIN</First_Hero_Win_Anim_Type>
 		<First_Hero_Lose_Anim_Type>HC_LOSE</First_Hero_Lose_Anim_Type>

@@ -17,7 +17,7 @@
 		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -43,7 +43,7 @@
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -87,7 +87,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_BWING_ION_01">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
@@ -95,9 +95,9 @@
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Small</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
@@ -121,7 +121,7 @@
 		<Fire_Bone_B>MuzzleC_00</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Proton_Torpedo</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -1812,12 +1812,12 @@
 		<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
 		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Krayt_Megaweapon_Ion</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Kryat_Railgun</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
+		<Fire_Range_Distance>4200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Underworld_Ion_Fire</Fire_SFXEvent>
 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -1859,14 +1859,14 @@
 		<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 		<Fire_Cone_Width>40</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Krayt_Megaweapon_Damage</Fire_Projectile_Type>
-		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Krayt_Special_Megaweapon_Damage</Blast_Ability_Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Kryat_Railgun</Fire_Projectile_Type>
+		
+		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Underworld_Plasma_Fire</Fire_SFXEvent>
+		<Fire_Range_Distance>4200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Underworld_Ion_Fire</Fire_SFXEvent>
 		<Projectile_Appearance_Delay_Frames> 30 </Projectile_Appearance_Delay_Frames>
 
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -1886,10 +1886,10 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_KRAYT_TURBOLASER_LEFT">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
 		<Health>1000.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -1908,13 +1908,13 @@
 		<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
 		<Fire_Cone_Width>40</Fire_Cone_Width>
 		<Fire_Cone_Height>100</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Underworld_Turbo_Fire</Fire_SFXEvent>
+		<Fire_Range_Distance>4200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
@@ -1928,35 +1928,35 @@
 
 	<!-- Use for Tyber's ship only -->
 	<HardPoint Name="HP_KRAYT_TURBOLASER_LEFT_PEACEBRINGER">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
 		<Health>1000.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
-		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_L_00_Tyber.alo</Model_To_Attach>
+		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_L_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_L_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_L_00_COLL</Collision_Mesh>
 		<Damage_Decal>HP_LC_L_BLAST</Damage_Decal>
 		<Damage_Particles>HP_LC_L_00_EMITDAMAGE</Damage_Particles>
 
-		<Death_Breakoff_Prop> Hardpoint_Breakoff_Krayt_Left_Turbo_Peacebringer </Death_Breakoff_Prop>
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Krayt_Left_Turbo </Death_Breakoff_Prop>
 
 		<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
 		<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
 		<Fire_Cone_Width>40</Fire_Cone_Width>
 		<Fire_Cone_Height>100</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Underworld_Turbo_Fire</Fire_SFXEvent>
+		<Fire_Range_Distance>4200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
@@ -1969,10 +1969,10 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_KRAYT_TURBOLASER_RIGHT">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
 		<Health>1000.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -1987,17 +1987,17 @@
 
 		<Death_Breakoff_Prop> Hardpoint_Breakoff_Krayt_Right_Turbo </Death_Breakoff_Prop>
 
-		<Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
-		<Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
+		<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
 		<Fire_Cone_Width>40</Fire_Cone_Width>
 		<Fire_Cone_Height>100</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Underworld_Turbo_Fire</Fire_SFXEvent>
+		<Fire_Range_Distance>4200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
@@ -2007,39 +2007,38 @@
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
-
+	</HardPoint>
 	<!-- Use for Tyber's ship only -->
 	<HardPoint Name="HP_KRAYT_TURBOLASER_RIGHT_PEACEBRINGER">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
 		<Health>1000.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
-		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_R_00_Tyber.alo</Model_To_Attach>
+		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_R_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_R_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_R_00_COLL</Collision_Mesh>
 		<Damage_Decal>HP_LC_R_BLAST</Damage_Decal>
 		<Damage_Particles>HP_LC_R_00_EMITDAMAGE</Damage_Particles>
 
-		<Death_Breakoff_Prop> Hardpoint_Breakoff_Krayt_Right_Turbo_Peacebringer </Death_Breakoff_Prop>
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Krayt_Right_Turbo </Death_Breakoff_Prop>
 
-		<Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
-		<Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
+		<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
 		<Fire_Cone_Width>40</Fire_Cone_Width>
 		<Fire_Cone_Height>100</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>2200.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Underworld_Turbo_Fire</Fire_SFXEvent>
+		<Fire_Range_Distance>4200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
@@ -2049,7 +2048,7 @@
 		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+	</HardPoint>
 
 	<!-- 
 		This is strictly for use on the Peacebringer, if desired.
@@ -2211,7 +2210,7 @@
 		<Fire_Cone_Width>45.0</Fire_Cone_Width>
 		<Fire_Cone_Height>150.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Underworld_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
@@ -2253,7 +2252,7 @@
 		<Fire_Cone_Width>45.0</Fire_Cone_Width>
 		<Fire_Cone_Height>150.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Underworld_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>8</Fire_Pulse_Count>
@@ -2974,12 +2973,12 @@
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Kedalbe_Mass_Driver</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
 
 		<Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
@@ -3012,12 +3011,12 @@
 		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>100.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Kedalbe_Mass_Driver</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
 
 		<Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
@@ -3739,10 +3738,10 @@
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Kedalbe_Mass_Driver</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+	<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
 
@@ -4008,10 +4007,10 @@
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Kedalbe_Mass_Driver</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
 
@@ -4307,10 +4306,10 @@
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
 		<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Kedalbe_Mass_Driver</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Ship_Trihexalon_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
 
@@ -27486,7 +27485,7 @@
 		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Heavy_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Proton_Torpedo</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -27506,7 +27505,7 @@
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Heavy_Rocket</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Proton_Torpedo</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -27526,13 +27525,13 @@
 		<Fire_Bone_B>MuzzleC_02</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Ion_Torpedo</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Diamond_Boron_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Magnepulse_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_MPTL_Tank_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
@@ -27546,13 +27545,13 @@
 		<Fire_Bone_B>MuzzleC_03</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Ion_Torpedo</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Magnepulse_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_MPTL_Tank_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
