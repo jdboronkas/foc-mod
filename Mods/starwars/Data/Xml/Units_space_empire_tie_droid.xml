@@ -33,7 +33,7 @@
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
-		<Hyperspace>no</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>0</Hyperspace_Speed>
 		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 		<Fires_Forward>no</Fires_Forward>
@@ -195,7 +195,7 @@
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Build_Initially_Locked>yes</Build_Initially_Locked>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Score_Cost_Credits> 500</Score_Cost_Credits>

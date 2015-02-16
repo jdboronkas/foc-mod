@@ -46,7 +46,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<!--<Required_Special_Structures>Rebel_Kuat_Drive_Yards</Required_Special_Structures>-->
 		<!--<Required_Planets>Kuat</Required_Planets>-->
 		<Ship_Class>frigate</Ship_Class>
@@ -250,10 +250,12 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>Rendili_Stardrive</Required_Special_Structures>
+		<Required_Planets>Rendili</Required_Planets>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -413,11 +415,11 @@
 		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Crusader_Gunship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat Calamari_Cruiser </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-	<Space_Model_Name>ReV_Victory.ALO</Space_Model_Name>
-		<Select_Box_Scale>2200</Select_Box_Scale>
+		<Space_Model_Name>EV_VictoryStarDestroyer.alo</Space_Model_Name>
+		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.332</Scale_Factor> <!-- From 0.4 -->
+		<Scale_Factor>1.3</Scale_Factor>
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -478,36 +480,7 @@
 		<Death_Clone>Damage_Normal, Victory_Destroyer_Death_Clone</Death_Clone>
 
 		<HardPoints>
-			<HardPoints>
-			HP_Victory_01, 
-			HP_Victory_02, 
-			HP_Victory_03, 
-			HP_Victory_04,
-			HP_Victory_05,
-			HP_Victory_06,
-			HP_Victory_07,
-			HP_Victory_08,
-			HP_Victory_09,
-			HP_Victory_10,
-			HP_Victory_11,
-			HP_Victory_12,
-			HP_Victory_13,
-			HP_Victory_14,
-			HP_Victory_15,
-			HP_Victory_16,
-			HP_Victory_17,
-			HP_Victory_18,
-			HP_Victory_19,
-			HP_Victory_20,
-			HP_Victory_21,
-			HP_Victory_22,
-			HP_Victory_23,
-			HP_Victory_24,
-			HP_Victory_25,
-			HP_Victory_FighterBay, 
-			HP_Victory_Engines, 
-			HP_Victory_Shields
-		</HardPoints>
+			HP_Victory_Weapon_01, HP_Victory_Weapon_02, HP_Victory_Weapon_03, HP_Victory_Shields_01, HP_Victory_Engines_01, HP_Victory_Fighter_Bay
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -611,13 +584,12 @@
 
      <SpaceUnit Name="Victory_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
-	<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
-		<Space_Model_Name>ReV_Victory_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>ReV_Victory_D.ALO</xxxSpace_Model_Name>
+		<Space_Model_Name>EV_VictoryStarDestroyer_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>EV_VictoryStarDestroyer.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-		<Scale_Factor>0.332</Scale_Factor> <!-- From 0.4 -->
-		<Layer_Z_Adjust>-180.0</Layer_Z_Adjust>
+		<Scale_Factor>1.3</Scale_Factor>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
 		<Max_Thrust>1</Max_Thrust>
@@ -632,25 +604,12 @@
 	<SpaceUnit Name="Victory_Destroyer">
 		<Variant_Of_Existing_Type>Victory_Destroyer_No_Fighters</Variant_Of_Existing_Type>
 		<Tech_Level>2</Tech_Level>
-		<Starting_Spawned_Units_Tech_2>Republic_VWing_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>V19_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Defender_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserved_Spawned_Units_Tech_2>Republic_VWing_Squadron, 3</Reserved_Spawned_Units_Tech_2>
-		<Reserved_Spawned_Units_Tech_2>V19_Squadron, 3</Reserved_Spawned_Units_Tech_2>
-		<Reserved_Spawned_Units_Tech_2>Arc_170_Squadron, 3</Reserved_Spawned_Units_Tech_2>
-		<Reserved_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Reserved_Spawned_Units_Tech_3>
-		<Reserved_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_3>
-		<Reserved_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 4</Reserved_Spawned_Units_Tech_4>
-		<Reserved_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_4>
-		<Reserved_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 4</Reserved_Spawned_Units_Tech_5>
-		<Reserved_Spawned_Units_Tech_5>TIE_Defender_Squadron, 4</Reserved_Spawned_Units_Tech_5>
+		<!-- Fighter complement -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		<Population_Value>3</Population_Value>
 		
@@ -663,7 +622,7 @@
 		<Encyclopedia_Good_Against> Corellian_Corvette Marauder_Missile_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Calamari_Cruiser Skipray_Blastboat Y-wing </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>ReV_acclamator1.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_ACCLAMATOR.ALO</Space_Model_Name>
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
@@ -729,39 +688,15 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 		
-	<Starting_Spawned_Units_Tech_1>V19_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2>V19_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserved_Spawned_Units_Tech_1>V19_Squadron, 3</Reserved_Spawned_Units_Tech_1>
-		<Reserved_Spawned_Units_Tech_1>Arc_170_Squadron, 3</Reserved_Spawned_Units_Tech_1>
-		<Reserved_Spawned_Units_Tech_2>V19_Squadron, 3</Reserved_Spawned_Units_Tech_2>
-		<Reserved_Spawned_Units_Tech_2>Arc_170_Squadron, 3</Reserved_Spawned_Units_Tech_2>
-		<Reserved_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Reserved_Spawned_Units_Tech_3>
-		<Reserved_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_3>
-		<Reserved_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 4</Reserved_Spawned_Units_Tech_4>
-		<Reserved_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_4>
-		<Reserved_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 4</Reserved_Spawned_Units_Tech_5>
-		<Reserved_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 4</Reserved_Spawned_Units_Tech_5> 
-		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<!--Currently no reserves -->
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 		
 		<HardPoints>
-			HP_Rep_Acclamator_Weapon_FC,
-			HP_Rep_Acclamator_Weapon_FL,
-			HP_Rep_Acclamator_Weapon_FR,
-			HP_Rep_Acclamator_Weapon_BL,
-			HP_Rep_Acclamator_Weapon_BR,
-			HP_Rep_Acclamator_Weapon_BC,
-			HP_Rep_Acclamator_Engines,
-			HP_Rep_Acclamator_Shield,
-			HP_Rep_Acclamator_Hangars,
+			HP_Acclamator_Weapon_FL, HP_Acclamator_Weapon_FR, HP_Acclamator_Weapon_FC, HP_Acclamator_Weapon_BL, HP_Acclamator_Weapon_BR, HP_Acclamator_Weapon_BC, HP_Acclamator_Engines, HP_Acclamator_Fighter_Bay
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -914,10 +849,12 @@
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>Empire_Sienar_Systems</Required_Special_Structures>
+		<Required_Planets>Corulag</Required_Planets>
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>800</Shield_Points>

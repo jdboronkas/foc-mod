@@ -24,7 +24,8 @@
     <Required_Timeline>0</Required_Timeline>
     <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
     <Required_Star_Base_Level>5</Required_Star_Base_Level>
-    <Ranking_In_Category>3</Ranking_In_Category>
+    <Required_Planets>Kuat, Coruscant, Fondor, Byss, Eriadu, MonCalimari, TheMaw, Sullust, Geonosis, Mandalore, Carida, Hoth, Endor</Required_Planets>
+	<Ranking_In_Category>3</Ranking_In_Category>
     <Select_Box_Scale>1600</Select_Box_Scale>
     <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
     <GUI_Bracket_Width>500</GUI_Bracket_Width>

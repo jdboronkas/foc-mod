@@ -48,7 +48,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-
+		<Required_Planets>Kuat, Coruscant, Fondor, Byss, Eriadu, MonCalimari, TheMaw, Sullust, Geonosis, Mandalore, Carida, Hoth, Endor</Required_Planets>
 		<Damage>80</Damage>
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Shield_Points>2500</Shield_Points>

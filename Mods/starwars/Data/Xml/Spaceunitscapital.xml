@@ -43,7 +43,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-	
+		<Required_Planets>Kuat, Coruscant, Fondor, Byss, Eriadu, MonCalimari, TheMaw, Sullust, Geonosis, Mandalore, Carida, Hoth, Endor</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>8500</Tactical_Health>
 		<Shield_Points>2000</Shield_Points>
@@ -243,8 +243,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
-		<Required_Planets>Kuat, Coruscant, Fondor, Bestine, Byss, Eriadu</Required_Planets>
+		<Required_Planets>Kuat, Coruscant, Fondor, Byss, Eriadu, MonCalimari, TheMaw, Sullust, Corellia, Mandalore, Carida</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>2000</Shield_Points>
@@ -530,7 +529,6 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>-->
 
 	</SpaceUnit>
-
 
 
 

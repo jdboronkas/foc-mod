@@ -56,6 +56,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Planets>Kuat, Coruscant, Fondor, Byss, Eriadu, MonCalimari, TheMaw, Sullust, Geonosis, Mandalore, Carida, Hoth, Endor</Required_Planets>
 		<Build_Cost_Credits>2700</Build_Cost_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>

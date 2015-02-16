@@ -442,7 +442,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
-		<!--<Required_Special_Structures>Empire_Shipyard_4</Required_Special_Structures>-->
+		<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>
 		<Required_Planets>Kuat, Coruscant, Fondor, Bestine, Byss, Eriadu</Required_Planets>
 		<Damage>150</Damage>
 		<Autoresolve_Health>20000</Autoresolve_Health>

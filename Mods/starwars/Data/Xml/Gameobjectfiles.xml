@@ -119,7 +119,7 @@
 	<File>Units_Space_Empire_Sovereign.xml</File>
 	<File>Units_space_emprie_skipray.xml</File>
 	<File>Units_Space_Empire_Tyrant.xml</File>
-	<File>Units_space_tie_fighter.xml</File>
+	<File>Units_space_empire_prototype_ties.xml</File>
 	
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
@@ -282,6 +282,6 @@
 	<File>UpgradeObjects_Underworld.XML</File>
 	<File>Corruption_Special_Units.XML</File>
         <File>Hardpoints_Executor_Imperial.xml</File>
-
+	<File>HardPoints_Familybase.xml</File>
 
 </Game_Object_Files>

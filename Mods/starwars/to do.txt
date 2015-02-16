@@ -1,15 +1,15 @@
 mon cal hardpoints
 
-vsd nukes
-isd nukes
-
 fix krayts missiles and rail guns
 change tyber zann size
 
 change rouge squad fighters
 
+luke space red squad
 
+add viscount
 
+slowly add droids
 
 
 
