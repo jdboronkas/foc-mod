@@ -6455,6 +6455,37 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+<Projectile Name="Proj_Ship_Tie_Bomb">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>EV_TIE_Bomb.ALO</Space_Model_Name>
+		<Land_Model_Name>P_proton_torpedo00.ALO</Land_Model_Name>
+		<Scale_Factor>0.7</Scale_Factor>
+		<Max_Speed>9.0</Max_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>1800.0</Projectile_Max_Scan_Range>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Damage>0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage>20 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>100</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+<Projectile_Object_Detonation_Particle> Small_Explosion_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>DB_Missile_Explosion_RED</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Huge_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Huge_Explosion_Space</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+		<SFXEvent_Fire>Unit_Torpedo_Fire</SFXEvent_Fire>
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
 
 </Projectiles>
 

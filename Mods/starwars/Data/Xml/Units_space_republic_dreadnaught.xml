@@ -62,6 +62,7 @@
 		<Tech_Level>2</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Planets>Polus, Rattatak, Jabim, AlzocIII, Ilum, Manaan, AetenII, Mechis, Belkadan, Muunilinst, Mygeeto, Bonadan, Felucia, Kessel, Kashyyyk, Wayland, Alderaan, Saleucami, Kamino, Boz_Pitty, NalHutta, Hypori, Geonosis, Tatooine, VergessoAsteroids, Utapau, Mustafar, Polis_Massa, Rendili, Ord_Mantell, Bestine</Required_Planets>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>

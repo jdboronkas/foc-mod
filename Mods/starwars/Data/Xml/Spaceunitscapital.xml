@@ -6,7 +6,7 @@
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Interceptor4_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>RV_MONCALCRUISER.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_Moncalimari_Cruiser2.ALO</Space_Model_Name>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -181,7 +181,7 @@
 
 	<SpaceUnit Name="Calamari_Cruiser_Death_Clone">
 		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
-		<Space_Model_Name>RV_MONCALCRUISER_D.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_Moncalimari_Cruiser2_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
@@ -243,7 +243,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<Required_Planets>Kuat, Coruscant, Fondor, Byss, Eriadu, MonCalimari, TheMaw, Sullust, Corellia, Mandalore, Carida</Required_Planets>
+		<Required_Planets>Bakura, Abregado-rae, Endor, Taris, Fondor, Thyferra, Carida, Anaxes, Helska, Bastion, Dantooine, Fresia, Myrkr, The_Maw, Moncalimari, Honoghr, Shola, Bothawui, Ryloth, Zhar, Corulag, Sullust, Eriadu, Bespin, Hoth, Atzerri, Coruscant, Kuat, Byss</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>2000</Shield_Points>
@@ -457,7 +457,7 @@
 			HP_ISD_Turret07,
 			HP_ISD_Turret08
 		</HardPoints>
-		<Population_Value>4</Population_Value>
+		<Population_Value>5</Population_Value>
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Star_Destroyer_Death_Clone">

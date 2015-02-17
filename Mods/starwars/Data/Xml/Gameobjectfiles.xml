@@ -100,14 +100,7 @@
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
 	<File>Units_Space_Empire_TIE_Avenger.xml</File>
 	<File>Units_Space_Empire_TIE_Droid.xml</File>
-	<File>Units_Space_Empire_TIE_Advanced.xml</File>
-	<File>Units_space_republic_v19_torrent_fighter.xml</File>
-	<File>Units_space_republic_vwing_fighter.xml</File>
 	<File>Units_Space_Empire_Executor.xml</File>
-	<File>Units_Space_republic_centax.xml</File>
-	<File>Units_space_republic_carrack.xml</File>
-	<File>Units_space_republic_dreadnaught.xml</File>
-	<File>Units_Space_republic_light_assault_cruiser.xml</File>
 	<File>Units_Space_Empire_Strikecruiser.xml</File>
 	<File>Units_Space_Empire_Dominator.xml</File>
 	<File>Units_Space_Republic_Light_Cruiser.xml</File>
@@ -118,9 +111,30 @@
 	<File>Units_Space_Empire_Procurator.xml</File>
 	<File>Units_Space_Empire_Sovereign.xml</File>
 	<File>Units_space_emprie_skipray.xml</File>
-	<File>Units_Space_Empire_Tyrant.xml</File>
-	<File>Units_space_empire_prototype_ties.xml</File>
-	
+	<File>Units_Space_Republic_Interdictor.xml</File>
+	<File>Units_space_republic_venator_class.xml</File>
+	<File>Units_space_republic_v19_torrent_fighter.xml</File>
+	<File>Units_space_republic_vwing_fighter.xml</File>
+	<File>Units_Space_republic_centax.xml</File>
+	<File>Units_space_republic_carrack.xml</File>
+	<File>Units_space_republic_dreadnaught.xml</File>
+	<File>Units_space_republic_victory_class_stardestroyer.xml</File>
+	<File>Units_Space_Republic_Acclamator.xml</File>
+	<File>Units_space_Rebel_Arc_170_Fighter.xml</File>
+	<File>Units_space_rebel_eta_2_fighter.xml</File>
+	<File>Units_space_rebel_delta_7_fighter.xml</File>
+	<File>prototype_ties.xml</File>
+	<File>space_Unit_Sith_Destroyer.xml</File>
+	<File>Units_Space_Sith_Interceptor.XML</File>	
+	<File>Units_Space_Sith_Frigate.XML</File>
+	<File>Units_Space_Sith_Centurion.xml</File>
+	<File>Units_Space_Sith_Bomber.XML</File>
+	<File>Units_Space_Sith_Battlecruiser.XML</File>
+
+
+
+
+
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
 	<File>Units_Land_Empire_Noghri.xml</File>
@@ -185,7 +199,7 @@
 
 	<File>Units_Hero_Underworld_IG88.xml</File>
 	<File>Units_Hero_Underworld_Bossk.xml</File>
-	<File>Units_Hero_Underworld_Tyber_Zann.xml</File>
+	<File>UNITS_HERO_UNDERWORLD_TYBER_ZANN.XML</File>
 	<File>Units_Hero_Underworld_Silri.xml</File>
 	<File>Units_Hero_Underworld_Urai_Fen.xml</File>
   	<File>Units_Hero_Cis_Durge.xml</File>

@@ -3,8 +3,8 @@
 <MusicEvents>
 
 	<MusicEvent Name="Main_Menu_Music_Event">
-		<Files>AceCombat4MenuMusic.mp3</Files>
-        <Volume_Percent>100</Volume_Percent>
+		<Files>Halo4.mp3</Files>
+        <Volume_Percent>130</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>Yes</Loop>
@@ -398,7 +398,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
-		 <Files> TheValleyofKings.mp3, Imperial_Attack_1.MP3, Battleships.mp3, Beginning_The_Approach.MP3, JourneyHome.mp3, Vaders_Presence.MP3, GhostOfRazgriz.mp3, Death_Star_Stormtroopers.MP3, Grabacr.mp3, Empire_At_War.MP3</Files>
+		 <Files> TheValleyofKings.mp3, Bunkershot.mp3, Battleships.mp3, Halo4.mp3, InvincibleFleet.mp3, GhostOfRazgriz.mp3, GlacialSkies.mp3, Grabacr.mp3, Safereturn.mp3 Yellow.mp3, </Files>
 		 <Volume_Percent>55</Volume_Percent>
 		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -406,7 +406,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Ambient_Music_Event">
-		 <Files> TheValleyofKings.mp3, Imperial_Attack_1.MP3, Battleships.mp3, Beginning_The_Approach.MP3, JourneyHome.mp3, Vaders_Presence.MP3, GhostOfRazgriz.mp3, Death_Star_Stormtroopers.MP3, Grabacr.mp3, Empire_At_War.MP3 </Files>
+		 <Files> TheValleyofKings.mp3, Bunkershot.mp3, Battleships.mp3, Halo4.mp3, InvincibleFleet.mp3, GhostOfRazgriz.mp3, GlacialSkies.mp3, Grabacr.mp3, Safereturn.mp3, Yellow.mp3 </Files>
 		 <Volume_Percent>60</Volume_Percent>
 		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -418,7 +418,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
-		 <Files> Avalon.mp3, space_battle2.mp3, space_battle1.mp3, FirstFlight.mp3, Tie_Fighter_Attack.MP3, Supercircus.mp3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Attacking_the_Blockade.MP3 </Files>
+		 <Files> Avalon.mp3, space_battle2.mp3, Shateredskies.mp3, space_battle1.mp3, FirstFlight.mp3, Tie_Fighter_Attack.MP3, Supercircus.mp3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Excalibur.mp3 </Files>
 		 <Volume_Percent>75</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -426,7 +426,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
-		<Files> Avalon.mp3, space_battle2.mp3, space_battle1.mp3, FirstFlight.mp3, Tie_Fighter_Attack.MP3, Supercircus.mp3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Attacking_the_Blockade.MP3 </Files>
+		<Files> Avalon.mp3, space_battle2.mp3, Shateredskies.mp3, space_battle1.mp3, FirstFlight.mp3, Tie_Fighter_Attack.MP3, Supercircus.mp3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Excalibur.mp3 </Files>
 		 <Volume_Percent>75</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>

@@ -37,7 +37,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Planets>Bakura, Abregado-rae, Endor, Taris, Fondor, Thyferra, Carida, Anaxes, Helska, Bastion, Dantooine, Fresia, Myrkr, The_Maw, Moncalimari, Honoghr, Shola, Bothawui, Ryloth, Zhar, Corulag, Sullust, Eriadu, Bespin, Hoth, Atzerri, Coruscant, Kuat, Byss</Required_Planets>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Damage>20</Damage>
@@ -819,9 +820,10 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Planets>Bakura, Abregado-rae, Endor, Taris, Fondor, Thyferra, Carida, Anaxes, Helska, Bastion, Dantooine, Fresia, Myrkr, The_Maw, Moncalimari, Honoghr, Shola, Bothawui, Ryloth, Zhar, Corulag, Sullust, Eriadu, Bespin, Hoth, Atzerri, Coruscant, Kuat, Byss</Required_Planets>
 		<Shield_Points>300</Shield_Points>
 		<Tactical_Health>650</Tactical_Health>
 		<Damage>20</Damage>
@@ -1018,10 +1020,10 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>640</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Autoresolve_Health>600</Autoresolve_Health>
