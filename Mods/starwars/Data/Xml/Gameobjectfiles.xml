@@ -3,6 +3,7 @@
 <Game_Object_Files>
 
 	<File>TransportUnits.xml</File>
+	<File>Units_Space_cis_c9979.xml</File>
 
 	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
@@ -217,8 +218,8 @@
 	<File>Units_Land_Underworld_ScavengerDroids.xml</File>
 	<File>Units_Land_Underworld_NightSister.xml</File>
 	<File>Units_Land_Underworld_Ewok_Bomber.xml</File>
-  <File>Units_Land_Underworld_Mandalorian_Commando.xml</File>
-  <File>Units_Land_Underworld_Enforcer_Tank.xml</File>
+  	<File>Units_Land_Underworld_Mandalorian_Commando.xml</File>
+  	<File>Units_Land_Underworld_Enforcer_Tank.xml</File>
 	<File>Units_Land_Cis_Battledroid.xml</File>
 	<File>Units_Land_Cis_Field_Commander.xml</File>
 	<File>Units_land_cis_super_battledroid.xml</File>
@@ -261,7 +262,6 @@
   <File>Units_Space_Sabaoth_Destroyer.xml</File>
   <File>Units_Space_Sabaoth_Deployer.xml</File>
   <File>Units_Space_Sabaoth_Bomber.xml</File>
-  <File>Units_space_underworld_pinnace.xml</File>
   <File>Units_Space_cis_bomber.xml</File>
   <File>Units_space_underworld_z95.xml</File>
   <File>Units_space_underworld_y-wing.xml</File>

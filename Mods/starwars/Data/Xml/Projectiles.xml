@@ -3385,7 +3385,7 @@
 
 	<Projectile Name="Proj_Vengeance_Mass_Driver">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>p_proton_Vengance.ALO</Space_Model_Name>
+		<Space_Model_Name>massdriver_sml.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		
 		<Damage_Type> Damage_Mass_Driver_Space </Damage_Type>
@@ -6210,10 +6210,10 @@
 
 <Projectile Name="Proj_Kryat_Railgun">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>massdriver.ALO</Space_Model_Name>
-		<Land_Model_Name>massdirver.ALO</Land_Model_Name>
-		<Scale_Factor>2000</Scale_Factor>
-		<Max_Speed>35.0</Max_Speed>
+		<Space_Model_Name>massdriver_sml.ALO</Space_Model_Name>
+		<Land_Model_Name>massdriver_sml.ALO</Land_Model_Name>
+		<Scale_Factor>20000</Scale_Factor>
+		<Max_Speed>50.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>DEFAULT</Projectile_Category>

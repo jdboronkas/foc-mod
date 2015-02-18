@@ -482,7 +482,7 @@
 
 		<HardPoints>
 			HP_Victory_Weapon_01, HP_Victory_Weapon_02, HP_Victory_Weapon_03, HP_Victory_Shields_01, HP_Victory_Engines_01, HP_Victory_Fighter_Bay
-		</HardPoints>
+		</HardPoints>	
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_victory_class.tga</Icon_Name>

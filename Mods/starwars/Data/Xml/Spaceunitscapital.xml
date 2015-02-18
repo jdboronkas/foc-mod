@@ -6,7 +6,7 @@
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Interceptor4_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>RV_Moncalimari_Cruiser2.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_MONCALCRUISER.ALO</Space_Model_Name>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -181,7 +181,7 @@
 
 	<SpaceUnit Name="Calamari_Cruiser_Death_Clone">
 		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
-		<Space_Model_Name>RV_Moncalimari_Cruiser2_D.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_MONCALCRUISER_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
