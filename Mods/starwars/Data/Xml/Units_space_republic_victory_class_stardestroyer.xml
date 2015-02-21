@@ -45,8 +45,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Polus, Rattatak, Jabim, AlzocIII, Ilum, Manaan, AetenII, Mechis, Belkadan, Muunilinst, Mygeeto, Bonadan, Felucia, Kessel, Kashyyyk, Wayland, Alderaan, Saleucami, Kamino, Boz_Pitty, NalHutta, Hypori, Geonosis, Tatooine, VergessoAsteroids, Utapau, Mustafar, Polis_Massa, Rendili, Ord_Mantell, Bestine</Required_Planets>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -107,42 +106,10 @@
 		</HardPoints>
 
 		<!-- Fighter complement -->
-		<Starting_Spawned_Units_Tech_2>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>V19_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Republic_VWing_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Eta_2_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_2>Arc_170_Squadron, 6</Reserve_Spawned_Units_Tech_2> 
-		<Reserve_Spawned_Units_Tech_2>V19_Squadron, 8</Reserve_Spawned_Units_Tech_2> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_2>Republic_VWing_Squadron, 8</Reserve_Spawned_Units_Tech_2> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_2>Eta_2_Squadron, 8</Reserve_Spawned_Units_Tech_2>
-		
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 6</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 18</Reserve_Spawned_Units_Tech_3> 
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 8</Reserve_Spawned_Units_Tech_3> <!-- From 35 -->
-		
-		
-		<Starting_Spawned_Units_Tech_4>TIE_Bizarro_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Biggun_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Booster_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Warhead_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bizarro_Squadron, 6</Reserve_Spawned_Units_Tech_4> 
-		<Reserve_Spawned_Units_Tech_4>TIE_Biggun_Squadron, 8</Reserve_Spawned_Units_Tech_4> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_4>TIE_Booster_Squadron, 8</Reserve_Spawned_Units_Tech_4> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_4>TIE_Warhead_Squadron, 8</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, 6</Reserve_Spawned_Units_Tech_0> <!-- From 0 -->
 
-		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Defender_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_5> 
-		<Reserve_Spawned_Units_Tech_5>TIE_Fighter_Squadron, 8</Reserve_Spawned_Units_Tech_5> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 8</Reserve_Spawned_Units_Tech_5> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_5>TIE_Defender_Squadron, 8</Reserve_Spawned_Units_Tech_5>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_VICTORY_CLASS.TGA</Icon_Name>

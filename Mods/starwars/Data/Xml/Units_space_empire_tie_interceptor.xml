@@ -17,7 +17,7 @@
 		<Space_Model_Name>EV_TIE_INTERCEPTOR.ALO</Space_Model_Name>
 		<Icon_Name>i_button_EV_TIE_Interceptor.tga</Icon_Name>
 
-		<Scale_Factor>0.7</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -42,7 +42,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>65</Tactical_Health>
+		<Tactical_Health>60</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -65,9 +65,9 @@
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>3.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
 		
-		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
@@ -125,7 +125,7 @@
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>60.0</Minimum_Follow_Distance>
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>60</AI_Combat_Power>
+		<AI_Combat_Power>35</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -172,7 +172,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>375</Build_Cost_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Tech_Level>4</Tech_Level>
 		<Required_Timeline />
@@ -217,7 +217,7 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

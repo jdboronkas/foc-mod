@@ -1,39 +1,5 @@
 
-EMPIRE
-, tarkin
-
-remove gravity
-
-
-get new vsd 
-
-palp has 6 royal gaurds
-
-text
-
-ZC
-
-create new zc bounty hunters
-
-remove siri
-
-give uri flag ship kedalbe
-
-jango boba team
-
-fix zc hard points
-
-add droids
-
-REBS
-
-change missile on reb stations
-
-mon cal hardpoints
-
-change rouge squad fighters
-
-add viscount
 
 
 
+change fighter squad size. scale some fighters

@@ -156,9 +156,11 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>8</Build_Time_Seconds>
+		<Required_Special_Structures>Empire_Sienar_Systems</Required_Special_Structures>
+		<Required_Planets>Corulag</Required_Planets>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>4</Tech_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 

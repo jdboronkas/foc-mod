@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Venator_Data>
 
-<SpaceUnit Name="Venator">
+<SpaceUnit Name="Venator_Empire">
 		<Text_ID>TEXT_UNIT_VENATOR</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_VENATOR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
@@ -43,11 +43,12 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Planets>Bakura, Abregado-rae, Endor, Taris, Fondor, Thyferra, Carida, Anaxes, Helska, Bastion, Dantooine, Fresia, Myrkr, The_Maw, Moncalimari, Honoghr, Shola, Bothawui, Ryloth, Zhar, Corulag, Sullust, Eriadu, Bespin, Hoth, Atzerri, Coruscant, Kuat, Byss</Required_Planets>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>
+		<Required_Planets>Kuat</Required_Planets>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -96,7 +97,7 @@
 			HP_Venator_R4,
 			HP_Venator_Fighter_Bay_L,
 			HP_Venator_Fighter_Bay_R,
-			HP_Republic_Venator_SPHA
+			HP_Venator_MC
 		</HardPoints>
    				
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
@@ -164,60 +165,21 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-
-			<Unit_Ability>
-				<Type>SUPER_LASER</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> Venator_Spha_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Recharge_Seconds>40</Recharge_Seconds><!-- jdg was 5  -->
-				<Expiration_Seconds>2</Expiration_Seconds>
-				<SFXEvent_Target_Ability/> 
-				<SFXEvent_Special_Ability_Loop> Unit_Venator_SPHA_Fire </SFXEvent_Special_Ability_Loop> 
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_SPHA_BEAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_SPHA_BEAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_FIRE_SPHA_BEAM.tga</Alternate_Icon_Name>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>7</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-
+			
+			
 		</Unit_Abilities_Data>
-
-
-
-		<Abilities SubObjectList="Yes">
-
-
-
-			<Super_Laser_Ability Name="Venator_Spha_Beam">
-				<Activation_Style> User_Input </Activation_Style>
-
-				<Applicable_Unit_Categories> Capital | Corvette | Frigate | Structure </Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
-				<Owner_Particle_Bone_Name>HP_M-C_BONE</Owner_Particle_Bone_Name>
-				<Activation_Min_Range>0</Activation_Min_Range>
-				<Activation_Max_Range>1000</Activation_Max_Range> <!-- From 2000 -->
-
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>40</Damage_Per_Frame>			
-				<Fire_Frame>106</Fire_Frame>
-				<Beam_Texture_Name>venator_spha00.tga</Beam_Texture_Name>
-				<Num_Anim_Frames>5</Num_Anim_Frames>
-				<Line_Width>6</Line_Width>
-				<Beam_Color>15, 111, 241, 255</Beam_Color>
-			</Super_Laser_Ability>
-		</Abilities>
+		
 		
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 		<Population_Value>3</Population_Value>

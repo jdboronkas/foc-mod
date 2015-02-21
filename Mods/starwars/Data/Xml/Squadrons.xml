@@ -17,23 +17,35 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>400</Slice_Cost_Credits>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
-		<Squadron_Units>X-Wing</Squadron_Units>
-		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
+		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
+		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
+		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
+<Max_Squad_Size>12</Max_Squad_Size>
+<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
@@ -54,6 +66,11 @@
 	
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
+			
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+			
 			<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
 			
@@ -96,20 +113,37 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>210</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+			<Squadron_Units>Y-Wing, Y-Wing, Y-Wing</Squadron_Units>
 		<Squadron_Units>Y-Wing, Y-Wing, Y-Wing</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Units>Y-Wing, Y-Wing, Y-Wing</Squadron_Units>
+		<Squadron_Units>Y-Wing, Y-Wing, Y-Wing</Squadron_Units>
+<Max_Squad_Size>12</Max_Squad_Size>
+<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_y_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -227,22 +261,33 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
-		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>	
+		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
+		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
+<Max_Squad_Size>12</Max_Squad_Size>
+<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -301,19 +346,36 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>150</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
 		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>		
-		<Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
+<Max_Squad_Size>12</Max_Squad_Size>
+<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieBomber.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -364,7 +426,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -374,12 +436,26 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>A-Wing, A-Wing, A-Wing, A-Wing, A-Wing</Squadron_Units>
-		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
+			<Squadron_Units>A-Wing, A-Wing, A-Wing, A-Wing</Squadron_Units>	
+		<Squadron_Units>A-Wing, A-Wing, A-Wing, A-Wing</Squadron_Units>
+		<Squadron_Units>A-Wing, A-Wing, A-Wing, A-Wing</Squadron_Units>
+<Max_Squad_Size>12</Max_Squad_Size>
+<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_awing.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
@@ -401,6 +477,11 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
+			
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+			
 			<Unit_Ability>
 				<Type>LURE</Type>
 				<!-- details in the unit's XML -->
@@ -413,7 +494,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -423,7 +504,97 @@
 		<Population_Value>1</Population_Value>
 	</Squadron>
 
+	<Squadron Name="TIE_Scout_Squadron">
+		<Text_ID>TEXT_TIE_SCOUT_SQUADRON</Text_ID>
+		<Encyclopedia_Good_Against> Y-wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> A-Wing </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Damage>9</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>240</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	<Squadron_Units>TIE_Scout, TIE_Scout</Squadron_Units>
+		<Squadron_Units>TIE_Scout, TIE_Scout</Squadron_Units>
+		<Squadron_Units>TIE_Scout, TIE_Scout</Squadron_Units>
+		<Squadron_Units>TIE_Scout, TIE_Scout</Squadron_Units>
+		<Squadron_Units>TIE_Scout, TIE_Scout</Squadron_Units>
+		<Squadron_Units>TIE_Scout, TIE_Scout</Squadron_Units>
+<Max_Squad_Size>12</Max_Squad_Size>
+<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
 
+
+<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+
+
+<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Icon_Name>i_button_tie_scout.tga</Icon_Name>
+		<GUI_Model_Name>EV_TieScout.ALO</GUI_Model_Name>
+		<GUI_Distance>115</GUI_Distance>
+		<GUI_Offset>0 0 3</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Scout</SFXEvent_Build_Complete>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Property_Flags> SmallShip </Property_Flags>
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>275</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits> 800</Score_Cost_Credits>
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+	</Squadron>
 	
 	<Squadron Name="Z95_Headhunter_Squadron">
 		<Text_ID>TEXT_HEADHUNTER_SQUADRON</Text_ID>
@@ -490,7 +661,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -562,7 +733,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -632,7 +803,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>250</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1132,3 +1303,4 @@
 
 
 </Squadrons>
+

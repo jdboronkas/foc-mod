@@ -56,15 +56,21 @@
 		<Event_Param1>1</Event_Param1>
 	</Event>
 
-	<Event Name="Spawn_Boba_Fett">
+
+	<Event Name="Spawn_Anakin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+		<Reward_Param1>Anakin_Skywalker_Team</Reward_Param1>
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
-
-
+<Event Name="Spawn_Deltasquad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Deltasquad_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
 
 
 	<!-- Spawn Time Era 2 Heroes -->
@@ -73,6 +79,35 @@
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>2</Event_Param1>
 	</Event>
+
+<Event Name="Lock_P1_Clone_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Lock_P1_Clone_Platoon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Platoon</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Lock_P1_Clone_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Company</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Lock_P1_Clone_Commander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Field_Com_Republic_P1_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
 
 	<Event Name="Spawn_Veers">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -92,6 +127,52 @@
 		<Event_Param1>3</Event_Param1>
 	</Event>
 
+	<Event Name="The_New_Order_Remove_Anakin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Anakin_Skywalker</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="Lock_Rep_Acclamator_Assault_Ship">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rep_Acclamator_Assault_Ship</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_Republic_Victory_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Victory_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_Venator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+
+
+	<Event Name="The_New_Order_Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>The_New_Order_Remove_Anakin</Prereq>
+	</Event>
+
+
+<Event Name="Spawn_Arc_Hammer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Arc_Hammer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
 	<Event Name="Spawn_Piett">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -99,7 +180,45 @@
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_03</Prereq>
 	</Event>
+<Event Name="Spawn_Ozzel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Nemesis_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
 
+
+
+<Event Name="Spawn_Tyranny">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Tyranny</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Spawn_Avenger">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Avenger</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+<Event Name="Spawn_Glory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Glory</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="Spawn_Chimaera">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Chimaera</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
 
 
 	<!-- Spawn Time Era 4 Heroes -->
@@ -109,13 +228,54 @@
 		<Event_Param1>4</Event_Param1>
 	</Event>
 
-	<Event Name="Spawn_Arc_Hammer">
+
+	<Event Name="The_New_Order_Remove_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Vader</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="Bye_Bye_Tarkin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_HERO</Reward_Type>
+		<Reward_Param1>Grand_Moff_Tarkin</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+<Event Name="The_New_Order_Spawn_Iron_Fist">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Iron_Fist</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Jerjerrod">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Moff_Jerjerrod_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Bye_Bye_Tarkin</Prereq>
+	</Event>
+
+
+
+	<Event Name="Spawn_Thrawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Arc_Hammer</Reward_Param1>
+        <Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_04</Prereq>
 	</Event>
+
+<Event Name="Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team_Executor</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>The_New_Order_Remove_Vader</Prereq>
+	</Event>
+
 
 
 
@@ -126,10 +286,10 @@
 		<Event_Param1>5</Event_Param1>
 	</Event>
 
-	<Event Name="Spawn_Thrawn">
+<Event Name="Spawn_Daala">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+        <Reward_Param1>Gorgon</Reward_Param1>
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 	</Event>
@@ -142,13 +302,6 @@
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 	</Event>
 
-<Event Name="Spawn_Ozzel">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Nemesis_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Coruscant</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_05</Prereq>
-	</Event>
 
 <Event Name="Spawn_Mara_Jade">
 		<Event_Type>STORY_TRIGGER</Event_Type>

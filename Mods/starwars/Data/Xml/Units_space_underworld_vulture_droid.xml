@@ -12,9 +12,9 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser Lancer_Frigate </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>SeV_vulture.ALO</Space_Model_Name>
-		<Scale_Factor>0.1</Scale_Factor> <!-- From 0.2 -->
-		<Select_Box_Scale>160</Select_Box_Scale>
+		<Space_Model_Name>CIS_VULTURE.ALO</Space_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -32,14 +32,15 @@
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Max_Lift>4</Max_Lift>
 		<Affiliation>Underworld</Affiliation>
+		<Required_Planets>Geonosis</Required_Planets>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0.0</Shield_Points>
-		<Tactical_Health>35</Tactical_Health> <!-- From 40 -->
+		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>600</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -81,12 +82,12 @@
 		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-		<SFXEvent_Fire>Unit_Vulture_Droid_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Vulture</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Vulture</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleetmove_Vulture</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Vulture</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Vulture</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Battle_Droid</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Battle_Droid</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Battle_Droid</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Battle_Droid</SFXEvent_Guard>
 		
 		<SFXEvent_Ambient_Moving> Unit_Vulture_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
@@ -109,8 +110,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
+		
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
 		
 		
@@ -127,7 +127,7 @@
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
 
 		<Strafe_Distance>500.0</Strafe_Distance>
-		<Population_Value>0</Population_Value>	
+		<Population_Value>1</Population_Value>	
 	
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -146,8 +146,8 @@
 		<Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
                 <GUI_Activated_Ability_Name>Buzz_Droids_Vulture</GUI_Activated_Ability_Name> 
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-                <Recharge_Seconds>500</Recharge_Seconds> <!-- From 80 -->
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Recharge_Seconds>80</Recharge_Seconds>
                 <SFXEvent_Target_Ability/> 
 				<!-- Make this double the Chase_Radius in the special ability-->
                 <Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance>
@@ -168,20 +168,12 @@
                 <Activation_Time_In_Seconds> 1 </Activation_Time_In_Seconds>
                 <Activate_SFX/>
                 <Object_Type>Buzz_Droids</Object_Type>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Buzz_Droids_Ability>
             
             </Abilities>
 	
 	</SpaceUnit>
-
-
-
-
-
-
-
-
 
 
 
@@ -211,13 +203,13 @@
 		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>125</Build_Cost_Credits>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>4</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		
-    <Required_Planets> Hypori, Geonosis, Mechis, Muunilinst, Mygeeto, Felucia, The_Maw, Kashyyyk, Kamino, Utapau, Ord_Mantell, Endor, Taris, Carida, Moncalimari, Honoghr, Bothawui, Sullust, Eriadu, Coruscant, Kuat, Corellia, Byss, Mustafar, Fondor, Corulag</Required_Planets>
+		<Required_Special_Structures>Huppla_Pasa</Required_Special_Structures>
+    <Required_Planets>Geonosis</Required_Planets>
 
         <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
@@ -225,31 +217,29 @@
 		<Expensive_Bribe_Cost>20</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 
-		<Squadron_Units>Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter</Squadron_Units>
-		<Squadron_Offsets>40.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>6.0,40.0,4.0</Squadron_Offsets>
-		<Squadron_Offsets>-2.0,-42.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-40.0,20.0,8.0</Squadron_Offsets>
-		<Squadron_Offsets>-46.0,-22.0,10.0</Squadron_Offsets>
-		<Squadron_Offsets>-80.0,58.0,-12.0</Squadron_Offsets>
-		<Squadron_Offsets>-75.0,-55.0,-10.0</Squadron_Offsets>
+		<Squadron_Units>Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter, Vulture_Droid_Fighter</Squadron_Units>
+		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-20.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-45.0,45.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-45.0,-45.0,0.0</Squadron_Offsets>
 		
 		<Create_Team_Type> Vulture_Team </Create_Team_Type>
 		
-		<GUI_Model_Name>SeV_vulture.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_VULTURE.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Vulture</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleetmove_Vulture</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Select_Battle_Droid</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>
 
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>3000.0</Guard_Chase_Range> <!-- From 1000 -->
-		<Idle_Chase_Range>1500.0</Idle_Chase_Range> <!-- From 200 -->
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -260,8 +250,8 @@
 		<!--<Create_Team_Type> Vulture_Team </Create_Team_Type>-->
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -287,8 +277,8 @@
 		<Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
                 <GUI_Activated_Ability_Name>Buzz_Droids_Vulture</GUI_Activated_Ability_Name> 
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-                <Recharge_Seconds>300</Recharge_Seconds>
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <Recharge_Seconds>80</Recharge_Seconds>
                 <SFXEvent_Target_Ability/> 
 				<!-- Make this double the Chase_Radius in the special ability-->
                 <Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance>
@@ -297,7 +287,6 @@
 		</Unit_Abilities_Data>
 		
 	</Squadron>
-
 
 
 

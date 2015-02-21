@@ -1071,7 +1071,7 @@
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
-				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
+				<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
 			</Remove_Corruption_Ability>
 
 		</Abilities>
@@ -2232,7 +2232,7 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		<Neutralization_Cost>4000.0</Neutralization_Cost>
+		<Neutralization_Cost>15000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
@@ -2252,6 +2252,8 @@
 		<Presence_Range>100.0</Presence_Range>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		
+		<Unique_Space_Unit>Executor_Super_Star_Destroyer</Unique_Space_Unit>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -2676,7 +2678,7 @@
 		<!-- If part of a team, don't give a TARGETING and WEAPON behavior -->
 		<!-- LAND_TEAM_INFANTRY_LOCOMOTOR is required for droid team -->
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior> SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED </LandBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, STUNNABLE </LandBehavior>
 
 		<Mass>1.0</Mass>
 		
@@ -2854,7 +2856,7 @@
 
 		<!-- LAND_TEAM_INFANTRY_LOCOMOTOR is required for droid team -->
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
-		<LandBehavior> SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED </LandBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, STUNNABLE </LandBehavior>
 
 		<!-- VERY IMPORTANT -->
 		<Create_Team> Yes </Create_Team>
@@ -2948,55 +2950,6 @@
 		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
 	</HeroUnit>
 
-<!--BARON S00NTIR FEL-->
-
-    <HeroUnit Name="Soontir_Fel">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Force_Sensitive>No</Is_Force_Sensitive>
-		<Is_Super_Weapon_Killer>No</Is_Super_Weapon_Killer>
-		<Text_ID>TEXT_HERO_SOONTIR_FEL</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_SOONTIR_FEL.TGA</Icon_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<Type>Walk</Type>
-		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>5</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Carida</Spawn_Planet>
-		<Size_Value>75</Size_Value>
-		<Damage>60</Damage>
-		<Autoresolve_Health>250</Autoresolve_Health>
-	
-		<SFXEvent_Select>Unit_Select_Luke</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Luke</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Luke</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Luke</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Luke</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Luke </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Luke </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Luke </SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning> Unit_Enemy_Health_Critical_Luke </SFXEvent_Enemy_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Luke </Death_SFXEvent_Start_Die> 
-	
-		<Icon_Name>I_BUTTON_SOONTIR_FEL.TGA</Icon_Name>
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<CategoryMask> SpaceHero </CategoryMask>
-		<Ranking_In_Category> 2 </Ranking_In_Category>
-	
-		<Encyclopedia_Text> TEXT_TOOLTIP_SOONTIR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		<Neutralization_Cost>1000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
-	</HeroUnit>
 
 
 <!-- 	###########	QUESTIONABLE ENTRIES ################# -->
@@ -3120,7 +3073,6 @@
 			</Find_Weakness_Ability>
 		</Abilities>
 	</HeroUnit>
-
 
 
 

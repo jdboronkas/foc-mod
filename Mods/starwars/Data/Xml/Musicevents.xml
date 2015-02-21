@@ -105,7 +105,7 @@
 		occurs where the MusicEventManager is not sewrviced -->
 
 	<MusicEvent Name="Tactical_Battle_Loading_Loop_Event">
-		<Files> SecondStrike.mp3 </Files>
+		<Files> Briefing3.mp3, Operation.mp3, Briefing2.mp3, Briefing4.mp3, SecondStrike.mp3, Briefing1.mp3, </Files>
 		<Volume_Percent> 55 </Volume_Percent>
 		<Fade_In_Seconds> 0.0 </Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds> 2.0 </Fade_Out_Previous_Seconds>
@@ -115,7 +115,7 @@
 
 <!-- 
 	<MusicEvent Name="Galactic_Battle_Pending_Music_Event">
-		<Files> SecondStrike.mp3 </Files>
+		<Files> Briefing3.mp3, Operation.mp3, Briefing2.mp3, Briefing4.mp3, SecondStrike.mp3, Briefing1.mp3, </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -126,7 +126,7 @@
 	Note MSS_Internal_Loop required due to event manager not processing during long data loads
 
 	<MusicEvent Name="Tactical_Battle_Load_Screen_Music_Event">
-		<Files> SecondStrike.mp3 </Files>
+		<Files> Briefing3.mp3, Operation.mp3, Briefing2.mp3, Briefing4.mp3, SecondStrike.mp3, Briefing1.mp3  </Files>
 		<Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>0.0</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -418,7 +418,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
-		 <Files> Avalon.mp3, space_battle2.mp3, Shateredskies.mp3, space_battle1.mp3, FirstFlight.mp3, Tie_Fighter_Attack.MP3, Supercircus.mp3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Excalibur.mp3 </Files>
+		 <Files> Avalon.mp3, Rendezvous.mp3, BallisticMissile.mp33, Shateredskies.mp3, FiresofLiberation.mp3, FirstFlight.mp3, Stonehenge.mp3, Supercircus.mp3, WhiteBird.mp3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Excalibur.mp3 </Files>
 		 <Volume_Percent>75</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -426,7 +426,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
-		<Files> Avalon.mp3, space_battle2.mp3, Shateredskies.mp3, space_battle1.mp3, FirstFlight.mp3, Tie_Fighter_Attack.MP3, Supercircus.mp3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Excalibur.mp3 </Files>
+		<Files> Avalon.mp3, Rendezvous.mp3, BallisticMissile.mp3, Shateredskies.mp3, FiresofLiberation.mp3, FirstFlight.mp3, Stonehenge.mp3, Supercircus.mp3, WhiteBird.mp3, The_Asteroid_Field.MP3, WingsOfUnity.mp3, Excalibur.mp3 </Files>
 		 <Volume_Percent>75</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -455,7 +455,7 @@
 
 
 	<MusicEvent Name="Space_Map_Activate_Death_Star_Music_Event">
-		<Files>MegalithAgnusDei.mp3</Files>
+		<Files>AgnusDei.mp3</Files>
 		<Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>0.25</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>0.25</Fade_Out_Previous_Seconds>
@@ -510,7 +510,7 @@
 
 
     <MusicEvent Name="Empire_Win_Tactical_Event">
-        <Files>Imperial_March_Edit.MP3</Files>
+        <Files>TheImperialMarch.mp3</Files>
         <Volume_Percent>75</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -518,7 +518,7 @@
     </MusicEvent>
 
     <MusicEvent Name="Empire_Win_Strategic_Event">
-        <Files>Imperial_March_Edit.MP3</Files>
+        <Files>TheImperialMarch.mp3</Files>
         <Volume_Percent>75</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>

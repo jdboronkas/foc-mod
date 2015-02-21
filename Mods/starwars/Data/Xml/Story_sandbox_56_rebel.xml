@@ -19,14 +19,6 @@
 	</Event>
 
 
-<!-- Force Rebels to get X-wing instead of Z-95 to start -->
-	<Event Name="Unlock_X_wings">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
-		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
 
 
 <!-- Rebel Hero Release -->
@@ -51,19 +43,270 @@
 	</Event>
 
 
+
 	<!-- Spawn Tech 1 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_00">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+
+
+		<Event Name="Spawn_Yoda">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
+		<Reward_Param2>Dagobah</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Mace_Windu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mace_Windu_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+<Event Name="Spawn_Kit_Fisto">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kit_Fisto_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Obiwan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Obiwan_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Plo_Koon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Plokoon_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+
+		<Event Name="Spawn_Aayla_Secura">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Aayla_Secura_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Barris_Offee">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Barris_Offee_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Luminara_Unduli">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luminara_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Shaak_Ti">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shaak_Ti_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
+
+
+
+
+
+	<!-- Spawn Tech 2 Heroes -->
 
 	<Event Name="Rebels_Enter_Tech_01">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>1</Event_Param1>
 	</Event>
 
-	<Event Name="Spawn_Han_Solo">
+	<Event Name="Lock_Jedi_Acclamator_Assault_Ship">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Jedi_Acclamator_Assault_Ship</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+	<Event Name="Lock_Republic_light_assault_cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_light_assault_cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+<Event Name="Lock_Republic_light_frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_light_frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+<Event Name="Lock_Jedi_Y-Wing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Jedi_Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+<Event Name="Lock_Delta-7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Delta_7_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+<Event Name="Lock_Eta_2_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Eta_2_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+	<!-- Spawn Tech 3 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+<Event Name="Jedi_Purge_Remove_Mace_Windu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Mace_Windu</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Jedi_Purge_Remove_Plokoon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Plokoon</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Mace_Windu</Prereq>
+	</Event>
+
+	<Event Name="Jedi_Purge_Remove_Obiwan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Obiwan</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Plokoon</Prereq>
+	</Event>
+
+	<Event Name="Jedi_Purge_Remove_Aayla">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Aayla_Secura</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Obiwan</Prereq>
+	</Event>
+
+	<Event Name="Lock_Aayla">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Aayla_Secura_Team</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Obiwan</Prereq>
+	</Event>
+
+	<Event Name="Jedi_Purge_Remove_Barris">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Barris_Offee</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Aayla</Prereq>
+	</Event>
+
+	<Event Name="Lock_Barris">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Barris_Offee_Team</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Aayla</Prereq>
+	</Event>
+
+
+	<Event Name="Jedi_Purge_Remove_Kit_Fisto">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Kit_Fisto</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Aayla</Prereq>
+	</Event>
+
+	<Event Name="Lock_Kit_Fisto">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Kit_Fisto_Team</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Aayla</Prereq>
+	</Event>
+
+
+
+	<Event Name="Jedi_Purge_Remove_Luminara">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Luminara_Unduli</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Barris</Prereq>
+	</Event>
+
+	<Event Name="Lock_Luminara">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Luminara_Team</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Barris</Prereq>
+	</Event>
+
+	<Event Name="Jedi_Purge_Remove_Shaakti">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Shaak_Ti</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Luminara</Prereq>
+	</Event>
+
+	<Event Name="Lock_Shaakti">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Shaak_Ti_Team</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Luminara</Prereq>
+	</Event>
+
+
+
+
+
+<Event Name="Spawn_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Dodonna_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Home_One</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+<Event Name="Spawn_Han_Solo">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Han_Solo_Team</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Antilles">
@@ -71,18 +314,10 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Sundered_Heart</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
 	</Event>
 
-
-	<!-- Spawn Tech 2 Heroes -->
-
-	<Event Name="Rebels_Enter_Tech_02">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>2</Event_Param1>
-	</Event>
-
-	<Event Name="Rebel_AI_Heroes_10">
+<Event Name="Rebel_AI_Heroes_10">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
@@ -90,47 +325,31 @@
 		<Prereq>Rebels_Enter_Tech_02</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Rogue_Squadron">
+
+<Event Name="Spawn_Katarn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>	
+
+
+	<Event Name="Rebel_AI_Heroes_11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Red_Squadron</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_02</Prereq>
 	</Event>
 
 
 
-	<!-- Spawn Tech 3 Heroes -->
+	<!-- Spawn Tech 4 Heroes -->
 
 	<Event Name="Rebels_Enter_Tech_03">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>3</Event_Param1>
-	</Event>
-
-	<Event Name="Spawn_Ackbar">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Home_One</Reward_Param1>
-        <Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_03</Prereq>
-	</Event>
-
-	<Event Name="Spawn_Yoda">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Yoda_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_03</Prereq>
-	</Event>
-
-
-
-
-	<!-- Spawn Tech 4 Heroes -->
-
-	<Event Name="Rebels_Enter_Tech_04">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>4</Event_Param1>
 	</Event>
 
 	<!--<Event Name="Spawn_BelIblis">
@@ -138,7 +357,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Garm_Bel_Iblis_Team</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
 	</Event>-->
 
 	<Event Name="Spawn_Luke_Jedi">
@@ -146,23 +365,20 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
 	</Event>
 
-<Event Name="Spawn_Dodonna">
+<!-- Spawn Tech 5 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+<Event Name="Spawn_Rogue_Squadron">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Dodonna_Team</Reward_Param1>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_04</Prereq>
 	</Event>
-
-<Event Name="Spawn_Katarn">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Katarn_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_04</Prereq>
-	</Event>	
-
 </Story>

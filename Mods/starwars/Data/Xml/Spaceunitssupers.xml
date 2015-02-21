@@ -25,11 +25,11 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets></Required_Planets>
+		<Required_Planets>Endor</Required_Planets>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Build_Cost_Credits>2</Build_Cost_Credits>
-		<Build_Time_Seconds>3</Build_Time_Seconds> <!-- 310 = 5 minutes 10 seconds (to hear 5 minutes until complete V/O -->
+		<Build_Cost_Credits>20000</Build_Cost_Credits>
+		<Build_Time_Seconds>310</Build_Time_Seconds> <!-- 310 = 5 minutes 10 seconds (to hear 5 minutes until complete V/O -->
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Autoresolve_Health>5</Autoresolve_Health>
 		<Damage>50000</Damage>
@@ -95,21 +95,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION</Encyclopedia_Unit_Class>
 		<Targeting_Max_Attack_Distance>20000.0</Targeting_Max_Attack_Distance>
 		<Unit_Abilities_Data SubObjectList="Yes"></Unit_Abilities_Data>
-		<Unit_Abilities_Data SubObjectList="Yes">
-		
-			<Unit_Ability>
-				<Type>SUPER_LASER</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> Death_Star_Super_Laser_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
-
-<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes">
 			<Planet_Destruction_Ability Name="Death_Star_Planet_Destruction">
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<SFXEvent_Target_Affected>Planet_Death_SFX</SFXEvent_Target_Affected>
@@ -140,8 +126,8 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR_II</Encyclopedia_Text>
 		
 		<Tech_Level>5</Tech_Level>
-		<Space_Model_Name>w_planet_deathstar02.alo</Space_Model_Name>
-		<Scale_Factor>5.0</Scale_Factor>
+		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
 
 		<Space_Escort_Unit_Types>
 				TIE_Interceptor_Squadron,

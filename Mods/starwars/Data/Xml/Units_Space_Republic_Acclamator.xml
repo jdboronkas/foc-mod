@@ -43,12 +43,12 @@
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Polus, Rattatak, Jabim, AlzocIII, Ilum, Manaan, AetenII, Mechis, Belkadan, Muunilinst, Mygeeto, Bonadan, Felucia, Kessel, Kashyyyk, Wayland, Alderaan, Saleucami, Kamino, Boz_Pitty, NalHutta, Hypori, Geonosis, Tatooine, VergessoAsteroids, Utapau, Mustafar, Polis_Massa, Rendili, Ord_Mantell, Bestine</Required_Planets>
+		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -76,36 +76,11 @@
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_1>Delta_7_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_1>Delta_7_Squadron, 4</Reserve_Spawned_Units_Tech_1> 
-		<Reserve_Spawned_Units_Tech_1>Arc_170_Squadron, 4</Reserve_Spawned_Units_Tech_1>
-		
-		<Starting_Spawned_Units_Tech_2>Eta_2_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Arc_170_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_2>Eta_2_Squadron, 4</Reserve_Spawned_Units_Tech_2> 
-		<Reserve_Spawned_Units_Tech_2>Arc_170_Squadron, 4</Reserve_Spawned_Units_Tech_2>
-		
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_3> 
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_3>
-		
-		<Starting_Spawned_Units_Tech_4>TIE_Bizarro_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Warhead_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bizarro_Squadron, 4</Reserve_Spawned_Units_Tech_4> 
-		<Reserve_Spawned_Units_Tech_4>TIE_Warhead_Squadron, 4</Reserve_Spawned_Units_Tech_4>
-		
-		<Starting_Spawned_Units_Tech_5>TIE_Phantom_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_5>TIE_Phantom_Squadron, 4</Reserve_Spawned_Units_Tech_5> 
-		<Reserve_Spawned_Units_Tech_5>TIE_Defender_Squadron, 4</Reserve_Spawned_Units_Tech_5>
-		
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<!--Currently no reserves -->
+
+
 		<HardPoints>
 			HP_Rep_Acclamator_Weapon_FC,
 			HP_Rep_Acclamator_Weapon_FL,

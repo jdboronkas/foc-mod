@@ -5,10 +5,5 @@
 	<File>CIN_HardPoints.xml</File>
 	<File>HardPoints_Underworld.xml</File>
 	<File>Prototype_Hardpoints.xml</File>
-	<File>HardPoints_Republic_Interdictor.xml</File>
-	<File>HardPoints-Sith_Battlecruiser.xml</File>
-	<File>HardPoints_Centurion.xml</File>
-	<File>HardPoints-Sith_Bomber.xml</File>
-	<File>HardPoints_Sith_Destroyer.xml</File>
-	<File>HardPoints_Sith_Frigate.xml</File>
+	<File>Hardpoints_Executor_Imperial.xml</File>
 </Hard_Point_Files>
