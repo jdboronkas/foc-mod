@@ -74,10 +74,11 @@
 		<HardPoints>
 			HP_BWING__LASER_00,
 			HP_BWING__LASER_01,
+			HP_BWING__LASER_02,
 			HP_BWING_ION_00,
-			HP_BWING_ION_00,
-			HP_BWING_TORP_00
-		</HardPoints>
+			HP_BWING_TORP_00,
+			HP_BWING_TORP_01
+			</HardPoints>
 
 		<SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_B_Wing</SFXEvent_Select>

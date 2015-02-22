@@ -101,13 +101,6 @@
 		<Prereq>Empire_Enters_Tech_02</Prereq>
 	</Event>
 
-	<Event Name="Lock_P1_Clone_Commander">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Field_Com_Republic_P1_Team</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
-	</Event>
-
 
 	<Event Name="Spawn_Veers">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -125,6 +118,78 @@
 	<Event Name="Empire_Enters_Tech_03">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>3</Event_Param1>
+	</Event>
+
+
+<Event Name="Lock_P2_Clone_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_7th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_7th</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_41st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_41st</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="Lock_212th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_212th</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_327th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clone_Trooper_327th</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_501st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_501st</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+
+	<Event Name="Lock_Republic_Light_Recon_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Light_Recon_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="Lock_AT_TE_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AT_TE_Company</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_Barc_Speeder_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Barc_Speeder_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_Sabertank_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Sabertank_Company</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
 	</Event>
 
 	<Event Name="The_New_Order_Remove_Anakin">
@@ -155,16 +220,62 @@
 		<Prereq>Empire_Enters_Tech_03</Prereq>
 	</Event>
 
+<Event Name="Lock_Republic_Carrack">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Carrack</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
 
+	<Event Name="Lock_V19_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>V19_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
 
-	<Event Name="The_New_Order_Spawn_Vader">
+	<Event Name="Lock_Republic_VWing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_VWing_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="Lock_Republic_Carrack">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Carrack</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_V19_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>V19_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Lock_Republic_VWing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_VWing_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="Lock_Arc_170_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Arc_170_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+<Event Name="The_New_Order_Spawn_Vader">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Darth_Team</Reward_Param1>
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>The_New_Order_Remove_Anakin</Prereq>
 	</Event>
-
 
 <Event Name="Spawn_Arc_Hammer">
 		<Event_Type>STORY_TRIGGER</Event_Type>

@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+
+
+
+
+<Corellian_Destroyer_Data>
+
+
+
+
+	<SpaceUnit Name="Corellian_Destroyer">
+    <Text_ID>TEXT_UNIT_CORELLIAN_DESTROYER</Text_ID>
+	  <Encyclopedia_Good_Against> Alliance_Assault_Frigate Victory_Destroyer </Encyclopedia_Good_Against>
+    <Encyclopedia_Vulnerable_To> MC30_Frigate B-wing TIE_Defender</Encyclopedia_Vulnerable_To>
+    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+	  <Encyclopedia_Text> TEXT_TOOLTIP_CORELLIAN_DESTROYER </Encyclopedia_Text>
+	  <Icon_Name>i_button_corellian_destroyer.tga</Icon_Name>
+    <GUI_Model_Name>CorSecDest.ALO</GUI_Model_Name>
+    <Space_Model_Name>CorSecDest.ALO</Space_Model_Name>
+    <Mass>0.995</Mass>
+    <Scale_Factor>0.80</Scale_Factor>
+    <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+    <Slice_Cost_Credits>3000</Slice_Cost_Credits>
+    <Tech_Level>1</Tech_Level>
+    <Required_Timeline>0</Required_Timeline>
+    <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+    <Required_Star_Base_Level>3</Required_Star_Base_Level>
+    <Ranking_In_Category>3</Ranking_In_Category>
+    <Select_Box_Scale>860</Select_Box_Scale>
+    <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+    <GUI_Bracket_Width>500</GUI_Bracket_Width>
+    <GUI_Bracket_Height>500</GUI_Bracket_Height>
+    <GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+    <MovementClass> Space </MovementClass>
+    <Space_Layer> Capital </Space_Layer>
+    <Max_Speed>2.2</Max_Speed>
+    <Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
+    <Max_Thrust>0.6</Max_Thrust>
+    <Max_Rate_Of_Roll>0.05</Max_Rate_Of_Roll>
+    <Bank_Turn_Angle>25</Bank_Turn_Angle>
+    <Hyperspace>Yes</Hyperspace>
+    <Hyperspace_Speed>1.5</Hyperspace_Speed>
+    <Space_Full_Stop_Command>yes</Space_Full_Stop_Command>
+    <OverrideAcceleration> .1 </OverrideAcceleration>
+    <OverrideDeceleration> .1 </OverrideDeceleration>
+    <Layer_Z_Adjust> -1 </Layer_Z_Adjust>
+
+    <Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+
+    <Death_Clone>Damage_Normal, Corellian_Destroyer_Death_Clone</Death_Clone>
+
+    <Damage>80</Damage>
+    <Autoresolve_Health>500</Autoresolve_Health>
+    <Shield_Points>2500</Shield_Points>
+    <Tactical_Health>4500</Tactical_Health>
+    <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+    <Energy_Capacity>5000</Energy_Capacity>
+    <Energy_Refresh_Rate>600</Energy_Refresh_Rate>
+
+    <Affiliation>Rebel</Affiliation>
+    <Ship_Class>capital</Ship_Class>
+    <Formation_Priority>4</Formation_Priority>
+    <Is_Bomber>no</Is_Bomber>
+    <Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+   <Political_Control>1</Political_Control>
+    
+    <Squadron_Capacity>40</Squadron_Capacity>
+    <Transport_Capacity>20</Transport_Capacity>
+    <Number_per_Squadron>1</Number_per_Squadron>
+    <AI_Combat_Power>3000</AI_Combat_Power>
+    <Build_Cost_Credits>2100</Build_Cost_Credits>
+    <Build_Time_Seconds>50</Build_Time_Seconds>
+    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+    <Size_Value>360</Size_Value>
+    <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+    <SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		
+
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
+    <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+    <Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+    <HardPoints>
+     HP_Corellian_Destroyer_Shield_Generator,
+	 HP_Corellian_Destroyer_Engines,
+	 HP_Corellian_Destroyer_TBL_Bug,
+	 HP_Corellian_Destroyer_Antijagerbatterie_Links,
+	 HP_Corellian_Destroyer_Antijagerbatterie_Rechts,
+	 HP_Corellian_Destroyer_Turbolaser_Turm_Oben,
+	 HP_Corellian_Destroyer_Turbolaser_Turm_Unten,
+	 HP_Corellian_Destroyer_Raketenwerfer_Links,
+	 HP_Corellian_Destroyer_Raketenwerfer_Rechts,
+	 HP_Corellian_Destroyer_Bruckenturm_Ionenkanone,
+	 HP_Corellian_Destroyer_AntiJager_Achtern_Links,
+	 HP_Corellian_Destroyer_AntiJager_Achtern_Rechts,
+	 HP_Corellian_Destroyer_AntiJager_Achtern_Oben,
+	 HP_Corellian_Destroyer_AntiJager_Achtern_Unten
+	 </HardPoints>
+    
+	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+    <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+    <Victory_Relevant>yes</Victory_Relevant>
+    
+    
+
+
+   <SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Vengeance_Frigate</SFXEvent_Build_Complete>
+    <SFXEvent_Select>Unit_Select_Vengeance_Frigate</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Vengeance_Frigate</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vengeance_Frigate</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Vengeance_Frigate</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Vengeance_Frigate</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Vengeance_Frigate</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vengeance_Frigate </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Vengeance_Frigate </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vengeance_Frigate </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Vengeance_Frigate </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Vengeance_Frigate </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+    <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+    <Population_Value>3</Population_Value>
+    <Score_Cost_Credits> 50000 </Score_Cost_Credits>
+
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+    <Tactical_Build_Prerequisites />
+    <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <!-- Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player-->
+    <!-- Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies-->
+    <!-- <MULTIPLAYER SKIRMISH VALUES END> -->
+
+    
+    <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+    <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+    <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+    <CategoryMask> Capital | AntiFrigate  | AntiFighter </CategoryMask>
+    <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+    <Has_Space_Evaluator>True</Has_Space_Evaluator>
+  </SpaceUnit>
+
+   	
+  
+  <SpaceUnit Name="Corellian_Destroyer_Death_Clone">
+    <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+		<Space_Model_Name> CorSecDest_D.ALO </Space_Model_Name>
+		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Scale_Factor> 0.80 </Scale_Factor>
+		<Layer_Z_Adjust> -1.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.25 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation>Underworld</Affiliation>
+		<Ship_Class> capital_ship </Ship_Class>
+		
+		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+  </SpaceUnit>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Corellian_Destroyer_Data>

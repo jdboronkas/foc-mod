@@ -112,12 +112,34 @@
 	<File>Units_Space_Republic_Acclamator.xml</File>
 	<File>Units_space_republic_victory_class_stardestroyer.xml</File>
 	<File>Units_space_republic_venator_class.xml</File>
-
+	<File>Units_space_republic_carrack.xml</File>
+	<File>Units_space_republic_v19_torrent_fighter.xml</File>
+	<File>Units_space_republic_vwing_fighter.xml</File>
+	<File>Units_space_republic_arc_170_fighter.xml</File>
 	
+	<File>Units_land_republic_7th_Sky_Corp.xml</File>
+	<File>Units_land_republic_41st.xml</File>
+	<File>Units_land_republic_212th.xml</File>
+  <File>Units_land_republic_327th_Star_Corp.xml</File>
+	<File>Units_land_republic_501st.xml</File>
+	<File>Units_land_republic_a6_juggernaut.xml</File>
+	<File>Units_land_republic_at_rt.xml</File>
+  <File>Units_land_republic_at_te.xml</File>
+	<File>Units_land_republic_barc_speeder.xml</File>
+	<File>Units_land_republic_clone_troopers_p1.xml</File>
+	<File>Units_land_republic_clone_troopers_p2.xml</File>
+  <File>Units_land_republic_saber_tank.xml</File>
+	<File>Units_Space_Republic_Acclamator_Transport.xml</File>
+
+
+
+
+
+
+
 
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Noghri.xml</File>
-	<File>Units_Land_Empire_Juggernaut.xml</File>
   <File>Units_Land_Empire_Darkside_Adepts.xml</File>
  
 
@@ -141,29 +163,20 @@
   <File>Units_Space_Rebel_MC40.xml</File>
   <File>Units_Space_Rebel_MC80.xml</File>
   <File>Units_Space_Rebel_Dreadnaught.xml</File>
-  <File>Units_Space_Rebel_Dauntless.xml</File>
+  <File>Units_space_rebel_corellian_battlecruiser.xml</File>
   <File>Units_Space_Rebel_MC90.xml</File>
 	<File>Units_Space_Rebel_MC75.xml</File>
-	<File>Units_Space_Rebel_Liberator.xml</File>
-	<File>Units_Space_Rebel_Rebel_Carrier.xml</File>
+	<File>Units_space_rebel_corellian_frigate.xml</File>
+	<File>Units_space_rebel_corellian_destroyer.xml</File>
 	<File>Units_Space_Rebel_Rebel_Assault_Frigate.xml</File>
 	<File>Units_Space_Rebel_Nebulon_B2.xml</File>
-	<File>Units_Space_Rebel_t_wing_fighter.xml</File>	
-	<File>Units_Space_Rebel_Cc7700.xml</File>
-	<File>Units_Space_Rebel_Corona_Frigate.xml</File>
-	<File>Units_Space_Rebel_Sacheen.xml</File>
-	<File>Units_Space_Rebel_Thranta.xml</File>
-	<File>Units_space_Rebel_Eta_2_Fighter.xml</File>	
-	<File>Units_space_Rebel_Delta_7_Fighter.xml</File>	
-	<File>Units_space_Rebel_Arc_170_Fighter.xml</File>
 	<File>Units_space_Rebel_E_Wing_Fighter.xml</File>
-	<File>Units_space_Rebel_Preybird_Fighter.xml</File>
-	<File>Units_Space_Rebel_Ferret.xml</File>
+	<File>Units_Space_rebel_n1_fighter.xml</File>
 	<File>Units_space_Rebel_K_Wing.xml</File>
 	<File>Units_Space_Rebel_Mediator.xml</File>
 
 	<File>Units_land_rebel_t1b_tank.xml</File>
-
+	<File>Units_land_rebel_t3b_tank.xml</File>
 
 
 

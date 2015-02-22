@@ -139,6 +139,15 @@
 		<Event_Param1>1</Event_Param1>
 	</Event>
 
+<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+
 	<Event Name="Lock_Jedi_Acclamator_Assault_Ship">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -282,7 +291,33 @@
 		<Prereq>Jedi_Purge_Remove_Luminara</Prereq>
 	</Event>
 
+	<Event Name="Lock_Z95_Headhunter_Rebel_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Z95_Headhunter_Rebel_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
 
+	<Event Name="Lock_Corellian_BattleCruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Corellian_BattleCruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+<Event Name="Lock_Corellian_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Corellian_Destroyer</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+<Event Name="Lock_Corellian_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Corellian_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
 
 
 
