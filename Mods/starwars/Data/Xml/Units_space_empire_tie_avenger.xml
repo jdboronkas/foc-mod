@@ -166,24 +166,12 @@
 
 		<Squadron_Units>TIE_Avenger, TIE_Avenger, TIE_Avenger</Squadron_Units>
     <Squadron_Units>TIE_Avenger, TIE_Avenger, TIE_Avenger</Squadron_Units>
-    <Squadron_Units>TIE_Avenger, TIE_Avenger, TIE_Avenger</Squadron_Units>
-    <Squadron_Units>TIE_Avenger, TIE_Avenger, TIE_Avenger</Squadron_Units>
-<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
-
-
-<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
-
-
-<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>20.0,0.0,-15.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,-50.0,-30.0</Squadron_Offsets>
+<Squadron_Offsets>-20.0,-50.0,15.0</Squadron_Offsets>
+<Squadron_Offsets>40.0,50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-40.0,15.0,30.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,30.0,0.-45</Squadron_Offsets>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>

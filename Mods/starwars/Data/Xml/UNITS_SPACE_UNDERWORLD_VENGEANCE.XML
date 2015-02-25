@@ -25,7 +25,7 @@
 
 		<Size_Value>8</Size_Value>
 		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-		<SpaceBehavior>SELF_DESTRUCT, SHIELDED, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<SpaceBehavior>SELF_DESTRUCT, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
 		<Max_Speed>2.5</Max_Speed>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
@@ -46,7 +46,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>2800</Build_Cost_Credits>
-		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -72,10 +72,10 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>4000</Autoresolve_Health>
-		<Shield_Points>2500</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
-		<Energy_Capacity>9999</Energy_Capacity>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
@@ -161,39 +161,39 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-            <Unit_Ability>
-                <Type>STEALTH</Type>
-				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
-                <GUI_Activated_Ability_Name>Stealth_Vengeance</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>45.0</Recharge_Seconds>
-					 <Expiration_Seconds>35.0</Expiration_Seconds>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-					 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Deactivated>
+         <Unit_Ability>
+            <Type>SELF_DESTRUCT</Type>
+            <Alternate_Description_Text>TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION</Alternate_Description_Text>
+            <Expiration_Seconds>3.5</Expiration_Seconds>
+            <Recharge_Seconds>10</Recharge_Seconds> 
+            <Spawned_Object_Type> Vengeance_Self_Destruct_Blast </Spawned_Object_Type>
+            <GUI_Activated_Ability_Name>Vengeance_Self_Destruct</GUI_Activated_Ability_Name>
+            <Stop_When_Activated>No</Stop_When_Activated>
+   
+            <!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>-->
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
+   
+         </Unit_Ability>
+
+         <Unit_Ability>
+             <Type>STEALTH</Type>
+             <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+             <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+             <GUI_Activated_Ability_Name>Stealth_Vengeance</GUI_Activated_Ability_Name> 
+             <Recharge_Seconds>15.0</Recharge_Seconds>
+             <Expiration_Seconds>60.0</Expiration_Seconds>
+             <SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+             <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Deactivated>
+             <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+         </Unit_Ability>
             
-            <Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Alternate_Description_Text>TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION</Alternate_Description_Text>
-				<Expiration_Seconds>3.5</Expiration_Seconds>
-				<Recharge_Seconds>10</Recharge_Seconds> 
-				<Spawned_Object_Type> Vengeance_Self_Destruct_Blast </Spawned_Object_Type>
-				<GUI_Activated_Ability_Name>Vengeance_Self_Destruct</GUI_Activated_Ability_Name>
-				<Stop_When_Activated>No</Stop_When_Activated>
-				
-				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>-->
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-                
-			</Unit_Ability>
-			
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
             <Stealth_Ability Name="Stealth_Vengeance">
                 <Activation_Style> User_Input </Activation_Style>
                 <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Stealth_Transition_Time>.5</Stealth_Transition_Time>
                 <SFXEvent_Activate></SFXEvent_Activate>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Stealth_Ability>

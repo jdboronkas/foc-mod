@@ -462,7 +462,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>40</Damage>
 
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red_X3</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Red -->
+		<Projectile_Types>Proj_Ship_Cyan_Laser</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Red -->
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
@@ -1022,7 +1022,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>40</Damage>
 					
-    <Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red_X3</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Red -->
+    <Projectile_Types>Proj_Ship_Cyan_Laser</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Red -->
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
@@ -1533,7 +1533,7 @@
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green_X2</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Cyan_Laser</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.12</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
@@ -2117,7 +2117,7 @@
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green_X2</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Green -->
+		<Projectile_Types>Proj_Ship_Cyan_Laser</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Green -->
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.12</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds> <!-- From 3.5 -->
@@ -2668,7 +2668,7 @@
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red_X3</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Red -->
+		<Projectile_Types>Proj_Ship_Cyan_Laser</Projectile_Types> <!-- From Proj_Ship_Small_Laser_Cannon_Red -->
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.12</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>

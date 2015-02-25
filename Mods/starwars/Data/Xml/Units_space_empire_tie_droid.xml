@@ -183,13 +183,13 @@
 
 		<Squadron_Units>TIE_Droid, TIE_Droid, TIE_Droid, TIE_Droid</Squadron_Units>
 		<Squadron_Units>TIE_Droid, TIE_Droid, TIE_Droid</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>	
+		<Squadron_Offsets>60.0,0.0,43.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,50.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,32.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,12.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,-15.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,90.0,-19.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,-90.0,-47.0</Squadron_Offsets>	
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>

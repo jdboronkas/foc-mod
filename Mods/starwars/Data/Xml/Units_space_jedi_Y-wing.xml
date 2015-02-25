@@ -141,7 +141,7 @@
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>Nos</Is_Escort>
@@ -162,27 +162,16 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-			<Squadron_Units>Jedi_Y-Wing, Jedi_Y-Wing, Jedi_Y-Wing</Squadron_Units>
-		<Squadron_Units>Jedi_Y-Wing, Jedi_Y-Wing, Jedi_Y-Wing</Squadron_Units>
-		<Squadron_Units>Jedi_Y-Wing, Jedi_Y-Wing, Jedi_Y-Wing</Squadron_Units>
-		<Squadron_Units>Jedi_Y-Wing, Jedi_Y-Wing, Jedi_Y-Wing</Squadron_Units>
+			<Squadron_Units>Jedi_Y-Wing, Jedi_Y-Wing, Jedi_Y-Wing, Jedi_Y-Wing</Squadron_Units>
+		
 <Max_Squad_Size>12</Max_Squad_Size>
-<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>15.0,7.0,30.0</Squadron_Offsets>
+<Squadron_Offsets>0.0,0.4,-10.0</Squadron_Offsets>
+<Squadron_Offsets>-15.0,-6.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>23.0,0.0,25.0</Squadron_Offsets>
 
 
-<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
 
-
-<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_YWING_PROTO.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

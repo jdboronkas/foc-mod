@@ -142,12 +142,13 @@
     <!--<Required_Planets>Ord_Mantell</Required_Planets>-->
     <Required_Special_Structures />
     <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-    <Squadron_Units>V19_Fighter, V19_Fighter, V19_Fighter, V19_Fighter, V19_Fighter</Squadron_Units>
-    <Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-    <Squadron_Offsets>5.0,15.0,-5.0</Squadron_Offsets>
-    <Squadron_Offsets>0.0,-18.0,-10.0</Squadron_Offsets>
-    <Squadron_Offsets>-30.0,30.0,10.0</Squadron_Offsets>
-    <Squadron_Offsets>-28.0,-30.0,9.0</Squadron_Offsets>
+    <Squadron_Units>V19_Fighter, V19_Fighter, V19_Fighter, V19_Fighter, V19_Fighter, V19_Fighter</Squadron_Units>
+    <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,45.0,-14.0</Squadron_Offsets>
+		<Squadron_Offsets>5.0,-50.0,6.0</Squadron_Offsets>
+		<Squadron_Offsets>-30.0,57.0,14.0</Squadron_Offsets>
+		<Squadron_Offsets>-52.0,-50.0,12.0</Squadron_Offsets>
+		<Squadron_Offsets>18.0,-30.0,-42.0</Squadron_Offsets>
     <GUI_Model_Name>REP_V19.ALO</GUI_Model_Name>
     <GUI_Distance>115</GUI_Distance>
     <GUI_Offset>0 0 0</GUI_Offset>

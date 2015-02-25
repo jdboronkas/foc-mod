@@ -216,24 +216,15 @@
 
 		<Squadron_Units>TIE_Defender, TIE_Defender, TIE_Defender</Squadron_Units>
     <Squadron_Units>TIE_Defender, TIE_Defender, TIE_Defender</Squadron_Units>
-    <Squadron_Units>TIE_Defender, TIE_Defender, TIE_Defender</Squadron_Units>
-    <Squadron_Units>TIE_Defender, TIE_Defender, TIE_Defender</Squadron_Units>
-<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+    <Squadron_Units>TIE_Defender</Squadron_Units>
+
+<Squadron_Offsets>15.0,0.25,50.0</Squadron_Offsets>
+<Squadron_Offsets>35.0,-25,-30.0</Squadron_Offsets>
+<Squadron_Offsets>-25.0,-50.0,0.0</Squadron_Offsets>
+<Squadron_Offsets>-45.0,50.0,20.0</Squadron_Offsets>
 
 
-<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
 
-
-<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
-<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>

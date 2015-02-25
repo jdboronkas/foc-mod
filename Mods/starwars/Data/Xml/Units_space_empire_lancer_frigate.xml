@@ -39,7 +39,7 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>
 		<Required_Planets>Kuat</Required_Planets>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>

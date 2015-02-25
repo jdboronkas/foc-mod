@@ -429,9 +429,9 @@
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat</Encyclopedia_Vulnerable_To>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
-		<Space_Model_Name>RV_HOMEONE.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_MC_90.ALO</Space_Model_Name>
 		<Mass>0.995</Mass>
-		<Scale_Factor>1.80</Scale_Factor>
+		<Scale_Factor>.45</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>3</Ranking_In_Category>
@@ -464,7 +464,7 @@
 		<Damage>80</Damage>
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Tactical_Health>8000</Tactical_Health>
-		<Shield_Points>5000</Shield_Points>
+		<Shield_Points>7500</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>
 		
 		<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
@@ -484,15 +484,64 @@
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, DAMAGE_TRACKING </SpaceBehavior>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, DAMAGE_TRACKING </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+	
+	
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_3>A-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+
+
 		<HardPoints>
-				HP_HomeOne_Shield_Generator, HP_HomeOne_Engines, HP_HomeOne_TBL_BL, HP_HomeOne_TBL_BR, HP_HomeOne_TBL_FL, HP_HomeOne_TBL_FR, HP_HomeOne_IC_BL, HP_HomeOne_IC_BR, HP_HomeOne_IC_FL, HP_HomeOne_IC_FR
-		</HardPoints>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+      HP_MC90_Ion_01,
+      HP_MC90_Ion_02,
+      HP_MC90_Ion_03,
+      HP_MC90_Ion_04,
+      HP_MC90_MainBattery_00,
+      HP_MC90_MainBattery_01,
+      HP_MC90_MainBattery_02,
+      HP_MC90_MainBattery_03,
+	  HP_MC90_MainBattery_04,
+	  HP_MC90_MainBattery_05,
+	  HP_MC90_MainBattery_06,
+	  HP_MC90_MainBattery_07,
+	  HP_MC90_MainBattery_08,
+	  HP_MC90_MainBattery_09,
+	  HP_MC90_MainBattery_10,
+	  HP_MC90_MainBattery_11,
+	  HP_MC90_Torpedo_00,
+	  HP_MC90_Torpedo_01,
+      HP_MC90_Engine,
+      HP_MC90_Shield,
+      HP_MC90_Fighter_Bay_02
+    </HardPoints>
+	
+		<Space_Escort_Unit_Types>
+     		   Calamari_Cruiser,
+     		   MC80,
+     		   MC30_Frigate, 
+		   MC_40,
+		   MC75    		
+		</Space_Escort_Unit_Types>
+
+
+
+	<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Score_Cost_Credits> 55000 </Score_Cost_Credits>
@@ -516,7 +565,7 @@
 
 		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
 
-		<Population_Value>4</Population_Value>
+		<Population_Value>10</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5300</Tactical_Build_Cost_Multiplayer>
@@ -614,9 +663,9 @@
 	
 	<UniqueUnit Name="Home_One_Death_Clone">
 		<Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
-		<Space_Model_Name> RV_HOMEONE_D.ALO </Space_Model_Name>
+		<Space_Model_Name> RV_MC_90_D.ALO </Space_Model_Name>
 		<Death_SFXEvent_Start_Die>SFX_Death_Bombard </Death_SFXEvent_Start_Die>
-		<Scale_Factor> 1.80 </Scale_Factor>
+		<Scale_Factor> .65</Scale_Factor>
 		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
 		<Max_Speed> 0.25 </Max_Speed>
 		<Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>

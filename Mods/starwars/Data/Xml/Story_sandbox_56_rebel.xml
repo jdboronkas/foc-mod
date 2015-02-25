@@ -409,6 +409,16 @@
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>4</Event_Param1>
 	</Event>
+
+
+	<Event Name="Lock_Y-Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+
 <Event Name="Spawn_Rogue_Squadron">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>

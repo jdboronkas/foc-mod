@@ -39,7 +39,7 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>800</Shield_Points>

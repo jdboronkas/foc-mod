@@ -22,7 +22,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Tyber_Zann_Team</Reward_Param1>
-		<Reward_Param2>Hypori</Reward_Param2>
+		<Reward_Param2>Mandalore</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -30,7 +30,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Bossk_Team</Reward_Param1>
-		<Reward_Param2>Hypori</Reward_Param2>
+		<Reward_Param2>Mandalore</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -38,7 +38,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Urai_Fen_Team</Reward_Param1>
-		<Reward_Param2>Hypori</Reward_Param2>
+		<Reward_Param2>Mandalore</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -46,7 +46,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
         <Reward_Param1>IG88_Team</Reward_Param1>
-        <Reward_Param2>Hypori</Reward_Param2>
+        <Reward_Param2>Mandalore</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -54,16 +54,50 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Silri_Team</Reward_Param1>
-		<Reward_Param2>Hypori</Reward_Param2>
+		<Reward_Param2>Mandalore</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Guri">
+	<Event Name="Spawn_Montross_Team">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Guri_Team</Reward_Param1>
-		<Reward_Param2>Hypori</Reward_Param2>
+		<Reward_Param1>Montross_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
+	<Event Name="General_Grievous_Team">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Grievous_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Nute_Gunray_Team">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Nute_Gunray_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Aurra_Sing_Team">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Aurra_Sing_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<Event Name="Durge_Team">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Durge_Team</Reward_Param1>
+		<Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
 </Story>

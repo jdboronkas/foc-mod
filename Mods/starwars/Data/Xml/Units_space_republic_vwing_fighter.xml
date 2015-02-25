@@ -172,12 +172,13 @@
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
 
-		<Squadron_Units>Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter</Squadron_Units>
+		<Squadron_Units>Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter, Republic_Vwing_Fighter</Squadron_Units>
 		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>5.0,15.0,-5.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-18.0,-10.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,30.0,10.0</Squadron_Offsets>
 		<Squadron_Offsets>-28.0,-30.0,9.0</Squadron_Offsets>
+		<Squadron_Offsets>36.0,-20.0,3.0</Squadron_Offsets>
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>

@@ -289,7 +289,7 @@
 		
 		<Score_Cost_Credits>600</Score_Cost_Credits>
         <Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>

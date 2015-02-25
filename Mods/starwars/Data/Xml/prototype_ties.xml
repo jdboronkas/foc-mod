@@ -187,13 +187,13 @@
 
 		<Squadron_Units>TIE_Bizarro, TIE_Bizarro, TIE_Bizarro, TIE_Bizarro</Squadron_Units>
 		<Squadron_Units>TIE_Bizarro, TIE_Bizarro, TIE_Bizarro</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>	
+		<Squadron_Offsets>60.0,0.0,33.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,-43.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,22.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,11.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,-34.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,90.0,13.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,-90.0,-13.0</Squadron_Offsets>	
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
@@ -415,13 +415,13 @@
 
 		<Squadron_Units>TIE_Biggun, TIE_Biggun, TIE_Biggun, TIE_Biggun</Squadron_Units>
 		<Squadron_Units>TIE_Biggun, TIE_Biggun, TIE_Biggun</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,200.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,10.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>	
+		<Squadron_Offsets>-60.0,-60.0,-1.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,90.0,-20.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,-90.0,-30.0</Squadron_Offsets>	
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
@@ -642,9 +642,9 @@
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
 		<Squadron_Units>TIE_Warhead, TIE_Warhead, TIE_Warhead, TIE_warhead</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,33.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,-10.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,22.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
 		
 
@@ -865,13 +865,13 @@
 
 		<Squadron_Units>TIE_Booster, TIE_Booster, TIE_Booster, TIE_Booster</Squadron_Units>
 		<Squadron_Units>TIE_Booster, TIE_Booster, TIE_Booster</Squadron_Units>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>60.0,0.0,-5.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>	
+		<Squadron_Offsets>0.0,-30.0,-34.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,15.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,33.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,90.0,11.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,-90.0,43.0</Squadron_Offsets>	
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>

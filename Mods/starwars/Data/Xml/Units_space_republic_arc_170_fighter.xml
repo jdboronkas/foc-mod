@@ -201,12 +201,13 @@
 		<!--<Required_Planets>Ord_Mantell</Required_Planets>-->
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Arc_170, Arc_170, Arc_170, Arc_170, Arc_170</Squadron_Units>
+		<Squadron_Units>Arc_170, Arc_170, Arc_170, Arc_170, Arc_170, Arc_170</Squadron_Units>
 	<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,31.0,-10.0</Squadron_Offsets>
 		<Squadron_Offsets>5.0,-30.0,-8.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,57.0,10.0</Squadron_Offsets>
 		<Squadron_Offsets>-58.0,-60.0,12.0</Squadron_Offsets>
+		<Squadron_Offsets>38.0,-40.0,-12.0</Squadron_Offsets>
 		<GUI_Model_Name>rev_arc170.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

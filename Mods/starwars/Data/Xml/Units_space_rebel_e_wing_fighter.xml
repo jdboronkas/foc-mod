@@ -192,12 +192,12 @@
 		<!--<Required_Planets>Coruscant</Required_Planets>-->
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>E_Wing, E_Wing, E_Wing, E_Wing, E_Wing</Squadron_Units>
-		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Units>E_Wing, E_Wing, E_Wing, E_Wing</Squadron_Units>
+		<Squadron_Offsets>30.0,0.0,-15</Squadron_Offsets>
+		<Squadron_Offsets>0.0,15.0,7</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-15.0,-7</Squadron_Offsets>
+		<Squadron_Offsets>-30.0,30.0,15</Squadron_Offsets>
+	
 		<GUI_Model_Name>F_E-WING.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
