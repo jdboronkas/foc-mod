@@ -422,12 +422,14 @@
 
 
 <SpaceUnit Name="Executor_SSD">
+		
+<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_SSD_EXECUTOR</Text_ID>
 		<Encyclopedia_Good_Against> Nebulon_B_Frigate Alliance_Assault_Frigate Calamari_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing B-Wing </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>LoW_EU_IMP_SSD.ALO</Space_Model_Name>
-		<Select_Box_Scale>2400</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-1050</Select_Box_Z_Adjust>
+			<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
    	<Scale_Factor>2.6</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>

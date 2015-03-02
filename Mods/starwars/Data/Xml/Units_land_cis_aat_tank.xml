@@ -31,7 +31,7 @@
     <!--<Is_Sprite>No</Is_Sprite>-->
     <Type>Tracked</Type>
     <Deploys>No</Deploys>
-    <Affiliation>Rebel</Affiliation>
+    <Affiliation>Underworld</Affiliation>
     <Political_Control>0</Political_Control>
    
     <Ranking_In_Category>5</Ranking_In_Category>
@@ -495,7 +495,7 @@
 		<Damage>24</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>500</Build_Cost_Credits> <!-- From 175 FOR NORMAL AAT -->
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -504,7 +504,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>U_Ground_Droid_Vehicle_Factory</Required_Special_Structures>
 		<!--<Required_Planets>Geonosis, Mechis, Hypori</Required_Planets>-->
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <HardPoints>
@@ -315,4 +315,158 @@
 		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
+<HardPoint Name="HP_Escort_Carrier_B_Dummy">
+		<Type>HARD_POINT_DUMMY_ART</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+		<Model_To_Attach>EV_ESCORTCARRIER_HP_B.ALO</Model_To_Attach>
+		<Attachment_Bone>HP_B_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_B_COLL</Collision_Mesh>
+		<Damage_Decal>HP_B_blast</Damage_Decal>
+		<Damage_Particles>HP_B_EmitDamage</Damage_Particles>
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Escort_Carrier_B</Death_Breakoff_Prop>
+	</HardPoint>
+	<HardPoint Name="HP_Escort_Carrier_B">
+		<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
+		<Special_Ability_Name>Repair_Facility_Healing</Special_Ability_Name>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_SUPPLY_DOCK_HARDPOINT</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+		<Model_To_Attach>EV_ESCORTCARRIER_HP_B.ALO</Model_To_Attach>
+		<Attachment_Bone>HP_B_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_B_COLL</Collision_Mesh>
+		<Damage_Decal>HP_B_blast</Damage_Decal>
+		<Damage_Particles>HP_B_EmitDamage</Damage_Particles>
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Escort_Carrier_B</Death_Breakoff_Prop>
+	</HardPoint>
+	<HardPoint Name="HP_Escort_Carrier_F">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Model_To_Attach>EV_ESCORTCARRIER_HP_F.ALO</Model_To_Attach>
+		<Attachment_Bone>HP_F_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_F_COLL</Collision_Mesh>
+		<Damage_Decal>HP_F_blast</Damage_Decal>
+		<Damage_Particles>HP_F_EmitDamage</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>500.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles><!-- STUBBED PLACEHOLDER --><Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent><!-- STUBBED PLACEHOLDER --></HardPoint>
+	<HardPoint Name="HP_Escort_Carrier_T">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+		<Model_To_Attach>EV_ESCORTCARRIER_HP_T.ALO</Model_To_Attach>
+		<Attachment_Bone>HP_T_Bone</Attachment_Bone>
+		<Collision_Mesh>HP_T_COLL</Collision_Mesh>
+		<Damage_Decal>HP_T_BLAST</Damage_Decal>
+		<Damage_Particles>HP_T_EMITDAMAGE</Damage_Particles>
+		<Death_Breakoff_Prop/>
+		<Fire_Bone_A>FP_T_00</Fire_Bone_A>
+		<Fire_Bone_B>FP_T_01</Fire_Bone_B>
+		<Fire_Cone_Width>180</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Tie_Bomb</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+	</HardPoint>
+	<HardPoint Name="HP_Escort_Carrier_L">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+		<Health>400.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+		<Model_To_Attach>EV_ESCORTCARRIER_HP_L.ALO</Model_To_Attach>
+		<Attachment_Bone>HP_L_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_L_COLL</Collision_Mesh>
+		<Damage_Decal>HP_L_BLAST</Damage_Decal>
+		<Damage_Particles>HP_L_EMITDAMAGE</Damage_Particles>
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Escort_Carrier_L </Death_Breakoff_Prop>
+		<Damage_Type>Damage_Interdictor</Damage_Type>
+		<Fire_Bone_A>FP_L_00</Fire_Bone_A>
+		<Fire_Bone_B>FP_L_01</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+	<HardPoint Name="HP_Escort_Carrier_R">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+		<Health>400.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+		<Model_To_Attach>EV_ESCORTCARRIER_HP_R.ALO</Model_To_Attach>
+		<Attachment_Bone>HP_R_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_R_COLL</Collision_Mesh>
+		<Damage_Decal>HP_R_BLAST</Damage_Decal>
+		<Damage_Particles>HP_R_EMITDAMAGE</Damage_Particles>
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Escort_Carrier_R</Death_Breakoff_Prop>
+		<Damage_Type>Damage_Interdictor</Damage_Type>
+		<Fire_Bone_A>FP_R_00</Fire_Bone_A>
+		<Fire_Bone_B>FP_R_01</Fire_Bone_B>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
+		<Fire_Cone_Height>160.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+	<HardPoint Name="HP_Escort_Carrier_Engines">
+		<Type> HARD_POINT_ENGINE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+		<Health>400.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+		<Attachment_Bone>HP_E_BONE</Attachment_Bone><!-- This is an attachment bone for the HUD reticle centering, even though no model is attached --><Collision_Mesh>HP_E_COLL</Collision_Mesh>
+		<Damage_Decal/>
+		<Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+		<Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+	</HardPoint>
+
+
+
     </HardPoints>
+    
+    
+    

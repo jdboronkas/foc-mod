@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 
 <Game_Object_Files>
 
@@ -103,7 +103,7 @@
 	<File>Units_Space_Empire_Executor.xml</File>
 	<File>Units_Space_Empire_Lancer_Frigate.xml</File>
 	<File>Units_Space_Empire_Assault_Gunboat.xml</File>
-	<File>Units_Space_Empire_Escort_Carrier.xml</File>
+	<File>Units_space_empire_escort_carrier.xml</File>
 	<File>Units_Space_Empire_Carrack.xml</File>
 	<File>Units_Space_Empire_Strikecruiser.xml</File>
 	<File>Units_Space_Empire_Venator.xml</File>
@@ -202,20 +202,20 @@
 	<File>Units_Land_Underworld_MAL.xml</File>
 	<File>Units_Land_Underworld_PulseTank.xml</File>
 	<File>Units_Land_Underworld_Canderous_Tank.xml</File>
-	<File>Units_Land_Underworld_ScavengerDroids.xml</File>
+	<File>Units_land_cis_battledroid.xml</File>
 	<File>Units_Land_Underworld_NightSister.xml</File>
 	<File>Units_Land_Underworld_Ewok_Bomber.xml</File>
   <File>Units_Land_Underworld_Mandalorian_Commando.xml</File>
-  <File>Units_Land_Underworld_Super_Battledroid.xml</File>
-  <File>Units_Land_Underworld_Enforcer_Tank.xml</File>
-	<File>Units_Land_Underworld_Battledroid.xml</File>
-	<File>Units_Land_Underworld_Aat_Tank.xml</File>
-	<File>Units_Land_Underworld_Droideka_Mk1.xml</File>
-	<File>Units_Land_Underworld_Hailfire_Tank.xml</File>
-	<File>Units_Land_Underworld_Stap.xml</File>
-	<File>Units_Land_Underworld_R3_Slicer_Droid.xml</File>
-	<File>Units_Land_Underworld_V19.xml</File>
-	<File>Units_Land_Underworld_Mtt.xml</File>
+  <File>Units_land_cis_aat_tank.xml</File>
+  <File>Units_land_cis_crabdroid.xml</File>
+	<File>Units_Land_cis_destroyerdroids.xml</File>
+	<File>Units_land_cis_dwarf_spider_walker.xml</File>
+	<File>Units_land_cis_enforcer_tank.xml</File>
+	<File>Units_land_cis_hag.xml</File>
+	<File>Units_land_cis_hailfire_tank.xml</File>
+	<File>Units_land_cis_Homing_Spider_Walker.xml</File>
+	<File>Units_Land_cis_stap.xml</File>
+	<File>Units_land_cis_super_battledroid.xml</File>
 	
 	
 	<File>Units_Space_Underworld_StarViper.xml</File>

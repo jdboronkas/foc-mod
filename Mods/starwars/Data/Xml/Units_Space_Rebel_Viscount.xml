@@ -5,7 +5,6 @@
 
 
 	<UniqueUnit Name="Viscount_Star_Defender">
-		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_VISCOUNT</Text_ID>
 		
 		<Encyclopedia_Good_Against> Executor_Super_Star_Destroyer Imperial_Star_Base_5 Krayt_Class_Destroyer </Encyclopedia_Good_Against>
@@ -49,6 +48,7 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -68,9 +68,9 @@
 
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>5</Build_Cost_Credits>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
 		<AI_Combat_Power>45000</AI_Combat_Power>
-		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		

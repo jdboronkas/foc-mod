@@ -45,7 +45,16 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<Required_Planets />
+		<Required_Planets>
+				Bestine, 
+				Corellia, 
+				Kuat, 
+				Mandalore, 
+				MonCilimari, 
+				Rendili,
+				Sullust, 
+				The_Maw, 
+			</Required_Planets>
 		<Build_Cost_Credits>6000</Build_Cost_Credits>
 		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>

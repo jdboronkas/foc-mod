@@ -47,7 +47,7 @@
     <!--<Is_Sprite>No</Is_Sprite>-->
     <Type>Hover</Type>
     <Deploys>No</Deploys>
-    <Affiliation>Rebel</Affiliation>
+    <Affiliation>Underworld</Affiliation>
     <Political_Control>0</Political_Control>
     <Size_Value>25</Size_Value>
     <Damage>5</Damage>
@@ -138,7 +138,7 @@
     <Is_Dummy>Yes</Is_Dummy>
     <Damage>10</Damage>
     <Autoresolve_Health>100</Autoresolve_Health>
-    <Affiliation>Rebel</Affiliation>
+    <Affiliation>Underworld</Affiliation>
     <Build_Cost_Credits>75</Build_Cost_Credits>
     <Piracy_Value_Credits>10</Piracy_Value_Credits>
     <Build_Time_Seconds>3</Build_Time_Seconds>
@@ -149,7 +149,7 @@
     <!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
     <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
     <Required_Star_Base_Level>0</Required_Star_Base_Level>
-    <Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
+    <Required_Special_Structures>U_Ground_Droid_Works</Required_Special_Structures>
     <Required_Planets />
     <Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
     <Formation_Priority>1</Formation_Priority>

@@ -20,7 +20,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
 		
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 
    
@@ -286,7 +286,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 		
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>600</Build_Cost_Credits>
 		<Build_Time_Seconds>12</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -294,11 +294,11 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>U_Ground_Droid_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -317,7 +317,7 @@
 		
 		<Score_Cost_Credits>600</Score_Cost_Credits>
         <Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>

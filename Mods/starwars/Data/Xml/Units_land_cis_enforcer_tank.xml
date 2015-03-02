@@ -31,7 +31,7 @@
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>	
 		<Ranking_In_Category>7</Ranking_In_Category>
 
@@ -192,16 +192,16 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>650</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>U_Ground_Droid_Vehicle_Factory</Required_Special_Structures>
 		<!--<Required_Planets>Geonosis, Mechis, Hypori</Required_Planets>-->
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -212,7 +212,7 @@
 		<Company_Units>Persuader_Droid_Enforcer, Persuader_Droid_Enforcer</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Score_Cost_Credits>180</Score_Cost_Credits>
-		<Population_Value>2</Population_Value>
+		<Population_Value>1</Population_Value>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Cheap_Bribe_Cost>9</Cheap_Bribe_Cost>

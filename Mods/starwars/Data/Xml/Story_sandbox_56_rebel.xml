@@ -128,8 +128,21 @@
 		<Prereq>Rebels_Enter_Tech_00</Prereq>
 	</Event>
 
+<Event Name="Spawn_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Dodonna_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
 
-
+	<Event Name="Spawn_Bail_Organa">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Bail_Organa_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_00</Prereq>
+	</Event>
 
 
 	<!-- Spawn Tech 2 Heroes -->
@@ -146,29 +159,6 @@
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_01</Prereq>
 	</Event>
-
-
-	<Event Name="Lock_Jedi_Acclamator_Assault_Ship">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Jedi_Acclamator_Assault_Ship</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-
-	<Event Name="Lock_Republic_light_assault_cruiser">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Republic_light_assault_cruiser</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-
-<Event Name="Lock_Republic_light_frigate">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Republic_light_frigate</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-
 <Event Name="Lock_Jedi_Y-Wing">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -176,19 +166,7 @@
 		<Prereq>Rebels_Enter_Tech_01</Prereq>
 	</Event>
 
-<Event Name="Lock_Delta-7">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Delta_7_Squadron</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-
-<Event Name="Lock_Eta_2_Squadron">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Eta_2_Squadron</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
+	
 
 	<!-- Spawn Tech 3 Heroes -->
 
@@ -298,6 +276,58 @@
 		<Prereq>Rebels_Enter_Tech_02</Prereq>
 	</Event>
 
+	<Event Name="Lock_Jedi_Acclamator_Assault_Ship">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Jedi_Acclamator_Assault_Ship</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Lock_Republic_light_assault_cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_light_assault_cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>>
+	</Event>
+
+<Event Name="Lock_Republic_light_frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_light_frigate</Reward_Param1>
+	<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+
+	<Event Name="Lock_Venator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Lock_Dreadnaught_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Dreadnaught_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+<Event Name="Lock_Delta-7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Delta_7_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+<Event Name="Lock_Eta_2_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Eta_2_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+
+
 	<Event Name="Lock_Corellian_BattleCruiser">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -319,15 +349,6 @@
 		<Prereq>Rebels_Enter_Tech_02</Prereq>
 	</Event>
 
-
-
-<Event Name="Spawn_Dodonna">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Dodonna_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_02</Prereq>
-	</Event>
 	<Event Name="Spawn_Ackbar">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>

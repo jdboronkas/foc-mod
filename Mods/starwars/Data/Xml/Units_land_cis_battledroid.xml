@@ -55,7 +55,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -267,7 +267,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>5</Damage>
 		<Autoresolve_Health>25</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>150</Build_Cost_Credits> <!-- From 15 -->
 		<Build_Time_Seconds>3</Build_Time_Seconds>
 		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
@@ -277,7 +277,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_ground_barracks</Required_Special_Structures>
+		<Required_Special_Structures>U_Ground_Droid_Works</Required_Special_Structures>
 		<!--<Required_Planets>Carida</Required_Planets>-->
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>

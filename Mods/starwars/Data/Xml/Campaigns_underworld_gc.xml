@@ -13360,7 +13360,7 @@
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Light_Tank_Brigade </Starting_Forces>-->
 	
-		<!-- Empire Starting Forces -->
+			<!-- Empire Starting Forces -->
 
 		<Starting_Credits> Empire,  15000 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
@@ -13368,8 +13368,8 @@
 					
 		<!-- Anaxes Space Forces -->
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Rep_Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, V19_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Anaxes Land Forces -->
 		<Starting_Forces> Empire, Anaxes, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Light_Recon_Squad </Starting_Forces>
@@ -13377,8 +13377,8 @@
 		
 		<!-- Byss Space Forces -->
 		<Starting_Forces> Empire, Byss, Empire_Star_Base_5 </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Rep_Acclamator_Assault_Ship </Starting_Forces>
+			<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Byss Land Forces -->
 		<Starting_Forces> Empire, Byss, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Republic_Light_Recon_Squad </Starting_Forces>
@@ -13395,8 +13395,8 @@
 		
 		<!-- Corulag Space Forces -->
 		<Starting_Forces> Empire, Corulag, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Corulag, V19_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Corulag, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Corulag Land Forces -->
 		<Starting_Forces> Empire, Corulag, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Republic_Light_Recon_Squad </Starting_Forces>
@@ -13404,23 +13404,22 @@
 
         <!-- Coruscant Space Forces -->
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_5 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Republic_Victory_Destroyer </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
         <!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Sabertank_Company </Starting_Forces>
 			
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Rep_Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, V19_Squadron </Starting_Forces>
+	<Starting_Forces> Empire, Coruscant, Empire_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Kuat Land Forces -->
 		<Starting_Forces> Empire, Kuat, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Republic_Light_Recon_Squad </Starting_Forces>
-	
+		
 		<!-- Underworld Starting Forces -->
 
 		<Starting_Credits> Underworld,  15000 </Starting_Credits>
@@ -14030,8 +14029,8 @@
 					
 		<!-- Anaxes Space Forces -->
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Rep_Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, V19_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Anaxes Land Forces -->
 		<Starting_Forces> Empire, Anaxes, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Light_Recon_Squad </Starting_Forces>
@@ -14039,8 +14038,8 @@
 		
 		<!-- Byss Space Forces -->
 		<Starting_Forces> Empire, Byss, Empire_Star_Base_5 </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Rep_Acclamator_Assault_Ship </Starting_Forces>
+			<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Byss Land Forces -->
 		<Starting_Forces> Empire, Byss, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Republic_Light_Recon_Squad </Starting_Forces>
@@ -14057,8 +14056,8 @@
 		
 		<!-- Corulag Space Forces -->
 		<Starting_Forces> Empire, Corulag, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Corulag, V19_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Corulag, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Corulag Land Forces -->
 		<Starting_Forces> Empire, Corulag, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Republic_Light_Recon_Squad </Starting_Forces>
@@ -14066,23 +14065,22 @@
 
         <!-- Coruscant Space Forces -->
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_5 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Republic_Victory_Destroyer </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
         <!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Sabertank_Company </Starting_Forces>
 			
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Rep_Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, V19_Squadron </Starting_Forces>
+	<Starting_Forces> Empire, Coruscant, Empire_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Kuat Land Forces -->
 		<Starting_Forces> Empire, Kuat, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Republic_Light_Recon_Squad </Starting_Forces>
-	
+		
 		<!-- Underworld Starting Forces -->
 
 		<Starting_Credits> Underworld,  15000 </Starting_Credits>
@@ -14737,8 +14735,8 @@
 					
 		<!-- Anaxes Space Forces -->
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Rep_Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, V19_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Anaxes Land Forces -->
 		<Starting_Forces> Empire, Anaxes, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Republic_Light_Recon_Squad </Starting_Forces>
@@ -14746,8 +14744,8 @@
 		
 		<!-- Byss Space Forces -->
 		<Starting_Forces> Empire, Byss, Empire_Star_Base_5 </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Rep_Acclamator_Assault_Ship </Starting_Forces>
+			<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Byss Land Forces -->
 		<Starting_Forces> Empire, Byss, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Republic_Light_Recon_Squad </Starting_Forces>
@@ -14764,8 +14762,8 @@
 		
 		<!-- Corulag Space Forces -->
 		<Starting_Forces> Empire, Corulag, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Corulag, V19_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Corulag, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Corulag Land Forces -->
 		<Starting_Forces> Empire, Corulag, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Corulag, Republic_Light_Recon_Squad </Starting_Forces>
@@ -14773,18 +14771,17 @@
 
         <!-- Coruscant Space Forces -->
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_5 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Republic_Victory_Destroyer </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
         <!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Republic_Clonetrooper_P1_Company </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Sabertank_Company </Starting_Forces>
 			
 		<!-- Kuat Space Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Rep_Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, V19_Squadron </Starting_Forces>
+	<Starting_Forces> Empire, Coruscant, Empire_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_Destroyer </Starting_Forces>
 		<!-- Kuat Land Forces -->
 		<Starting_Forces> Empire, Kuat, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Republic_Clonetrooper_P1_Company </Starting_Forces>

@@ -50,7 +50,7 @@
 		<Deploys>Yes</Deploys>
 		<Auto_Deploys>Yes</Auto_Deploys>
 		<Deployment_Anim_Rate>3.0</Deployment_Anim_Rate>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Size_Value>75</Size_Value>
 		<Armor_Type> Armor_Destroyer_Droid </Armor_Type>
 		<Damage>6</Damage>
@@ -282,7 +282,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>36</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>400</Build_Cost_Credits> <!-- From 350 -->
 		<Build_Time_Seconds>9</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -291,7 +291,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_ground_barracks</Required_Special_Structures>
+		<Required_Special_Structures>U_Ground_Droid_Works</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>6</Formation_Priority>
