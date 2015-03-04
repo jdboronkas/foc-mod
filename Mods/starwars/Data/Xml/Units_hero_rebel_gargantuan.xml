@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <Gargantuan_Battle_Platform_Data>
@@ -272,7 +272,7 @@
 		
 			<Affiliation>Rebel</Affiliation>
 		
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -323,9 +323,11 @@
 			LeftGunPod10_00,
 		</HardPoints>
 		
-		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Rebel_Squadron,, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron,, 2</Starting_Spawned_Units_Tech_2>
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron,, 2</Starting_Spawned_Units_Tech_3>
+    <Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron,, 2</Starting_Spawned_Units_Tech_4>
 
 		<Icon_Name>I_BUTTON_DREADNAUGHT.TGA</Icon_Name>
 		<GUI_Model_Name>ReV_Dread.ALO</GUI_Model_Name>

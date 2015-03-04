@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Venator_Data>
 
 <SpaceUnit Name="Venator_Empire">
@@ -120,7 +120,7 @@
 			HP_Venator_R4,
 			HP_Venator_Fighter_Bay_L,
 			HP_Venator_Fighter_Bay_R,
-			HP_Venator_MC
+	HP_Republic_Venator_SPHA
 		</HardPoints>
    				
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>

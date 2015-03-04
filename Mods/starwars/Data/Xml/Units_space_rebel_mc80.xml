@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <MC80_Data>
@@ -79,14 +79,19 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<HardPoints>
-			 HP_HomeOne_Shield_Generator, HP_HomeOne_Engines, HP_HomeOne_TBL_BL, HP_HomeOne_TBL_BR, HP_HomeOne_TBL_FL, HP_HomeOne_TBL_FR, HP_HomeOne_IC_BL, HP_HomeOne_IC_BR, HP_HomeOne_IC_FL, HP_HomeOne_IC_FR
+			 HP_MC80_Fighter_Bay, HP_HomeOne_Shield_Generator, HP_HomeOne_Engines, HP_HomeOne_TBL_BL, HP_HomeOne_TBL_BR, HP_HomeOne_TBL_FL, HP_HomeOne_TBL_FR, HP_HomeOne_IC_BL, HP_HomeOne_IC_BR, HP_HomeOne_IC_FL, HP_HomeOne_IC_FR
 		</HardPoints>
 	
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+			<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+			<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 
 
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -165,7 +170,17 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-			
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
+			</Unit_Ability>
 			</Unit_Abilities_Data>
 				
 		<Is_Named_Hero>No</Is_Named_Hero>

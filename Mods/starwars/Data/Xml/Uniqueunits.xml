@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <UniqueUnits>
 
 	<!-- The Accuser Star Destroyer is used by Captain Firmus Piett (Empire Major Hero) during space battles -->
@@ -493,17 +493,16 @@
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 	
 	
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_3>A-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>A-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+			<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+			<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		
 
 

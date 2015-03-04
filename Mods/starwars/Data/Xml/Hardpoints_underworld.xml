@@ -5362,12 +5362,12 @@
 
 			
 	
-		<Projectile_Damage>80.0</Projectile_Damage>
+
             <Fire_Bone_A>Warhead_Launcher</Fire_Bone_A>
             <Fire_Bone_B>Warhead_Launcher</Fire_Bone_B>
             <Fire_Cone_Width>130.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Diamond_Boron_Missile</Fire_Projectile_Type> <!-- Split off so it doesn't 5x cap ships -->
+            <Fire_Projectile_Type>Proj_Ship_Heavy_Rocket</Fire_Projectile_Type> <!-- Split off so it doesn't 5x cap ships -->
             <Fire_Min_Recharge_Seconds>18.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>18.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -5395,7 +5395,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>80.0</Projectile_Damage>
+
             <Fire_Bone_A>IonCannon</Fire_Bone_A>
             <Fire_Bone_B>IonCannon</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5440,7 +5440,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod02</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod02</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5486,7 +5486,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod03</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod03</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5532,7 +5532,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod04</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod04</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5576,8 +5576,7 @@
             <Damage_Particles>LeftGunPod05</Damage_Particles>
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
-	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod05</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod05</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5623,7 +5622,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod07</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod07</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5669,7 +5668,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+	
             <Fire_Bone_A>LeftGunPod08</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod08</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5715,7 +5714,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod09</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod09</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -5761,7 +5760,7 @@
 
 			<Death_Breakoff_Prop> Space_Junk_Small_NO_Collision </Death_Breakoff_Prop>
 	
-		<Projectile_Damage>60.0</Projectile_Damage>
+
             <Fire_Bone_A>LeftGunPod10</Fire_Bone_A>
             <Fire_Bone_B>LeftGunPod10</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>

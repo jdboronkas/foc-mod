@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Grand_Admiral_Thrawn_Data>
 
 
@@ -185,7 +185,7 @@
 		<Encyclopedia_Vulnerable_To> B-Wing MC30_Frigate Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_thrawn.tga</Icon_Name>
 
-	<Space_Model_Name>EV_StarDestroyer_MKI.ALO</Space_Model_Name>
+	<Space_Model_Name>ev_isd_mk2.ALO</Space_Model_Name>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
@@ -200,40 +200,26 @@
 
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
 
-		<HardPoints>
-		HP_NEWISD_Engines
-		HP_NEWISD_Shields
-		HP_NEWISD_Tractor_Beam
-		HP_NEWISD_Fighter_Bay
-		HP_NEWISD_01
-		HP_NEWISD_02
-		HP_NEWISD_03
-		HP_NEWISD_04
-		HP_NEWISD_05
-		HP_NEWISD_06
-		HP_NEWISD_07
-		HP_NEWISD_08
-		HP_NEWISD_09
-		HP_NEWISD_10
-		HP_NEWISD_11
-		HP_NEWISD_12
-		<!-- HP_NEWISD_13 IS ONE OF THE PROBLEMS -->
-		HP_NEWISD_14
-		<!-- HP_NEWISD_15 IS ONE OF THE PROBLEMS -->
-		HP_NEWISD_16
-		HP_NEWISD_17
-		HP_NEWISD_18
-		HP_NEWISD_19
-		HP_NEWISD_20
-		HP_NEWISD_21
-		HP_NEWISD_22
-		HP_NEWISD_23
-		HP_NEWISD_24
-		HP_NEWISD_25
-		HP_NEWISD_26
-		HP_NEWISD_27
-		HP_NEWISD_28
-		HP_NEWISD_29
+			<HardPoints> 
+			HP_ISD_Shield,
+			HP_ISD_Engines,
+			HP_ISD_Hangars,
+			HP_ISD_TractorBeam,
+			HP_ISD_Weapon1C,
+			HP_ISD_Weapon1L,
+			HP_ISD_Weapon1R,
+			HP_ISD_Weapon2L,
+			HP_ISD_Weapon2R,
+			HP_ISD_Weapon3L,
+			HP_ISD_Weapon3R,
+			HP_ISD_Turret01,
+			HP_ISD_Turret02,
+			HP_ISD_Turret03,
+			HP_ISD_Turret04,
+			HP_ISD_Turret05,
+			HP_ISD_Turret06,
+			HP_ISD_Turret07,
+			HP_ISD_Turret08
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Thrawn</SFXEvent_Select>
@@ -368,40 +354,26 @@
 	<UniqueUnit Name="Admonitor_Star_Destroyer_No_Engine_Hardpoint">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
 
-		<HardPoints>
-		HP_NEWISD_Engines
-		HP_NEWISD_Shields
-		HP_NEWISD_Tractor_Beam
-		HP_NEWISD_Fighter_Bay
-		HP_NEWISD_01
-		HP_NEWISD_02
-		HP_NEWISD_03
-		HP_NEWISD_04
-		HP_NEWISD_05
-		HP_NEWISD_06
-		HP_NEWISD_07
-		HP_NEWISD_08
-		HP_NEWISD_09
-		HP_NEWISD_10
-		HP_NEWISD_11
-		HP_NEWISD_12
-		<!-- HP_NEWISD_13 IS ONE OF THE PROBLEMS -->
-		HP_NEWISD_14
-		<!-- HP_NEWISD_15 IS ONE OF THE PROBLEMS -->
-		HP_NEWISD_16
-		HP_NEWISD_17
-		HP_NEWISD_18
-		HP_NEWISD_19
-		HP_NEWISD_20
-		HP_NEWISD_21
-		HP_NEWISD_22
-		HP_NEWISD_23
-		HP_NEWISD_24
-		HP_NEWISD_25
-		HP_NEWISD_26
-		HP_NEWISD_27
-		HP_NEWISD_28
-		HP_NEWISD_29
+		<HardPoints> 
+			HP_ISD_Shield,
+			HP_ISD_Engines,
+			HP_ISD_Hangars,
+			HP_ISD_TractorBeam,
+			HP_ISD_Weapon1C,
+			HP_ISD_Weapon1L,
+			HP_ISD_Weapon1R,
+			HP_ISD_Weapon2L,
+			HP_ISD_Weapon2R,
+			HP_ISD_Weapon3L,
+			HP_ISD_Weapon3R,
+			HP_ISD_Turret01,
+			HP_ISD_Turret02,
+			HP_ISD_Turret03,
+			HP_ISD_Turret04,
+			HP_ISD_Turret05,
+			HP_ISD_Turret06,
+			HP_ISD_Turret07,
+			HP_ISD_Turret08
 		</HardPoints>
 				
 	</UniqueUnit>

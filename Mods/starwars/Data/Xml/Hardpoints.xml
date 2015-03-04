@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <HardPoints>
 
 <!-- Star Destroyer Hard Points -->
@@ -360,7 +360,13 @@
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 			
     </HardPoint>
-
+<HardPoint Name="HP_Calamari_Fighter_Bay">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>HP_F-L_BONE</Attachment_Bone>             
+  </HardPoint>
+    
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_FR">
 			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -4304,7 +4310,14 @@
             <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
-
+    
+<HardPoint Name="HP_MC80_Fighter_Bay">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>HP_TBL_BL_BONE</Attachment_Bone>             
+  </HardPoint>
+  
     <HardPoint Name="HP_HomeOne_TBL_BL">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>

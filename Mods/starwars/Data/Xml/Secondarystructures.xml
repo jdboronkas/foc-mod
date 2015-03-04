@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <SecondaryStructures>
 	
 	<SecondaryStructure Name="Secondary_Prison_E">
@@ -1046,10 +1046,12 @@
 				Empire_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Empire_Squadron,
 			Rebel,
-				Rebel_Pirate_IPV,
-				Rebel_Pirate_Frigate,
-				Rebel_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Rebel_Squadron,
+				Jedi_Acclamator_Assault_Ship,
+			  Delta_7_Squadron,
+				Eta_2_Squadron,
+				Republic_light_frigate,
+				Republic_light_assault_cruiser,
+				Jedi_Y-Wing_Squadron,
 			Underworld,
 				Underworld_Pirate_IPV,
 				Jedi_Cruiser_U,

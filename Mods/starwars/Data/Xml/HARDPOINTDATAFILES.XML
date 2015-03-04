@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 
 <Hard_Point_Files>
 	<File>HardPoints.xml</File>
@@ -8,4 +8,5 @@
 	<File>Hardpoints_Executor_Imperial.xml</File>
 	<File>HardPoints-Viscount.xml</File>
 	<File>HardPoints_Doomtreader.xml</File>
+	<File>Hardpoints_ISDvsVenator.xml</File>
 </Hard_Point_Files>
