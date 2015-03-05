@@ -3447,7 +3447,7 @@
 
 	<Projectile Name="Proj_Kedalbe_Mass_Driver">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>p_proton_Vengance.ALO</Space_Model_Name>
+		<Space_Model_Name>P_plasma_emmiter3x.alo</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		
 		<Damage_Type> Damage_Mass_Driver_Space </Damage_Type>
@@ -3510,7 +3510,7 @@
 
 	<Projectile Name="Proj_Plasma_Space_Turret_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>P_mz8Shot.alo</Space_Model_Name>
+		<Space_Model_Name>P_plasma_emmiter3x.alo</Space_Model_Name>
 		<Damage_Type> Damage_Pulse_Cannon_Tank </Damage_Type>
 		<Max_Speed>55.0</Max_Speed> <!-- was 15 -->
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>

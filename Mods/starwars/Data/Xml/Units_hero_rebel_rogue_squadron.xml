@@ -109,7 +109,7 @@
 
 	<!-- Rogue Two: Zev Senesca -->
 	<UniqueUnit Name="Rogue_2_XWing">
-		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>A-Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_02</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
@@ -125,7 +125,7 @@
 
 	<!-- Rogue Four: Derek Klivian -->
 	<UniqueUnit Name="Rogue_4_XWing">
-		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>E_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_04</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
@@ -141,7 +141,7 @@
 
 	<!-- Rogue Seven: Kasan Moor -->
 	<UniqueUnit Name="Rogue_7_XWing">
-		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Y-Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_07</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
@@ -157,7 +157,7 @@
 
 	<!-- Rogue Ten: Tarrub Datch -->
 	<UniqueUnit Name="Rogue_10_XWing">
-		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>B-Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_10</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
@@ -173,7 +173,7 @@
 
 	<!-- Rogue Eleven: Tenk Lenso -->
 	<UniqueUnit Name="Rogue_11_XWing">
-		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>K_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ROGUE_11</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		

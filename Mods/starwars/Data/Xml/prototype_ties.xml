@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <TIE_Prototype_Files>
@@ -179,7 +179,7 @@
 		<Build_Cost_Credits>475</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Orbiting_Units>Arc_Hammer</Required_Orbiting_Units>
@@ -407,7 +407,7 @@
 		<Build_Cost_Credits>475</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Orbiting_Units>Arc_Hammer</Required_Orbiting_Units>
@@ -635,7 +635,7 @@
 		<Build_Cost_Credits>675</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Orbiting_Units>Arc_Hammer</Required_Orbiting_Units>
@@ -857,7 +857,7 @@
 		<Build_Cost_Credits>575</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Orbiting_Units>Arc_Hammer</Required_Orbiting_Units>

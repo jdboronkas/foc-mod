@@ -169,8 +169,6 @@
 		<Build_Cost_Credits>650</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Required_Special_Structures>Empire_Sienar_Systems</Required_Special_Structures>
-		<Required_Planets>Corulag</Required_Planets>
 		<Tech_Level>5</Tech_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
