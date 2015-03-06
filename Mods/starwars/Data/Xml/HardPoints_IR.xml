@@ -87,7 +87,7 @@
             <Fire_Bone_B>Weap7</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISDl</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -128,7 +128,7 @@
             <Fire_Bone_B>Weap8</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -563,7 +563,7 @@
             <Fire_Bone_B>weap1</Fire_Bone_B>
             <Fire_Cone_Width>120.0</Fire_Cone_Width>
             <Fire_Cone_Height>70.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -601,7 +601,7 @@
             <Fire_Bone_B>weap2</Fire_Bone_B>
             <Fire_Cone_Width>120.0</Fire_Cone_Width>
             <Fire_Cone_Height>70.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -642,7 +642,7 @@
             <Fire_Bone_B>Weap3</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -683,7 +683,7 @@
             <Fire_Bone_B>Weap4</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -724,7 +724,7 @@
             <Fire_Bone_B>Weap5</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -765,7 +765,7 @@
             <Fire_Bone_B>Weap6</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_ISD</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -960,7 +960,7 @@
             
             <Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>Weap11</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_22</Collision_Mesh>
+            <Collision_Mesh>Weap11</Collision_Mesh>
             <Damage_Decal>HP_R6_BLAST</Damage_Decal>
             <Damage_Particles>Weap22</Damage_Particles>
 
@@ -1001,7 +1001,7 @@
             
             <Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>Weap12</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_22</Collision_Mesh>
+            <Collision_Mesh>Weap12</Collision_Mesh>
             <Damage_Decal>HP_R6_BLAST</Damage_Decal>
             <Damage_Particles>Weap22</Damage_Particles>
 

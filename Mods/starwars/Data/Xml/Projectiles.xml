@@ -292,8 +292,8 @@
 	<Projectile Name="Proj_Ship_Ion_Cannon_ISD">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>7</Projectile_Width>
-		<Projectile_Length>30</Projectile_Length>
+		<Projectile_Width>2</Projectile_Width>
+		<Projectile_Length>10</Projectile_Length>
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -327,8 +327,8 @@
 	<Projectile Name="Proj_Ship_Ion_Cannon_Large">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>7</Projectile_Width>
-		<Projectile_Length>20</Projectile_Length>
+		<Projectile_Width>2</Projectile_Width>
+		<Projectile_Length>10</Projectile_Length>
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
