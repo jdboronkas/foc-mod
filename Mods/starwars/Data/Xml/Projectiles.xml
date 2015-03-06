@@ -292,8 +292,8 @@
 	<Projectile Name="Proj_Ship_Ion_Cannon_ISD">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
+		<Projectile_Width>7</Projectile_Width>
+		<Projectile_Length>30</Projectile_Length>
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -318,13 +318,17 @@
 				<!-- Stun specifics -->
 		<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation>
 		<Projectile_Ion_Stun_Duration>30.0</Projectile_Ion_Stun_Duration> <!-- must be same as Projectile_Disable_Engines_Duration in this case -->
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.999f</Projectile_Ion_Stun_Speed_Reduction_Percent> <!-- almost total speed reduction -->
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.8</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent><!-- fire rate reduced to 20% -->
+		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
+
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon_Large">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
+		<Projectile_Width>7</Projectile_Width>
+		<Projectile_Length>20</Projectile_Length>
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
