@@ -163,7 +163,7 @@ Fynbos
 	</SpaceUnit>
 	
 	<Squadron Name="Assault_Gunboat_Squadron">
-		<Text_ID>TEXT_ASSAULT_GUNBOAT_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_ASSAULT_GUNBOAT</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ASSAULT_GUNBOAT</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing Starviper_Fighter </Encyclopedia_Vulnerable_To>

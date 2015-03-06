@@ -150,7 +150,7 @@
 
 
 	<Squadron Name="TIE_Defender_Squadron">
-		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Krayt_Class_Destroyer </Encyclopedia_Good_Against>

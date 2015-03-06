@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <BWing_Files>
 
 
@@ -162,7 +162,7 @@
 
 	<Squadron Name="B-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
-		<Text_ID>TEXT_B_WING_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_B_WING</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_B_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>

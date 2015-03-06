@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <TIE_Interceptor_Files>
@@ -155,7 +155,7 @@
 <!-- **** SQUADRON INFORMATION **** -->
 
 	<Squadron Name="TIE_Interceptor_Squadron">
-		<Text_ID>TEXT_TIE_INTERCEPTOR_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Starviper_Fighter X-wing </Encyclopedia_Good_Against>

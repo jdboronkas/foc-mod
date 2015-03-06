@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Squadrons>
 
 	<Squadron Name="Rebel_X-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
-		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 0 </GUI_Row>
@@ -89,7 +89,7 @@
 
 
 	<Squadron Name="Y-Wing_Squadron">
-		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 0 </GUI_Row>
@@ -225,7 +225,7 @@
 
 
 	<Squadron Name="TIE_Fighter_Squadron">
-		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
 		<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -300,7 +300,7 @@
 	</Squadron>
 
 	<Squadron Name="TIE_Bomber_Squadron">
-		<Text_ID>TEXT_TIE_BOMBER_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
@@ -370,7 +370,7 @@
 	</Squadron>
 
 	<Squadron Name="A_Wing_Squadron">
-		<Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_A_WING</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 0 </GUI_Row>

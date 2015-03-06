@@ -11339,8 +11339,8 @@
 
      <HardPoint Name="HP_Nebulon_11">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>no</Is_Targetable>
-            <Is_Destroyable>no</Is_Destroyable>
+            <Is_Targetable>yes</Is_Targetable>
+            <Is_Destroyable>yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>200.0</Health>
             <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>
@@ -11379,8 +11379,8 @@
     </HardPoint>
      <HardPoint Name="HP_Nebulon_12">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>no</Is_Targetable>
-            <Is_Destroyable>no</Is_Destroyable>
+            <Is_Targetable>yes</Is_Targetable>
+            <Is_Destroyable>yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>200.0</Health>
             <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>

@@ -138,7 +138,7 @@
 
 
 	<Squadron Name="TIE_Avenger_Squadron">
-		<Text_ID>TEXT_TIE_AVENGER_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_TIE_AVENGER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_AVENGER</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>X-Wing Star_Viper B-Wing</Encyclopedia_Good_Against>

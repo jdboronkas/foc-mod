@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <TIE_Droid_Files>
@@ -155,7 +155,7 @@
 <!-- **** SQUADRON INFORMATION **** -->
 
 	<Squadron Name="TIE_Droid_Squadron">
-		<Text_ID>TEXT_TIE_DROID_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_TIE_DROID</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_DROID</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 			<Encyclopedia_Good_Against>X-Wing B-Wing Howlrunner  </Encyclopedia_Good_Against>
