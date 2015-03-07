@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Viscount_Files>
 
 
@@ -255,9 +255,11 @@
 		<Score_Cost_Credits> 100000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>40000</Tactical_Build_Cost_Multiplayer> 
+		<Tactical_Build_Cost_Multiplayer>15000</Tactical_Build_Cost_Multiplayer> 
 		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Executor_Files>
 
 	<UniqueUnit Name="Executor_Super_Star_Destroyer_No_Tractor_Beam">
@@ -113,17 +113,37 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Fighter Spawners -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 24</Reserve_Spawned_Units_Tech_0>
-			
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 4</Starting_Spawned_Units_Tech_4>
+                <Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_4>TIE_Defender_Squadron, 4</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>TIE_Defender_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_4>TIE_Avenger_Squadron, 4</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>TIE_Droid_Squadron, 4</Starting_Spawned_Units_Tech_5>
+                <Starting_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>TIE_Phantom_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_4>		
+		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 20</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_4>TIE_Fighter_Squadron, 20</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_5>TIE_Fighter_Squadron, 20</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 20</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 20</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_4>TIE_Avenger_Squadron, 20</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 20</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_4>TIE_Defender_Squadron, 20</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_5>TIE_Defender_Squadron, 20</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>TIE_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
+		<Reserve_Spawned_Units_Tech_5>TIE_Advanced_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
+		<Reserve_Spawned_Units_Tech_5>TIE_Phantom_Squadron, 20</Reserve_Spawned_Units_Tech_5>	
 		
 		<Spawned_Squadron_Delay_Seconds>8</Spawned_Squadron_Delay_Seconds>
 
@@ -313,7 +333,7 @@
 		<Score_Cost_Credits> 100000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>40000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>15000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
