@@ -41803,7 +41803,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS01_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -41836,7 +41836,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS02_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -41868,7 +41868,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS03_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -41900,7 +41900,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS04_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -41932,7 +41932,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS05_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -41964,7 +41964,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS06_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -41996,7 +41996,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS07_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->
@@ -42028,7 +42028,7 @@ centering, even though no model is attached -->
 		<Fire_Bone_B>HP_MIS08_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>130</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Rebel_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds> <!-- From 3 -->
 		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds> <!-- From 4 -->
 		<Fire_Pulse_Count>1</Fire_Pulse_Count> <!-- From 3 -->

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <SpecialStructures>
 
 	<SpecialStructure Name="Ground_Ion_Cannon">
@@ -1779,9 +1779,9 @@
 		<Special_Weapon_Target_Action_Index> 0 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
 		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
 		<Projectile_Fire_Recharge_Seconds>45.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Types>Proj_Hypervelocity_Gun</Projectile_Types>
+		<Projectile_Types>Proj_KDY_Planetary</Projectile_Types>
 		<Icon_Name>i_button_hypervelocity_gun.tga</Icon_Name>
 		<Space_Victory_Relevant>No</Space_Victory_Relevant>
 		<Land_Victory_Relevant>Yes</Land_Victory_Relevant>

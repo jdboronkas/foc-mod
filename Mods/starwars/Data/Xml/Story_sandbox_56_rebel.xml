@@ -391,15 +391,6 @@
 	</Event>	
 
 
-	<Event Name="Rebel_AI_Heroes_11">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Red_Squadron</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_02</Prereq>
-	</Event>
-
-
 
 	<!-- Spawn Tech 4 Heroes -->
 

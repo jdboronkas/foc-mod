@@ -2435,7 +2435,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>35.0</Base_Income_Value>
+				<Base_Income_Value>35</Base_Income_Value>
 				<Base_Interval_In_Secs>12</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2519,7 +2519,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>40.0</Base_Income_Value>
+				<Base_Income_Value>40</Base_Income_Value>
 				<Base_Interval_In_Secs>14</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2610,7 +2610,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>45.0</Base_Income_Value>
+				<Base_Income_Value>45</Base_Income_Value>
 				<Base_Interval_In_Secs>16</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>

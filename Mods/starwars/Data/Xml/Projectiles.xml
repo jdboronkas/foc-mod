@@ -4888,7 +4888,7 @@
 		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
 		
 		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>23000</Projectile_Damage> <!-- From 30000 -->
+		<Projectile_Damage>6000</Projectile_Damage> <!-- From 30000 -->
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -6521,8 +6521,67 @@
 		<AI_Combat_Power>300</AI_Combat_Power>
 	</Projectile>
 
+<Projectile Name="Proj_ISD_Ion_Cannon">
+		<Variant_Of_Existing_Type>Proj_Ship_Medium_Laser_Cannon_Red</Variant_Of_Existing_Type>
+		
+		<Space_Model_Name>P_ISD_IONCANNON.alo</Space_Model_Name>
+		<Projectile_Custom_Render>0</Projectile_Custom_Render>
+		<Max_Speed>15.0</Max_Speed>
+	
+		<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
+		<Projectile_Disables_Engines_When_Power_Drained>No</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Ion_Stun_Duration>10.0</Projectile_Ion_Stun_Duration>
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.5</Projectile_Ion_Stun_Speed_Reduction_Percent>
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.5</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
+		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
+		
+		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
+		<Projectile_Stun_Duration_Frames>300</Projectile_Stun_Duration_Frames>
+		<Projectile_Stun_Radius>300</Projectile_Stun_Radius>
+		<Projectile_Stun_Spawn_Effect> Stunned_Infantry </Projectile_Stun_Spawn_Effect> 									
+		<Projectile_Stun_Victims_Category_Mask> All </Projectile_Stun_Victims_Category_Mask>
+	
+		<Damage_Type> Damage_IonCannon_LRG </Damage_Type>
+		<Projectile_Damage>30.0</Projectile_Damage>							
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>	 <!-- knocks shields down -->
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage> <!-- does not do physical damage -->
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
 
+		<Projectile_Object_Detonation_Particle/>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
+	</Projectile>
 
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_dual_turbolaser_green.ALO</Space_Model_Name>
+		<!--  <Projectile_Width>5</Projectile_Width>
+		<Projectile_Length>10</Projectile_Length>
+		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
+		<Scale_Factor>2.0</Scale_Factor> -->
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>35.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Small_Explosion_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Dual</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>600</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
 
 </Projectiles>
 

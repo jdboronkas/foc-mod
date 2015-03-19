@@ -18,13 +18,13 @@
 		<Icon_Name>i_button_Viscount.tga</Icon_Name>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>Viscount.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_Viscount.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 <Select_Box_Scale>2400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1050</Select_Box_Z_Adjust>
-		<Scale_Factor>4.0</Scale_Factor>
+		<Scale_Factor>.9</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -35,14 +35,12 @@
 
 		<Max_Speed>0.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-			<Space_Layer> capital </Space_Layer>
-		<Layer_Z_Adjust>-1200.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>3</Bank_Turn_Angle>
+			<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-490.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>3</Bank_Turn_Angle>
 		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -102,71 +100,11 @@
 		<Death_Clone>Damage_Normal, Viscount_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>6000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
-
-		<HardPoints>
-			HP_VISCOUNT_TURBO_01,
-			HP_VISCOUNT_TURBO_02,
-			HP_VISCOUNT_TURBO_03,
-			HP_VISCOUNT_TURBO_04,
-			HP_VISCOUNT_TURBO_05,
-			HP_VISCOUNT_TURBO_06,
-			HP_VISCOUNT_TURBO_07,
-			HP_VISCOUNT_TURBO_08,
-			HP_VISCOUNT_TURBO_09,
-			HP_VISCOUNT_TURBO_10,
-			HP_VISCOUNT_TURBO_11,
-			HP_VISCOUNT_TURBO_12,
-			HP_VISCOUNT_TURBO_13,
-			HP_VISCOUNT_TURBO_14,
-			HP_VISCOUNT_TURBO_15,
-			HP_VISCOUNT_TURBO_16,
-			HP_VISCOUNT_TURBO_17,
-			HP_VISCOUNT_TURBO_18,
-			HP_VISCOUNT_TURBO_19,
-			HP_VISCOUNT_TURBO_20,
-			HP_VISCOUNT_LASER_01,
-			HP_VISCOUNT_LASER_02,
-			HP_VISCOUNT_LASER_03,
-			HP_VISCOUNT_LASER_04,
-			HP_VISCOUNT_LASER_05,
-			HP_VISCOUNT_LASER_06,
-			HP_VISCOUNT_LASER_07,
-			HP_VISCOUNT_LASER_08,
-			HP_VISCOUNT_LASER_09,
-			HP_VISCOUNT_LASER_10,
-			HP_VISCOUNT_LASER_11,
-			HP_VISCOUNT_LASER_12,
-			HP_VISCOUNT_LASER_13,
-			HP_VISCOUNT_LASER_14,
-			HP_VISCOUNT_ION_01,			
-			HP_VISCOUNT_ION_02,
-			HP_VISCOUNT_ION_03,
-			HP_VISCOUNT_ION_04,
-			HP_VISCOUNT_ION_05,
-			HP_VISCOUNT_ION_06,
-			HP_VISCOUNT_ION_07,
-			HP_VISCOUNT_ION_08,
-			HP_VISCOUNT_ION_09,
-			HP_VISCOUNT_ION_10,
-			HP_VISCOUNT_ION_11,
-			HP_VISCOUNT_ION_12,
-			HP_VISCOUNT_TORP_01,
-			HP_VISCOUNT_TORP_02,
-			HP_VISCOUNT_TORP_03,
-			HP_VISCOUNT_TORP_04,
-			HP_VISCOUNT_CONM_01,
-			HP_VISCOUNT_CONM_02,
-			HP_VISCOUNT_CONM_03,
-			HP_VISCOUNT_CONM_04,
-			HP_VISCOUNT_FIGHTER_BAY_01,
-			HP_VISCOUNT_FIGHTER_BAY_02,
-			HP_VISCOUNT_SHIELD_01,
-			HP_VISCOUNT_SHIELD_02,
-			HP_VISCOUNT_ENGINES_01,
-			HP_VISCOUNT_ENGINES_02,
-			HP_VISCOUNT_ENGINES_03,
-			HP_VISCOUNT_ENGINES_04,
-			HP_VISCOUNT_ENGINES_05
+	<HardPoints>
+     			HP_Viscount_Turbo_1, HP_Viscount_Turbo_2, HP_Viscount_Turbo_3, HP_Viscount_Turbo_4, HP_Viscount_Turbo_5, HP_Viscount_Turbo_6, HP_Viscount_Turbo_7, HP_Viscount_Turbo_8, HP_Viscount_Turbo_9, HP_Viscount_Turbo_10, HP_Viscount_Turbo_11, HP_Viscount_Turbo_12, HP_Viscount_Turbo_13, HP_Viscount_Turbo_14, HP_Viscount_Turbo_15, HP_Viscount_Turbo_16, HP_Viscount_Turbo_17, HP_Viscount_Turbo_18, HP_Viscount_Turbo_19, HP_Viscount_Turbo_20, HP_Viscount_Turbo_21, HP_Viscount_Turbo_22, HP_Viscount_Turbo_23, HP_Viscount_Turbo_24, HP_Viscount_Turbo_25, HP_Viscount_Turbo_26, HP_Viscount_Turbo_27, HP_Viscount_Turbo_28, HP_Viscount_Turbo_29, HP_Viscount_Turbo_30, HP_Viscount_Turbo_31, HP_Viscount_Turbo_32, HP_Viscount_Turbo_33, HP_Viscount_Turbo_34, HP_Viscount_Turbo_35, HP_Viscount_Turbo_36, HP_Viscount_Turbo_37, HP_Viscount_Turbo_38, HP_Viscount_Turbo_39, HP_Viscount_Turbo_40, HP_Viscount_Turbo_41, HP_Viscount_Turbo_42, HP_Viscount_Turbo_43, HP_Viscount_Turbo_44, HP_Viscount_Turbo_45, HP_Viscount_Turbo_46,
+			HP_Viscount_Turbo_47, HP_Viscount_Turbo_48, HP_Viscount_Turbo_49, HP_Viscount_Turbo_50, HP_Viscount_Turbo_51, HP_Viscount_Turbo_52, HP_Viscount_Turbo_53, HP_Viscount_Turbo_54, HP_Viscount_Turbo_Heavy_1, HP_Viscount_Turbo_Heavy_2, HP_Viscount_Turbo_Heavy_3, HP_Viscount_Turbo_Heavy_4, HP_Viscount_Turbo_Heavy_5, HP_Viscount_Turbo_Heavy_6, HP_Viscount_Turbo_Heavy_7, HP_Viscount_Turbo_Heavy_8, HP_Viscount_Turbo_Heavy_9, HP_Viscount_Turbo_Heavy_10, HP_Viscount_Turbo_Heavy_11, HP_Viscount_Turbo_Heavy_12, HP_Viscount_Turbo_Heavy_13, HP_Viscount_Turbo_Heavy_14, HP_Viscount_Turbo_Heavy_15, HP_Viscount_Turbo_Heavy_16, HP_Viscount_Turbo_Heavy_17, HP_Viscount_Turbo_Heavy_18, HP_Viscount_Turbo_Heavy_19, HP_Viscount_Turbo_Heavy_20, HP_Viscount_Turbo_Heavy_21, HP_Viscount_Turbo_Heavy_22, HP_Viscount_Turbo_Heavy_23, HP_Viscount_Turbo_Heavy_24, HP_Viscount_Turbo_Heavy_25, HP_Viscount_Turbo_Heavy_26, HP_Viscount_Turbo_Heavy_27, HP_Viscount_Turbo_Heavy_28, HP_Viscount_Turbo_Heavy_29, HP_Viscount_Turbo_Heavy_30, 
+			HP_Viscount_Turbo_Heavy_31, HP_Viscount_Turbo_Heavy_32, HP_Viscount_Turbo_Heavy_33, HP_Viscount_Turbo_Heavy_34, HP_Viscount_Turbo_Heavy_35, HP_Viscount_Turbo_Heavy_36, HP_Viscount_Turbo_Heavy_37, HP_Viscount_Turbo_Heavy_38, HP_Viscount_Turbo_Heavy_39, HP_Viscount_Turbo_Heavy_40, HP_Viscount_Turbo_Heavy_41, HP_Viscount_Turbo_Heavy_42, HP_Viscount_Turbo_Heavy_43, HP_Viscount_Turbo_Heavy_44,  HP_Viscount_Turbo_Heavy_45, HP_Viscount_Turbo_Heavy_46, HP_Viscount_Turbo_Heavy_47, HP_Viscount_Turbo_Heavy_48, HP_Viscount_Turbo_Heavy_49, HP_Viscount_Turbo_Heavy_50, HP_Viscount_Turbo_Heavy_51, HP_Viscount_Turbo_Heavy_52, HP_Viscount_Turbo_Heavy_53, HP_Viscount_Turbo_Heavy_54, HP_Viscount_Concussion_Missile_1, HP_Viscount_Concussion_Missile_2, HP_Viscount_Concussion_Missile_3, HP_Viscount_Concussion_Missile_4, HP_Viscount_Concussion_Missile_5, HP_Viscount_Concussion_Missile_6, HP_Viscount_Concussion_Missile_7, HP_Viscount_Concussion_Missile_8, HP_Viscount_Concussion_Missile_9, HP_Viscount_Concussion_Missile_10,
+			HP_Viscount_Ion_cannon_1, HP_Viscount_Ion_cannon_2, HP_SSD_Hangar, HP_Viscount_Ion_cannon_3, HP_Viscount_Ion_cannon_4, HP_Viscount_Ion_cannon_5, HP_Viscount_Ion_cannon_6, HP_Viscount_Ion_cannon_7, HP_Viscount_Ion_cannon_8, HP_Viscount_Ion_cannon_9, HP_Viscount_Ion_cannon_10, HP_Viscount_Ion_cannon_11, HP_Viscount_Ion_cannon_12, HP_Viscount_Ion_cannon_13, HP_Viscount_Ion_cannon_14, HP_Viscount_Ion_cannon_15, HP_Viscount_Ion_cannon_16, HP_Viscount_Ion_cannon_17, HP_Viscount_Ion_cannon_18, HP_Viscount_Ion_cannon_19, HP_Viscount_Ion_cannon_20 
 		</HardPoints>
 
 
