@@ -2781,6 +2781,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+        E_World_Devastator_Capital,
 				TIE_Fighter_Squadron,
 				TIE_Bomber_Squadron,
 				ES_Enhanced_Reactors_L1_Upgrade,

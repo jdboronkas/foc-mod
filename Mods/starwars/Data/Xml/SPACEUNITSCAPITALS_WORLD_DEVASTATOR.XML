@@ -1,0 +1,233 @@
+﻿<?xml version="1.0"?>
+<World_Devastator_Files>
+
+
+	<SpaceUnit Name="World_Devastator_Capital">
+
+		<Text_ID>TEXT_UNIT_WORLD_DEVASTATOR</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_WORLD_DEVASTATOR_TOOLTIP</Encyclopedia_Text>
+		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_world_devastator.tga</Icon_Name>
+
+		<Space_Model_Name>world_devastator.alo</Space_Model_Name>
+		<Scale_Factor>0.30112</Scale_Factor>
+		<Select_Box_Scale>5000</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+		<Size_Value>360</Size_Value>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Thrust>0.125</Max_Thrust>
+		<OverrideAcceleration>0.0041667</OverrideAcceleration>
+		<OverrideDeceleration>0.0041667</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.53333</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.53333</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>0.167</Hyperspace_Speed>
+
+		<Shield_Armor_Type>AT_9</Shield_Armor_Type>
+		<Shield_Points>18240</Shield_Points>
+		<Shield_Refresh_Rate>912</Shield_Refresh_Rate>
+		<Armor_Type>AT_9</Armor_Type>
+		<Tactical_Health>7296</Tactical_Health>
+		<Autoresolve_Health>25536</Autoresolve_Health>
+
+		<Energy_Capacity>9600</Energy_Capacity>
+		<Energy_Refresh_Rate>9600</Energy_Refresh_Rate>
+		<Damage>3328</Damage>
+		<AI_Combat_Power>42500</AI_Combat_Power>
+
+		<Ship_Class>Capital</Ship_Class>
+		<CategoryMask>Capital</CategoryMask>
+		<Ranking_In_Category>3</Ranking_In_Category>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets />
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>42500</Build_Cost_Credits>
+		<Build_Time_Seconds>540</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>2</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Override_Bounty_SP>42500</Override_Bounty_SP>
+		<Override_Bounty_MP>42500</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>21250</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>4250</Piracy_Value_Credits>
+		<Score_Cost_Credits>42500</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+		<Space_Override_Population_Value>10</Space_Override_Population_Value>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+
+		<Spawned_Squadron_Delay_Seconds>24</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>
+			HP_WD_HTL_01_G, HP_WD_HTL_02_G, HP_WD_HTL_03_G, HP_WD_HTL_04_G, HP_WD_HTL_05_G, HP_WD_HTL_06_G, HP_WD_HTL_07_G, HP_WD_HTL_08_G, HP_WD_HTL_09_G, HP_WD_HTL_10_G, HP_WD_HTL_11_G, HP_WD_HTL_12_G, HP_WD_HTL_13_G, HP_WD_HTL_14_G, HP_WD_HTL_15_G, HP_WD_HTL_16_G, HP_WD_HTL_17_G, HP_WD_HTL_18_G, HP_WD_HTL_19_G, HP_WD_HTL_20_G, HP_WD_HTL_21_G, HP_WD_HTL_22_G, HP_WD_HTL_23_G, HP_WD_HTL_24_G, HP_WD_HTL_25_G, HP_WD_HTL_26_G, HP_WD_HTL_27_G, HP_WD_HTL_28_G, HP_WD_HTL_29_G, HP_WD_HTL_30_G, HP_WD_HTL_31_G, HP_WD_HTL_32_G, HP_WD_HTL_33_G, HP_WD_HTL_34_G, HP_WD_HTL_35_G, HP_WD_HTL_36_G, HP_WD_HTL_37_G, HP_WD_HTL_38_G, HP_WD_HTL_39_G, HP_WD_HTL_40_G, HP_WD_HTL_41_G, HP_WD_HTL_42_G, HP_WD_HTL_43_G, HP_WD_HTL_44_G, HP_WD_HTL_45_G, HP_WD_HTL_46_G, HP_WD_HTL_47_G, HP_WD_HTL_48_G, HP_WD_HTL_49_G, HP_WD_HTL_50_G, HP_WD_HTL_51_G, HP_WD_HTL_52_G, HP_WD_HTL_53_G, HP_WD_HTL_54_G, HP_WD_HTL_55_G, HP_WD_HTL_56_G, HP_WD_HTL_57_G, HP_WD_HTL_58_G, HP_WD_HTL_59_G, HP_WD_HTL_60_G, HP_WD_HTL_61_G, HP_WD_HTL_62_G, HP_WD_HTL_63_G, HP_WD_HTL_64_G, HP_WD_HTL_65_G, HP_WD_HTL_66_G, HP_WD_HTL_67_G, HP_WD_HTL_68_G, HP_WD_HTL_69_G, HP_WD_HTL_70_G, HP_WD_HTL_71_G, HP_WD_HTL_72_G, HP_WD_HTL_73_G, HP_WD_HTL_74_G, HP_WD_HTL_75_G, HP_WD_HTL_76_G, HP_WD_HTL_77_G, HP_WD_HTL_78_G, HP_WD_HTL_79_G, HP_WD_HTL_80_G,
+			HP_WD_L_01_G, HP_WD_L_02_G, HP_WD_L_03_G, HP_WD_L_04_G, HP_WD_L_05_G, HP_WD_L_06_G, HP_WD_L_07_G, HP_WD_L_08_G, HP_WD_L_09_G, HP_WD_L_10_G, HP_WD_L_11_G, HP_WD_L_12_G, HP_WD_L_13_G, HP_WD_L_14_G, HP_WD_L_15_G, HP_WD_L_16_G, HP_WD_L_17_G, HP_WD_L_18_G, HP_WD_L_19_G, HP_WD_L_20_G, HP_WD_L_21_G, HP_WD_L_22_G, HP_WD_L_23_G, HP_WD_L_24_G, HP_WD_L_25_G, HP_WD_L_26_G, HP_WD_L_27_G, HP_WD_L_28_G, HP_WD_L_29_G, HP_WD_L_30_G, HP_WD_L_31_G, HP_WD_L_32_G, HP_WD_L_33_G, HP_WD_L_34_G, HP_WD_L_35_G, HP_WD_L_36_G, HP_WD_L_37_G, HP_WD_L_38_G, HP_WD_L_39_G, HP_WD_L_40_G, HP_WD_L_41_G, HP_WD_L_42_G, HP_WD_L_43_G, HP_WD_L_44_G, HP_WD_L_45_G, HP_WD_L_46_G, HP_WD_L_47_G, HP_WD_L_48_G, HP_WD_L_49_G, HP_WD_L_50_G, HP_WD_L_51_G, HP_WD_L_52_G, HP_WD_L_53_G, HP_WD_L_54_G, HP_WD_L_55_G, HP_WD_L_56_G, HP_WD_L_57_G, HP_WD_L_58_G, HP_WD_L_59_G, HP_WD_L_60_G, HP_WD_L_61_G, HP_WD_L_62_G, HP_WD_L_63_G, HP_WD_L_64_G, HP_WD_L_65_G, HP_WD_L_66_G, HP_WD_L_67_G, HP_WD_L_68_G, HP_WD_L_69_G, HP_WD_L_70_G, HP_WD_L_71_G, HP_WD_L_72_G, HP_WD_L_73_G, HP_WD_L_74_G, HP_WD_L_75_G, HP_WD_L_76_G, HP_WD_L_77_G, HP_WD_L_78_G, HP_WD_L_79_G, HP_WD_L_80_G,
+			HP_WD_HPT_01, HP_WD_HPT_02, HP_WD_HPT_03, HP_WD_HPT_04, HP_WD_HPT_05, HP_WD_HPT_06, HP_WD_HPT_07, HP_WD_HPT_08, HP_WD_HPT_09, HP_WD_HPT_10, HP_WD_HPT_11, HP_WD_HPT_12, HP_WD_HPT_13, HP_WD_HPT_14, HP_WD_HPT_15, HP_WD_HPT_16, HP_WD_HPT_17, HP_WD_HPT_18, HP_WD_HPT_19, HP_WD_HPT_20, HP_WD_HPT_21, HP_WD_HPT_22, HP_WD_HPT_23, HP_WD_HPT_24, HP_WD_HPT_25, HP_WD_HPT_26, HP_WD_HPT_27, HP_WD_HPT_28, HP_WD_HPT_29, HP_WD_HPT_30,
+			HP_WD_TBP, HP_WD_H
+		</HardPoints>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Kadalbe_Generic</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Kadalbe_Generic</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Kadalbe_Generic</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Kadalbe_Generic</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Kadalbe</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Kadalbe</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Kadalbe</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Kadalbe</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Kadalbe</SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,		Unit_HP_Laser_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,	Unit_HP_Missile_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,	Unit_HP_Torp_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,	Unit_HP_Ion_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,	Unit_HP_Shields_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,			Unit_HP_Engines_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,		Unit_HP_Grav_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY,		Unit_HP_Bay_Kadalbe </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,		Unit_Lost_Laser_Kadalbe </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,		Unit_Lost_Shields_Kadalbe </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,			Unit_Lost_Engines_Kadalbe </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Star_Destroyer_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Star_Destroyer_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Space_FOW_Reveal_Range>4450.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>4800.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>800.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+
+		<Targeting_Max_Attack_Distance>4450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>Destroyer</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Capital</Space_Layer>
+		<Layer_Z_Adjust>-440.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>true</Has_Space_Evaluator>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ENERGY_WEAPON</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.001f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name>World_Devastator_Capital_Molecular_Furnace</GUI_Activated_Ability_Name>
+				<Expiration_Seconds>60.0</Expiration_Seconds>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<SFXEvent_Target_Ability>Unit_Barrage_Kadalbe</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Energy_Blast</SFXEvent_Special_Ability_Loop>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MOLECULAR_FURNACE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MOLECULAR_FURNACE_DESCRIPTION</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+				<Mod_Multiplier />
+				<GUI_Activated_Ability_Name>World_Devastator_Capital_Tractor_Beam</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>15.0</Recharge_Seconds>
+				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Tractor_Beam_Off_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Energy_Weapon_Attack_Ability Name="World_Devastator_Capital_Molecular_Furnace">
+				<Activation_Style>User_Input</Activation_Style>
+							<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber | Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types />
+<Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+				<Activation_Max_Range>1200</Activation_Max_Range>
+				<Damage_Per_Frame>64</Damage_Per_Frame>
+			</Energy_Weapon_Attack_Ability>
+
+			<Tractor_Beam_Attack_Ability Name="World_Devastator_Capital_Tractor_Beam">
+				<Activation_Style>User_Input</Activation_Style>
+					<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber | Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types />
+				<Activation_Min_Range>0</Activation_Min_Range>
+				<Activation_Max_Range>2400</Activation_Max_Range>
+				<Activation_Chance>0.5f</Activation_Chance>
+				<Target_Speed_Decrease_Percent>0.909</Target_Speed_Decrease_Percent>
+				<Stacking_Category />
+			</Tractor_Beam_Attack_Ability>
+
+			<Base_Destruction_Ability Name="World_Devastator_Capital_Base_Destruction">
+				<Destroy_Starbase>No</Destroy_Starbase>
+				<Destroy_Land_Base>Yes</Destroy_Land_Base>
+			</Base_Destruction_Ability>
+
+			<Force_Healing_Ability Name="Capital_Damage_Control">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>96.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+			</Force_Healing_Ability>
+		</Abilities>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="E_World_Devastator_Capital">
+
+		<Variant_Of_Existing_Type>World_Devastator_Capital</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire</Affiliation>
+		<Required_Special_Structures>E_Orbital_Shipyard_4</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Droid_Squadron, 48</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+
+
+</World_Devastator_Files>

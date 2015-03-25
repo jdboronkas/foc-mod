@@ -93,9 +93,9 @@
 
 	<File>Units_hero_empire_Space.xml</File>
 	<File>Units_hero_republic_deltasquad.xml</File>
-	<File>Units_Space_Empire_TIE_Defender.xml</File>
-	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
-	<File>Units_Space_Empire_TIE_Phantom.xml</File>
+	<File>Empire_Fighters.xml</File>
+	<File>Empire_Destroyers.xml</File>
+	<File>SPACEUNITSCAPITALS_WORLD_DEVASTATOR.XML</File>
 	<File>Units_Space_Empire_TIE_Avenger.xml</File>
 	<File>Units_Space_Empire_TIE_Droid.xml</File>
 	<File>Units_Space_Empire_TIE_Advanced.xml</File>

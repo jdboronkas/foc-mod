@@ -6583,6 +6583,100 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+
+	<Projectile Name="Proj_Space_Laser_G">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_turbolaser_green.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>100.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>18.0</Projectile_Damage> <!-- From 15 -->
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+
+	<Projectile Name="Proj_Space_Heavy_Turbolaser_G">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_heavy_turbolaser_green.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Max_Speed>100.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>25</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>600</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+
+
+
+	<!-- Heavy proton torpedo -->
+
+
+	<Projectile Name="Proj_Space_Heavy_Proton_Torpedo">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>K_PLASMA_PROJECTILE.ALO</Space_Model_Name>
+		<Land_Model_Name>K_PLASMA_PROJECTILE.ALO</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<Max_Speed>12.0</Max_Speed>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>2500.0</Projectile_Max_Scan_Range>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Damage>0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage>40 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>300</Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Large_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Large_Explosion_Space</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Large_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Large_Explosion_Space</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>360</AI_Combat_Power>
+		<SFXEvent_Fire>Unit_Torpedo_Fire</SFXEvent_Fire>
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<!-- Heavy advanced proton torpedo -->
+
+
+
+
 </Projectiles>
 
 		
