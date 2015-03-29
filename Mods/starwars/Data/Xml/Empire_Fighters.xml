@@ -2705,8 +2705,8 @@
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
-		<Hyperspace>no</Hyperspace>
-		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 		<Fires_Forward>no</Fires_Forward>
 
@@ -2733,22 +2733,10 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>3</Damage>
 
-        <Damage_Type>Damage_Fighter</Damage_Type>
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
-		
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+ 		<HardPoints>
+ HP_Hunter_LASER_01,
+		</HardPoints>
 
-		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
@@ -2853,14 +2841,11 @@
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
 		<Squadron_Units>TIE_Hunter, TIE_Hunter, TIE_Hunter, TIE_Hunter</Squadron_Units>
-		<Squadron_Units>TIE_Hunter, TIE_Hunter, TIE_Hunter</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,40.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,-32.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,-47.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,60.0,15.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,-4.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,-16.0</Squadron_Offsets>	
+
 
 		<FormationOrder>1</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>

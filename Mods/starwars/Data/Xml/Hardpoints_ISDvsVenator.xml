@@ -8276,7 +8276,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8299,7 +8298,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8322,7 +8320,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8345,7 +8342,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8368,7 +8364,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8391,7 +8386,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8414,7 +8408,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8437,7 +8430,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8460,7 +8452,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8483,7 +8474,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8506,7 +8496,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8529,7 +8518,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8552,7 +8540,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8575,7 +8562,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8598,7 +8584,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8621,8 +8606,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
-
 	</HardPoint>
 
 
@@ -8644,7 +8627,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8667,7 +8649,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8690,8 +8671,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
-
 	</HardPoint>
 
 
@@ -8713,7 +8692,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8736,7 +8714,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8759,7 +8736,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8782,7 +8758,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8805,7 +8780,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8828,7 +8802,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8851,7 +8824,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8874,8 +8846,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
-
 	</HardPoint>
 
 
@@ -8897,7 +8867,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
 	</HardPoint>
 
@@ -8920,8 +8889,6 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
-
 	</HardPoint>
 
 
@@ -8943,7 +8910,7 @@
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Utility, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
 
 	</HardPoint>
 
