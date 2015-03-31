@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Factions>
 
 	<Faction Name="Rebel">
@@ -753,7 +753,7 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Corellians, Mandalorians, Corporate_Sector_Authority, Naboo, Muuns, Vong</Enemies>
+		<Enemies>Empire, Republic, CIS, Pirates, Hostile, Sarlacc, Underworld, Hutts, Corellians, Mandalorians, Corporate_Sector_Authority, Naboo, Muuns, Vong</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1520,7 +1520,7 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Corellians, Mandalorians, Naboo, Corporate_Sector_Authority, Muuns, Vong</Enemies>
+		<Enemies>Rebel, Republic, CIS, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Corellians, Mandalorians, Naboo, Corporate_Sector_Authority, Muuns, Vong</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 

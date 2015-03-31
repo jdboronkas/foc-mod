@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Multiplayer_Structure_Markers>
 
 	<MultiplayerStructureMarker Name="Command Center">
@@ -292,7 +292,7 @@
 		<Text_ID>TEXT_ORBITAL_STATION_POSITION</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
-		<Marker_For_Specific_Object_Type> Skirmish_Rebel_Star_Base_1, Skirmish_Empire_Star_Base_1, Skirmish_Underworld_Star_Base_1 </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Skirmish_Rebel_Star_Base_1, Skirmish_Empire_Star_Base_1, Skirmish_Underworld_Star_Base_1, Skirmish_cis_Star_Base_1, Skirmish_Republic_Star_Base_1 </Marker_For_Specific_Object_Type>
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
@@ -486,7 +486,7 @@
 		<Text_ID>TEXT_ORBITAL_STATION_POSITION</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
-		<Marker_For_Specific_Object_Type> Skirmish_Rebel_Star_Base_1, Skirmish_Empire_Star_Base_1, Skirmish_Underworld_Star_Base_1 </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Skirmish_Rebel_Star_Base_1, Skirmish_Empire_Star_Base_1, Skirmish_Underworld_Star_Base_1, Skirmish_cis_Star_Base_1, Skirmish_Republic_Star_Base_1 </Marker_For_Specific_Object_Type>
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
@@ -680,7 +680,7 @@
 		<Text_ID>TEXT_ORBITAL_STATION_POSITION</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
-		<Marker_For_Specific_Object_Type> Skirmish_Rebel_Star_Base_1, Skirmish_Empire_Star_Base_1, Skirmish_Underworld_Star_Base_1 </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> Skirmish_Rebel_Star_Base_1, Skirmish_Empire_Star_Base_1, Skirmish_Underworld_Star_Base_1, Skirmish_cis_Star_Base_1, Skirmish_Republic_Star_Base_1 </Marker_For_Specific_Object_Type>
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>

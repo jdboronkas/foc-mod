@@ -109,13 +109,7 @@
 	<File>Units_Space_Empire_Venator.xml</File>
 	<File>Units_space_empire_Missile_Gunboat.xml</File>
 	<File>prototype_ties.xml</File>
-	<File>Units_Space_Republic_Acclamator.xml</File>
-	<File>Units_space_republic_victory_class_stardestroyer.xml</File>
-	<File>Units_space_republic_venator_class.xml</File>
-	<File>Units_space_republic_carrack.xml</File>
-	<File>Units_space_republic_v19_torrent_fighter.xml</File>
-	<File>Units_space_republic_vwing_fighter.xml</File>
-	<File>Units_space_republic_arc_170_fighter.xml</File>
+
 	
 	<File>Units_land_republic_7th_Sky_Corp.xml</File>
 	<File>Units_land_republic_41st.xml</File>
@@ -151,10 +145,10 @@
 	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
 	<File>Units_hero_Jedi.xml</File>
 
-	<File>Units_Space_Jedi_Acclamator.xml</File>
-	<File>Units_Space_jedi_light_assault_cruiser.xml</File>
-	<File>Units_Space_jedi_light_frigate.xml</File>
-	<File>Units_Space_jedi_delta7.xml</File>
+	<File>Corvetes_Republic.xml</File>
+	<File>Destroyers_Republic.xml</File>
+	<File>Frigates_Republic.xml</File>
+	<File>Units_space_republic_mandator.xml</File>
 	<File>Units_Space_jedi_eta2.xml</File>
 	<File>Units_space_jedi_Y-wing.xml</File>
 
@@ -171,7 +165,7 @@
 	<File>Units_Space_Rebel_Rebel_Assault_Frigate.xml</File>
 	<File>Units_Space_Rebel_Nebulon_B2.xml</File>
 	<File>Units_space_Rebel_E_Wing_Fighter.xml</File>
-	<File>Units_Space_rebel_n1_fighter.xml</File>
+	<File>Fighters_Republic.xml</File>
 	<File>Units_space_Rebel_K_Wing.xml</File>
 	<File>Units_Space_Rebel_Mediator.xml</File>
 	<File>Units_Space_Rebel_Viscount.xml</File>
