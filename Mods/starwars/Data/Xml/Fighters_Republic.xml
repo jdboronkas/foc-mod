@@ -539,7 +539,9 @@
      
      <HardPoints>
 			ARC170_Torpedo,
-			ARC170_RearLaser
+			ARC170_RearLaser,
+		ARC170_Missle,
+
 		</HardPoints>
 		
 					
@@ -1809,7 +1811,7 @@
 
 	</SpaceUnit>
 
-<Squadron Name="Jedi_Y-Wing_Squadron">
+<Squadron Name="Old_Y-Wing_Squadron">
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
