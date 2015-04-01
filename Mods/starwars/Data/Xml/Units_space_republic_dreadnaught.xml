@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <Dreadnaught_Data>
@@ -58,7 +58,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Size_Value>8</Size_Value>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Republic</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>

@@ -872,7 +872,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Neutral, Empire, Rebel, Underworld</Affiliation>
+		<Affiliation>Neutral, Empire, Rebel, Underworld, Republic</Affiliation>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Tech_Level>0</Tech_Level>
@@ -952,7 +952,7 @@
 		
 		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
 		<Icon_Name>i_button_space_sensornode.tga</Icon_Name>
-		<Affiliation>Neutral, Empire, Rebel, Underworld</Affiliation>
+		<Affiliation>Neutral, Empire, Rebel, Underworld, Republic</Affiliation>
 
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -1014,7 +1014,7 @@
 		<Behavior>CAPTURE_POINT, DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Victory_Relevant>no</Victory_Relevant>
-		<Affiliation>Rebel, Empire, Neutral, Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic</Affiliation>
 		
 		<Capture_Point_Transition_Time_Seconds>20</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>800</Capture_Point_Radius>
@@ -1046,15 +1046,6 @@
 				Empire_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Empire_Squadron,
 			Rebel,
-				Jedi_Acclamator_Assault_Ship,
-			  Delta_7_Squadron,
-				Eta_2_Squadron,
-				Republic_light_frigate,
-				Republic_light_assault_cruiser,
-				Jedi_Y-Wing_Squadron,
-				Naboo_Fighter_Squadron,
-				Venator,
-				Republic_Victory_Destroyer,
 			Underworld,
 				Underworld_Pirate_IPV,
 				Jedi_Cruiser_U,
@@ -1118,7 +1109,7 @@
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 				
 		
-		<Affiliation>Rebel, Empire, Neutral, Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Empire_Pirate_IPV,

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <SpaceBuildables>
 
 
@@ -567,7 +567,7 @@
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>12</Damage>
 		<Projectile_Damage>14.0</Projectile_Damage>
-		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
@@ -1282,6 +1282,8 @@
 			Underworld,
 				UC_Underworld_Mineral_Extractor,
 		
+    Republic,
+      UC_Republic_Mineral_Extractor,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
@@ -1291,7 +1293,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Underworld, Republic</Affiliation>
 		<Size_Value>30</Size_Value>
 		
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
@@ -1403,6 +1405,19 @@
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 
 		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>		
+
+	<SpaceBuildable Name="UC_Republic_Mineral_Extractor">
+		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed> Republic_Mineral_Extractor </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+
+		<Affiliation>Republic</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -1555,6 +1570,27 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 	</SpaceBuildable>	
+	
+		<SpaceBuildable Name="Republic_Mineral_Extractor">
+		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
+		<Affiliation>Republicl</Affiliation>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
+				<Base_Income_Value>205</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				<Owner_Income_Percentage />
+			</Income_Stream_Ability>
+		</Abilities>
+	
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Republic,
+				PS_Increased_Supplies_L1_Upgrade,
+				PS_Increased_Supplies_L2_Upgrade,				
+		</Tactical_Buildable_Objects_Multiplayer>
+	</SpaceBuildable>
 	
 	
 	
