@@ -224,18 +224,18 @@
   <File>Units_Space_Sabaoth_Destroyer.xml</File>
   <File>Units_Space_Sabaoth_Deployer.xml</File>
   <File>Units_Space_Sabaoth_Bomber.xml</File>
-  <File>Units_space_cis_vulture_droid.xml</File>
-  <File>Units_space_cis_tri_droid.xml</File>
+  <File>Fighters_Cis.xml</File>
+  <File>Corvettes_Cis.xml</File>
   <File>Units_space_cis_technounion_frigate.xml</File>
-  <File>Units_space_cis_providence.xml</File>
-  <File>Units_Space_Cis_Patrol_Frigate.xml</File>
+  <File>Captial_Cis.xml</File>
+  <File>Frigates_Cis.xml</File>
   <File>Units_space_cis_munificent_frigate.xml</File>
   <File>Units_space_cis_lucrehulk.xml</File>
   <File>Units_Space_cis_carrier.xml</File>
   <File>Units_Space_cis_c9979.xml</File>
   <File>Units_Space_cis_bomber.xml</File>
   <File>Units_hero_cis_grievous.xml</File>
-  <File>Units_Space_cis_sheathipede.xml</File>
+  <File>zc_fighters.xml</File>
  
   <File>SpecialStructures_Underworld.xml</File>
 	<File>StarBases_Underworld.xml</File>

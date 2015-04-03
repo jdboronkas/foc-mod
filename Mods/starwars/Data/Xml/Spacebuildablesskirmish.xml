@@ -34,6 +34,15 @@
 				UC_Rebel_Defense_Satellite_Laser,
 				UC_Rebel_Defense_Satellite_Missile,
 				UC_Rebel_Defense_Satellite_Repair,
+			cis, 
+				UC_cis_Defense_Satellite_Laser,
+				UC_cis_Defense_Satellite_Missile, 
+				UC_cis_Defense_Satellite_Repair,
+			Republic,
+				UC_Republic_Defense_Satellite_Laser,
+				UC_Republic_Defense_Satellite_Missile,
+				UC_Republic_Defense_Satellite_Repair,
+
 			Underworld,
 				UC_Underworld_Defense_Satellite_Plasma,
 				UC_Underworld_Defense_Satellite_DBM, 
@@ -47,7 +56,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Underworld, cis, Republic</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Tactical_Health>1200</Tactical_Health>
 		
@@ -190,7 +199,19 @@
 	</SpaceBuildable>		
 
 
+	<SpaceBuildable Name="UC_cis_Defense_Satellite_Laser">
+		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 
+		<Tactical_Buildable_Constructed> cisDefense_Satellite_Laser </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+
+		<Affiliation>cis</Affiliation>
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>		
 
 
 	<SpaceBuildable Name="UC_Underworld_Defense_Satellite_Plasma">
@@ -503,6 +524,22 @@
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpaceBuildable>
 
+	
+	<SpaceBuildable Name="UC_Republic_Defense_Satellite_Missile">
+		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed> Republic_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+
+		<Affiliation>Republic</Affiliation>
+		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>
+
+
 	<SpaceBuildable Name="UC_Underworld_Defense_Satellite_DBM">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_DBM</Text_ID>
@@ -623,12 +660,22 @@
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser">
+	<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceBuildable>
 
+	<SpaceBuildable Name="cis_Defense_Satellite_Laser">
+	<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
+		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+	</SpaceBuildable>
 
-
+	<SpaceBuildable Name="Republic_Defense_Satellite_Laser">
+	<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Blue</Projectile_Types>
+		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
+		<Affiliation>Republic</Affiliation>
+	</SpaceBuildable>
 
 	<SpaceBuildable Name="Underworld_Defense_Satellite_Plasma">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_PLASMA</Text_ID>
@@ -1065,7 +1112,9 @@
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Missile">
+
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+<Projectile_Types>Proj_Ship_Rebel_Concussion_Missile</Projectile_Types>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceBuildable>
 
@@ -1284,6 +1333,9 @@
 		
     Republic,
       UC_Republic_Mineral_Extractor,
+      
+      cis,
+      UC_cis_Mineral_Extractor,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
@@ -1293,7 +1345,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Neutral, Rebel, Empire, Underworld, Republic</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Underworld, Republic, cis</Affiliation>
 		<Size_Value>30</Size_Value>
 		
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
@@ -1437,6 +1489,18 @@
 	</SpaceBuildable>	
 
 
+	<SpaceBuildable Name="UC_cis_Mineral_Extractor">
+		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed> cis_Mineral_Extractor </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>	
 
 
 	<SpaceBuildable Name="Empire_Mineral_Extractor">
@@ -1573,7 +1637,7 @@
 	
 		<SpaceBuildable Name="Republic_Mineral_Extractor">
 		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
-		<Affiliation>Republicl</Affiliation>
+		<Affiliation>Republic</Affiliation>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
 				<Base_Income_Value>205</Base_Income_Value>
@@ -1592,6 +1656,26 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 	</SpaceBuildable>
 	
+			<SpaceBuildable Name="cis_Mineral_Extractor">
+		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
+		<Affiliation>cis</Affiliation>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
+				<Base_Income_Value>205</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+				<Owner_Income_Percentage />
+			</Income_Stream_Ability>
+		</Abilities>
+	
+		<Tactical_Buildable_Objects_Multiplayer> 
+			cis,
+				CS_Increased_Supplies_L1_Upgrade,
+				CS_Increased_Supplies_L2_Upgrade,				
+		</Tactical_Buildable_Objects_Multiplayer>
+	</SpaceBuildable>
 	
 	
 	

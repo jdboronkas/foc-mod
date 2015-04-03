@@ -6668,7 +6668,7 @@
 
 	<Projectile Name="Proj_Space_Heavy_Proton_Torpedo">
 <Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_trihexalon_missile.alo</Space_Model_Name>
+		<Space_Model_Name>W_conc_missile.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Max_Speed>20.0</Max_Speed> 
@@ -6719,7 +6719,30 @@
 		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
 	</Projectile>
-
+<Projectile Name="Proj_Ship_Saboath_Concussion_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_CONCUSSION_MISSILE_SABOATH.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Max_Speed>15.0</Max_Speed> 
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>50</Projectile_Damage> <!-- From 18 -->
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+	</Projectile>
 </Projectiles>
 
 		

@@ -99,7 +99,7 @@
 		<Is_Bomber>yes</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>210</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>

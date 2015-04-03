@@ -6386,7 +6386,7 @@
 	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
 	<UpgradeObject Name="CS_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>cis</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 250 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
@@ -6459,7 +6459,7 @@
 	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
 	<UpgradeObject Name="CS_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>cis</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
