@@ -107,9 +107,14 @@
 		</HardPoints>
 
 		<!-- Fighter complement -->
-		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, 6</Reserve_Spawned_Units_Tech_0> <!-- From 0 -->
+		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 0 -->
+		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+
 
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -299,14 +304,12 @@
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Jedi_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Delta_7_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Jedi_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Delta_7_Squadron, 15</Reserve_Spawned_Units_Tech_0> <!-- From 35 -->
-		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, 15</Reserve_Spawned_Units_Tech_0> <!-- From 35 -->
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>- From 0 -->
+		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron 6</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
@@ -566,6 +569,8 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 8 -->
 		
+		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 0 -->
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -882,9 +887,9 @@
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		
 		<Starting_Spawned_Units_Tech_0>Old_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Delta_7_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Delta_7_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
 		<Reserve_Spawned_Units_Tech_0>Old_Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		
 
@@ -1107,10 +1112,10 @@
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 		
-		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>NTB_630_Squadron 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
 		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		
 

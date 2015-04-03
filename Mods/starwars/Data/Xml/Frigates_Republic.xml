@@ -77,11 +77,15 @@
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Delta_7_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Old_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<!--Currently no reserves -->
+		<Reserve_Spawned_Units_Tech_0>Old_Y-Wing_Squadron -1</Reserve_Spawned_Units_Tech_0> 
 
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron -1</Reserve_Spawned_Units_Tech_0> 
+		<!--Currently no reserves -->
+		<Starting_Spawned_Units_Tech_0>Delta_7_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Delta_7_Squadron -1</Reserve_Spawned_Units_Tech_0> 
 
 		<HardPoints>
 			HP_Jedi_Acclamator_Weapon_FC,

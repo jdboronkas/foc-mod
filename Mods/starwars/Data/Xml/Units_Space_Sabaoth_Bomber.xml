@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <Sabaoth_Bomber_Data>
@@ -7,7 +7,7 @@
 
 
 	<SpaceUnit Name="Sabaoth_Bomber">
-		<Text_ID>TEXT_UNIT_SABAOTH_BOMBER</Text_ID>
+		<Text_ID>TEXT_UNIT_HEX_BOMBER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SABAOTH_BOMBER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Venator Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
@@ -66,7 +66,6 @@
 		<HardPoints>
 			HP_SABAOTH_LASER_00,
 			HP_SABAOTH_TORP_00,
-			HP_SABAOTH_TORP_01
 		</HardPoints>
 
 

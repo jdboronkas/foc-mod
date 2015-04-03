@@ -788,16 +788,6 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-      <Unit_Ability>
-      <Type>SPOILER_LOCK</Type>
-			
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		            1.3</Mod_Multiplier>
-			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
-			</Unit_Ability>
     
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -938,13 +928,13 @@
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<!-- Fighter complement -->
-		<Starting_Spawned_Units_Tech_1>V19_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_1>V19_Squadron, -1</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_1>
 		
-		<Starting_Spawned_Units_Tech_2>V19_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_2>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_2>V19_Squadron, -1</Reserve_Spawned_Units_Tech_2> 
+		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_2> 
 		
 		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_3>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
@@ -1501,6 +1491,29 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	
 	</SpaceUnit>
+
+	<SpaceUnit Name="Underworld_Pirate_Frigate">  <!--Multiplayer Only-->
+		<Variant_Of_Existing_Type>Pirate_Frigate</Variant_Of_Existing_Type>
+		
+		<Affiliation>Underworld</Affiliation>
+		
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+	
+	</SpaceUnit>
+	
 
 	<!-- Used in Empire mission 3 "Pirate Menace" -->
 	<SpaceUnit Name="Pirate_Frigate_Leader">

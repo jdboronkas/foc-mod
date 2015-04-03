@@ -405,8 +405,8 @@
 		<Starting_Spawned_Units_Tech_0>V19_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 24</Reserve_Spawned_Units_Tech_0>
 			
-		<Starting_Spawned_Units_Tech_0>Republic_Vwing_Fighter, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Republic_Vwing_Fighter, 16</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Vwing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Vwing_Squadron, 16</Reserve_Spawned_Units_Tech_0>
 		
 		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, 5</Reserve_Spawned_Units_Tech_0>

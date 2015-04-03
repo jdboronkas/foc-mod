@@ -184,12 +184,12 @@
 
 
 	<SpaceUnit Name="CIS_Missile_Frigate">
-		<Text_ID>TEXT_UNIT_MISSILE_FRIGATE</Text_ID>
+		<Text_ID>TEXT_UNIT_CIS_MISSILE_FRIGATE</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Star_Base_1 X-wing Skipray_Blastboat </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Alliance_Assault_Frigate Corellian_Gunboat </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>CIS_missile_Frigate.alo</Space_Model_Name>
-		<Icon_Name>i_button_missile_Frigate.tga</Icon_Name>
+		<Icon_Name>i_button_cis_missile_Frigate.tga</Icon_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
@@ -335,7 +335,7 @@
 		</Unit_Abilities_Data>
 		
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CIS_MISSILE_FRIGATE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1400</Score_Cost_Credits>
 		<No_Colorization_Color> 80, 129, 218, 255 </No_Colorization_Color>

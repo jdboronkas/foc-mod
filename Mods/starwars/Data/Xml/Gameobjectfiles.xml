@@ -213,8 +213,8 @@
 	
 	
 	<File>Units_Space_Underworld_StarViper.xml</File>
-	<File>Units_Space_Underworld_Skipray.xml</File>
-	<File>Units_Space_Underworld_Crusader_Gunship.xml</File>
+	<File>zc_frigates.XML</File>
+	<File>zc_corvettes.XMLl</File>
 	<File>Units_Space_Underworld_Interceptor4.xml</File>
 	<File>Units_Space_Underworld_Vengeance.xml</File>	
 	<File>Units_Space_Underworld_Kadalbe_Battleship.xml</File>
@@ -234,7 +234,7 @@
   <File>Units_Space_cis_carrier.xml</File>
   <File>Units_Space_cis_c9979.xml</File>
   <File>Units_Space_cis_bomber.xml</File>
-  <File>Units_hero_cis_grievous.xml</File>
+  <File>zc_corvettes.XML</File>
   <File>zc_fighters.xml</File>
  
   <File>SpecialStructures_Underworld.xml</File>
