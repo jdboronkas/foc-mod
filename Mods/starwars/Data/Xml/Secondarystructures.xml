@@ -1014,7 +1014,7 @@
 		<Behavior>CAPTURE_POINT, DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Victory_Relevant>no</Victory_Relevant>
-		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic, cis</Affiliation>
 		
 		<Capture_Point_Transition_Time_Seconds>20</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>800</Capture_Point_Radius>
@@ -1041,16 +1041,40 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Empire_Pirate_IPV,
-				Empire_Pirate_Frigate,
-				Empire_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Empire_Squadron,
+Mere_Cruiser,
+Havoc,
+Guardian_Mantis,
+Freefall,
+G400_Squadron,
+
 			Rebel,
+			Mere_Cruiser,
+			Havoc,
+			Guardian_Mantis,
+			Freefall,
+			G400_Squadron,
+			
 			Underworld,
-				Underworld_Pirate_IPV,
-				Jedi_Cruiser_U,
-				Underworld_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Underworld_Squadron,
+Mere_Cruiser,
+Havoc,
+Guardian_Mantis,
+Freefall,
+G400_Squadron,
+
+cis, 
+Mere_Cruiser,
+Havoc,
+Guardian_Mantis,
+Freefall,
+G400_Squadron,
+
+Republic,
+Mere_Cruiser,
+Havoc,
+Guardian_Mantis,
+Freefall,
+G400_Squadron,
+
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Tech_Level>0</Tech_Level>
@@ -1109,28 +1133,38 @@
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 				
 		
-		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic, cis</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Empire_Pirate_IPV,
-				Empire_Pirate_Frigate,
-				Empire_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Empire_Squadron,
+Sabaoth_Destroyer,
+Sabaoth_Bomber_Squadron,
+Sabaoth_Deployer,
+Sabaoth_Fighter_Squadron,
+Saboath_D_Squadron,
 			Rebel,
-				Jedi_Acclamator_Assault_Ship,
-			  Delta_7_Squadron,
-				Eta_2_Squadron,
-				Republic_light_frigate,
-				Republic_light_assault_cruiser,
-				Jedi_Y-Wing_Squadron,
-				Naboo_Fighter_Squadron,
-				Venator,
-				Republic_Victory_Destroyer,
+Sabaoth_Destroyer,
+Sabaoth_Bomber_Squadron,
+Sabaoth_Deployer,
+Sabaoth_Fighter_Squadron,
+Saboath_D_Squadron,
 			Underworld,
-				Underworld_Pirate_IPV,
-				Jedi_Cruiser_U,
-				Underworld_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Underworld_Squadron,
+Sabaoth_Destroyer.
+Sabaoth_Bomber_Squadron,
+Sabaoth_Deployer,
+Sabaoth_Fighter_Squadron,
+Saboath_D_Squadron,
+cis,
+Sabaoth_Destroyer,
+Sabaoth_Bomber_Squadron,
+Sabaoth_Deployer,
+Sabaoth_Fighter_Squadron,
+Saboath_D_Squadron,
+Republic,
+Sabaoth_Destroyer,
+Sabaoth_Bomber_Squadron,
+Sabaoth_Deployer,
+Sabaoth_Fighter_Squadron,
+Saboath_D_Squadron,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>

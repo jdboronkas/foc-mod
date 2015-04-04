@@ -504,6 +504,16 @@
 
 
 
+
+    <MusicEvent Name="cis_Win_Tactical_Event">
+        <Files>CIS_Win.mp3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+
     <MusicEvent Name="Republic_Win_Strategic_Event">
         <Files>Republic_Tactical_Win_Edit.mp3</Files>
         <Volume_Percent>75</Volume_Percent>

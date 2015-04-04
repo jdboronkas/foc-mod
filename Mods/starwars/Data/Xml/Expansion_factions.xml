@@ -126,11 +126,10 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			StarViper_Squadron, StarViper_Squadron
+
 		</Space_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Underworld_Merc_Squad, Underworld_Merc_Squad
 		</Land_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
 			0,10,
@@ -1042,11 +1041,9 @@
     <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
     <Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
     <Space_Skirmish_AI_Default_Forces> 
-			Vulture_Droid_Squadron, Vulture_Droid_Squadron
 		</Space_Skirmish_AI_Default_Forces>
     <Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
     <Land_Skirmish_AI_Default_Forces> 
-			BattleDroid_Squad, BattleDroid_Squad
 		</Land_Skirmish_AI_Default_Forces>
     <Land_Skirmish_Unit_Cap_By_Player_Count>
 			0,15,
@@ -1125,25 +1122,25 @@
     <!-- REBEL WIN/LOSE MUSIC EVENTS                   -->
     <!-- ============================================= -->
     <!-- Specific vs. Factions -->
-    <Music_Event_Tactical_Win_Vs_Faction> Empire,     Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
-    <Music_Event_Tactical_Win_Vs_Faction> Pirates,    Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
-    <Music_Event_Tactical_Win_Vs_Faction> Underworld, Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
+    <Music_Event_Tactical_Win_Vs_Faction> Empire,     cis_Win_Tactical_Event  </Music_Event_Tactical_Win_Vs_Faction>
+    <Music_Event_Tactical_Win_Vs_Faction> Pirates, cis_Win_Tactical_Event  </Music_Event_Tactical_Win_Vs_Faction>
+    <Music_Event_Tactical_Win_Vs_Faction> Underworld, cis_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
     <Music_Event_Tactical_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
     <Music_Event_Tactical_Lose_Vs_Faction> Pirates,     Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
     <Music_Event_Tactical_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event</Music_Event_Tactical_Lose_Vs_Faction>
     <Music_Event_Tactical_Lose_Vs_Faction> Rebel,        Lose_To_Rebel_Event</Music_Event_Tactical_Lose_Vs_Faction>
-    <Music_Event_Strategic_Win_Vs_Faction> Empire,     Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
-    <Music_Event_Strategic_Win_Vs_Faction> Pirates,    Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
-    <Music_Event_Strategic_Win_Vs_Faction> Underworld, Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
+    <Music_Event_Strategic_Win_Vs_Faction> Empire,     cis_Win_Tactical_Event</Music_Event_Strategic_Win_Vs_Faction>
+    <Music_Event_Strategic_Win_Vs_Faction> Pirates,    cis_Win_Tactical_Event </Music_Event_Strategic_Win_Vs_Faction>
+    <Music_Event_Strategic_Win_Vs_Faction> Underworld, cis_Win_Tactical_Event </Music_Event_Strategic_Win_Vs_Faction>
     <Music_Event_Strategic_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
     <Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
     <Music_Event_Strategic_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
     <Music_Event_Strategic_Lose_Vs_Faction> Rebel,       Lose_To_Rebel_Event</Music_Event_Strategic_Lose_Vs_Faction>
     <!-- Generic -->
-    <Music_Event_Tactical_Win> Rebel_Win_Tactical_Event </Music_Event_Tactical_Win>
-    <Music_Event_Tactical_Lose> Rebel_Lose_Tactical_Event </Music_Event_Tactical_Lose>
-    <Music_Event_Strategic_Win> Rebel_Win_Strategic_Event </Music_Event_Strategic_Win>
-    <Music_Event_Strategic_Lose> Rebel_Lose_Strategic_Event </Music_Event_Strategic_Lose>
+    <Music_Event_Tactical_Win> cis_Win_Tactical_Event </Music_Event_Tactical_Win>
+    <Music_Event_Tactical_Lose> EMpire_Lose_Tactical_Event </Music_Event_Tactical_Lose>
+    <Music_Event_Strategic_Win> cis_Win_Strategic_Event </Music_Event_Strategic_Win>
+    <Music_Event_Strategic_Lose> Empire_Lose_Strategic_Event </Music_Event_Strategic_Lose>
     <!-- ====================================================================== -->
     <!-- REBEL SUPERWEAPON PRESENT MUSIC EVENTS - Overrides to map events below -->
     <!-- ====================================================================== -->
@@ -1746,11 +1743,9 @@
     <Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
     <Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
     <Space_Skirmish_AI_Default_Forces> 
-			V19_Squadron, V19_Squadron
 		</Space_Skirmish_AI_Default_Forces>
     <Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
     <Land_Skirmish_AI_Default_Forces> 
-			Republic_Clonetrooper_P1_Platoon, Republic_Clonetrooper_P1_Platoon
 		</Land_Skirmish_AI_Default_Forces>
     <Land_Skirmish_Unit_Cap_By_Player_Count>
 			0,15,

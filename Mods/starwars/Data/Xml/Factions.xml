@@ -131,12 +131,12 @@
 
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			Rebel_X-Wing_Squadron, Rebel_X-Wing_Squadron
+
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Rebel_Infantry_Squad, Rebel_Infantry_Squad
+
 		</Land_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
@@ -923,12 +923,10 @@
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			TIE_Interceptor_Squadron, TIE_Interceptor_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Imperial_Stormtrooper_Squad, Imperial_Stormtrooper_Squad
 		</Land_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Cap_By_Player_Count>

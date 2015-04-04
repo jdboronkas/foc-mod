@@ -22,7 +22,16 @@
 			Underworld,
 				UC_Underworld_Defense_Satellite_Plasma,
 				UC_Underworld_Defense_Satellite_DBM, 
-				UC_Underworld_Defense_Satellite_Sensor
+				UC_Underworld_Defense_Satellite_Sensor,
+				
+							cis, 
+				UC_cis_Defense_Satellite_Laser,
+				UC_cis_Defense_Satellite_Missile, 
+				UC_cis_Defense_Satellite_Sensor,
+			Republic,
+				UC_Republic_Defense_Satellite_Laser,
+				UC_Republic_Defense_Satellite_Missile,
+				UC_Republic_Defense_Satellite_Repair,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Tactical_Buildable_Objects_Campaign> 
@@ -37,7 +46,7 @@
 			cis, 
 				UC_cis_Defense_Satellite_Laser,
 				UC_cis_Defense_Satellite_Missile, 
-				UC_cis_Defense_Satellite_Repair,
+				UC_cis_Defense_Satellite_Sensor,
 			Republic,
 				UC_Republic_Defense_Satellite_Laser,
 				UC_Republic_Defense_Satellite_Missile,
@@ -198,11 +207,27 @@
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpaceBuildable>		
 
+	
+	<SpaceBuildable Name="UC_Republic_Defense_Satellite_Laser">
+		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed> Republic_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+
+		<Affiliation>Republic</Affiliation>
+		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>		
+
+
 
 	<SpaceBuildable Name="UC_cis_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 
-		<Tactical_Buildable_Constructed> cisDefense_Satellite_Laser </Tactical_Buildable_Constructed>
+		<Tactical_Buildable_Constructed> cis_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
@@ -325,7 +350,59 @@
 
 	</SpaceBuildable>	
 
+<SpaceBuildable Name="UC_cis_Defense_Satellite_Sensor">
+   		<Text_ID>TEXT_STRUCTURE_SENSOR_SCRAMBLER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_SCRAMBLER</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_SCRAMBLER</MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
+		<Space_Model_Name>NV_LRS_build.alo</Space_Model_Name>
+		<Icon_Name>i_button_lrs.tga</Icon_Name>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+
+		<Tactical_Buildable_Constructed> cis_Defense_Satellite_Sensor </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
+
+		<Affiliation>cis</Affiliation>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Size_Value>30</Size_Value>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Tactical_Health>1200</Tactical_Health>
+		<Space_FOW_Reveal_Range>250.0</Space_FOW_Reveal_Range>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+				
+		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+	</SpaceBuildable>	
 
 	<SpaceBuildable Name="UC_Empire_Defense_Satellite_Tractor">
    		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_TRACTOR</Text_ID>
@@ -437,6 +514,21 @@
 	</SpaceBuildable>	
 
 
+	<SpaceBuildable Name="UC_Republic_Defense_Satellite_Repair">
+		<Variant_Of_Existing_Type>UC_Rebel_Defense_Satellite_Repair</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Repair </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
+
+		<Affiliation>Republic</Affiliation>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>
+
 	<SpaceBuildable Name="UC_Empire_Defense_Satellite_Repair">
 		<Variant_Of_Existing_Type>UC_Rebel_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 
@@ -538,6 +630,22 @@
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpaceBuildable>
+	
+		
+	<SpaceBuildable Name="UC_cis_Defense_Satellite_Missile">
+		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed> cis_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+
+		<Affiliation>cis</Affiliation>
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+	</SpaceBuildable>
+
 
 
 	<SpaceBuildable Name="UC_Underworld_Defense_Satellite_DBM">
@@ -668,11 +776,11 @@
 	<SpaceBuildable Name="cis_Defense_Satellite_Laser">
 	<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>cis</Affiliation>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Republic_Defense_Satellite_Laser">
-	<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Blue</Projectile_Types>
+	<Projectile_Types>Proj_Ship_Laser_Medium_Blue</Projectile_Types>
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Affiliation>Republic</Affiliation>
 	</SpaceBuildable>
@@ -827,6 +935,91 @@
 				<Blob_Color>200, 50, 200, 128</Blob_Color>
 				<Blob_Material_Name>Sensor_Jamming_Blob</Blob_Material_Name>
 			</Sensor_Jamming_Ability>
+
+		</Abilities>
+		
+	</SpaceBuildable>
+	
+		<SpaceBuildable Name="cis_Defense_Satellite_Sensor">
+   		<Text_ID>TEXT_STRUCTURE_SENSOR_SCRAMBLER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_SCRAMBLER</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_SCRAMBLER</MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>NV_LRS.alo</Space_Model_Name>
+		<Icon_Name>i_button_lrs.tga</Icon_Name>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<GUI_Row> 0 </GUI_Row>
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+
+		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL </SpaceBehavior>
+
+		<Affiliation>cis</Affiliation>
+		<Size_Value>30</Size_Value>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Shield_Points>800</Shield_Points>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Tactical_Health>1000</Tactical_Health>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
+		<Damage>12</Damage>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		<Passive_Missile_Shield_Radius> 1000.0 </Passive_Missile_Shield_Radius>
+
+		<Abilities SubObjectList="Yes">
+
+			<Sensor_Jamming_Ability Name="UMDU_Sensor_Jamming">
+				<Activation_Style> COMBAT_AUTOMATIC </Activation_Style>
+				<Duration_In_Secs>60.0</Duration_In_Secs>
+				<Blob_Color>200, 50, 200, 128</Blob_Color>
+				<Blob_Material_Name>Sensor_Jamming_Blob</Blob_Material_Name>
+			</Sensor_Jamming_Ability>
+
+			<Combat_Bonus_Ability Name="Nute_Gunray_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.35</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
 
 		</Abilities>
 		
@@ -1012,6 +1205,94 @@
 		</Abilities>	
 
 	</SpaceBuildable>
+	
+	
+	<SpaceBuildable Name="Republic_Defense_Satellite_Repair">
+   		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_REPAIR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>RV_SATALLITE_REPAIR.ALO</Space_Model_Name>
+		<Icon_Name>i_button_repair.tga</Icon_Name>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<GUI_Row> 0 </GUI_Row>
+
+		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL </SpaceBehavior>
+
+		<Affiliation>Republic</Affiliation>
+		<Size_Value>30</Size_Value>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Shield_Points>700</Shield_Points>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Tactical_Health>1100</Tactical_Health>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
+		<Damage>12</Damage>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Victory_Relevant>No</Victory_Relevant>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>500.0</Heal_Range>
+				<Heal_Amount>25.0</Heal_Amount>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Hero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+			</Force_Healing_Ability>
+		</Abilities>	
+
+	</SpaceBuildable>
 
 
 	<SpaceBuildable Name="Empire_Defense_Satellite_Repair">
@@ -1117,7 +1398,20 @@
 <Projectile_Types>Proj_Ship_Rebel_Concussion_Missile</Projectile_Types>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceBuildable>
+	
+		<SpaceBuildable Name="Republic_Defense_Satellite_Missile">
 
+		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+		<Affiliation>Republic</Affiliation>
+	</SpaceBuildable>
+
+
+	<SpaceBuildable Name="cis_Defense_Satellite_Missile">
+
+		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+<Projectile_Types>Proj_Ship_Rebel_Concussion_Missile</Projectile_Types>
+		<Affiliation>cis</Affiliation>
+	</SpaceBuildable>
 
 
 	<SpaceBuildable Name="Underworld_Defense_Satellite_DBM">
@@ -1147,7 +1441,7 @@
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>12</Damage>
 
-		<Projectile_Types>Proj_Ship_Diamond_Boron_Missile</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Trihexalon_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
