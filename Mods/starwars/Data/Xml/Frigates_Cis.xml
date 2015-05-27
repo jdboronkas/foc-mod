@@ -102,18 +102,16 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 8 -->
-		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 1</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_0>CIS_Scarab_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
-		<Starting_Spawned_Units_Tech_0>Hyena_Squadron, 1</Starting_Spawned_Units_Tech_0> 
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 24 -->
 		<Reserve_Spawned_Units_Tech_0>Tri_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-				<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+				<Reserve_Spawned_Units_Tech_0>CIS_Scarab_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		
 		<Tactical_Bribe_Cost>2800</Tactical_Bribe_Cost>
 

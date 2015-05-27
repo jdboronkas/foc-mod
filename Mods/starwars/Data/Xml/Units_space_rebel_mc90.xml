@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <MC90_Data>
@@ -90,6 +90,9 @@
 		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		
+		<Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>K_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 
     <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
     <Space_FOW_Reveal_Range>1600.0</Space_FOW_Reveal_Range>
@@ -173,16 +176,17 @@
     <!-- Non-Hero unit abilities description -->
     <Unit_Abilities_Data SubObjectList="Yes">
       <!-- Primary ability -->
-      <!-- Unit_Ability>
-        <Type>CONCENTRATE_FIRE</Type>
-        <Effective_Radius>6000</Effective_Radius>
-        <Recharge_Seconds>20</Recharge_Seconds>
-        <Expiration_Seconds>15</Expiration_Seconds>
-        <Particle_Effect>Home_One_Target_Particles</Particle_Effect>
-        <GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
-        <SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
-      </Unit_Ability -->
-
+ 			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_BATTERIES_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ALL_BATTERIES_FIRE.tga</Alternate_Icon_Name>
+			</Unit_Ability>
       <!-- Secondary ability -->
       <Unit_Ability>
         <Type>DEFEND</Type>

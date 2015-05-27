@@ -107,13 +107,13 @@
 		</HardPoints>
 
 		<!-- Fighter complement -->
-		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 0 -->
-		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
-		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
-		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>NTB_630_Squadron 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>NTB_630_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
 
 
 
@@ -167,6 +167,9 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
+
+
+		<SFXEvent_Health_Critical_Warning> Unit_Ship_Alarm </SFXEvent_Health_Critical_Warning>
 
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -235,7 +238,6 @@
 
 	</SpaceUnit>
 
-
 	<SpaceUnit Name="Venator">
 		<Text_ID>TEXT_UNIT_VENATOR</Text_ID>
 
@@ -277,14 +279,14 @@
 		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>500</Slice_Cost_Credits>
+
 		<Affiliation>Republic</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<!--<Required_Special_Structures>Empire_Kuat_Drive_Yards</Required_Special_Structures>-->
+		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Geonosis, Foerost, Fondor, Hypori, Kuat, Mandalore, Mechis, Minntooine, MonCalimari, Rendili, Rothana, Sluis_Van, Utapau</Required_Planets>
 		<Ship_Class>Capital</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Formation_Priority>3</Formation_Priority>
@@ -303,13 +305,14 @@
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>- From 0 -->
-		<Starting_Spawned_Units_Tech_0>Eta_2_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
-		<Reserve_Spawned_Units_Tech_0>Eta_2_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
-		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron 6</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron 3</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
 
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
@@ -490,12 +493,13 @@
 		<Max_Thrust>1</Max_Thrust>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Republicl</Affiliation>
 		<Death_Persistence_Duration> 1.5 </Death_Persistence_Duration>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>
+
 	
 	
 	<SpaceUnit Name="Republic_Generic_Star_Destroyer">
@@ -565,11 +569,11 @@
 		<Size_Value>8</Size_Value>
 		
 	
-		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 6</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 8 -->
 		
-		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
+		<Starting_Spawned_Units_Tech_0>Republic_VWing_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
 		<Reserve_Spawned_Units_Tech_0>Republic_VWing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 0 -->
 
 		
@@ -898,7 +902,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
-		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
 		<Death_Clone>Damage_Normal, Legacy_Death_Clone</Death_Clone>
 
@@ -1032,8 +1036,8 @@
 
      <SpaceUnit Name="Legacy_Death_Clone">
 		<Text_ID>TEXT_UNIT_LEGACY</Text_ID>
-		<Space_Model_Name>REP_LEGACY_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>REP_LEGACY.ALO</xxxSpace_Model_Name>
+		<Space_Model_Name>W_SpaceJunk.alo</Space_Model_Name>
+		<xxxSpace_Model_Name>W_SpaceJunk.alo</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Scale_Factor>3.0</Scale_Factor>

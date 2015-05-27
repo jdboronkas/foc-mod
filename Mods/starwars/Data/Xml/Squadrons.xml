@@ -983,7 +983,7 @@
 
 	
 	<Squadron Name="Darth_Vader_TIE_Fighter_Squadron">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>181st_TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> TEXT_TOOLTIP_TIE_ADVANCED </Encyclopedia_Text>
 		<Squadron_Units>TIE_Prototype, Escort_TIE_Fighter, Escort_TIE_Fighter, Escort_TIE_Fighter</Squadron_Units>
 		<Squadron_Units>Escort_TIE_Fighter, Escort_TIE_Fighter, Escort_TIE_Fighter</Squadron_Units>

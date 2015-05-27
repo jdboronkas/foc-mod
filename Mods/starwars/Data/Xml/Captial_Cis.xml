@@ -80,14 +80,12 @@
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 8 -->
 		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 3</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_0>CIS_Scarab_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
-		<Starting_Spawned_Units_Tech_0>Hyena_Squadron, 2</Starting_Spawned_Units_Tech_0> 
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 24 -->
 		<Reserve_Spawned_Units_Tech_0>Tri_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-				<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+				<Reserve_Spawned_Units_Tech_0>CIS_Scarab_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		<HardPoints>
 			HP_Providence_01,
 			HP_Providence_02,
@@ -321,14 +319,12 @@
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 8 -->
 		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_0>CIS_Scarab_Squadron, 6</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
-		<Starting_Spawned_Units_Tech_0>Hyena_Squadron, 4</Starting_Spawned_Units_Tech_0> 
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 24 -->
 		<Reserve_Spawned_Units_Tech_0>Tri_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-				<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+				<Reserve_Spawned_Units_Tech_0>CIS_Scarab_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Lucrehulk</Death_Explosions>
@@ -532,14 +528,12 @@
 		<Starting_Spawned_Units_Tech_0>CIS_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0> <!-- From 8 -->
 		<Starting_Spawned_Units_Tech_0>Tri_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0> 
 		<Starting_Spawned_Units_Tech_0>CIS_Scarab_Squadron, 6</Starting_Spawned_Units_Tech_0> <!-- From 12 -->
-		<Starting_Spawned_Units_Tech_0>Hyena_Squadron, 4</Starting_Spawned_Units_Tech_0> 
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 24 -->
 		<Reserve_Spawned_Units_Tech_0>Tri_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-				<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
-		<Reserve_Spawned_Units_Tech_0>CIS_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+				<Reserve_Spawned_Units_Tech_0>CIS_Scarab_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- From 44 -->
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 

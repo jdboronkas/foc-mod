@@ -834,8 +834,9 @@
 	
 	
 	<UniqueUnit Name="Escort_TIE_Fighter">
-		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
 		<Scale_Factor>0.9</Scale_Factor>
+
 		<Tactical_Health>300</Tactical_Health>
         <Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
@@ -972,6 +973,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Respawn_Vader_Ship</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
+
 		</Unit_Abilities_Data>
 		
 		<Create_Team> Yes </Create_Team>
@@ -2425,7 +2427,7 @@
 	<UniqueUnit Name="Red_Leader_XWing">
 		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON </Encyclopedia_Unit_Class>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Text_ID>TEXT_UNIT_RED_LEADER_XWING</Text_ID>
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 		<Tactical_Health>400</Tactical_Health>
@@ -2484,7 +2486,7 @@
 		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_WEDGE_XWING</Text_ID>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 		<Is_Named_Hero>No</Is_Named_Hero>
 		<Tactical_Health>200</Tactical_Health>

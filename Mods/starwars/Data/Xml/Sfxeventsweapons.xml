@@ -1,7 +1,15 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 <SFXEvents>
 	
+
+		 <SFXEvent Name="Reaper_Strahlgeschutz">
+					<Use_Preset>Preset_GUNV</Use_Preset>
+					<Samples>Data\Audio\SFX\Reaper_Starhl.wav</Samples>
+	                                                                    <Min_Volume>500</Min_Volume>
+			                                  <Max_Volume>500</Max_Volume>
+		 </SFXEvent>
+
 		 <SFXEvent Name="Unit_Rebel_Ship_Laser_Fire">
 					<Use_Preset>Preset_GUNV</Use_Preset>
 					<Samples>GUN_X_Wing_1.wav</Samples>

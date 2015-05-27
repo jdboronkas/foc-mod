@@ -1031,5 +1031,421 @@
     </HardPoint>
 
 	
+                       <HardPoint Name="HP_Reaper_geschutz">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>No</Is_Targetable>
+                                <Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_001</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_001</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_001</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_001</Fire_Bone_B>
+		<Fire_Cone_Width>30</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                        <HardPoint Name="HP_Reaper_geschutz001">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_001</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_001</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_001</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_001</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz002">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_002</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_002</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_002</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_002</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz003">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_003</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_003</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_003</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_003</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz004">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_004</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_004</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_004</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_004</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz005">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_005</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_005</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_005</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_005</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz006">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_006</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_006</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_006</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_006</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz007">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_007</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_007</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_007</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_007</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz008">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_008</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_008</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_008</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_008</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz009">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_009</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_009</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_009</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_009</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_geschutz010">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_MASS_DRIVER</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_geschutz_010</Attachment_Bone>
+		<Collision_Mesh>Reaper_geschutz_010</Collision_Mesh>
+		<Fire_Bone_A>Reaper_geschutz_010</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_geschutz_010</Fire_Bone_B>
+		<Fire_Cone_Width>60</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Sabaoth_Laser_Heavy</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_Starhlengeschutz001">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_Strahl_001</Attachment_Bone>
+		<Collision_Mesh>Reaper_Strahl_001</Collision_Mesh>
+		<Fire_Bone_A>Reaper_Strahl_001</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_Strahl_001</Fire_Bone_B>
+		<Fire_Cone_Width>100</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>PROJ_Reaper_Starhlengeschutz</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.8</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Reaper_Strahlgeschutz</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+                       <HardPoint Name="HP_Reaper_Starhlengeschutz002">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+                                <Is_Targetable>Yes</Is_Targetable>
+                                <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
+		<Health>300.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+		<Attachment_Bone>Reaper_Strahl_002</Attachment_Bone>
+		<Collision_Mesh>Reaper_Strahl_002</Collision_Mesh>
+		<Fire_Bone_A>Reaper_Strahl_002</Fire_Bone_A>
+		<Fire_Bone_B>Reaper_Strahl_002</Fire_Bone_B>
+		<Fire_Cone_Width>100</Fire_Cone_Width>
+		<Fire_Cone_Height>90</Fire_Cone_Height>
+		<Fire_Projectile_Type>PROJ_Reaper_Starhlengeschutz</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>3.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Reaper_Strahlgeschutz</Fire_SFXEvent>
+ 		<Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+                        </HardPoint>
+
+
+                      <HardPoint Name="HP_ReaperBB_Triebwerk_001">
+	               <Type> HARD_POINT_ENGINE </Type>
+                               <Is_Targetable>Yes</Is_Targetable>
+                               <Is_Destroyable>Yes</Is_Destroyable>
+                               <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+                               <Health>300.0</Health>
+	               <Death_Explosion_Particles> Large_Explosion_Space_Empire</Death_Explosion_Particles>                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death
+                               </Death_Explosion_SFXEvent>
+                               <Attachment_Bone>ReaperBB_Triebwerk_001</Attachment_Bone> 
+                               <Collision_Mesh>ReaperBB_Triebwerk_001</Collision_Mesh>
+
+                     </HardPoint>
 	
 </HardPoints>

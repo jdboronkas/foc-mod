@@ -73,7 +73,7 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Fighter Spawners -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
@@ -82,7 +82,7 @@
 		<Starting_Spawned_Units_Tech_0>A-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>A-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		
-		<Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>K_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 			
 		<Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>

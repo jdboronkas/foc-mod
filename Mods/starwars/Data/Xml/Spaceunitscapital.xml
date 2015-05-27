@@ -653,7 +653,7 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Legacy_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -697,27 +697,27 @@
 		<HardPoints> 
 			HP_Liberty_1, HP_Liberty_2, HP_Liberty_3, HP_Liberty_4, HP_Liberty_5, HP_Liberty_6, HP_Liberty_7, HP_Liberty_8, HP_Liberty_9, HP_Liberty_10, HP_Liberty_11, HP_Liberty_Engines_1, HP_Liberty_Engines_2, HP_Liberty_Hanger_1, HP_Liberty_Hanger_2,
     </HardPoints>
-			<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
-			<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+			<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+			<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		
-					<Reserve_Spawned_Units_Tech_2>Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_2>
-			<Reserve_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>B-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_4>Y-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>B-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>A_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_5>K_Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+					<Reserve_Spawned_Units_Tech_3>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+			<Reserve_Spawned_Units_Tech_4>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_5>K_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>E_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 		
 		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -821,7 +821,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

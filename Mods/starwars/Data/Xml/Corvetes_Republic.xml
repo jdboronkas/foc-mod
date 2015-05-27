@@ -223,12 +223,12 @@
 		<Icon_Name>I_BUTTON_REP_LIGHT_FRIGATE.tga</Icon_Name>		
 
 		<HardPoints>
-		HP_Republic_Corvette_01,
-    HP_Republic_Corvette_02,		
-		HP_Republic_Corvette_03, 
-		HP_Republic_Corvette_04, 
-    HP_Republic_Corvette_05,
-		HP_Republic_Corvette_06,
+		HP_Republic_Corvette_011,
+    HP_Republic_Corvette_021,		
+		HP_Republic_Corvette_031, 
+		HP_Republic_Corvette_041, 
+    HP_Republic_Corvette_051,
+		HP_Republic_Corvette_061,
 	    </HardPoints>	
 	
 	

@@ -872,7 +872,8 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Neutral, Empire, Rebel, Underworld, Republic</Affiliation>
+		
+		<Affiliation>Rebel, Empire, Neutral, Underworld, Republic, cis</Affiliation>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Tech_Level>0</Tech_Level>
@@ -886,7 +887,49 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
-		
+
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+Harbinger,
+Soverign,
+Reaper_small,
+Reaper,
+Small_Reaper,
+TIE_Bizarro_Squadron,
+		TIE_Booster_Squadron,
+  TIE_Biggun_Squadron,
+		TIE_Warhead_Squadron,
+
+			Rebel,
+Harbinger,
+Soverign,
+Reaper_small,
+Reaper,
+Small_Reaper,
+			
+			Underworld,
+Harbinger,
+Soverign,
+Reaper_small,
+Reaper,
+Small_Reaper,
+
+cis, 
+Harbinger,
+Soverign,
+Reaper_small,
+Reaper,
+Small_Reaper,
+
+Republic,
+Harbinger,
+Soverign,
+Reaper_small,
+Reaper,
+Small_Reaper,
+
+		</Tactical_Buildable_Objects_Multiplayer>
+
 		<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -928,7 +971,6 @@
 		<Capture_Point_Transition_Time_Seconds>13</Capture_Point_Transition_Time_Seconds>
 		<Tactical_Respawn_Time_In_Secs>50</Tactical_Respawn_Time_In_Secs>
 		<Ownership_Sticks>Yes</Ownership_Sticks>
-		
 	</SecondaryStructure>
 
 	<SecondaryStructure Name="N_Gravity_Well_Station_Death_Clone">
@@ -1046,6 +1088,10 @@ Havoc,
 Guardian_Mantis,
 Freefall,
 G400_Squadron,
+TIE_Bizarro_Squadron,
+		TIE_Booster_Squadron,
+  TIE_Biggun_Squadron,
+		TIE_Warhead_Squadron,
 
 			Rebel,
 			Mere_Cruiser,
@@ -1141,6 +1187,10 @@ Sabaoth_Bomber_Squadron,
 Sabaoth_Deployer,
 Sabaoth_Fighter_Squadron,
 Saboath_D_Squadron,
+TIE_Bizarro_Squadron,
+		TIE_Booster_Squadron,
+  TIE_Biggun_Squadron,
+		TIE_Warhead_Squadron,
 			Rebel,
 Sabaoth_Destroyer,
 Sabaoth_Bomber_Squadron,

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <SpaceProps>
 
 
@@ -1607,7 +1607,7 @@
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 		
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
-		<Space_Obstacle_Radius> 250 </Space_Obstacle_Radius>
+		<Space_Obstacle_Radius> 0 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>

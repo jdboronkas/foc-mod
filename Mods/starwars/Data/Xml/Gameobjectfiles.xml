@@ -149,8 +149,6 @@
 	<File>Destroyers_Republic.xml</File>
 	<File>Frigates_Republic.xml</File>
 	<File>Units_space_republic_mandator.xml</File>
-	<File>Units_Space_jedi_eta2.xml</File>
-	<File>Units_space_jedi_Y-wing.xml</File>
 
 <File>Units_Space_Rebel_BWing.xml</File>	
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
@@ -267,6 +265,6 @@
 	<File>UpgradeObjects_Underworld.XML</File>
 	<File>Corruption_Special_Units.XML</File>
 
-
+<File>Reapers.xml</File>
 
 </Game_Object_Files>

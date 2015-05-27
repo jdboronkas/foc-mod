@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 
 
 <MC40_Data>
@@ -70,7 +70,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>6</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, SPAWN_SQUADRON </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -92,8 +92,27 @@
 			HP_Mc40_08, 
 			HP_Mc40_12, 
 			HP_Mc40_Shield_Generator, 
-			HP_Mc40_Engines
+			HP_Mc40_Engines,
+			HP_Mc40_Hanger
 		</HardPoints>
+
+			<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+			<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+    		<Starting_Spawned_Units_Tech_5>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+					<Reserve_Spawned_Units_Tech_2>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+			<Reserve_Spawned_Units_Tech_3>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_4>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+				<Reserve_Spawned_Units_Tech_5>B-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 
 		<CategoryMask> Frigate | AntiCorvette | AntiFrigate </CategoryMask>
 		

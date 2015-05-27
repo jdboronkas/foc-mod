@@ -1,0 +1,712 @@
+﻿<?xml version="1.0"?>
+
+
+	<Reapers>
+
+	<UniqueUnit Name="Harbinger">
+		<Variant_Of_Existing_Type>Generic_Star_Reaper</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_UNIT_HARBINGER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HARBINGER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Kedalbe_Battleship Calamari_Cruiser </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> B-Wing MC30_Frigate Skipray_Blastboat </Encyclopedia_Vulnerable_To>
+		<Icon_Name>I_BOTTON_REAPER_KUNDSCHAFTER.TGA</Icon_Name>
+
+		<Space_Model_Name>Reaper_BB.ALO</Space_Model_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Neutralization_Cost>5500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		<Tech_Level>99</Tech_Level>
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        <Build_Cost_Credits>0</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>4</Population_Value>
+		<Death_Clone>Damage_Normal, Space_Junk_Large_NO_Collision</Death_Clone>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+
+		<HardPoints> 
+			HP_Reaper_Starhlengeschutz002,
+                                                HP_Reaper_Starhlengeschutz001,
+                                                HP_Reaper_geschutz001,
+                                                HP_Reaper_geschutz002,
+                                                HP_Reaper_geschutz003,
+                                                HP_Reaper_geschutz004,
+                                                HP_Reaper_geschutz005,
+                                                HP_Reaper_geschutz006,
+                                                HP_Reaper_geschutz007,
+                                                HP_Reaper_geschutz008,
+                                                HP_Reaper_geschutz009,
+                                                HP_Reaper_geschutz010,
+                                                HP_ReaperBB_Triebwerk_001,
+                                                HP_Hanger01,
+                                                HP_Shield_Generator01,
+  		</HardPoints>
+		
+
+
+
+		<SFXEvent_Build_Started>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Reaper_Harb</SFXEvent_Build_Complete>
+	
+
+		<SFXEvent_Select>Unit_Select_Reaper_Harb</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Reaper_Harb</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Reaper_Harb</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Reaper_Harb</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Select_Reaper_Harb</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Reaper_Harb</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Complete_Reaper_Harb</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Complete_Reaper_Harb </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Complete_Reaper_Harb </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> Unit_Complete_Reaper_Harb </SFXEvent_Damaged_By_Asteroid>
+
+
+		<SFXEvent_Health_Low_Warning> Unit_Attack_Reaper_Destroyer </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Beschgt_Reaper_Harb</SFXEvent_Health_Critical_Warning>
+
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+	
+		<SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+		
+	</UniqueUnit>
+	
+
+	<SpaceUnit Name="Reaper_small_No_Fighters">
+		<Text_ID>TEXT_UNIT_REAPER_CA</Text_ID>
+		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Crusader_Gunship </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat Calamari_Cruiser </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>Reaper_CA.ALO</Space_Model_Name>
+		<Select_Box_Scale>350</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>0.60</Scale_Factor>
+
+                                <Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>1.6</Max_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-190.0</Layer_Z_Adjust>		
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>8</Bank_Turn_Angle>
+		<OverrideAcceleration> .03 </OverrideAcceleration>
+		<OverrideDeceleration> .03 </OverrideDeceleration>
+		
+		<Max_Thrust>1.1</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+
+		<Armor_Type> Armor_Victory_Class </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Damage>40</Damage>
+		<Autoresolve_Health>3400</Autoresolve_Health>
+		<Shield_Points>800</Shield_Points>
+		<Tactical_Health>3400</Tactical_Health>  <!-- was 2600 -->
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Affiliation>Underworld, Empire, cis, Rebel, Republic</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>15</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>3800</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<AI_Combat_Power>3800</AI_Combat_Power>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Space_FOW_Reveal_Range>1900.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+
+		<Death_Clone>Damage_Normal, Space_Junk_Large_NO_Collision</Death_Clone>
+
+		<HardPoints> 
+			HP_Reaper_Starhlengeschutz001,
+                        HP_Reaper_geschutz002,
+                        HP_Reaper_geschutz003,
+                        HP_Reaper_geschutz004,
+                        HP_Reaper_geschutz005,
+                        HP_ReaperBB_Triebwerk_001,
+                        HP_Hanger01,
+                        HP_Shield_Generator01,
+
+		</HardPoints>
+
+		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+		<Icon_Name>I_BUTTON_REAPER_Kreuzer.tga</Icon_Name>
+		<GUI_Model_Name>EV_VictoryStarDestroyer.alo</GUI_Model_Name>
+		<GUI_Distance>1100</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+               	<SFXEvent_Build_Started>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Move_Reaper_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Select>Unit_Attack_Reaper_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Reaper_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Reaper_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Select_Reaper_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Select_Reaper_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Complete_Reaper_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> Unit_Complete_Reaper_Destroyer </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>	 
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<!-- Non-Hero unit abilities description -->
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_REAPER_CA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 2250</Score_Cost_Credits>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+        <SpaceUnit Name="Victory_Destroyer_Death_Clone">
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+		<Space_Model_Name>EV_VictoryStarDestroyer_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>EV_VictoryStarDestroyer.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Scale_Factor>0.85</Scale_Factor>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+		<Max_Thrust>1</Max_Thrust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>frigate</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="Reaper_small">
+		<Variant_Of_Existing_Type>Reaper_small_No_Fighters</Variant_Of_Existing_Type>
+		<Tech_Level>2</Tech_Level>
+		<!-- Fighter complement -->
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Population_Value>3</Population_Value>
+		
+		<Tactical_Bribe_Cost>2800</Tactical_Bribe_Cost>
+		
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="Generic_Star_Reaper">
+		<Text_ID>TEXT_UNIT_REAPER_BB</Text_ID>
+		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>Reaper_BB.ALO</Space_Model_Name>
+
+		<Ranking_In_Category>5</Ranking_In_Category>
+	
+	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Scale_Factor>0.60</Scale_Factor>
+		<Mass>0.999</Mass>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+		<Max_Speed>1.4</Max_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+		
+		<Max_Thrust>0.4</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Affiliation>Underworld, Empire, cis, Rebel, Republic</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
+		<Damage>70</Damage>
+		<Autoresolve_Health>7500</Autoresolve_Health>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>7500</Tactical_Health> <!-- was 6000 -->
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Ship_Class>capital</Ship_Class>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<!--<Political_Control>1</Political_Control>-->
+		<Political_Faction>Underworld, Empire, cis, Rebel, Republic</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>5900</Build_Cost_Credits>
+		<Piracy_Value_Credits>250</Piracy_Value_Credits>
+		<AI_Combat_Power>5900</AI_Combat_Power>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+
+
+		
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Death_Clone>Damage_Normal, Space_Junk_Large_NO_Collision</Death_Clone>
+		<Space_FOW_Reveal_Range>2200.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints> 
+			HP_Reaper_Starhlengeschutz002,
+                                                HP_Reaper_Starhlengeschutz001,
+                                                HP_Reaper_geschutz001,
+                                                HP_Reaper_geschutz002,
+                                                HP_Reaper_geschutz003,
+                                                HP_Reaper_geschutz004,
+                                                HP_Reaper_geschutz005,
+                                                HP_Reaper_geschutz006,
+                                                HP_Reaper_geschutz007,
+                                                HP_Reaper_geschutz008,
+                                                HP_Reaper_geschutz009,
+                                                HP_Reaper_geschutz010,
+                                                HP_ReaperBB_Triebwerk_001,
+                                                HP_Hanger01,
+                                                HP_Shield_Generator01,
+  		</HardPoints>
+
+
+
+
+
+		<SFXEvent_Build_Started>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Move_Reaper_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Attack_Reaper_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Reaper_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Reaper_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Select_Reaper_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Select_Reaper_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Complete_Reaper_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> Unit_Complete_Reaper_Destroyer </SFXEvent_Damaged_By_Asteroid>
+
+
+
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+         
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Capital | AntiFrigate </CategoryMask>
+		<Icon_Name>I_BUTTON_REAPER_BB.tga</Icon_Name>
+		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
+		<GUI_Distance>2300</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		 
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
+
+  
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_REAPER_BB</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 45000</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+
+
+	<SpaceUnit Name="Reaper">
+		<Variant_Of_Existing_Type>Generic_Star_Reaper</Variant_Of_Existing_Type>
+		<Tech_Level>4</Tech_Level>
+		<HardPoints> 
+			HP_Reaper_Starhlengeschutz002,
+                                                HP_Reaper_Starhlengeschutz001,
+                                                HP_Reaper_geschutz001,
+                                                HP_Reaper_geschutz002,
+                                                HP_Reaper_geschutz003,
+                                                HP_Reaper_geschutz004,
+                                                HP_Reaper_geschutz005,
+                                                HP_Reaper_geschutz006,
+                                                HP_Reaper_geschutz007,
+                                                HP_Reaper_geschutz008,
+                                                HP_Reaper_geschutz009,
+                                                HP_Reaper_geschutz010,
+                                                HP_ReaperBB_Triebwerk_001,
+                                                HP_Hanger01,
+                                                HP_Shield_Generator01,
+
+		</HardPoints>
+
+		<Population_Value>4</Population_Value>
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="Small_Reaper">
+		<Text_ID>TEXT_UNIT_REAPER_DD</Text_ID>
+		<Encyclopedia_Good_Against> Marauder_Missile_Cruiser Interceptor4_Frigate</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Calamari_Cruiser Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>Reaper_DD.ALO</Space_Model_Name>
+		<Select_Box_Scale>250</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>0.60</Scale_Factor>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+                                <Reinforcement_Prevention_Radius> 1800 </Reinforcement_Prevention_Radius>
+
+                                <Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>2.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-130.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<OverrideAcceleration> .04 </OverrideAcceleration>
+		<OverrideDeceleration> .04 </OverrideDeceleration>
+
+		<Armor_Type> Armor_Interdictor </Armor_Type>
+                                <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Max_Thrust>0.8</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Affiliation>Underworld, Empire, cis, Rebel, Republic</Affiliation>
+		<Tech_Level>4</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Autoresolve_Health>800</Autoresolve_Health>
+		<Damage>20</Damage>
+		<Shield_Points>800</Shield_Points>
+		<Tactical_Health>700</Tactical_Health>
+		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+		<Ship_Class>corvette</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Is_Interdictor>Yes</Is_Interdictor>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>5</Squadron_Capacity>
+		<Transport_Capacity>4</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<AI_Combat_Power>3000</AI_Combat_Power>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Disallows_Hyperspace_Retreat> No </Disallows_Hyperspace_Retreat>  <!-- gravity_well ability will take care of this -->
+		<Size_Value>120</Size_Value>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Lua_Script>Interdictor</Lua_Script>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+
+		<Death_Clone>Damage_Normal, Space_Junk_Small</Death_Clone>
+
+		<Space_FOW_Reveal_Range>1900.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints> 
+			HP_Reaper_Starhlengeschutz001,
+                        HP_Reaper_geschutz002,
+                        HP_Reaper_geschutz001,
+                        HP_ReaperBB_Triebwerk_001,
+                        HP_Shield_Generator01,
+                        HP_Comm_Array_001,
+		</HardPoints>
+
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
+		<Icon_Name>I_BUTTON_REAPER_DD.tga</Icon_Name>
+		<GUI_Model_Name>EV_Interdictor.alo</GUI_Model_Name>
+		<GUI_Distance>900</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+	
+		<SFXEvent_Build_Started>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Move_Reaper_Destroyer</SFXEvent_Build_Complete>
+	
+		<SFXEvent_Select>Unit_Attack_Reaper_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Reaper_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Reaper_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Select_Reaper_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Select_Reaper_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Complete_Reaper_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> Unit_Complete_Reaper_Destroyer </SFXEvent_Damaged_By_Asteroid>
+
+		
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Interdictor_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Interdictor_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Interdictor_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<MovementClass> Space </MovementClass>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+
+		<Tactical_Bribe_Cost>2000</Tactical_Bribe_Cost>
+		<Lua_Script>ObjectScript_MissileShield</Lua_Script>
+		
+		<!-- Non-Hero unit abilities description -->
+
+
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_REAPER_DD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 3000</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>4</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>3</Population_Value>
+	</SpaceUnit>
+
+
+
+	<UniqueUnit Name="Soverign">
+		<Variant_Of_Existing_Type>Generic_Star_Reaper</Variant_Of_Existing_Type>
+		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_SOVERIGN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SOVERIGN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BOTTON_REAPER_SOVERGIN.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		<Affiliation>Underworld, Empire, cis, Rebel, Republic</Affiliation>
+		<Scale_Factor>0.60</Scale_Factor>
+		<Space_Model_Name>Reaper_BB.ALO</Space_Model_Name>
+		<Text_ID>TEXT_UNIT_LEVIATAN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_LEVIATAN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Max_Speed>4.7</Max_Speed>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+         	<Death_Clone>Damage_Normal, Space_Junk_Large_NO_Collision</Death_Clone>
+                <Ranking_In_Category>3</Ranking_In_Category>
+		<HardPoints> 
+			HP_Reaper_Starhlengeschutz002,
+                        HP_Reaper_Starhlengeschutz001,
+                        HP_Reaper_geschutz001,
+                        HP_Reaper_geschutz002,
+                        HP_Reaper_geschutz003,
+                        HP_Reaper_geschutz004,
+                        HP_Reaper_geschutz005,
+                        HP_Reaper_geschutz006,
+                        HP_Reaper_geschutz007,
+                        HP_Reaper_geschutz008,
+                        HP_Reaper_geschutz009,
+                        HP_Reaper_geschutz010,
+                        HP_ReaperBB_Triebwerk_001,
+                        HP_Hanger01,
+                        HP_Shield_Generator01,
+  		</HardPoints>
+
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>Unit_Attack_Reaper_Destroyer</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Move_Reaper_Destroyer</SFXEvent_Build_Complete>
+	
+
+		<SFXEvent_Select>Unit_Attack_Reaper_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Reaper_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Reaper_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Select_Reaper_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Select_Reaper_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Complete_Reaper_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Complete_Reaper_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> Unit_Complete_Reaper_Destroyer </SFXEvent_Damaged_By_Asteroid>
+
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	  
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+                <Build_Cost_Credits>5000</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>4</Population_Value>
+
+		<Neutralization_Cost>5000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>100</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+	
+		
+	</UniqueUnit>
+
+
+
+
+
+
+
+
+
+
+	</Reapers>
