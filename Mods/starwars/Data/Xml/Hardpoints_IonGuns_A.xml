@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<HardPoints>
+	<!-- IONCANNON Hard points -->
+	<HardPoint Name="HP_Ion_01">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion01</Attachment_Bone>
+		<Collision_Mesh>Ion01</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion01_D</Damage_Particles>
+		<Fire_Bone_A>Ion01</Fire_Bone_A>
+		<Fire_Bone_B>Ion01</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Disruptor_Violet</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 5 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_02">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire2 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion02</Attachment_Bone>
+		<Collision_Mesh>Ion02</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion02_D</Damage_Particles>
+		<Fire_Bone_A>Ion02</Fire_Bone_A>
+		<Fire_Bone_B>Ion02</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Disruptor_Violet</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 15 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_03">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire3 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion03</Attachment_Bone>
+		<Collision_Mesh>Ion03</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion03_D</Damage_Particles>
+		<Fire_Bone_A>Ion03</Fire_Bone_A>
+		<Fire_Bone_B>Ion03</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Disruptor_Violet</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 25 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_04">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire4 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion04</Attachment_Bone>
+		<Collision_Mesh>Ion04</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion04_D</Damage_Particles>
+		<Fire_Bone_A>Ion04</Fire_Bone_A>
+		<Fire_Bone_B>Ion04</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Disruptor_Violet</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 40 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_05">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion05</Attachment_Bone>
+		<Collision_Mesh>Ion05</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion05_D</Damage_Particles>
+		<Fire_Bone_A>Ion05</Fire_Bone_A>
+		<Fire_Bone_B>Ion05</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_06">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire2 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion06</Attachment_Bone>
+		<Collision_Mesh>Ion06</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion06_D</Damage_Particles>
+		<Fire_Bone_A>Ion06</Fire_Bone_A>
+		<Fire_Bone_B>Ion06</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_07">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire3 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion07</Attachment_Bone>
+		<Collision_Mesh>Ion07</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion07_D</Damage_Particles>
+		<Fire_Bone_A>Ion07</Fire_Bone_A>
+		<Fire_Bone_B>Ion07</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_08">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire4 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion08</Attachment_Bone>
+		<Collision_Mesh>Ion08</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion08_D</Damage_Particles>
+		<Fire_Bone_A>Ion08</Fire_Bone_A>
+		<Fire_Bone_B>Ion08</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_09">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion09</Attachment_Bone>
+		<Collision_Mesh>Ion09</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion09_D</Damage_Particles>
+		<Fire_Bone_A>Ion09</Fire_Bone_A>
+		<Fire_Bone_B>Ion09</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_10">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire2 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion10</Attachment_Bone>
+		<Collision_Mesh>Ion10</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion10_D</Damage_Particles>
+		<Fire_Bone_A>Ion10</Fire_Bone_A>
+		<Fire_Bone_B>Ion10</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_11">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire3 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion11</Attachment_Bone>
+		<Collision_Mesh>Ion11</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion11_D</Damage_Particles>
+		<Fire_Bone_A>Ion11</Fire_Bone_A>
+		<Fire_Bone_B>Ion11</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Ion_12">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Empire4 </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Ion12</Attachment_Bone>
+		<Collision_Mesh>Ion12</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>Ion12_D</Damage_Particles>
+		<Fire_Bone_A>Ion12</Fire_Bone_A>
+		<Fire_Bone_B>Ion12</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	
+
+	<!-- IonHCANNON HEAVY LARGO ALCANCE Hard points -->
+<HardPoint Name="HP_IonLH_01">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH01</Attachment_Bone>
+		<Collision_Mesh>IonLH01</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH01_D</Damage_Particles>
+		<Fire_Bone_A>IonLH01</Fire_Bone_A>
+		<Fire_Bone_B>IonLH01</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Ion_Megaweapon</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 30 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_02">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire2 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH02</Attachment_Bone>
+		<Collision_Mesh>IonLH02</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH02_D</Damage_Particles>
+		<Fire_Bone_A>IonLH02</Fire_Bone_A>
+		<Fire_Bone_B>IonLH02</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Ion_Megaweapon</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 30 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_03">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire3 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH03</Attachment_Bone>
+		<Collision_Mesh>IonLH03</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH03_D</Damage_Particles>
+		<Fire_Bone_A>IonLH03</Fire_Bone_A>
+		<Fire_Bone_B>IonLH03</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Ion_Megaweapon</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 30 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_04">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire4 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH04</Attachment_Bone>
+		<Collision_Mesh>IonLH04</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH04_D</Damage_Particles>
+		<Fire_Bone_A>IonLH04</Fire_Bone_A>
+		<Fire_Bone_B>IonLH04</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Ship_Ion_Megaweapon</Blast_Ability_Fire_Projectile_Type>
+		<Projectile_Appearance_Delay_Frames> 30 </Projectile_Appearance_Delay_Frames>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_05">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire5 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH05</Attachment_Bone>
+		<Collision_Mesh>IonLH05</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH05_D</Damage_Particles>
+		<Fire_Bone_A>IonLH05</Fire_Bone_A>
+		<Fire_Bone_B>IonLH05</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_06">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire6 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH06</Attachment_Bone>
+		<Collision_Mesh>IonLH06</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH06_D</Damage_Particles>
+		<Fire_Bone_A>IonLH06</Fire_Bone_A>
+		<Fire_Bone_B>IonLH06</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_07">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire7 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH07</Attachment_Bone>
+		<Collision_Mesh>IonLH07</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH07_D</Damage_Particles>
+		<Fire_Bone_A>IonLH07</Fire_Bone_A>
+		<Fire_Bone_B>IonLH07</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_08">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH08</Attachment_Bone>
+		<Collision_Mesh>IonLH08</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH08_D</Damage_Particles>
+		<Fire_Bone_A>IonLH08</Fire_Bone_A>
+		<Fire_Bone_B>IonLH08</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_09">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire2 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH09</Attachment_Bone>
+		<Collision_Mesh>IonLH09</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH09_D</Damage_Particles>
+		<Fire_Bone_A>IonLH09</Fire_Bone_A>
+		<Fire_Bone_B>IonLH09</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_10">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire3 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH10</Attachment_Bone>
+		<Collision_Mesh>IonLH10</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH10_D</Damage_Particles>
+		<Fire_Bone_A>IonLH10</Fire_Bone_A>
+		<Fire_Bone_B>IonLH10</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_11">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire4 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH11</Attachment_Bone>
+		<Collision_Mesh>IonLH11</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH11_D</Damage_Particles>
+		<Fire_Bone_A>IonLH11</Fire_Bone_A>
+		<Fire_Bone_B>IonLH11</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_12">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire5 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH12</Attachment_Bone>
+		<Collision_Mesh>IonLH12</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH12_D</Damage_Particles>
+		<Fire_Bone_A>IonLH12</Fire_Bone_A>
+		<Fire_Bone_B>IonLH12</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_13">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire6 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH13</Attachment_Bone>
+		<Collision_Mesh>IonLH13</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH13_D</Damage_Particles>
+		<Fire_Bone_A>IonLH13</Fire_Bone_A>
+		<Fire_Bone_B>IonLH13</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_IonLH_14">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>yes</Is_Targetable>
+		<Is_Destroyable>yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNONHVY</Tooltip_Text>
+		<Health>1200.0</Health>
+		<Death_ExplosIonLH_Particles> Large_Explosion_Space_Empire7 </Death_ExplosIonLH_Particles>
+		<Death_ExplosIonLH_SFXEvent>Unit_Hardpoint_Ion_DeathX</Death_ExplosIonLH_SFXEvent>
+		<Attachment_Bone>IonLH14</Attachment_Bone>
+		<Collision_Mesh>IonLH14</Collision_Mesh>
+		<Damage_Decal>HP_F-L_blast</Damage_Decal>
+		<Damage_Particles>IonLH14_D</Damage_Particles>
+		<Fire_Bone_A>IonLH14</Fire_Bone_A>
+		<Fire_Bone_B>IonLH14</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>180.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Hvy</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>5500.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>	
+	
+</HardPoints>
+

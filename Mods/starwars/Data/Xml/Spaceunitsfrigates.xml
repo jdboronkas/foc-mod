@@ -869,7 +869,7 @@
 		<Encyclopedia_Good_Against> Corellian_Corvette Marauder_Missile_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Calamari_Cruiser Skipray_Blastboat Y-wing </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>EV_ACCLAMATOR.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_Acclamator_Assault_Ship.ALO</Space_Model_Name>
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
@@ -956,9 +956,20 @@
 		<Starting_Spawned_Units_Tech_5>TIE_Droid_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_5>TIE_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_5> 
-		
 		<HardPoints>
-			HP_Acclamator_Weapon_FL, HP_Acclamator_Weapon_FR, HP_Acclamator_Weapon_FC, HP_Acclamator_Weapon_BL, HP_Acclamator_Weapon_BR, HP_Acclamator_Weapon_BC, HP_Acclamator_Engines, HP_Acclamator_Fighter_Bay
+			HP_Torpedo_01,
+			HP_Torpedo_02,
+			HP_TurboG_01,
+			HP_TurboG_02,
+			HP_TurboG_03,
+			HP_TurboG_04,
+			HP_LaserGX_01,
+			HP_LaserGX_02,
+			HP_LaserGX_03,
+			HP_LaserGX_04,
+			HP_Acclamator_Fighter_Bay,
+			HP_Engines_Small_00,
+			HP_Shield_Generator_Small_00,
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>

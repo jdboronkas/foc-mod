@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<HardPoints>
+	
+	<!-- Dark Trooper Phase III Hard Points -->
+
+	
+
+	
+	<!-- Hard Points for ATOT -->
+	<HardPoint Name="HP_ATOT_Turret_LASER_01">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>380.0</Health>
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Model_To_Attach>Rep_AT_OT_SmallGun00.ALO</Model_To_Attach>
+		<Attachment_Bone>Bone_00</Attachment_Bone>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees> 45.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees> 15.0 </Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
+		<Barrel_Bone_Name> MuzzleB_00 </Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_Blaster_Cannon_Green_AT-TE</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+	</HardPoint>
+	<HardPoint Name="HP_ATOT_Turret_LASER_02">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>380.0</Health>
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Model_To_Attach>Rep_AT_OT_SmallGun01.ALO</Model_To_Attach>
+		<Attachment_Bone>Bone_01</Attachment_Bone>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees> 45.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees> 15.0 </Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
+		<Barrel_Bone_Name> MuzzleB_01 </Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_Blaster_Cannon_Green_AT-TE</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+	</HardPoint>
+	<HardPoint Name="HP_ATOT_Turret_LASER_03">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>380.0</Health>
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Model_To_Attach>Rep_AT_OT_SmallGun02.ALO</Model_To_Attach>
+		<Attachment_Bone>Bone_02</Attachment_Bone>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 45.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees> 60.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees> 10.0 </Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name> Turret_02 </Turret_Bone_Name>
+		<Barrel_Bone_Name> MuzzleB_02 </Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_Ground_Laser_Cannon_Blue</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>350.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_AT_AT_Fire</Fire_SFXEvent>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+	</HardPoint>
+	<HardPoint Name="HP_ATOT_Turret_LASER_04">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>380.0</Health>
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Model_To_Attach>Rep_AT_OT_SmallGun03.ALO</Model_To_Attach>
+		<Attachment_Bone>Bone_03</Attachment_Bone>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 45.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees> 60.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees> 10.0 </Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name> Turret_03 </Turret_Bone_Name>
+		<Barrel_Bone_Name> MuzzleB_03 </Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_Ground_Laser_Cannon_Blue</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>350.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_AT_AT_Fire</Fire_SFXEvent>
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+	</HardPoint>
+	
+	
+	
+</HardPoints>
+

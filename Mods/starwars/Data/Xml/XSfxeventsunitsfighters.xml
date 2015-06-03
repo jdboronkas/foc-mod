@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+<SFXEvent Name="Unit_Ability_Off_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Roger_Roger.wav Data\Audio\tie_droid_select1.wav Data\Audio\tie_droid_select3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_RLD_CHATTER_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Ability_On_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Roger_Roger.wav Data\Audio\tie_droid_select1.wav Data\Audio\tie_droid_select3.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_XW4_CHATTER_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_KUS_Vulture">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Roger_Roger.wav Data\Audio\tie_droid_select1.wav Data\Audio\tie_droid_select3.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_SELECT_1, TEXT_SFX_AWP_SELECT_2, TEXT_SFX_AWP_SELECT_3, TEXT_SFX_AWP_SELECT_4, TEXT_SFX_AWP_SELECT_5, TEXT_SFX_AWP_SELECT_6, TEXT_SFX_AWP_SELECT_7, TEXT_SFX_AWP_SELECT_8, TEXT_SFX_AWP_SELECT_9, TEXT_SFX_AWP_SELECT_10, TEXT_SFX_AWP_SELECT_11, TEXT_SFX_AWP_SELECT_12, TEXT_SFX_AWP_SELECT_13, TEXT_SFX_AWP_SELECT_14, TEXT_SFX_AWP_SELECT_15</Text_ID>
+	 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_KUS_Vulture">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\tie_droid_win1.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_SELECT_1</Text_ID>
+	 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+
+<SFXEvent Name="Unit_Move_KUS_Vulture">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\w_batt1.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_MOVE_1, TEXT_SFX_AWP_MOVE_2, TEXT_SFX_AWP_MOVE_3, TEXT_SFX_AWP_MOVE_4, TEXT_SFX_AWP_MOVE_5, TEXT_SFX_AWP_MOVE_6, TEXT_SFX_AWP_MOVE_7, TEXT_SFX_AWP_MOVE_8, TEXT_SFX_AWP_MOVE_9, TEXT_SFX_AWP_MOVE_10, TEXT_SFX_AWP_MOVE_11, TEXT_SFX_AWP_MOVE_12, TEXT_SFX_AWP_MOVE_13, TEXT_SFX_AWP_MOVE_14, TEXT_SFX_AWP_MOVE_15</Text_ID>			
+		 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fleet_Move_KUS_Vulture">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\w_batt2.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_MOVE_2, TEXT_SFX_AWP_MOVE_3, TEXT_SFX_AWP_MOVE_4, TEXT_SFX_AWP_MOVE_5, TEXT_SFX_AWP_MOVE_6, TEXT_SFX_AWP_MOVE_7, TEXT_SFX_AWP_MOVE_8, TEXT_SFX_AWP_MOVE_9, TEXT_SFX_AWP_MOVE_10, TEXT_SFX_AWP_MOVE_11, TEXT_SFX_AWP_MOVE_12</Text_ID>			
+		 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+
+<SFXEvent Name="Unit_Attack_KUS_Vulture">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\002moreblabber.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_ATTACK_1, TEXT_SFX_AWP_ATTACK_2,  TEXT_SFX_AWP_ATTACK_5, TEXT_SFX_AWP_ATTACK_6, TEXT_SFX_AWP_ATTACK_7, TEXT_SFX_AWP_ATTACK_8, TEXT_SFX_AWP_ATTACK_9, TEXT_SFX_AWP_ATTACK_10, TEXT_SFX_AWP_ATTACK_11, TEXT_SFX_AWP_ATTACK_12, TEXT_SFX_AWP_ATTACK_13, TEXT_SFX_AWP_ATTACK_14, TEXT_SFX_AWP_ATTACK_15</Text_ID>			
+	 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Patrol_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\w_batt1.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_PATROL_1, TEXT_SFX_AWP_PATROL_2, TEXT_SFX_AWP_PATROL_3, TEXT_SFX_AWP_PATROL_4, TEXT_SFX_AWP_PATROL_5, TEXT_SFX_AWP_PATROL_6</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_KUS_Vulture">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\w_batt2.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_GUARD_1, TEXT_SFX_AWP_GUARD_2</Text_ID>
+	 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Asteroids_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Data\Audio\006whatthat.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_ASTEROIDS_1</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Nebula_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Data\Audio\006whatthat.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_NEBULA_1</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>	  
+
+<SFXEvent Name="Unit_Health_Low_KUS_Vulture">
+	<Use_Preset>Preset_URC</Use_Preset>
+	<Samples>Data\Audio\w_batt8.wav Data\Audio\tie_droid_lose.wav</Samples>
+		<Localize> Yes </Localize>
+		<Text_ID>TEXT_SFX_AWP_DEATH_1, TEXT_SFX_AWP_DEATH_2, TEXT_SFX_AWP_DEATH_3, TEXT_SFX_AWP_DEATH_4,TEXT_SFX_AWP_DEATH_5, TEXT_SFX_AWP_DEATH_6, TEXT_SFX_AWP_DEATH_7, TEXT_SFX_AWP_DEATH_8, TEXT_SFX_AWP_DEATH_9</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>	  
+
+<SFXEvent Name="Unit_Health_Critical_KUS_Vulture">
+	<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>Data\Audio\005r4dying.wav Data\Audio\006buzzdeath.wav</Samples>
+		<Localize> Yes </Localize>
+		<Text_ID>TEXT_SFX_AWP_DEATH_1, TEXT_SFX_AWP_DEATH_2, TEXT_SFX_AWP_DEATH_3, TEXT_SFX_AWP_DEATH_4,TEXT_SFX_AWP_DEATH_5, TEXT_SFX_AWP_DEATH_6, TEXT_SFX_AWP_DEATH_7, TEXT_SFX_AWP_DEATH_8, TEXT_SFX_AWP_DEATH_9</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Enemy_Health_Low_KUS_Vulture">
+	<Use_Preset>Preset_URC</Use_Preset>
+	<Samples>Data\Audio\001vulturedroid.wav</Samples>
+		<Localize> Yes </Localize>
+		<Text_ID> TEXT_SFX_XW1_CHATTER_5, TEXT_SFX_XW1_CHATTER_6, TEXT_SFX_XW2_CHATTER_7, TEXT_SFX_XW4_CHATTER_5, TEXT_SFX_XW5_CHATTER_3, TEXT_SFX_XW5_CHATTER_6, TEXT_SFX_XW5_CHATTER_7 </Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Enemy_Health_Critical_KUS_Vulture">
+	<Use_Preset>Preset_URC</Use_Preset>
+	<Samples>Data\Audio\tie_droid_win2.wav</Samples>
+		<Localize> Yes </Localize>
+		<Text_ID>TEXT_SFX_XW4_CHATTER_2, TEXT_SFX_XW4_CHATTER_3, TEXT_SFX_XW5_CHATTER_3,</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+
+<SFXEvent Name="Unit_HP_Laser_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\w_batt14.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_LASER_1, TEXT_SFX_AWP_HP_LASER_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Missile_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\Roger_Roger.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_MISSILE_1, TEXT_SFX_AWP_HP_MISSILE_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Torp_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\RogerRoger1.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_TORP_1, TEXT_SFX_AWP_HP_TORP_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Ion_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\RogerRoger.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_ION_1, TEXT_SFX_AWP_HP_ION_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Engines_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\w_batt1.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_ENGINES_1, TEXT_SFX_AWP_HP_ENGINES_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Shields_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\tie_droid_shield.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_SHIELDS_1, TEXT_SFX_AWP_HP_SHIELDS_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Grav_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\003r4talking.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_GRAV_1</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Bay_KUS_Vulture">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data\Audio\w_batt14.wav</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_AWP_HP_BAY_1, TEXT_SFX_AWP_HP_BAY_2</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+</SFXEvent>
+
+</SFXEvents>

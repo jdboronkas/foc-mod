@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+	
+	
+					 <SFXEvent Name="Unit_Select_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bselect.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_1, TEXT_SFX_PRS_SELECT_2, TEXT_SFX_PRS_SELECT_3, TEXT_SFX_PRS_SELECT_4, TEXT_SFX_PRS_SELECT_5, TEXT_SFX_PRS_SELECT_6, TEXT_SFX_PRS_SELECT_7, TEXT_SFX_PRS_SELECT_8, TEXT_SFX_PRS_SELECT_9, TEXT_SFX_PRS_SELECT_10, TEXT_SFX_PRS_SELECT_11, TEXT_SFX_PRS_SELECT_12, TEXT_SFX_PRS_SELECT_13, TEXT_SFX_PRS_SELECT_14, TEXT_SFX_PRS_SELECT_15</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff </Overlap_Test>
+						 </SFXEvent>
+
+				  <SFXEvent Name="Unit_Complete_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bcomplete.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_12</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Move_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bmove.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Fleet_Move_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bmovefleet.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Attack_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3battack.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Move_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bassist.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Attack_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bassistattack.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Guard_T3B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t3bguard.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_GUARD_1, TEXT_SFX_PRS_GUARD_2</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+						 
+						  <SFXEvent Name="Unit_Select_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bselect.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_1, TEXT_SFX_PRS_SELECT_2, TEXT_SFX_PRS_SELECT_3, TEXT_SFX_PRS_SELECT_4, TEXT_SFX_PRS_SELECT_5, TEXT_SFX_PRS_SELECT_6, TEXT_SFX_PRS_SELECT_7, TEXT_SFX_PRS_SELECT_8, TEXT_SFX_PRS_SELECT_9, TEXT_SFX_PRS_SELECT_10, TEXT_SFX_PRS_SELECT_11, TEXT_SFX_PRS_SELECT_12, TEXT_SFX_PRS_SELECT_13, TEXT_SFX_PRS_SELECT_14, TEXT_SFX_PRS_SELECT_15</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff </Overlap_Test>
+						 </SFXEvent>
+
+				  <SFXEvent Name="Unit_Complete_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bcomplete.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_12</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Move_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bmove.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Fleet_Move_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bfleetmove.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Attack_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1battack.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Move_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bassistmove.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Attack_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bassistattack.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Guard_T1B">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\t1bguard.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_GUARD_1, TEXT_SFX_PRS_GUARD_2</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+						 
+						   <SFXEvent Name="Unit_Select_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilselect.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_1, TEXT_SFX_PRS_SELECT_2, TEXT_SFX_PRS_SELECT_3, TEXT_SFX_PRS_SELECT_4, TEXT_SFX_PRS_SELECT_5, TEXT_SFX_PRS_SELECT_6, TEXT_SFX_PRS_SELECT_7, TEXT_SFX_PRS_SELECT_8, TEXT_SFX_PRS_SELECT_9, TEXT_SFX_PRS_SELECT_10, TEXT_SFX_PRS_SELECT_11, TEXT_SFX_PRS_SELECT_12, TEXT_SFX_PRS_SELECT_13, TEXT_SFX_PRS_SELECT_14, TEXT_SFX_PRS_SELECT_15</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff </Overlap_Test>
+						 </SFXEvent>
+
+						 
+						 
+						   <SFXEvent Name="Unit_Complete_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilcomplete.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_12</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Move_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilmove.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Fleet_Move_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilfleet.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Attack_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilattack.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Move_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilmoveB.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Attack_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilattackB.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Guard_MOVILEART">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\artmovilguard.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_GUARD_1, TEXT_SFX_PRS_GUARD_2</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+ <SFXEvent Name="Unit_Fleet_Move_Droid">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\w_batt2.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_MOVE_2, TEXT_SFX_AWP_MOVE_3, TEXT_SFX_AWP_MOVE_4, TEXT_SFX_AWP_MOVE_5, TEXT_SFX_AWP_MOVE_6, TEXT_SFX_AWP_MOVE_7, TEXT_SFX_AWP_MOVE_8, TEXT_SFX_AWP_MOVE_9, TEXT_SFX_AWP_MOVE_10, TEXT_SFX_AWP_MOVE_11, TEXT_SFX_AWP_MOVE_12</Text_ID>			
+		 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+	</SFXEvent>
+<SFXEvent Name="Unit_Assist_Move_Droid">
+			 <Use_Preset>Preset_UR</Use_Preset>
+			 <Samples>Data\Audio\tie_droid_select1.wav</Samples>
+				 <Localize> Yes </Localize>
+				 <Play_Sequentially> Yes </Play_Sequentially>
+				 <Probability>60</Probability>
+				 <Text_ID>TEXT_SFX_T2B_ASSIST_1, TEXT_SFX_T2B_ASSIST_2, TEXT_SFX_T2B_ASSIST_3, TEXT_SFX_T2B_ASSIST_4, TEXT_SFX_T2B_ASSIST_5, TEXT_SFX_T2B_ASSIST_6, TEXT_SFX_T2B_MOVE_1, TEXT_SFX_T2B_MOVE_2, TEXT_SFX_T2B_MOVE_3, TEXT_SFX_T2B_MOVE_4, TEXT_SFX_T2B_MOVE_5, TEXT_SFX_T2B_MOVE_6, TEXT_SFX_T2B_MOVE_7, TEXT_SFX_T2B_MOVE_8, TEXT_SFX_T2B_MOVE_9, TEXT_SFX_T2B_MOVE_10, TEXT_SFX_T2B_MOVE_11, TEXT_SFX_T2B_MOVE_12, TEXT_SFX_T2B_MOVE_13, TEXT_SFX_T2B_MOVE_14, TEXT_SFX_T2B_MOVE_15</Text_ID>			
+				 <Overlap_Test> Unit_T2B_Tank </Overlap_Test>
+	  </SFXEvent>
+
+	 <SFXEvent Name="Unit_Assist_Attack_Droid">
+			 <Use_Preset>Preset_UR</Use_Preset>
+			 <Samples>Data\Audio\tie_droid_select2.wav</Samples>
+				 <Localize> Yes </Localize>
+				 <Play_Sequentially> Yes </Play_Sequentially>
+				 <Probability>60</Probability>
+				 <Text_ID>TEXT_SFX_T2B_ASSIST_1, TEXT_SFX_T2B_ASSIST_2, TEXT_SFX_T2B_ASSIST_3, TEXT_SFX_T2B_ASSIST_4, TEXT_SFX_T2B_ASSIST_5, TEXT_SFX_T2B_ASSIST_6, TEXT_SFX_T2B_ATTACK_1, TEXT_SFX_T2B_ATTACK_2, TEXT_SFX_T2B_ATTACK_3, TEXT_SFX_T2B_ATTACK_4, TEXT_SFX_T2B_ATTACK_5, TEXT_SFX_T2B_ATTACK_6, TEXT_SFX_T2B_ATTACK_7, TEXT_SFX_T2B_ATTACK_8, TEXT_SFX_T2B_ATTACK_9, TEXT_SFX_T2B_ATTACK_10, TEXT_SFX_T2B_ATTACK_11, TEXT_SFX_T2B_ATTACK_12, TEXT_SFX_T2B_ATTACK_13, TEXT_SFX_T2B_ATTACK_14, TEXT_SFX_T2B_ATTACK_15</Text_ID>			
+			 <Overlap_Test> Unit_T2B_Tank </Overlap_Test>
+	  </SFXEvent>
+ 	<SFXEvent Name="Unit_Select_Droid">
+		 <Use_Preset>Preset_UR</Use_Preset>
+		 <Samples>Data\Audio\Roger_Roger.wav </Samples>
+			 <Localize> Yes </Localize>
+			 <Play_Sequentially> Yes </Play_Sequentially>
+			 <Text_ID>TEXT_SFX_AWP_SELECT_1, TEXT_SFX_AWP_SELECT_2, TEXT_SFX_AWP_SELECT_3, TEXT_SFX_AWP_SELECT_4, TEXT_SFX_AWP_SELECT_5, TEXT_SFX_AWP_SELECT_6, TEXT_SFX_AWP_SELECT_7, TEXT_SFX_AWP_SELECT_8, TEXT_SFX_AWP_SELECT_9, TEXT_SFX_AWP_SELECT_10, TEXT_SFX_AWP_SELECT_11, TEXT_SFX_AWP_SELECT_12, TEXT_SFX_AWP_SELECT_13, TEXT_SFX_AWP_SELECT_14, TEXT_SFX_AWP_SELECT_15</Text_ID>
+		 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Complete_Droid">
+		 <Use_Preset>Preset_UR</Use_Preset>
+		 <Samples>Data\Audio\Roger_Roger.wav </Samples>
+			 <Localize> Yes </Localize>
+			 <Play_Sequentially> Yes </Play_Sequentially>
+			 <Text_ID>TEXT_SFX_AWP_SELECT_1, TEXT_SFX_AWP_SELECT_2, TEXT_SFX_AWP_SELECT_3, TEXT_SFX_AWP_SELECT_4, TEXT_SFX_AWP_SELECT_5, TEXT_SFX_AWP_SELECT_6, TEXT_SFX_AWP_SELECT_7, TEXT_SFX_AWP_SELECT_8, TEXT_SFX_AWP_SELECT_9, TEXT_SFX_AWP_SELECT_10, TEXT_SFX_AWP_SELECT_11, TEXT_SFX_AWP_SELECT_12, TEXT_SFX_AWP_SELECT_13, TEXT_SFX_AWP_SELECT_14, TEXT_SFX_AWP_SELECT_15</Text_ID>
+		 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Droid">
+		 <Use_Preset>Preset_UR</Use_Preset>
+		 <Samples>Data\Audio\w_batt1.wav</Samples>
+			 <Localize> Yes </Localize>
+			 <Play_Sequentially> Yes </Play_Sequentially>
+			 <Text_ID>TEXT_SFX_AWP_MOVE_1, TEXT_SFX_AWP_MOVE_2, TEXT_SFX_AWP_MOVE_3, TEXT_SFX_AWP_MOVE_4, TEXT_SFX_AWP_MOVE_5, TEXT_SFX_AWP_MOVE_6, TEXT_SFX_AWP_MOVE_7, TEXT_SFX_AWP_MOVE_8, TEXT_SFX_AWP_MOVE_9, TEXT_SFX_AWP_MOVE_10, TEXT_SFX_AWP_MOVE_11, TEXT_SFX_AWP_MOVE_12, TEXT_SFX_AWP_MOVE_13, TEXT_SFX_AWP_MOVE_14, TEXT_SFX_AWP_MOVE_15</Text_ID>			
+			 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Droid">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\RogerRoger1.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_ATTACK_1, TEXT_SFX_AWP_ATTACK_2,  TEXT_SFX_AWP_ATTACK_5, TEXT_SFX_AWP_ATTACK_6, TEXT_SFX_AWP_ATTACK_7, TEXT_SFX_AWP_ATTACK_8, TEXT_SFX_AWP_ATTACK_9, TEXT_SFX_AWP_ATTACK_10, TEXT_SFX_AWP_ATTACK_11, TEXT_SFX_AWP_ATTACK_12, TEXT_SFX_AWP_ATTACK_13, TEXT_SFX_AWP_ATTACK_14, TEXT_SFX_AWP_ATTACK_15</Text_ID>			
+	 <Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Health_Critical_Droid">
+	<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>Data\Audio\005r4dying.wav</Samples>
+		<Localize> Yes </Localize>
+		<Text_ID>TEXT_SFX_AWP_DEATH_1, TEXT_SFX_AWP_DEATH_2, TEXT_SFX_AWP_DEATH_3, TEXT_SFX_AWP_DEATH_4,TEXT_SFX_AWP_DEATH_5, TEXT_SFX_AWP_DEATH_6, TEXT_SFX_AWP_DEATH_7, TEXT_SFX_AWP_DEATH_8, TEXT_SFX_AWP_DEATH_9</Text_ID>
+		<Overlap_Test> Unit_KUS_Vulture </Overlap_Test>
+	</SFXEvent>
+
+
+	<SFXEvent Name="Unit_Select_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9select.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_1, TEXT_SFX_PRS_SELECT_2, TEXT_SFX_PRS_SELECT_3, TEXT_SFX_PRS_SELECT_4, TEXT_SFX_PRS_SELECT_5, TEXT_SFX_PRS_SELECT_6, TEXT_SFX_PRS_SELECT_7, TEXT_SFX_PRS_SELECT_8, TEXT_SFX_PRS_SELECT_9, TEXT_SFX_PRS_SELECT_10, TEXT_SFX_PRS_SELECT_11, TEXT_SFX_PRS_SELECT_12, TEXT_SFX_PRS_SELECT_13, TEXT_SFX_PRS_SELECT_14, TEXT_SFX_PRS_SELECT_15</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff </Overlap_Test>
+						 </SFXEvent>
+
+				  <SFXEvent Name="Unit_Complete_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9complete.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_12</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Move_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9move.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Fleet_Move_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9fleetmove.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Attack_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9attack.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Move_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9assist.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_MOVE_1, TEXT_SFX_PRS_MOVE_2, TEXT_SFX_PRS_MOVE_3, TEXT_SFX_PRS_MOVE_4, TEXT_SFX_PRS_MOVE_5, TEXT_SFX_PRS_MOVE_6, TEXT_SFX_PRS_MOVE_7, TEXT_SFX_PRS_MOVE_8, TEXT_SFX_PRS_MOVE_9, TEXT_SFX_PRS_MOVE_10, TEXT_SFX_PRS_MOVE_11, TEXT_SFX_PRS_MOVE_12, TEXT_SFX_PRS_MOVE_13, TEXT_SFX_PRS_MOVE_14, TEXT_SFX_PRS_MOVE_15</Text_ID>			
+									<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+						<SFXEvent Name="Unit_Assist_Attack_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9attackB.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Probability>60</Probability>
+									<Text_ID>TEXT_SFX_PRS_ASSIST_1, TEXT_SFX_PRS_ASSIST_2, TEXT_SFX_PRS_ASSIST_3, TEXT_SFX_PRS_ATTACK_1, TEXT_SFX_PRS_ATTACK_2, TEXT_SFX_PRS_ATTACK_3, TEXT_SFX_PRS_ATTACK_4, TEXT_SFX_PRS_ATTACK_5, TEXT_SFX_PRS_ATTACK_6, TEXT_SFX_PRS_ATTACK_7, TEXT_SFX_PRS_ATTACK_8, TEXT_SFX_PRS_ATTACK_9, TEXT_SFX_PRS_ATTACK_10, TEXT_SFX_PRS_ATTACK_11, TEXT_SFX_PRS_ATTACK_12, TEXT_SFX_PRS_ATTACK_13, TEXT_SFX_PRS_ATTACK_14, TEXT_SFX_PRS_ATTACK_15</Text_ID>			
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+
+						<SFXEvent Name="Unit_Guard_LHTC9">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\lhtc9guard.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_GUARD_1, TEXT_SFX_PRS_GUARD_2</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff  </Overlap_Test>
+						 </SFXEvent>
+
+					<SFXEvent Name="Unit_Select_Probe_Droid">
+								<Use_Preset>Preset_UR</Use_Preset>
+								<Samples>Data\Audio\vehicles\Ev_Probe_droid_01.wav Data\Audio\vehicles\Ev_Probe_droid_02.wav Data\Audio\vehicles\Ev_Probe_droid_03.wav</Samples>
+									<Localize> Yes </Localize>
+									<Play_Sequentially> Yes </Play_Sequentially>
+									<Text_ID>TEXT_SFX_PRS_SELECT_1, TEXT_SFX_PRS_SELECT_2, TEXT_SFX_PRS_SELECT_3, TEXT_SFX_PRS_SELECT_4, TEXT_SFX_PRS_SELECT_5, TEXT_SFX_PRS_SELECT_6, TEXT_SFX_PRS_SELECT_7, TEXT_SFX_PRS_SELECT_8, TEXT_SFX_PRS_SELECT_9, TEXT_SFX_PRS_SELECT_10, TEXT_SFX_PRS_SELECT_11, TEXT_SFX_PRS_SELECT_12, TEXT_SFX_PRS_SELECT_13, TEXT_SFX_PRS_SELECT_14, TEXT_SFX_PRS_SELECT_15</Text_ID>
+								<Overlap_Test> Unit_Pirate_Skiff </Overlap_Test>
+						 </SFXEvent>
+
+
+
+
+</SFXEvents>

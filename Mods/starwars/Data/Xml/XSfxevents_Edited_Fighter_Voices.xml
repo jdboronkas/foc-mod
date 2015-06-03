@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+<!-- Usados por  Hu_Hvy_Laf, Basilisk-->
+	
+	<SFXEvent Name="Unit_Select_Tie_FighterX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_tfp0101_X.wav Data\Audio\Editedvoices\U000_tfp0102_X.wav U000_TFP0103_ENG.wav U000_TFP0104_ENG.wav Data\Audio\Editedvoices\U000_tfp0105_X.wav U000_TFP0106_ENG.wav U000_TFP0107_ENG.wav U000_TFP0108_ENG.wav U000_TFP0109_ENG.wav U000_TFP0110_ENG.wav U000_TFP0111_ENG.wav U000_TFP0112_ENG.wav U000_TFP0113_ENG.wav U000_TFP0114_ENG.wav U000_TFP0115_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TFP_SELECT_1, TEXT_SFX_TFP_SELECT_2, TEXT_SFX_TFP_SELECT_3, TEXT_SFX_TFP_SELECT_4, TEXT_SFX_TFP_SELECT_5, TEXT_SFX_TFP_SELECT_6, TEXT_SFX_TFP_SELECT_7, TEXT_SFX_TFP_SELECT_8, TEXT_SFX_TFP_SELECT_9, TEXT_SFX_TFP_SELECT_10, TEXT_SFX_TFP_SELECT_11, TEXT_SFX_TFP_SELECT_12, TEXT_SFX_TFP_SELECT_13, TEXT_SFX_TFP_SELECT_14, TEXT_SFX_TFP_SELECT_15</Text_ID>
+	 <Overlap_Test> Unit_Tie_Fighter </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_Tie_FighterX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_tfp0101_X.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TFP_SELECT_1</Text_ID>
+	 <Overlap_Test> Unit_Tie_Fighter </Overlap_Test>
+</SFXEvent>
+
+
+<SFXEvent Name="Unit_Guard_Tie_FighterX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>U000_TFP0501_ENG.wav Data\Audio\Editedvoices\U000_tfp0502_X.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TFP_GUARD_1, TEXT_SFX_TFP_GUARD_2</Text_ID>
+	 <Overlap_Test> Unit_Tie_Fighter </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Attack_Tie_FighterX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>U000_TFP0302_ENG.wav U000_TFP0303_ENG.wav U000_TFP0304_ENG.wav U000_TFP0305_ENG.wav U000_TFP0306_ENG.wav U000_TFP0307_ENG.wav U000_TFP0308_ENG.wav U000_TFP0309_ENG.wav U000_TFP0310_ENG.wav U000_TFP0311_ENG.wav U000_TFP0312_ENG.wav U000_TFP0313_ENG.wav U000_TFP0314_ENG.wav U000_TFP0315_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TFP_ATTACK_1, TEXT_SFX_TFP_ATTACK_2, TEXT_SFX_TFP_ATTACK_3, TEXT_SFX_TFP_ATTACK_4, TEXT_SFX_TFP_ATTACK_5, TEXT_SFX_TFP_ATTACK_6, TEXT_SFX_TFP_ATTACK_7, TEXT_SFX_TFP_ATTACK_8, TEXT_SFX_TFP_ATTACK_9, TEXT_SFX_TFP_ATTACK_10, TEXT_SFX_TFP_ATTACK_11, TEXT_SFX_TFP_ATTACK_12, TEXT_SFX_TFP_ATTACK_13, TEXT_SFX_TFP_ATTACK_14, TEXT_SFX_TFP_ATTACK_15</Text_ID>			
+	 <Overlap_Test> Unit_Tie_Fighter </Overlap_Test>
+</SFXEvent>
+
+<!-- Usados por  Hu_Laf_250, FeoAlax -->
+
+<SFXEvent Name="Unit_Select_Tie_ScoutX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>U000_TSP0101_ENG.wav U000_TSP0102_ENG.wav U000_TSP0103_ENG.wav U000_TSP0104_ENG.wav Data\Audio\Editedvoices\U000_TSP0105_X.wav U000_TSP0106_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TSP_SELECT_1, TEXT_SFX_TSP_SELECT_2, TEXT_SFX_TSP_SELECT_3, TEXT_SFX_TSP_SELECT_4, TEXT_SFX_TSP_SELECT_5, TEXT_SFX_TSP_SELECT_6</Text_ID>
+	 <Overlap_Test> Unit_Tie_Scout </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_Tie_ScoutX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_TSP0105_X.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TSP_SELECT_5</Text_ID>
+	 <Overlap_Test> Unit_Tie_Scout </Overlap_Test>
+</SFXEvent>
+
+
+<SFXEvent Name="Unit_Move_Tie_ScoutX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>U000_TSP0201_ENG.wav U000_TSP0202_ENG.wav Data\Audio\Editedvoices\U000_TSP0203_X.wav U000_TSP0204_ENG.wav U000_TSP0205_ENG.wav U000_TSP0206_ENG.wav U000_TSP0207_ENG.wav U000_TSP0208_ENG.wav U000_TSP0209_ENG.wav U000_TSP0210_ENG.wav U000_TSP0211_ENG.wav U000_TSP0212_ENG.wav U000_TSP0213_ENG.wav U000_TSP0214_ENG.wav U000_TSP0215_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_TSP_MOVE_1, TEXT_SFX_TSP_MOVE_2, TEXT_SFX_TSP_MOVE_3, TEXT_SFX_TSP_MOVE_4, TEXT_SFX_TSP_MOVE_5, TEXT_SFX_TSP_MOVE_6, TEXT_SFX_TSP_MOVE_7, TEXT_SFX_TSP_MOVE_8, TEXT_SFX_TSP_MOVE_9, TEXT_SFX_TSP_MOVE_10, TEXT_SFX_TSP_MOVE_11, TEXT_SFX_TSP_MOVE_12, TEXT_SFX_TSP_MOVE_13, TEXT_SFX_TSP_MOVE_14, TEXT_SFX_TSP_MOVE_15</Text_ID>			
+		 <Overlap_Test> Unit_Tie_Scout </Overlap_Test>
+</SFXEvent>
+
+
+<!-- Usados por  Pursuer, FeoAlay -->
+
+<SFXEvent Name="Unit_Select_Tie_BomberX">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Data\Audio\Editedvoices\U000_TBP0101_X.wav Data\Audio\Editedvoices\U000_TBP0102_X.wav U000_TBP0103_ENG.wav U000_TBP0105_ENG.wav U000_TBP0106_ENG.wav U000_TBP0107_ENG.wav U000_TBP0108_ENG.wav U000_TBP0109_ENG.wav U000_TBP0110_ENG.wav U000_TBP0111_ENG.wav U000_TBP0112_ENG.wav U000_TBP0113_ENG.wav U000_TBP0114_ENG.wav U000_TBP0115_ENG.wav</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_TBP_SELECT_1, TEXT_SFX_TBP_SELECT_2, TEXT_SFX_TBP_SELECT_3, TEXT_SFX_TBP_SELECT_4, TEXT_SFX_TBP_SELECT_5, TEXT_SFX_TBP_SELECT_6, TEXT_SFX_TBP_SELECT_7, TEXT_SFX_TBP_SELECT_8, TEXT_SFX_TBP_SELECT_9, TEXT_SFX_TBP_SELECT_10, TEXT_SFX_TBP_SELECT_11, TEXT_SFX_TBP_SELECT_12, TEXT_SFX_TBP_SELECT_13, TEXT_SFX_TBP_SELECT_14, TEXT_SFX_TBP_SELECT_15</Text_ID>
+		<Overlap_Test> Unit_Tie_Bomber </Overlap_Test>
+ </SFXEvent>
+
+<SFXEvent Name="Unit_Complete_Tie_BomberX">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>Data\Audio\Editedvoices\U000_TBP0102_X.wav</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_TBP_SELECT_2</Text_ID>
+		<Overlap_Test> Unit_Tie_Bomber </Overlap_Test>
+ </SFXEvent>
+
+
+<SFXEvent Name="Unit_Move_Tie_BomberX">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TBP0201_ENG.wav U000_TBP0202_ENG.wav Data\Audio\Editedvoices\U000_TBP0203_X.wav U000_TBP0204_ENG.wav Data\Audio\Editedvoices\U000_TBP0205_X.wav U000_TBP0206_ENG.wav U000_TBP0207_ENG.wav U000_TBP0208_ENG.wav U000_TBP0209_ENG.wav U000_TBP0210_ENG.wav U000_TBP0211_ENG.wav U000_TBP0212_ENG.wav U000_TBP0213_ENG.wav U000_TBP0214_ENG.wav U000_TBP0215_ENG.wav</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_TBP_MOVE_1,  TEXT_SFX_TBP_MOVE_2, TEXT_SFX_TBP_MOVE_3, TEXT_SFX_TBP_MOVE_4,  TEXT_SFX_TBP_MOVE_5, TEXT_SFX_TBP_MOVE_6, TEXT_SFX_TBP_MOVE_7,  TEXT_SFX_TBP_MOVE_8, TEXT_SFX_TBP_MOVE_9, TEXT_SFX_TBP_MOVE_10,  TEXT_SFX_TBP_MOVE_11, TEXT_SFX_TBP_MOVE_12, TEXT_SFX_TBP_MOVE_13, TEXT_SFX_TBP_MOVE_14, TEXT_SFX_TBP_MOVE_15</Text_ID>
+		<Overlap_Test> Unit_Tie_Bomber </Overlap_Test>
+ </SFXEvent>
+
+<SFXEvent Name="Unit_Fleet_Move_Tie_BomberX">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TBP0201_ENG.wav  U000_TBP0204_ENG.wav Data\Audio\Editedvoices\U000_TBP0205_X.wav U000_TBP0206_ENG.wav U000_TBP0207_ENG.wav U000_TBP0208_ENG.wav U000_TBP0209_ENG.wav U000_TBP0210_ENG.wav U000_TBP0211_ENG.wav U000_TBP0212_ENG.wav</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_TBP_MOVE_1,  TEXT_SFX_TBP_MOVE_4,  TEXT_SFX_TBP_MOVE_5, TEXT_SFX_TBP_MOVE_6, TEXT_SFX_TBP_MOVE_7,  TEXT_SFX_TBP_MOVE_8, TEXT_SFX_TBP_MOVE_9, TEXT_SFX_TBP_MOVE_10,  TEXT_SFX_TBP_MOVE_11, TEXT_SFX_TBP_MOVE_12</Text_ID>
+		<Overlap_Test> Unit_Tie_Bomber </Overlap_Test>
+ </SFXEvent>
+
+
+<SFXEvent Name="Unit_Attack_Tie_BomberX">
+		 <Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_TBP0301_ENG.wav U000_TBP0304_ENG.wav Data\Audio\Editedvoices\U000_TBP0305_X.wav U000_TBP0306_ENG.wav U000_TBP0307_ENG.wav U000_TBP0308_ENG.wav U000_TBP0309_ENG.wav U000_TBP0310_ENG.wav U000_TBP0311_ENG.wav U000_TBP0312_ENG.wav U000_TBP0313_ENG.wav U000_TBP0314_ENG.wav U000_TBP0315_ENG.wav</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID>TEXT_SFX_TBP_ATTACK_1,  TEXT_SFX_TBP_ATTACK_2, TEXT_SFX_TBP_ATTACK_3, TEXT_SFX_TBP_ATTACK_4, TEXT_SFX_TBP_ATTACK_5, TEXT_SFX_TBP_ATTACK_6, TEXT_SFX_TBP_ATTACK_7,  TEXT_SFX_TBP_ATTACK_8, TEXT_SFX_TBP_ATTACK_9, TEXT_SFX_TBP_ATTACK_10, TEXT_SFX_TBP_ATTACK_11, TEXT_SFX_TBP_ATTACK_12, TEXT_SFX_TBP_ATTACK_13,  TEXT_SFX_TBP_ATTACK_14, TEXT_SFX_TBP_ATTACK_15</Text_ID>
+		<Overlap_Test> Unit_Tie_Bomber </Overlap_Test>
+ </SFXEvent>
+ 
+ <!-- Usados por  MiytilBomber, ToskanFighter, Hu Gladiator -->
+ 
+ <SFXEvent Name="Unit_Select_Y_WingX">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>Data\Audio\Editedvoices\U000_YWP0101_X.wav Data\Audio\Editedvoices\U000_YWP0102_X.wav U000_YWP0103_ENG.wav Data\Audio\Editedvoices\U000_YWP0105_X.wav U000_YWP0106_ENG.wav U000_YWP0108_ENG.wav U000_YWP0109_ENG.wav U000_YWP0110_ENG.wav U000_YWP0111_ENG.wav U000_YWP0112_ENG.wav U000_YWP0113_ENG.wav U000_YWP0114_ENG.wav U000_YWP0115_ENG.wav</Samples>
+            <Localize> Yes </Localize>
+				<Play_Sequentially> Yes </Play_Sequentially>
+            <Text_ID>TEXT_SFX_YWP_SELECT_1, TEXT_SFX_YWP_SELECT_2, TEXT_SFX_YWP_SELECT_3, TEXT_SFX_YWP_SELECT_4, TEXT_SFX_YWP_SELECT_5, TEXT_SFX_YWP_SELECT_6, TEXT_SFX_YWP_SELECT_7, TEXT_SFX_YWP_SELECT_8, TEXT_SFX_YWP_SELECT_9, TEXT_SFX_YWP_SELECT_10, TEXT_SFX_YWP_SELECT_11, TEXT_SFX_YWP_SELECT_12, TEXT_SFX_YWP_SELECT_13, TEXT_SFX_YWP_SELECT_14, TEXT_SFX_YWP_SELECT_15</Text_ID>
+			<Overlap_Test> Unit_Y_Wing </Overlap_Test>
+    </SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_Y_WingX">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>Data\Audio\Editedvoices\U000_YWP0101_X.wav</Samples>
+            <Localize> Yes </Localize>
+				<Play_Sequentially> Yes </Play_Sequentially>
+            <Text_ID>TEXT_SFX_YWP_SELECT_1</Text_ID>
+			<Overlap_Test> Unit_Y_Wing </Overlap_Test>
+    </SFXEvent>
+	
+	 <!-- Usados por  MiytilFighter, Basilisk_Attack, RazorfighterU -->
+	
+	<SFXEvent Name="Unit_Select_A_WingX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_AWP0101_X.wav U000_AWP0103_ENG.wav U000_AWP0104_ENG.wav U000_AWP0105_ENG.wav U000_AWP0106_ENG.wav U000_AWP0107_ENG.wav U000_AWP0108_ENG.wav U000_AWP0109_ENG.wav U000_AWP0110_ENG.wav U000_AWP0111_ENG.wav U000_AWP0112_ENG.wav U000_AWP0113_ENG.wav U000_AWP0114_ENG.wav U000_AWP0115_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_SELECT_1, TEXT_SFX_AWP_SELECT_2, TEXT_SFX_AWP_SELECT_3, TEXT_SFX_AWP_SELECT_4, TEXT_SFX_AWP_SELECT_5, TEXT_SFX_AWP_SELECT_6, TEXT_SFX_AWP_SELECT_7, TEXT_SFX_AWP_SELECT_8, TEXT_SFX_AWP_SELECT_9, TEXT_SFX_AWP_SELECT_10, TEXT_SFX_AWP_SELECT_11, TEXT_SFX_AWP_SELECT_12, TEXT_SFX_AWP_SELECT_13, TEXT_SFX_AWP_SELECT_14, TEXT_SFX_AWP_SELECT_15</Text_ID>
+	 <Overlap_Test> Unit_A_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_A_WingX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_AWP0101_X.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_AWP_SELECT_1</Text_ID>
+	 <Overlap_Test> Unit_A_Wing </Overlap_Test>
+</SFXEvent>
+
+ <!-- Usados por  GAUNLET, E-WING, HUTTHEAVYFIGHTER, R41 -->
+
+<SFXEvent Name="Unit_Select_V_WingX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>U000_VWP0101_ENG.wav U000_VWP0102_ENG.wav U000_VWP0103_ENG.wav U000_VWP0104_ENG.wav Data\Audio\Editedvoices\U000_VWP0106_X.wav U000_VWP0107_ENG.wav U000_VWP0108_ENG.wav U000_VWP0109_ENG.wav U000_VWP0110_ENG.wav U000_VWP0111_ENG.wav U000_VWP0112_ENG.wav U000_VWP0113_ENG.wav U000_VWP0114_ENG.wav U000_VWP0115_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_VWP_SELECT_1, TEXT_SFX_VWP_SELECT_2, TEXT_SFX_VWP_SELECT_3, TEXT_SFX_VWP_SELECT_4, TEXT_SFX_VWP_SELECT_5, TEXT_SFX_VWP_SELECT_6, TEXT_SFX_VWP_SELECT_7, TEXT_SFX_VWP_SELECT_8, TEXT_SFX_VWP_SELECT_9, TEXT_SFX_VWP_SELECT_10, TEXT_SFX_VWP_SELECT_11, TEXT_SFX_VWP_SELECT_12, TEXT_SFX_VWP_SELECT_13, TEXT_SFX_VWP_SELECT_14, TEXT_SFX_VWP_SELECT_15</Text_ID>
+	 <Overlap_Test> Unit_V_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_V_WingX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_VWP0106_X.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID> TEXT_SFX_VWP_SELECT_6</Text_ID>
+	 <Overlap_Test> Unit_V_Wing </Overlap_Test>
+</SFXEvent>
+
+ <!-- Usados por  YB Ugly, Planetaryfighter, Huttmediumfighter -->
+
+<SFXEvent Name="Unit_Select_B_WingX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_BWP0101_X.wav U000_BWP0103_ENG.wav U000_BWP0104_ENG.wav U000_BWP0105_ENG.wav U000_BWP0106_ENG.wav U000_BWP0107_ENG.wav U000_BWP0108_ENG.wav U000_BWP0109_ENG.wav U000_BWP0110_ENG.wav U000_BWP0111_ENG.wav U000_BWP0112_ENG.wav U000_BWP0113_ENG.wav U000_BWP0114_ENG.wav U000_BWP0115_ENG.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_BWP_SELECT_1, TEXT_SFX_BWP_SELECT_2, TEXT_SFX_BWP_SELECT_3, TEXT_SFX_BWP_SELECT_4, TEXT_SFX_BWP_SELECT_5, TEXT_SFX_BWP_SELECT_6, TEXT_SFX_BWP_SELECT_7, TEXT_SFX_BWP_SELECT_8, TEXT_SFX_BWP_SELECT_9, TEXT_SFX_BWP_SELECT_10, TEXT_SFX_BWP_SELECT_11, TEXT_SFX_BWP_SELECT_12, TEXT_SFX_BWP_SELECT_13, TEXT_SFX_BWP_SELECT_14, TEXT_SFX_BWP_SELECT_15</Text_ID>
+	 <Overlap_Test> Unit_B_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_B_WingX">
+	 <Use_Preset>Preset_UR</Use_Preset>
+	 <Samples>Data\Audio\Editedvoices\U000_BWP0101_X.wav</Samples>
+		 <Localize> Yes </Localize>
+		 <Play_Sequentially> Yes </Play_Sequentially>
+		 <Text_ID>TEXT_SFX_BWP_SELECT_1</Text_ID>
+	 <Overlap_Test> Unit_B_Wing </Overlap_Test>
+</SFXEvent>
+
+</SFXEvents>

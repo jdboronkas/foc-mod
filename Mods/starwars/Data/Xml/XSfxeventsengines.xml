@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+   
+	<!-- MBL TEST EVENT -->		
+	<SFXEvent Name="Debug_Audio_Test_Loop">
+		  <Samples> EGL_Sensor_Array.wav </Samples>
+		  <Priority> 1 </Priority>
+		  <Max_Instances> 3 </Max_Instances>
+		  <Play_Count> -1 </Play_Count>
+		  <Min_Volume> 100 </Min_Volume>
+		  <Max_Volume> 100 </Max_Volume>
+		  <Min_Pitch> 100 </Min_Pitch>
+		  <Max_Pitch> 100 </Max_Pitch>
+		  <Volume_Saturation_Distance> 200.0 </Volume_Saturation_Distance>
+	</SFXEvent>
+	<!-- END MBL TEST EVENT -->		
+	<SFXEvent Name="Unit_LAFT_Idle_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
+		<Samples>Data\Audio\laft01.wav</Samples>
+		<Min_Pitch>100</Min_Pitch>
+		<Max_Pitch>120</Max_Pitch>
+	</SFXEvent>
+	<SFXEvent Name="Unit_LAFT_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land</Use_Preset>
+		<Samples>Data\Audio\laft02.wav</Samples>
+		<Min_Pitch>180</Min_Pitch>
+		<Max_Pitch>200</Max_Pitch>
+	</SFXEvent>
+	<SFXEvent Name="Unit_LAFT_Fly_By">
+		<Use_Preset>Preset_EGB_Land</Use_Preset>
+		<Samples>Data\Audio\laft02.wav</Samples>
+	</SFXEvent>
+
+
+	
+<SFXEvent Name="Unit_LAAT_Idle_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
+		<Samples>Data\Audio\EGL_LAAT_1.wav Data\Audio\Republic_vehicles\EGL_LAAT_2.wav</Samples>
+		<Min_Pitch>100</Min_Pitch>
+		<Max_Pitch>120</Max_Pitch>
+	</SFXEvent>
+	<SFXEvent Name="Unit_LAAT_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land</Use_Preset>
+		<Samples>Data\Audio\EGL_LAAT_1.wav Data\Audio\Republic_vehicles\EGL_LAAT_2.wav</Samples>
+		<Min_Pitch>180</Min_Pitch>
+		<Max_Pitch>200</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_LAAT_Fly_By">
+		<Use_Preset>Preset_EGB_Land</Use_Preset>
+		<Samples>Data\Audio\EGL_LAAT_By_Long_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_LHTC9_Fly_By">
+		<Use_Preset>Preset_EGB_Land</Use_Preset>
+		<Samples>Data\Audio\lhtc9fly.wav</Samples>
+	</SFXEvent>	
+	<SFXEvent Name="Unit_Juggernaut_Moving_Engine_Loop">
+				<Use_Preset>Preset_EGL_Land</Use_Preset>
+				<Samples>Data\Audio\EGL_Juggernaut_2.wav</Samples>
+				<Min_Volume>90</Min_Volume>
+				<Max_Volume>90</Max_Volume>
+		 </SFXEvent>
+
+ 		 <SFXEvent Name="Unit_Juggernaut_Idle_Engine_Loop">
+				<Use_Preset>Preset_EGL_Land</Use_Preset>
+				<Samples>EGL_Tracked_Idle.wav</Samples>
+				<Min_Volume>70</Min_Volume>
+				<Max_Volume>70</Max_Volume>
+				<Min_Pitch>60</Min_Pitch>
+				<Max_Pitch>60</Max_Pitch>
+		 </SFXEvent>
+	<SFXEvent Name="Unit_Hailfire_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land</Use_Preset>
+		<Samples>Data\Audio\loophailfire.wav</Samples>
+	</SFXEvent>
+		<SFXEvent Name="Unit_Hailfire_Idle_Engine_Loop">
+			<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
+			<Samples>Data\Audio\idlehailfire.wav</Samples>
+		</SFXEvent>
+		
+	<SFXEvent Name="Unit_ARC170_Fly_By">
+				<Use_Preset>Preset_EGB</Use_Preset>
+            <Samples>Data\Audio\Republic_vehicles\Rep_ARC170_By_1.wav Data\Audio\Republic_vehicles\Rep_ARC170_By_2.wav</Samples>
+    </SFXEvent>
+	<SFXEvent Name="Unit_ARC170_Cinematic_Engine_Loop">
+				<Use_Preset>Preset_EGB</Use_Preset>
+            <Samples>Data\Audio\Republic_vehicles\Rep_ARC170_1.wav</Samples>
+    </SFXEvent>
+	
+	<SFXEvent Name="Unit_V19Fighter_Fly_By">
+				<Use_Preset>Preset_EGB</Use_Preset>
+            <Samples>Data\Audio\Republic_vehicles\Rep_V19Fighter_By_1.wav Data\Audio\Republic_vehicles\Rep_V19Fighter_By_2.wav</Samples>
+    </SFXEvent>
+	<SFXEvent Name="Unit_V19Fighter_Cinematic_Engine_Loop">
+				<Use_Preset>Preset_EGB</Use_Preset>
+            <Samples>Data\Audio\Republic_vehicles\Rep_V19Fighter_1.wav</Samples>
+    </SFXEvent>
+	
+	<SFXEvent Name="Unit_Rep_arc170Land_Landing">
+	  <Use_Preset>Preset_EXP</Use_Preset>
+	  <Samples>Data\Audio\Republic_vehicles\Rep_ARC170_By_1.wav Data\Audio\Republic_vehicles\Rep_ARC170_By_2.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_EV_LAFT_Landing">
+	  <Use_Preset>Preset_EXP</Use_Preset>
+	  <Samples>Data\Audio\laft02.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Rep_LAAT_Transport_Landing">
+	  <Use_Preset>Preset_EXP</Use_Preset>
+	  <Samples>Data\Audio\vehicles\Rep_LAAT_Landing01.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Rep_LAAT_Transport_Takeoff">
+	  <Use_Preset>Preset_EXP</Use_Preset>
+	  <Samples>Data\Audio\vehicles\Rep_LAAT_Landing02.wav</Samples>
+	</SFXEvent>	
+	
+	<SFXEvent Name="Unit_CombatSpeeder_Fly_By">
+				<Use_Preset>Preset_EGB</Use_Preset>
+            <Samples>Data\Audio\vehicles\Rep_Speeder_fly_by_01.wav Data\Audio\vehicles\Rep_Speeder_fly_by_02.wav</Samples>
+    </SFXEvent>
+	<SFXEvent Name="Unit_CombatSpeeder_Cinematic_Engine_Loop">
+				<Use_Preset>Preset_EGB</Use_Preset>
+            <Samples>Data\Audio\vehicles\Rep_Speeder_fly_01.wav</Samples>
+    </SFXEvent>
+	
+	<SFXEvent Name="Unit_DarkTrooper_Pod_Fly_By">
+		<Use_Preset>Preset_EGB_Land</Use_Preset>
+		<Samples>Data\Audio\vehicles\DarkTrooper_Pod_Landing.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Probe_Droid_Engine_Loop">
+		<Use_Preset>Preset_EGB_Land</Use_Preset>
+		<Samples>Data\Audio\vehicles\Ev_Probe_droid_04.wav</Samples>
+	</SFXEvent>
+</SFXEvents>

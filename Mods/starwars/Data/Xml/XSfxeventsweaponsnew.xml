@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+		<SFXEvent Name="Unit_Rebel_Ship_Laser_Fire">
+					<Use_Preset>Preset_GUNV</Use_Preset>
+					<Samples>Data\Audio\Rebel_Laser_02_a.wav Data\Audio\Rebel_Laser_02_b.wav Data\Audio\Rebel_Laser_02_c.wav Data\Audio\Rebel_Laser_02_d.wav</Samples>
+					 <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_Empire_Ship_Laser_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\Empire_Laser_02_a.wav Data\Audio\Empire_Laser_02_b.wav Data\Audio\Empire_Laser_02_c.wav</Samples>        
+				  <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+
+		 <SFXEvent Name="Unit_Pirate_Ship_Laser_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>GUN_Pirate_Ship_Laser_1.wav</Samples>    
+				  <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>   
+		 </SFXEvent>
+
+		 <SFXEvent Name="Unit_Rebel_Ship_Laser_Cannon_Fire">
+					<Use_Preset>Preset_GUNV</Use_Preset>
+					<Samples>Data\Audio\Rebel_Laser_02_a.wav Data\Audio\Rebel_Laser_02_b.wav Data\Audio\Rebel_Laser_02_c.wav Data\Audio\Rebel_Laser_02_d.wav</Samples>
+					 <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+	
+		 <SFXEvent Name="Unit_Empire_Ship_Laser_Cannon_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\Empire_Laser_02_a.wav Data\Audio\Empire_Laser_02_b.wav Data\Audio\Empire_Laser_02_c.wav</Samples>        
+				  <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+
+		 <SFXEvent Name="Unit_Pirate_Ship_Laser_Cannon_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>GUN_Pirate_Laser_Cannon_1.wav</Samples>        
+				  <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+
+
+		 <SFXEvent Name="Unit_Turbo_Fire">
+			  <Use_Preset>Preset_GUNS</Use_Preset>
+			  <Samples>GUN_Turbo_1.wav GUN_Turbo_2.wav</Samples>
+			   <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		  <SFXEvent Name="Unit_Rebel_Turbo_Fire">
+			  <Use_Preset>Preset_GUNS</Use_Preset>
+			  <Samples>GUN_Turbo_1.wav GUN_Turbo_2.wav</Samples>
+			   <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Magpulse_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\MagPulseFire.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>	
+  		 <SFXEvent Name="Unit_Rocket_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\RocketFire.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>
+		 <SFXEvent Name="Unit_Torpedo_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\TorpedoFire.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>
+
+		 <SFXEvent Name="Unit_Missile_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\MissileFire.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>
+
+		 <SFXEvent Name="Unit_Boron_Missile_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>GUN_Repulsor_1.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>
+
+		  <SFXEvent Name="Unit_Ion_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\Gun_Ion_Ship_01.wav Data\Audio\Gun_Ion_Ship_02.wav Data\Audio\Gun_Ion_Ship_03.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>
+		   <SFXEvent Name="Unit_Ion_Fighter_Fire">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\Gun_Ion_Fighter_01.wav</Samples>
+				 <Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		  </SFXEvent>
+
+		<SFXEvent Name="Unit_Nave_Rebelde_Laser_Cannon_Fire">
+					<Use_Preset>Preset_GUNS</Use_Preset>
+					<Samples>Data\Audio\Rebel_Laser_01_a.wav Data\Audio\Rebel_Laser_01_b.wav Data\Audio\Rebel_Laser_01_c.wav Data\Audio\Rebel_Laser_01_d.wav</Samples>
+					<Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Nave_Imperial_Laser_Cannon_Fire">
+					<Use_Preset>Preset_GUNS</Use_Preset>
+					<Samples>Data\Audio\Empire_Laser_01_a.wav Data\Audio\Empire_Laser_01_b.wav</Samples>
+					<Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		<SFXEvent Name="Unit_Empire_Ship_Turbolaser">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\Empire_Laser_03_a.wav Data\Audio\Empire_Laser_03_b.wav Data\Audio\Empire_Laser_03_c.wav Data\Audio\Empire_Laser_03_d.wav</Samples>						                 <Min_Volume>100</Min_Volume>
+   				 <Max_Volume>100</Max_Volume>         
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Rebel_Ship_Turbolaser">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>Data\Audio\Rebel_Laser_03_a.wav Data\Audio\Rebel_Laser_03_b.wav Data\Audio\Rebel_Laser_03_d.wav</Samples>
+				 <Min_Volume>100</Min_Volume>
+				 <Max_Volume>100</Max_Volume>        
+		 </SFXEvent>
+		 
+		<SFXEvent Name="Unit_Empire_Ship_Laser_Anticaza">
+				 <Use_Preset>Preset_GUNS</Use_Preset>
+				 <Samples>GUN_TIE_Fighter_1.wav GUN_TIE_Fighter_2.wav Data\Audio\Empire_Laser_01_a.wav Data\Audio\Empire_Laser_01_b.wav Data\Audio\Empire_Laser_03_a.wav</Samples>        
+		</SFXEvent>
+		<SFXEvent Name="Unit_Nave_Rebelde_Laser_Anticaza">
+				<Use_Preset>Preset_GUNS</Use_Preset>
+				<Samples>GUN_X_Wing_1.wav GUN_X_Wing_1.wav Data\Audio\Rebel_Laser_01_a.wav Data\Audio\Rebel_Laser_01_b.wav Data\Audio\Rebel_Laser_01_c.wav Data\Audio\Rebel_Laser_01_d.wav</Samples>
+		</SFXEvent> 
+		<SFXEvent Name="Unit_Flak_Cannon_Fire">
+				<Use_Preset>Preset_GUNS</Use_Preset>
+				<Samples>Data\Audio\Weapons\Flak_Laser_01.wav Data\Audio\Weapons\Flak_Laser_02.wav Data\Audio\Weapons\Flak_Laser_03.wav Data\Audio\Weapons\Flak_Laser_04.wav</Samples>		<Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		<SFXEvent Name="Unit_Rebel_Normal_Laser">
+				<Use_Preset>Preset_GUNS</Use_Preset>
+				<Samples>Data\Audio\Weapons\R_Normal_Laser_01.wav Data\Audio\Weapons\R_Normal_Laser_02.wav Data\Audio\Weapons\R_Normal_Laser_03.wav Data\Audio\Weapons\R_Normal_Laser_04.wav Data\Audio\Weapons\R_Normal_Laser_05.wav</Samples>
+				<Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		</SFXEvent>
+		<SFXEvent Name="Unit_Empire_Normal_Laser">
+				<Use_Preset>Preset_GUNS</Use_Preset>
+				<Samples>Data\Audio\Weapons\E_Normal_Laser_01.wav Data\Audio\Weapons\E_Normal_Laser_02.wav Data\Audio\Weapons\E_Normal_Laser_03.wav</Samples>
+				<Min_Volume>75</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		</SFXEvent>
+		
+		<SFXEvent Name="Unit_Probe_Droid_Fire">
+				<Use_Preset>Preset_GUNV</Use_Preset>
+				<Samples>Data\Audio\GroundWeapons\Probe_droid_laser.wav</Samples> 
+				<Min_Volume> 100 </Min_Volume>
+			    <Max_Volume> 100 </Max_Volume>
+		</SFXEvent>
+		
+		<SFXEvent Name="Unit_Aerial_Empire_Turbolaser_Fire">
+			<Use_Preset>Preset_EXP</Use_Preset>
+         	<Samples>Data\Audio\Empire_Laser_03_a.wav Data\Audio\Empire_Laser_03_b.wav Data\Audio\Empire_Laser_03_c.wav Data\Audio\Empire_Laser_03_d.wav</Samples> 
+         	<Max_Instances>3</Max_Instances>
+         	<Volume_Saturation_Distance>600.0</Volume_Saturation_Distance>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Aerial_Ion_Fire">
+			<Use_Preset>Preset_EXP</Use_Preset>
+         	<Samples>Data\Audio\Gun_Ion_Ship_01.wav Data\Audio\Gun_Ion_Ship_02.wav Data\Audio\Gun_Ion_Ship_03.wav</Samples> 
+         	<Max_Instances>3</Max_Instances>
+         	<Volume_Saturation_Distance>600.0</Volume_Saturation_Distance>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Aerial_Mega_Turbolaser_Fire">
+			<Use_Preset>Preset_EXP</Use_Preset>
+         	 <Samples>GUN_Underworld_Plasma_1.wav</Samples>
+         	<Max_Instances>3</Max_Instances>
+         	<Volume_Saturation_Distance>600.0</Volume_Saturation_Distance>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Aerial_Mega_Ion_Fire">
+			<Use_Preset>Preset_EXP</Use_Preset>
+         	 <Samples>GUN_Underworld_Ion_1.wav</Samples>
+         	<Max_Instances>3</Max_Instances>
+         	<Volume_Saturation_Distance>600.0</Volume_Saturation_Distance>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="SmallGolan3">
+			 <Use_Preset>Preset_GUNS</Use_Preset>
+			 <Samples>GUN_SPMAT_Projectile_4.wav</Samples>
+			 <Min_Volume> 100 </Min_Volume>
+			 <Max_Volume> 100 </Max_Volume>
+		</SFXEvent>
+</SFXEvents>

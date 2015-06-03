@@ -10,4 +10,63 @@
 	<File>HardPoints_Doomtreader.xml</File>
 	<File>Hardpoints_ISDvsVenator.xml</File>
 	<File>HardPoints_IR.xml</File>
+		<File>Hardpoints_BeamlaserA.xml</File>
+	<File>Hardpoints_Cazas_01.xml</File>
+	<File>Hardpoints_Especiales.xml</File> <!-- Principalmente los que disparan super rafagas -->
+	<File>Hardpoints_Especiales2.xml</File> <!-- Principalmente los que disparan super rafagas -->
+	<File>Hardpoints_Flak.xml</File> <!-- Flak, FlakM, turboCIS y BSdriver -->
+	<File>HardPoints_Ground_01.xml</File>
+	<!-- Solamente terrestres -->
+	<File>HardPoints_GroundB.xml</File>
+	<File>HardPoints_GroundC.xml</File>
+	<File>HardPoints_GroundD.xml</File>
+	<File>HardPoints_GroundE.xml</File>
+
+	<File>HardPoints_GroundI.xml</File>
+	<File>HardPoints_GroundJ.xml</File>
+	<File>HardPoints_GroundK.xml</File>
+	<File>HardPoints_GroundL.xml</File>
+	<File>HardPoints_GroundLL.xml</File>
+
+	<File>HardPoints_GroundN.xml</File>
+	<File>HardPoints_GroundO.xml</File>
+
+	<File>Hardpoints_IonGuns_A.xml</File> <!-- cañones de iones -->
+	<File>Hardpoints_IonGuns_B.xml</File>
+	<File>Hardpoints_Laser_Anticaza_A.xml</File>
+	<File>Hardpoints_Laser_Anticaza_B.xml</File>
+	<File>Hardpoints_Laser_Normales_A.xml</File> <!-- Laser N, anticaza y turbolaser todo en uno -->
+	<File>Hardpoints_Laser_Normales_B.xml</File>
+	<File>Hardpoints_Laser_Normales_C.xml</File>
+	<File>HardPoints_Naves_Especificas.xml</File> <!-- naves que no usan sistema globlal, preferentemente a desaparecer segun se transformen -->
+	<File>Hardpoints_no_armas.xml</File> <!-- escudos, gravedad, hangares, tractores, motores, incluso hangares devastador de mundo -->
+	<File>Hardpoints_proyectiles_A.xml</File> <!-- puntos de daño con lanzamisiles, cohetes, torpedos etc -->
+	<File>Hardpoints_proyectiles_B.xml</File>
+	<File>Hardpoints_proyectiles_C.xml</File>
+	<File>Hardpoints_proyectiles_D.xml</File>
+	<File>Hardpoints_Starbases.xml</File> <!-- estaciones originales y asteroide pirata -->
+	<File>Hardpoints_Starbases_01.xml</File>
+	<File>Hardpoints_Starbases_02.xml</File>
+	<File>Hardpoints_Starbases_03.xml</File>
+	<File>Hardpoints_Starbases_04.xml</File>
+	<File>Hardpoints_Superarmas_A.xml</File>
+	<File>Hardpoints_Green.xml</File> <!-- Turbolaser de 1 laser -->
+	<File>Hardpoints_Turbolaser_B.xml</File>
+	<File>Hardpoints_Turbolaser_C.xml</File>
+	<File>Hardpoints_Turbolaser_HvyX_A.xml</File> <!-- turbolaser pesados de 4 laser -->
+	<File>Hardpoints_Turbolaser_HvyX_B.xml</File>
+	<File>Hardpoints_Turbolaser_HvyX_C.xml</File>
+	<File>Hardpoints_Turbolaser_HvyX_A_SSD.xml</File> <!-- turbolaser pesados de 4 laser Super Destructores-->
+	<File>Hardpoints_Turbolaser_HvyX_B_SSD.xml</File>
+	<File>Hardpoints_Turbolaser_MA.xml</File><!-- turbolaser medios de 2 laser -->
+	<File>Hardpoints_Turbolaser_MB.xml</File>
+	<File>Hardpoints_Turbolaser_MC.xml</File>
+	<File>Hardpoints_Turbolaser_MD.xml</File>
+	<File>Hardpoints_Turbolaser_S.xml</File>
+	
+	<File>HardPoints_Buildings.xml</File>
+	<File>Hardpoints_special_units.xml</File>
+	<File>HardPoints_CW_A.xml</File>
+	<File>Hardpoints_Baterias_Especiales.xml</File>
+	
 </Hard_Point_Files>

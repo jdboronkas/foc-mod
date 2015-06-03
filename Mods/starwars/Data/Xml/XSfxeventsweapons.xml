@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+		<SFXEvent Name="Unit_EV_Implacable_Turbolaser_Fire">
+			<Use_Preset>Preset_GUNV</Use_Preset>
+			<Samples>Data\Audio\GroundWeapons\Rep_HandLaser01.wav Data\Audio\GroundWeapons\Rep_HandLaser02.wav Data\Audio\GroundWeapons\Rep_HandLaser04.wav</Samples> 
+			<Min_Volume>100</Min_Volume>
+			<Max_Volume>100</Max_Volume>
+		</SFXEvent>
+		
+		<SFXEvent Name="Unit_Republic_Ship_Turbolaser_ver01">
+			 <Use_Preset>Preset_GUNS</Use_Preset>
+			 <Samples>Data\Audio\weapons\Rep_Turbolaser_option01.wav Data\Audio\weapons\Rep_Turbolaser_option02.wav Data\Audio\weapons\Rep_Turbolaser_option03.wav</Samples>
+			 <Min_Volume>100</Min_Volume>
+			 <Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_Republic_Ship_Turbolaser_ver02">
+			 <Use_Preset>Preset_GUNS</Use_Preset>
+			 <Samples>Data\Audio\weapons\Rep_Turbolaser_option04.wav Data\Audio\weapons\Rep_Turbolaser_option05.wav Data\Audio\weapons\Rep_Turbolaser_option06.wav</Samples>
+			 <Min_Volume>100</Min_Volume>
+			 <Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		 
+		 <SFXEvent Name="Unit_CIS_Ship_Turbolaser_ver01">
+			 <Use_Preset>Preset_GUNS</Use_Preset>
+			 <Samples>Data\Audio\weapons\CIS_Turbolaser_option01.wav Data\Audio\weapons\CIS_Turbolaser_option02.wav Data\Audio\weapons\CIS_Turbolaser_option03.wav</Samples>
+			 <Min_Volume>100</Min_Volume>
+			 <Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		
+		<SFXEvent Name="Unit_CIS_Ship_Turbolaser_ver02">
+			 <Use_Preset>Preset_GUNS</Use_Preset>
+			 <Samples>Data\Audio\weapons\CIS_Turbolaser_option04.wav Data\Audio\weapons\CIS_Turbolaser_option05.wav Data\Audio\weapons\CIS_Turbolaser_option01.wav</Samples>
+			 <Min_Volume>100</Min_Volume>
+			 <Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+	
+		  <SFXEvent Name="Unit_Turbo_Gauss_Fire">
+			  <Use_Preset>Preset_GUNS</Use_Preset>
+			  <Samples>Data\Audio\weapons\E_Turbolaser_Gauss.wav</Samples>
+			   <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+		 <SFXEvent Name="Unit_Turbo_Railgun_Fire">
+			  <Use_Preset>Preset_GUNS</Use_Preset>
+			  <Samples>Data\Audio\weapons\E_Turbolaser_Railgun.wav</Samples>
+			   <Min_Volume>100</Min_Volume>
+				<Max_Volume>100</Max_Volume>
+		 </SFXEvent>
+	
+</SFXEvents>

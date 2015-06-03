@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+	
+
+    <SFXEvent Name="Unit_Star_Destroyer_Death_SFX">
+				<Use_Preset>Preset_EXPC</Use_Preset>
+            <Samples>Data\Audio\Exp_Alliance_cracking_Destroyer_01.wav Data\Audio\Exp_Alliance_cracking_Destroyer_02.wav Data\Audio\Exp_Alliance_cracking_Destroyer_03.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>    
+    </SFXEvent>
+    
+    <SFXEvent Name="Unit_Star_Destroyer_Death_Crack_SFX">
+				<Use_Preset>Preset_EXPC</Use_Preset>
+            <Samples>EXP_Cracking_Star_Destroyer.wav</Samples>  
+    </SFXEvent>
+
+  	<SFXEvent Name="Unit_Calamari_Death_SFX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\Exp_Alliance_cracking_Calamari_01.wav Data\Audio\Exp_Alliance_cracking_Calamari_02.wav Data\Audio\Exp_Alliance_cracking_Calamari_03.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+    </SFXEvent>
+ 
+    <SFXEvent Name="Unit_Space_Station_Death_SFX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+         <Samples>EXP_Calamari.wav EXP_Star_Destroyer.wav</Samples>
+ </SFXEvent>
+
+    <SFXEvent Name="Unit_Space_Station_Break_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+         <Samples>EXP_Metal_Break_1.wav EXP_Metal_Break_2.wav EXP_Metal_Break_3.wav EXP_Metal_Break_4.wav EXP_Metal_Break_5.wav</Samples>
+ </SFXEvent>
+
+    
+
+
+
+
+	<SFXEvent Name="Unit_X_Wing_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_X_Wing_1.wav EXP_X_Wing_2.wav EXP_Rebel_Fighter_1.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Y_Wing_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Y_Wing_1.wav EXP_Y_Wing_2.wav EXP_Rebel_Fighter_2.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+    </SFXEvent>
+
+	<SFXEvent Name="Unit_A_Wing_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_A_Wing_1.wav EXP_A_Wing_2.wav EXP_Rebel_Fighter_3.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+    </SFXEvent>
+
+	<SFXEvent Name="Unit_TIE_Fighter_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_TIE_Fighter_1.wav EXP_TIE_Fighter_2.wav EXP_Tie_Fighter_3.wav EXP_Tie_Fighter_4.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+    </SFXEvent>
+
+      <SFXEvent Name="Unit_Corvette_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data\Audio\Exp_Alliance_cracking_corvette_01.wav Data\Audio\Exp_Alliance_cracking_corvette_02.wav Data\Audio\Exp_Alliance_cracking_corvette_03.wav Data\Audio\Exp_Alliance_cracking_corvette_04.wav Data\Audio\Exp_Alliance_cracking_corvette_05.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+    </SFXEvent>
+
+   	<SFXEvent Name="Unit_Cruiser_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data\Audio\Exp_Alliance_cracking_Cruiser_01.wav Data\Audio\Exp_Alliance_cracking_Cruiser_02.wav Data\Audio\Exp_Alliance_cracking_Cruiser_03.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+    </SFXEvent>
+	
+	<SFXEvent Name="Unit_T1B_Death_SFX">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data\Audio\t1bdeathA.wav Data\Audio\t1bdeathB.wav Data\Audio\t1bdeathC.wav</Samples>
+    </SFXEvent>
+	<SFXEvent Name="Unit_Hardpoint_Turbo_Laser_DeathX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\turbodeathx01.wav Data\Audio\turbodeathx02.wav Data\Audio\turbodeathx03.wav Data\Audio\turbodeathx04.wav Data\Audio\turbodeathx05.wav Data\Audio\turbodeathx06.wav Data\Audio\turbodeathx07.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>       
+    </SFXEvent>
+	<SFXEvent Name="Unit_Hardpoint_Hangar_DeathX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\deathhangar01.wav Data\Audio\deathhangar02.wav Data\Audio\deathhangar03.wav Data\Audio\deathhangar04.wav Data\Audio\deathhangar05.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>       
+    </SFXEvent>
+	<SFXEvent Name="Unit_Hardpoint_Laser_DeathX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\deathlaser01.wav Data\Audio\deathlaser02.wav Data\Audio\deathlaser03.wav Data\Audio\deathlaser04.wav Data\Audio\deathlaser05.wav Data\Audio\deathlaser06.wav Data\Audio\deathlaser07.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>       
+    </SFXEvent>
+	<SFXEvent Name="Unit_Hardpoint_Misil_DeathX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\deathmisil01.wav Data\Audio\deathmisil02.wav Data\Audio\deathmisil03.wav Data\Audio\deathmisil04.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>       
+    </SFXEvent>
+
+	<SFXEvent Name="Unit_Impacto_Torpedo_Artilleria">
+			 <Use_Preset>Preset_EXPC</Use_Preset>
+			 <Samples>Data\Audio\deathmisil01.wav Data\Audio\deathmisil02.wav Data\Audio\deathmisil03.wav Data\Audio\deathmisil04.wav</Samples>
+			 <Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+	  </SFXEvent>
+    <SFXEvent Name="Unit_Hardpoint_Ion_DeathX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\deathIon_01.wav Data\Audio\deathIon_02.wav Data\Audio\deathIon_03.wav Data\Audio\deathIon_04.wav Data\Audio\deathIon_05.wav Data\Audio\deathIon_06.wav Data\Audio\deathIon_07.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>       
+    </SFXEvent>
+	<SFXEvent Name="Unit_Hardpoint_BSDriver_DeathX">
+			<Use_Preset>Preset_EXPC</Use_Preset>
+			<Samples>Data\Audio\deathbsdriver_01.wav Data\Audio\deathbsdriver_02.wav Data\Audio\deathbsdriver_03.wav Data\Audio\deathbsdriver_04.wav</Samples>
+			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>       
+    </SFXEvent>
+</SFXEvents>

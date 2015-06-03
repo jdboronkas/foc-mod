@@ -1,0 +1,222 @@
+﻿<?xml version="1.0"?>
+<HardPoints>
+
+	<!-- COHETES HARDPOINTS -->
+	<HardPoint Name="HP_Rocket_01">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Tooltip_Text>TEXT_WEAPON_ROCKETS</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Attachment_Bone>Rocket01</Attachment_Bone>
+		<Collision_Mesh>Rocket01</Collision_Mesh>
+		<Damage_Decal>HP_ION_00_BLAST</Damage_Decal>
+		<Damage_Particles>DRocket01</Damage_Particles>
+		<Fire_Bone_A>Rocket01</Fire_Bone_A>
+		<Fire_Bone_B>Rocket01</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_rocket</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rocket_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Rocket_02">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Tooltip_Text>TEXT_WEAPON_ROCKETS</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Attachment_Bone>Rocket02</Attachment_Bone>
+		<Collision_Mesh>Rocket02</Collision_Mesh>
+		<Damage_Decal>HP_ION_00_BLAST</Damage_Decal>
+		<Damage_Particles>DRocket02</Damage_Particles>
+		<Fire_Bone_A>Rocket02</Fire_Bone_A>
+		<Fire_Bone_B>Rocket02</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_rocket</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rocket_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Rocket_03">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Tooltip_Text>TEXT_WEAPON_ROCKETS</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Attachment_Bone>Rocket03</Attachment_Bone>
+		<Collision_Mesh>Rocket03</Collision_Mesh>
+		<Damage_Decal>HP_ION_00_BLAST</Damage_Decal>
+		<Damage_Particles>DRocket03</Damage_Particles>
+		<Fire_Bone_A>Rocket03</Fire_Bone_A>
+		<Fire_Bone_B>Rocket03</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_rocket</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rocket_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	<HardPoint Name="HP_Rocket_04">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Tooltip_Text>TEXT_WEAPON_ROCKETS</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Attachment_Bone>Rocket04</Attachment_Bone>
+		<Collision_Mesh>Rocket04</Collision_Mesh>
+		<Damage_Decal>HP_ION_00_BLAST</Damage_Decal>
+		<Damage_Particles>DRocket04</Damage_Particles>
+		<Fire_Bone_A>Rocket04</Fire_Bone_A>
+		<Fire_Bone_B>Rocket04</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_rocket</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rocket_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	
+	<!-- TORPEDO Hard points -->
+<HardPoint Name="HP_Torpedo_01">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> DB_Missile_Explosion </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Torpedo01</Attachment_Bone>
+		<Collision_Mesh>Torpedo01</Collision_Mesh>
+		<Damage_Decal>HP_B-C_BLAST</Damage_Decal>
+		<Damage_Particles>DTorpedo01</Damage_Particles>
+		<Fire_Bone_A>Torpedo01</Fire_Bone_A>
+		<Fire_Bone_B>Torpedo01</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+	</HardPoint>
+<HardPoint Name="HP_Torpedo_02">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> DB_Missile_Explosion </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Torpedo02</Attachment_Bone>
+		<Collision_Mesh>Torpedo02</Collision_Mesh>
+		<Damage_Decal>HP_B-C_BLAST</Damage_Decal>
+		<Damage_Particles>DTorpedo02</Damage_Particles>
+		<Fire_Bone_A>Torpedo02</Fire_Bone_A>
+		<Fire_Bone_B>Torpedo02</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+	</HardPoint>
+	<HardPoint Name="HP_Torpedo_03">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> DB_Missile_Explosion </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Torpedo03</Attachment_Bone>
+		<Collision_Mesh>Torpedo03</Collision_Mesh>
+		<Damage_Decal>HP_B-C_BLAST</Damage_Decal>
+		<Damage_Particles>DTorpedo03</Damage_Particles>
+		<Fire_Bone_A>Torpedo03</Fire_Bone_A>
+		<Fire_Bone_B>Torpedo03</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+	</HardPoint>
+	<HardPoint Name="HP_Torpedo_04">
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+		<Health>288.0</Health>
+		<Death_Explosion_Particles> DB_Missile_Explosion </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Misil_DeathX</Death_Explosion_SFXEvent>
+		<Attachment_Bone>Torpedo04</Attachment_Bone>
+		<Collision_Mesh>Torpedo04</Collision_Mesh>
+		<Damage_Decal>HP_B-C_BLAST</Damage_Decal>
+		<Damage_Particles>DTorpedo04</Damage_Particles>
+		<Fire_Bone_A>Torpedo04</Fire_Bone_A>
+		<Fire_Bone_B>Torpedo04</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
+	</HardPoint>
+	
+		
+</HardPoints>
+
