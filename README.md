@@ -1,6 +1,6 @@
 # foc-mod
 
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/jdboronkas/foc-mod.git
 
 git add *
 
