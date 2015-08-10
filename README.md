@@ -1,5 +1,7 @@
 # foc-mod
 
+git clone https://github.com/USERNAME/REPOSITORY.git
+
 git add *
 
 git commit
