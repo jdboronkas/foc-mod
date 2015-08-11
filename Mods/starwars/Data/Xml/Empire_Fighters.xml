@@ -10,7 +10,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel Skipray_Blastboat</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>ev_TieFighter.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_TIE_FighterEJ.ALO</Space_Model_Name>
 		<Scale_Factor>0.65</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -242,7 +242,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing Starviper_Fighter </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>EV_TIEBOMBER.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_TIE_BomberEJ.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>

@@ -6,7 +6,7 @@
 		<Encyclopedia_Good_Against> X-wing Y-wing Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>EV_TartanCruiser.alo</Space_Model_Name>
+		<Space_Model_Name>EV_TartanCruiser.ALO</Space_Model_Name>
 		<Select_Box_Scale>370</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
@@ -68,14 +68,31 @@
 		<Death_Clone>Damage_Normal, Tartan_Patrol_Cruiser_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
-		<Hardpoints>
-				HP_Tartan_Cruiser_00, HP_Tartan_Cruiser_01, HP_Tartan_Cruiser_02, HP_Tartan_Cruiser_03, HP_Tartan_Cruiser_04
-		</Hardpoints>
-
+<Behavior>ABILITY_COUNTDOWN, DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, WEAPON, HUNT, TARGETING, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		
+		<Projectile_Types>Proj_Ship_Laser_Small_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>5</Projectile_Fire_Recharge_Seconds>
+		
+		<Targeting_Fire_Inaccuracy> Fighter, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Bomber, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Transport, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Corvette, 45.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Frigate, 35.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Capital, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Super, 15.0 </Targeting_Fire_Inaccuracy>
+		
+		<SFXEvent_Fire>Unit_Empire_Ship_Turbolaser</SFXEvent_Fire>
 		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
 		<Icon_Name>i_button_carrack_cruiser.tga</Icon_Name>
 		<GUI_Model_Name>EV_TartanCruiser.alo</GUI_Model_Name>

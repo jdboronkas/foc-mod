@@ -41,7 +41,7 @@
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
 		<Affiliation>Underworld, Rebel, Empire, cis, Republic</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>

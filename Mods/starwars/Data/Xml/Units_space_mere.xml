@@ -42,7 +42,7 @@
 
 		<Affiliation>Empire, Republic, cis, Rebels, Underworld</Affiliation>
 		<Build_Initially_Locked>no</Build_Initially_Locked>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -222,7 +222,7 @@
 		<Bank_Turn_Angle>50</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
 
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -461,7 +461,7 @@
 		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-   	<Tech_Level>3</Tech_Level>
+   	<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -637,7 +637,7 @@
 			HP_FREEFALL_TORP_01
 		</HardPoints>
 
-   	<Tech_Level>3</Tech_Level>
+   	<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -994,7 +994,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<!--<Required_Planets>Ord_Mantell</Required_Planets>-->

@@ -35,7 +35,7 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Affiliation>Underworld, Empire, Republic, Rebel, cis</Affiliation>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>300</Shield_Points>
