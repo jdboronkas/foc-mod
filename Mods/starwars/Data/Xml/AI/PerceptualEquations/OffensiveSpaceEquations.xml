@@ -2,7 +2,7 @@
 
 <Equations>
 
-	<!-- Have to do it this way because Starbases are category mask "Capital" and not structure.
+	<!-- Have to do it this way because Starbases are category mask "Capital" and not structure. 
 		Finding Capitol, will get Destroyers as well, which are not a base.
 	-->
 	<Distance_To_Nearest_Friendly_Starbase>
@@ -20,7 +20,7 @@
 																Parameter_Type = "Underworld_Star_Base_2",
 																Parameter_Type = "Underworld_Star_Base_3",
 																Parameter_Type = "Underworld_Star_Base_4",
-																Parameter_Type = "Underworld_Star_Base_5",
+																Parameter_Type = "Underworld_Star_Base_5",																
 																Parameter_Type = "Skirmish_Rebel_Star_Base_1",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_2",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_3",
@@ -54,7 +54,7 @@
 																Parameter_Type = "Underworld_Star_Base_2",
 																Parameter_Type = "Underworld_Star_Base_3",
 																Parameter_Type = "Underworld_Star_Base_4",
-																Parameter_Type = "Underworld_Star_Base_5",
+																Parameter_Type = "Underworld_Star_Base_5",																
 																Parameter_Type = "Skirmish_Rebel_Star_Base_1",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_2",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_3",
@@ -88,7 +88,7 @@
 																Parameter_Type = "Underworld_Star_Base_2",
 																Parameter_Type = "Underworld_Star_Base_3",
 																Parameter_Type = "Underworld_Star_Base_4",
-																Parameter_Type = "Underworld_Star_Base_5",
+																Parameter_Type = "Underworld_Star_Base_5",																	
 																Parameter_Type = "Skirmish_Rebel_Star_Base_1",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_2",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_3",
@@ -103,7 +103,7 @@
 																Parameter_Type = "Skirmish_Underworld_Star_Base_2",
 																Parameter_Type = "Skirmish_Underworld_Star_Base_3",
 																Parameter_Type = "Skirmish_Underworld_Star_Base_4",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_5",
+																Parameter_Type = "Skirmish_Underworld_Star_Base_5",																
 																Parameter_Type = "PIRATE_ASTEROID_BASE"}
 	</Is_Starbase>
 
@@ -120,18 +120,18 @@
 		OR
 		We're the defender with a space station
 			AND
-			We have units to spare
+			We have units to spare 
 			OR the target is close enough to the starbase (Capital is the base itself, Structure is any other friendly structures)
 
 
 	UNUSED PARTS
-		*
+		* 
 		(Script_EvaluateInGalacticContext.Evaluate{Parameter_Script_String = "Offense_Delay_Space_Expired"})
 	-->
 	<Allowed_As_Defender_Space>
 		(Game.IsCampaignGame == 0)
 		+
-		(Game.IsCampaignGame == 1)
+		(Game.IsCampaignGame == 1)	
 		*
 		(
 			(1 - Variable_Self.IsDefender)
@@ -141,7 +141,7 @@
 			(Variable_Self.IsDefender) * (Variable_Self.BaseLevel > 0) *
 			(
 				(
-					(Variable_Self.FriendlyForce {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette]}
+					(Variable_Self.FriendlyForce {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette]} 
 					>= (3.0 * Variable_Self.EnemyForce))
 					+
 					(1800 > Function_Distance_To_Nearest_Friendly_Starbase.Evaluate)
@@ -153,7 +153,7 @@
 	</Allowed_As_Defender_Space>
 
 
-	<!-- unused and doesn't work
+	<!-- unused and doesn't work 
 	<Offense_Delay_Space_Expired>
 		Game.Age > Variable_Target.Hints.OffenseDelaySpace
 	</Offense_Delay_Space_Expired>
@@ -164,7 +164,7 @@
 		UNUSED
 		(Variable_Target.FriendlyForce {Parameter_Category = GameObjectCategoryType[Capital]} > 0)
 	-->
-	<Is_Empty_Zone_Near_Base>
+	<Is_Empty_Zone_Near_Base> 
 		Variable_Self.IsDefender
 		*
 		(2000 > Function_Distance_To_Nearest_Friendly_Starbase.Evaluate)
@@ -177,7 +177,7 @@
 		Game.IsCampaignGame * Function_Is_Empty_Zone_Near_Base.Evaluate
 	</Should_Return_To_Base>
 
-	<!--
+	<!-- 
 	Certain contestable structures can't easily be filtered out by a goal's AIGoalApplicationFlags
 	because they're structures.
 	-->
@@ -185,12 +185,12 @@
 		Variable_Target.Type.IsType { Parameter_Type = "N_Orbital_Construction_Pod" }
 	</Is_Space_Structure_Indestructable>
 
-	<!--
+	<!-- 	
 		Zero if it's disallowed
 
 			The notion is that when ever enemy weaknesses are presented, we capitolize upon them.  Therefore,
 			Targets are prioritized for destruction first by
-
+			
 			nearness to greater friendly forces than enemies then by
 			isolation from allies then by
 			whether their shields are in poor shape then by
@@ -210,12 +210,12 @@
 			+
 			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			2.0 * (1.0 - (Variable_Target.Shield > 0.66))
+			2.0 * (1.0 - (Variable_Target.Shield > 0.86))
 			+
 			2.0 * (1.0 - Variable_Target.Health)
 			+
 			5.0 * (1.0 - Variable_Target.Health > 0.8)
-			+
+			+ 
 			(1.0 - Variable_Target.ForceNBTD)
 			+
 			2.0 * Variable_Target.ContainsHero
@@ -233,8 +233,8 @@
 	</Unit_Needs_To_Be_Destroyed_Low_Desire>
 
 	<!-- 	This is used for Bombing Runs (which can penetrate shields).  Prioritize by:
-
-			nearness to greater friendly forces than enemies
+	
+			nearness to greater friendly forces than enemies 
 			isolation from allies
 			do they have a shield generator intact
 			is the shield up (if so, we're the only thing that can directly damage the hard point)
@@ -252,9 +252,9 @@
 			+
 			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			3.0 * (Variable_Target.HardPointHealth {Parameter_Hard_Point_Type = HardPointType[Shield_Generator]} > 0.0)
+			3.0 * (Variable_Target.HardPointHealth {Parameter_Hard_Point_Type = HardPointType[Shield_Generator]} > 0.2)
 			+
-			2.0 * (Variable_Target.Shield > 0.66)
+			2.0 * (Variable_Target.Shield > 0.96)
 			+
 			2.0 * Variable_Target.ForceNBTD
 			+
@@ -262,18 +262,18 @@
 		)
 	</Unit_Needs_To_Be_Disabled>
 
-	<!--
+	<!-- 
 	Has enough time passed
 	AND
 		Is our target a starbase and is this a skirmish
-		OR
+		OR 
 		Does this unit generally need to be disabled
 	AND
 		Scale up by:
 		Give the fragile bombers some time for other units to occupy our enemies
 		Make sure there is a friendly non-bomber that is close enough to draw fire
 		Make sure there are enough friendlies in the area to give the bombers a chance
-		Avoid targets in areas with corvettes
+		Avoid targets in areas with corvettes 
 
 	Note: this function must coordinate with Desire_To_Hide_At_Location .
 
@@ -301,14 +301,14 @@
 
 
     <Unit_Needs_Escort>
-        30.0
-		  *
+        30.0 
+		  * 
         Variable_Target.Force
     </Unit_Needs_Escort>
 
-	 <!-- Sweeps are primarily designed to find pockets of transports, fighters
-			and bombers, because they don't show up as a Variable_Target when units
-			are specified (they are found by location threat)
+	 <!-- Sweeps are primarily designed to find pockets of transports, fighters 
+			and bombers, because they don't show up as a Variable_Target when units 
+			are specified (they are found by location threat) 
 
 			Add a very small amount of desire for any unit presence, so we always have a desired goal
 			that can make contrast.
@@ -346,24 +346,20 @@
 		Function_Allowed_As_Defender_Space.Evaluate
 		*
 		(
-		<!--
 			15 * (2000 > Function_Distance_To_Nearest_Friendly_Starbase.Evaluate)
 				* (((Variable_Target.TimeLastSeenUnnormalized > 120) + (20 > Game.Age)) > 0)
 			+
-			-->
 			10	* (Function_Distance_To_Nearest_Friendly_Starbase.Evaluate > 2000)
 				* (Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2000)
 				* (((Variable_Target.TimeLastSeenUnnormalized > 200) + (200 > Game.Age)) > 0)
 				* Variable_Target.TimeLastSeen
-				<!--
 			+
 			5 	* (Variable_Target.IsEnemyStartLocation + (2000 > Function_Distance_To_Nearest_Enemy_Starbase.Evaluate))
 				* (((Variable_Target.TimeLastSeenUnnormalized > 400) + (Game.Age > 400) + (Game.IsCampaignGame)) > 0)
 				* Variable_Target.TimeLastSeen
-			-->
 		)
 	</Space_Area_Needs_Scouting>
-
+	
 	<Space_Area_Is_Friendly>
 	  	(1.0 - 3.0 * Variable_Target.EnemyForce) *
 		(1.0 + Variable_Target.FriendlyForce)
@@ -384,7 +380,7 @@
 	</Space_Area_Is_Empty>
 
 	<!-- Hiding equation for surprise units.
-
+	
 		We must not be trying to burn units
 		There must be no enemies where we want to hide
 		SCALE UP
@@ -393,7 +389,7 @@
 		This drops in desirability after a while (Rebels hold off longer because their Y-wings are not as disposable)
 
 		only hide for a short duration; pirates never hide
-
+		
 	-->
 	<Desire_To_Hide_At_Location>
 		(1 - Function_Should_Burn_Units_Space.Evaluate)
@@ -417,7 +413,7 @@
 			+
 			Function_Is_Empire.Evaluate
 			*
-			(40 > Game.Age)
+			(45 > Game.Age)
 			+
 			Function_Is_Underworld.Evaluate
 			*
@@ -467,20 +463,20 @@
 		)
 	</Good_Space_Artillery_Area>
 
-	<!--
+	<!--  
 		Big factor to make sure this comes top
 		Has enough time passed (different for attacker and defender so that we don't attack and then instantly retreat)
 		AND
-			Are we attackers AND greatly outnumbered
+			Are we attackers AND greatly outnumbered 
 			OR
-			Are we defenders AND without a space station AND greatly outnumbered
+			Are we defenders AND without a space station AND greatly outnumbered 
 			OR
 			Have we been caught with only shuttles
 			OR
 			Are we outnumbered with little real force and many transports
 			OR
 			Are we the defender and have enough transports that it's worth abandoning space control to save them
-
+		
 		Removed over attenuation - it could send force to zero (or negative) which could lead to retreating/not retreating in unexpected
 		circumstances
 		-->
@@ -498,7 +494,7 @@
 					(1.0 - Variable_Self.IsDefender) *
 					(Variable_Enemy.FriendlyForceUnnormalized{Parameter_Attenuator = 1.0} >= (4.0 * Variable_Self.FriendlyForceUnnormalized{Parameter_Attenuator = 1.0}))
 					+
-					(Variable_Self.IsDefender *
+					(Variable_Self.IsDefender * 
 					(Variable_Self.BaseLevel == 0) *
 					(Variable_Enemy.FriendlyForceUnnormalized{Parameter_Attenuator = 1.0} >= (4.0 * Variable_Self.FriendlyForceUnnormalized{Parameter_Attenuator = 1.0})))
 					+
@@ -520,7 +516,7 @@
 		)
 	</Want_To_Retreat_From_Space>
 
-	<!--
+	<!-- 
 			Is this a campaign game (the AI doesn't retreat in skirmish)
 			AND
 			Are we capable of retreat
@@ -532,7 +528,7 @@
 		*
 		Variable_Self.CanRetreat
 		*
-		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts", Parameter_Faction = "Corellians", Parameter_Faction = "Mandalorians", Parameter_Faction = "Corporate_Sector_Authority", Parameter_Faction = "Naboo", Parameter_Faction = "Vong"})
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates"})
 	</Allowed_To_Retreat_From_Space>
 
 	<Should_Retreat_From_Space>
@@ -545,7 +541,7 @@
 		(Variable_Target.StarbaseLevel > 0)
 	</Has_Space_Station>
 
-	<!-- Generally shoot at the greatest relative force, but prefer units over starbases
+	<!-- Generally shoot at the greatest relative force, but prefer units over starbases 
 
 		don't bother with Corvettes, they're nearly impossible to hit
 
@@ -564,16 +560,16 @@
 		)
 	</Needs_Hypervelocity_Shot>
 
-	<!-- Is this something we'd like to fire an Ion Cannon at?  If we just shot it,
+	<!-- Is this something we'd like to fire an Ion Cannon at?  If we just shot it, 
 		we may prefer firing on a weaker unit with full shields or energy.
 
 		don't bother with Corvettes, they're nearly impossible to hit
-
+	
 		the unit's relative force
-		the % of shield remaining
+		the % of shield remaining 
 		their engines aren't currently disabled
 		prefer units over starbases
-
+		 
 		UNUSED
 		the % of energy remaining (used for engines, shields, and weapons)
 		+
@@ -599,7 +595,7 @@
 		)
 	</Needs_Ion_Shot>
 
-	<!-- These are fleeting opportunities, so go about these with high desire
+	<!-- These are fleeting opportunities, so go about these with high desire 
 
 	Does the area have relatively isolated weak units.  Magic number should result in this being the highest priority.
 	ADD DESIRE
@@ -613,7 +609,7 @@
 		)
 		+
 		(
-			15 * (Variable_Target.FriendlyForce {Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Transport]} > 0)
+			15 * (Variable_Target.FriendlyForce {Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Transport]} > 0) 
 			*
 			Variable_Target.EnemyForce {Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Transport]} /
 			(Variable_Target.EnemyForce {Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Transport]} +
@@ -635,11 +631,11 @@
 		(
 			Variable_Target.EnemyForce {Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Transport]}
 			+
-			Variable_Target.EnemyForce {Parameter_Category = GameObjectCategoryType[Corvette|Frigate|Capital|Structure]}
+			Variable_Target.EnemyForce {Parameter_Category = GameObjectCategoryType[Corvette|Frigate|Capital|Structure]} 
 		)
 	</Fighter_Location_Isolated>
 
-	<!-- These are fleeting opportunities, so go about these with high desire
+	<!-- These are fleeting opportunities, so go about these with high desire 
 	Basically, we're looking for isolated weak units that we can quickly deal with.
 
 	Does the unit have shields down or nearly down
@@ -665,20 +661,18 @@
 
 	</Good_Turbo_Attack_Unit_Opportunity>
 
-	<!-- normalized threat isolation for a unit
+	<!-- normalized threat isolation for a unit 
 	-->
 	<Unit_Isolation>
 		Variable_Target.Force / (Variable_Target.Location.EnemyForce + Variable_Target.Force)
 	</Unit_Isolation>
 
-	<!--
+	<!-- 
 	-->
 	<Need_To_Secure_Contestable>
-		50
-		*
 		Variable_Target.IsContestable
 		*
-		(
+		( 
 			5 * (Variable_Target.Location.EnemyForce == 0)
 			+
 			5 * (1 - Variable_Target.Location.EnemyForce)
@@ -691,24 +685,20 @@
 		)
 	</Need_To_Secure_Contestable>
 
-	<!--
+	<!-- 
 	Disallow securing distant contestables if this is an easy AI and it already has N resource plots.
 
 	For skirmish games, sink desire on non refinery build pads if we don't have any yet.
 		Note: space station reveal range is about 2000
 	-->
 	<Need_To_Secure_Contestable_Space>
-		50
-		*
 		(1 - Function_Should_Firesale_Space.Evaluate)
-		<!--
 		*
 		Function_Allowed_As_Defender_Space.Evaluate
 		*
 		Function_Need_To_Secure_Contestable.Evaluate
-		-->
 		*
-		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2500)
+		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2500)		
 		*
 		(
 			Game.IsCampaignGame
@@ -716,15 +706,11 @@
 			(Game.IsCampaignGame == 0.0)
 			*
 			(
-			  150
-				*
 				Function_Is_Refinery_Pad_Space.Evaluate
 				+
-				(50 + Function_Is_Refinery_Pad_Space.Evaluate)
-				<!--
+				(1 - Function_Is_Refinery_Pad_Space.Evaluate)
 				*
 				(Function_Number_Resource_Structures_Space.Evaluate)
-				-->
 			)
 		)
 	</Need_To_Secure_Contestable_Space>
@@ -741,7 +727,7 @@
 		(1 - Variable_Target.HasBuiltObject)
 	-->
 	<Need_To_Build_Structure_Space>
-		20.0
+		10.0 
 		*
 		(1 - Function_Is_Saving_For_Refineries_Space.Evaluate)
 		*
@@ -756,13 +742,13 @@
 		)
 	</Need_To_Build_Structure_Space>
 
-	<!--
+	<!-- 
 		*
 		(1 - Variable_Target.HasBuiltObject)
 		Note: space station reveal range is about 2000
 	-->
 	<Need_To_Build_Refinery_Space>
-		100.0
+		50.0 
 		*
 		(
 			0.2 >
@@ -783,7 +769,7 @@
 	<Is_Saving_For_Refineries_Space>
 		(Variable_Self.OpenBuildPadCount{Parameter_Type = "Mineral_Extractor_Pad"} > 0)
 		*
-		(1100 > Variable_Self.CreditsUnnormalized)
+		(1500 > Variable_Self.CreditsUnnormalized)
 	</Is_Saving_For_Refineries_Space>
 
 
@@ -791,20 +777,18 @@
 		Variable_Target.Type.IsType {Parameter_Type = "Mineral_Extractor_Pad"}
 	</Is_Refinery_Pad_Space>
 
-	<!--
+	<!-- 
 	-->
 	<Tactical_Multiplayer_Should_Build_Generic_Space>
 		(1 - Function_Is_Saving_For_Refineries_Space.Evaluate)
-		<!--
 		*
-		(1 - Function_Skirmish_Needs_New_Space_Station.Evaluate)
-		-->
+		(1 - Function_Skirmish_Needs_New_Space_Station.Evaluate) 
 		*
 		Function_Tactical_Multiplayer_Should_Build_Generic.Evaluate
 	</Tactical_Multiplayer_Should_Build_Generic_Space>
 
 
-	<!--
+	<!-- 
 
 	-->
 	<Should_Purchase_Ability_Generic_Space>
@@ -835,7 +819,7 @@
 		)
 	</Should_Purchase_Ability_Generic_Space>
 
-	<!--
+	<!-- 
 	High desire
 			Do we want to retreat
 			AND
@@ -853,7 +837,7 @@
 			OR
 				The enemy has no forces except capital (space station)
 
-
+	
 	-->
 	<Should_Burn_Units_Space>
 		50
@@ -925,9 +909,9 @@
 	<Skirmish_Needs_New_Space_Station>
 		(Game.IsCampaignGame == 0.0)
 		*
-		(Function_Number_Resource_Structures_Space.Evaluate >= 3.0)
+		(Function_Number_Resource_Structures_Space.Evaluate >= 1.0)
 		*
-		(Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]} > 1650.0)
+		(Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]} > 1000.0)
 		*
 		((Game.Age > 60.0) * (Variable_Self.BaseLevel == 1.0)
 		+
@@ -943,21 +927,33 @@
 	</Skirmish_Needs_New_Space_Station>
 
 	<Skirmish_Needs_New_Space_Station_With_Multiplier>
-		Function_Skirmish_Needs_New_Space_Station.Evaluate
+		50.0 * Function_Skirmish_Needs_New_Space_Station.Evaluate
 	</Skirmish_Needs_New_Space_Station_With_Multiplier>
 
 	<Skirmish_Needs_Magic_Cash_Drop_Space>
-		0
+		50.0
+		*
+		(Variable_Self.BaseLevel > 0.0)
+		*
+		(3000.0 > Variable_Self.CreditsUnnormalized)
+		*
+		(Variable_Self.EnemyForceUnnormalized > Variable_Self.FriendlyForceUnnormalized)
+		*
+		(Game.Age > 180.0)
+		*
+		(Game.IsCampaignGame == 0.0)
 	</Skirmish_Needs_Magic_Cash_Drop_Space>
-
+	
 	<Need_To_Defend_Space_Station>
+		50.0
+		*
 		(Function_Should_Burn_Units_Space.Evaluate == 0.0)
 		*
 		((Game.IsCampaignGame == 0) + Variable_Self.IsDefender)
 		*
 		Function_Is_Starbase.Evaluate
 		*
-		(2500 > Variable_Target.DistanceToNearestEnemy {Parameter_Category = GameObjectCategoryType[Bomber | Frigate | Capital]})
+		(2500 > Variable_Target.DistanceToNearestEnemy {Parameter_Category = GameObjectCategoryType[Frigate | Capital]})
 	</Need_To_Defend_Space_Station>
 
 </Equations>
