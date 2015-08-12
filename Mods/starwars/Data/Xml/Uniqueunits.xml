@@ -834,10 +834,10 @@
 	
 	
 	<UniqueUnit Name="Escort_TIE_Fighter">
-		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>TIE_Hunter</Variant_Of_Existing_Type>
 		<Scale_Factor>0.9</Scale_Factor>
 		
-				<Space_Model_Name> ev_tiehunter.ALO </Space_Model_Name>
+
 
 		<Tactical_Health>300</Tactical_Health>
         <Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
