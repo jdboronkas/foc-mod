@@ -14,7 +14,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Y-Wing X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette A-Wing </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>EV_TIE_PHANTOM.ALO</Space_Model_Name>
+		<Space_Model_Name>Ev_tie_phantom.alo</Space_Model_Name>
 		<Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
 
 		<Scale_Factor>0.3</Scale_Factor>

@@ -14,7 +14,7 @@
 		<Encyclopedia_Good_Against> Nantex Cloakshape TIE_Bomber </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Howlrunner Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_BUTTON_DELTA7.TGA</Icon_Name>
-		<Space_Model_Name>REP_DELTA7.ALO</Space_Model_Name>
+		<Space_Model_Name>Rev_delta7.ALO</Space_Model_Name>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Select_Box_Scale>140</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>

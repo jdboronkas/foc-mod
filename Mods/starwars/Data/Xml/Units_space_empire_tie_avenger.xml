@@ -12,7 +12,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTERCEPTOR</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>X-Wing Star_Viper B-Wing</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids</Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>EV_TIEAVENGER.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_TIE_Avenger.ALO</Space_Model_Name>
 		<Scale_Factor>0.50<!--was 0.7--></Scale_Factor>
 		<Select_Box_Scale>60</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>

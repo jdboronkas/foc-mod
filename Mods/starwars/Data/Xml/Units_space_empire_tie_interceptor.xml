@@ -14,7 +14,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Starviper_Fighter X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>EV_TIE_INTERCEPTOR.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_TIE_InterceptorEJ.ALO</Space_Model_Name>
 		<Icon_Name>i_button_EV_TIE_Interceptor.tga</Icon_Name>
 
 		<Scale_Factor>0.6</Scale_Factor>

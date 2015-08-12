@@ -210,7 +210,7 @@
 			+
 			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			2.0 * (1.0 - (Variable_Target.Shield > 0.86))
+			2.0 * (1.0 - (Variable_Target.Shield > 0.66))
 			+
 			2.0 * (1.0 - Variable_Target.Health)
 			+
@@ -252,9 +252,9 @@
 			+
 			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			3.0 * (Variable_Target.HardPointHealth {Parameter_Hard_Point_Type = HardPointType[Shield_Generator]} > 0.2)
+			3.0 * (Variable_Target.HardPointHealth {Parameter_Hard_Point_Type = HardPointType[Shield_Generator]} > 0.0)
 			+
-			2.0 * (Variable_Target.Shield > 0.96)
+			2.0 * (Variable_Target.Shield > 0.66)
 			+
 			2.0 * Variable_Target.ForceNBTD
 			+
@@ -413,7 +413,7 @@
 			+
 			Function_Is_Empire.Evaluate
 			*
-			(45 > Game.Age)
+			(40 > Game.Age)
 			+
 			Function_Is_Underworld.Evaluate
 			*
@@ -528,7 +528,7 @@
 		*
 		Variable_Self.CanRetreat
 		*
-		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates"})
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts", Parameter_Faction = "Corellians", Parameter_Faction = "Mandalorians", Parameter_Faction = "Corporate_Sector_Authority", Parameter_Faction = "Naboo", Parameter_Faction = "Vong"})
 	</Allowed_To_Retreat_From_Space>
 
 	<Should_Retreat_From_Space>

@@ -14,7 +14,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>X-Wing B-Wing Howlrunner  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>Imp_TIE_Droid.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_TieDroide.ALO</Space_Model_Name>
 		<Icon_Name>i_button_tie_droid.tga</Icon_Name>
 
 		<Scale_Factor>0.12</Scale_Factor>
