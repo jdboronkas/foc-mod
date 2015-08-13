@@ -11,7 +11,7 @@
 		<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel Skipray_Blastboat</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>EV_TIE_FighterEJ.ALO</Space_Model_Name>
-		<Scale_Factor>0.65</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -243,7 +243,7 @@
 		<Encyclopedia_Good_Against> Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>EV_TIE_BomberEJ.ALO</Space_Model_Name>
-		<Scale_Factor>0.7</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
