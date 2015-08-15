@@ -21,7 +21,7 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>5</Scale_Factor>
+		<Scale_Factor>7</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -90,12 +90,10 @@
 		<Reserve_Spawned_Units_Tech_4>TIE_Defender_Squadron, -1</Reserve_Spawned_Units_Tech_4>
 		
 		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Starting_Spawned_Units_Tech_5>TIE_Defender_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Starting_Spawned_Units_Tech_5>TIE_Droid_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_5> 
-		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>TIE_Defender_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>TIE_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 		
@@ -115,6 +113,10 @@
 			HP_Star_Destroyer_2_Octuple_2, 
 			HP_Star_Destroyer_2_Octuple_3,
 			HP_Star_Destroyer_2_Octuple_4, 
+      HP_Star_Destroyer_2_Octuple_5,
+			HP_Star_Destroyer_2_Octuple_6, 
+			HP_Star_Destroyer_2_Octuple_7,
+			HP_Star_Destroyer_2_Octuple_8, 
 			HP_Star_Destroyer_2_Turbo1,
 			HP_Star_Destroyer_2_Turbo2,
 			HP_Star_Destroyer_2_Turbo3, 
@@ -263,6 +265,10 @@
 			HP_Star_Destroyer_2_Octuple_2, 
 			HP_Star_Destroyer_2_Octuple_3,
 			HP_Star_Destroyer_2_Octuple_4, 
+      HP_Star_Destroyer_2_Octuple_5,
+			HP_Star_Destroyer_2_Octuple_6, 
+			HP_Star_Destroyer_2_Octuple_7,
+			HP_Star_Destroyer_2_Octuple_8, 
 			HP_Star_Destroyer_2_Turbo1,
 			HP_Star_Destroyer_2_Turbo2,
 			HP_Star_Destroyer_2_Turbo3, 
@@ -298,7 +304,7 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>5</Scale_Factor>
+		<Scale_Factor>7</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -373,12 +379,10 @@
 		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_5> 
 		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 	
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
@@ -394,7 +398,7 @@
                 <HardPoints> 
 			HP_Star_Destroyer_Weapon_FR, HP_Star_Destroyer_Weapon_FL, HP_Star_Destroyer_Weapon_L2, HP_Star_Destroyer_Weapon_R2, HP_Star_Destroyer_Weapon_L3, HP_Star_Destroyer_Weapon_R3,
 			HP_Star_Destroyer_Weapon_L4, HP_Star_Destroyer_Weapon_R4, HP_Star_Destroyer_Weapon_L5, HP_Star_Destroyer_Weapon_R5, HP_Star_Destroyer_Weapon_L6, HP_Star_Destroyer_Weapon_R6, HP_Star_Destroyer_Weapon_IR, HP_Star_Destroyer_Weapon_IR2,
-			HP_Star_Destroyer_Weapon_IL, HP_Star_Destroyer_Weapon_IL2, HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines, HP_Star_Destroyer_Fighter_Bay, HP_Star_Destroyer_Tractor_Beam
+			HP_Star_Destroyer_Weapon_IL, HP_Star_Destroyer_Weapon_IL2, HP_Star_Destroyer_Weapon_IL3, HP_Star_Destroyer_Weapon_IL4, HP_Star_Destroyer_Weapon_IL5, HP_Star_Destroyer_Weapon_IL6,  HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines, HP_Star_Destroyer_Fighter_Bay, HP_Star_Destroyer_Tractor_Beam
 		</HardPoints>
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
@@ -535,7 +539,7 @@
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>5</Scale_Factor>
+		<Scale_Factor>5.5</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -679,10 +683,10 @@
 
 	<SpaceUnit Name="Star_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
-		<Space_Model_Name>Tector_D.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_StarDestroyer_MKI_D.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>EV_StarDestroyer_MKI_D.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>1.3</Scale_Factor>
+		<Scale_Factor>3.2</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>

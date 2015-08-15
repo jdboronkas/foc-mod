@@ -6556,8 +6556,6 @@
 		<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
 		<Projectile_Disables_Engines_When_Power_Drained>No</Projectile_Disables_Engines_When_Power_Drained>
 		<Projectile_Ion_Stun_Duration>10.0</Projectile_Ion_Stun_Duration>
-		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.5</Projectile_Ion_Stun_Speed_Reduction_Percent>
-		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.5</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
 		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
 		
 		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
@@ -6820,7 +6818,12 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
-
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>w_octuple.alo</Space_Model_Name>
+		<Projectile_Damage>40.0</Projectile_Damage>
+				<Projectile_Object_Detonation_Particle> Small_Explosion_Space </Projectile_Object_Detonation_Particle>
+	</Projectile>
 
 </Projectiles>
 
