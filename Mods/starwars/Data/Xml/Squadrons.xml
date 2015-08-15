@@ -29,12 +29,13 @@
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
-
+		<Squadron_Units>X-Wing, </Squadron_Units>
 <Max_Squad_Size>12</Max_Squad_Size>
 <Squadron_Offsets>15.0,4.0,11.0</Squadron_Offsets>
 <Squadron_Offsets>-20.0,-2.-13,0.0</Squadron_Offsets>
 <Squadron_Offsets>30.0,-30.0,5.0</Squadron_Offsets>
 <Squadron_Offsets>-50.0,11.0,-5.0</Squadron_Offsets>
+<Squadron_Offsets>-50.0,-10.0,2.0</Squadron_Offsets>
 
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
@@ -249,13 +250,14 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-			<Squadron_Units>A-Wing, A-Wing, A-Wing, A-Wing</Squadron_Units>	
+			<Squadron_Units>A-Wing, A-Wing, A-Wing, A-Wing, A-Wing</Squadron_Units>	
 
 <Max_Squad_Size>12</Max_Squad_Size>
 <Squadron_Offsets>50.0,4.0,11.0</Squadron_Offsets>
 <Squadron_Offsets>-4.0,27.0,30.0</Squadron_Offsets>
 <Squadron_Offsets>30.0,-50.0,-15.0</Squadron_Offsets>
 <Squadron_Offsets>-20.0,-19.0,-35.0</Squadron_Offsets>
+<Squadron_Offsets>8.0,16.0,-22.0</Squadron_Offsets>
 
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_awing.ALO</GUI_Model_Name>
