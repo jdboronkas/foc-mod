@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Malevolence_Data>
 
 <SpaceUnit Name="Malevolence">
@@ -60,7 +60,7 @@
 		<Build_Countdown_Text_RGBA> 64, 128, 255, 255 </Build_Countdown_Text_RGBA>
 		<Build_Music_Completed> Galactic_Super_Ship_Complete_Music_Event </Build_Music_Completed>
 		
-		<Political_Faction>Rebel</Political_Faction>
+		<Political_Faction>cis</Political_Faction>
 		<Squadron_Capacity>60</Squadron_Capacity>
 		<Build_Cost_Credits>60000</Build_Cost_Credits> <!-- From 50000 -->
 		<AI_Combat_Power>20000</AI_Combat_Power> <!-- From 50000 -->
@@ -331,7 +331,7 @@
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>cis</Affiliation>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
