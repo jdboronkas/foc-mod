@@ -418,7 +418,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
-		 <Files> Avalon.mp3, FamilyConfrontation.mp3, Kampf001_5.WAV, Hyperspace.mp3, Rendezvous.mp3, Battle_Theme.mp3, DS_THE_BATTLE_OF_YAVIN.MP3, space_battle2.mp3, Shateredskies.mp3, AttackingaStarDestroyer.mp3, TIE_FIGHTER_ATTACK.MP3, Gratua-Cuun.mp3, FiresofLiberation.mp3, FirstFlight.mp3, space_battle1.mp3, Supercircus.mp3, WhiteBird.mp3, The_Asteroid_Field.MP3, BattleofEndorIII.mp3</Files>
+		 <Files> Avalon.mp3, FamilyConfrontation.mp3, Excalibur.mp3, Kampf001_5.WAV, Hyperspace.mp3, Rendezvous.mp3, Battle_Theme.mp3, DS_THE_BATTLE_OF_YAVIN.MP3, space_battle2.mp3, Shateredskies.mp3, AttackingaStarDestroyer.mp3, TIE_FIGHTER_ATTACK.MP3, Gratua-Cuun.mp3, FiresofLiberation.mp3, FirstFlight.mp3, space_battle1.mp3, Supercircus.mp3, WhiteBird.mp3, The_Asteroid_Field.MP3, BattleofEndorIII.mp3</Files>
 		 <Volume_Percent>75</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -426,7 +426,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
-		<Files> Avalon.mp3, FamilyConfrontation.mp3, Kampf001_5.WAV, Hyperspace.mp3, Rendezvous.mp3, Battle_Theme.mp3, DS_THE_BATTLE_OF_YAVIN.MP3, space_battle2.mp3, Shateredskies.mp3, AttackingaStarDestroyer.mp3, TIE_FIGHTER_ATTACK.MP3, Gratua-Cuun.mp3, FiresofLiberation.mp3, FirstFlight.mp3, space_battle1.mp3, Supercircus.mp3, WhiteBird.mp3, The_Asteroid_Field.MP3, BattleofEndorIII.mp3 </Files>
+		<Files> Avalon.mp3, FamilyConfrontation.mp3, Excalibur.mp3, Kampf001_5.WAV, Hyperspace.mp3, Rendezvous.mp3, Battle_Theme.mp3, DS_THE_BATTLE_OF_YAVIN.MP3, space_battle2.mp3, Shateredskies.mp3, AttackingaStarDestroyer.mp3, TIE_FIGHTER_ATTACK.MP3, Gratua-Cuun.mp3, FiresofLiberation.mp3, FirstFlight.mp3, space_battle1.mp3, Supercircus.mp3, WhiteBird.mp3, The_Asteroid_Field.MP3, BattleofEndorIII.mp3 </Files>
 		 <Volume_Percent>75</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
