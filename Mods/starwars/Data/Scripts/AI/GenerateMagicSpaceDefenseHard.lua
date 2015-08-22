@@ -50,8 +50,8 @@ function Definitions()
 	{
 		"ReserveForce"
 		,"DenyHeroAttach"
-		,"Fighter | Bomber = 18"
-		,"Corvette | Frigate | Capital = 16"
+		,"Fighter | Bomber = 20"
+		,"Corvette | Frigate | Capital = 18"
 	}
 	}
 	AllowFreeStoreUnits = false

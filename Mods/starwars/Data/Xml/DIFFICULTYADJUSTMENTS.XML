@@ -36,9 +36,9 @@
 	</Difficulty_Adjustment>
 
 	<Difficulty_Adjustment Name="Hard_Default">
-		<Credit_Multiplier>8.0</Credit_Multiplier>
+		<Credit_Multiplier>1.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.1</Galactic_AI_Contrast_Multiplier>
-		<Space_AI_Contrast_Multiplier>1.0</Space_AI_Contrast_Multiplier>
+		<Space_AI_Contrast_Multiplier>3.0</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>1.0</Land_AI_Contrast_Multiplier>
 		<Galactic_Build_Time_Multiplier>1.0</Galactic_Build_Time_Multiplier>
 		<Space_Build_Time_Multiplier>1.0</Space_Build_Time_Multiplier>

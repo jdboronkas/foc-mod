@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"StructureForce",
-		"Rebel_Ground_Mining_Facility | Empire_Ground_Mining_Facility | Empire_Kuat_Drive_Yards | Rebel_Kuat_Drive_Yards | Rebel_SoroSuub | Empire_Sienar_Systems | CEC | Rendili_Stardrive | Moncal_Shipyards | E_Ground_Imperial_Intelligence | Bothan_Spynet_Listening_Post = 1"
+		"Rebel_Ground_Mining_Facility | Empire_Ground_Mining_Facility | Republic_Ground_Farm | Confederacy_Ground_Farm | Republic_Ground_Refining_Facility | Cis_Ground_Refining_Facility | Gladiator_Arena = 1"
 	}
 	}
 

@@ -78,7 +78,7 @@
 			+
 			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			2.0 * (1.0 - (Variable_Target.Shield > 0.66))
+			2.0 * (1.0 - (Variable_Target.Shield > 0.86))
 			+
 			2.0 * (1.0 - Variable_Target.Health)
 			+
@@ -326,7 +326,7 @@
 		*
 		Variable_Self.CanRetreat
 		*
-		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts", Parameter_Faction = "Corellians", Parameter_Faction = "Mandalorians", Parameter_Faction = "Corporate_Sector_Authority", Parameter_Faction = "Naboo"})
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates"})
 	</Allowed_To_Retreat_From_Land>
 
 	<!--
@@ -347,17 +347,17 @@
 	<Debug_Land_1>
 		Variable_Self.FriendlyForceUnnormalized
 		+
-		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "MPTL"}
+		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Heavy_Artillery_Gun"}
 		+
-		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "T2B_Tank"}
+		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "AAT_Tank"}
 		+
-		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Han_Solo"}
+		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Jango_Fett"}
 		+
-		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Chewbacca"}
+		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Asajj_Ventress"}
 		+
-		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Droid_R2D2"}
+		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Aurra_Sing"}
 		+
-		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Droid_C3P0"}
+		Variable_Self.FriendlyForceUnnormalized{Parameter_Type = "Count_Dooku"}
 	</Debug_Land_1>
 
 	<Debug_Land_2>
@@ -595,26 +595,26 @@
 	</Need_Bacta_Tank>
 
 	<Has_Infantry_Hero>
-		Variable_Self.HasUnit{ Parameter_Type = "Emperor_Palpatine"
-								,Parameter_Type = "Boba_Fett"
-								,Parameter_Type = "Han_Solo"
-								,Parameter_Type = "Chewbacca"
-								,Parameter_Type = "Mara_Jade"
-								,Parameter_Type = "Obi_Wan_Kenobi"
-								,Parameter_Type = "Darth_Vader"
-								,Parameter_Type = "Darth_Vader_Expansion"
-								,Parameter_Type = "Kyle_Katarn"
-								,Parameter_Type = "Tyber_Zann"
-								,Parameter_Type = "Silri"
-								,Parameter_Type = "Urai_Fen"
+		Variable_Self.HasUnit{ Parameter_Type = "Yoda"
+								,Parameter_Type = "Jango_Fett"
+								,Parameter_Type = "Aurra_Sing"
+								,Parameter_Type = "Asajj_Ventress"
+								,Parameter_Type = "Aayla_Secura"
+								,Parameter_Type = "Anakin_Skywalker"
+								,Parameter_Type = "Barris_Offee"
+								,Parameter_Type = "Luminara_Unduli"
+								,Parameter_Type = "Mace_Windu"
+								,Parameter_Type = "Plokoon"
+								,Parameter_Type = "Commander_Cody"
+								,Parameter_Type = "Cad_Bane"
 								,Parameter_Type = "Bossk"
-								,Parameter_Type = "Luke_Skywalker_Jedi"
-								,Parameter_Type = "Yoda"}
+								,Parameter_Type = "Durge"
+								,Parameter_Type = "General_Grievous"}
 	</Has_Infantry_Hero>
 
 	<Has_Vehicle_Hero>
 		Variable_Self.HasUnit { Parameter_Type = "General_Veers"
-								,Parameter_Type = "Tactical_R2_3PO_Team" }
+								,Parameter_Type = "Deltasquad_Team" }
 	</Has_Vehicle_Hero>
 	<!-- 
 	Do we have a use for this
@@ -1010,7 +1010,7 @@
 		(50 * Variable_Enemy.IsRetreating)
 	-->	
 	<Need_To_Ewok_Hunt>
-		Variable_Target.EnemyForce {Parameter_Faction = "Empire"}
+		Variable_Target.EnemyForce {Parameter_Faction = "Rebel"}
 		*
 		50
 	</Need_To_Ewok_Hunt>

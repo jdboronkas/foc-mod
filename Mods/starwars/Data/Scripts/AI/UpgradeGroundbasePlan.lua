@@ -52,7 +52,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"E_Ground_Barracks | R_Ground_Barracks | E_Ground_Light_Vehicle_Factory | R_Ground_Light_Vehicle_Factory | E_Ground_Research_Facility | Communications_Array_E | Communications_Array_R | E_Ground_Heavy_Vehicle_Factory | R_Ground_Heavy_Vehicle_Factory | E_Ground_Officer_Academy | R_Ground_Officer_Academy | E_Ground_Advanced_Vehicle_Factory | Power_Generator_E | Power_Generator_R | E_Ground_Imperial_Intelligence = 1"
+		"E_Ground_Barracks | R_Ground_Barracks | E_Ground_Light_Vehicle_Factory | R_Ground_Light_Vehicle_Factory | E_Ground_Research_Facility | E_Ground_Heavy_Vehicle_Factory | R_Ground_Heavy_Vehicle_Factory | E_Ground_Officer_Academy | R_Ground_Officer_Academy | Ground_Arc_Facility | Power_Generator_E | Power_Generator_R | Republic_Ground_Outpost | Cis_Ground_Outpost = 1"
 	}
 	}
 

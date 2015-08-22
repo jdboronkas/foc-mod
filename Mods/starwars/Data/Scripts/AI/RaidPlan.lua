@@ -49,8 +49,7 @@ function Definitions()
 	{
 		"RaidForce"
 		,"DenyHeroAttach"
-		,"Infantry | Vehicle | Air = 3"
-		,"LandHero = 0,2"
+		,"LandHero = 2"
 	}
 	}	
 	

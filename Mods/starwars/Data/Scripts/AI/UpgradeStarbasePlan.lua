@@ -52,7 +52,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"Rebel_Star_Base_1 | Empire_Kuat_Drive_Yards | Rebel_Kuat_Drive_Yards | Rebel_SoroSuub | Empire_Sienar_Systems | CEC | Rendili_Stardrive | Moncal_Shipyards = 1"
+		"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 = 1"
 	}
 	}
 
