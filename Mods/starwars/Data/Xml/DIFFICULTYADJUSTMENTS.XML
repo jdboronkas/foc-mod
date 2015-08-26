@@ -19,7 +19,7 @@
 	</Difficulty_Adjustment>
 
 	<Difficulty_Adjustment Name="Normal_Default">
-		<Credit_Multiplier>3.0</Credit_Multiplier>
+		<Credit_Multiplier>1.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.1</Galactic_AI_Contrast_Multiplier>
 		<Space_AI_Contrast_Multiplier>1.0</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>1.0</Land_AI_Contrast_Multiplier>
